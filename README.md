@@ -34,7 +34,7 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
-- **2023 — Feb. 13th.** Initial wource push.
+- **2023 — Feb. 13th.** Initial source push.
 
 
 ## License
