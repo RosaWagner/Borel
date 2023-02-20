@@ -3,8 +3,8 @@ sources:
   - BorelGuides.glyphs
 outputDir: ../fonts/BorelGuides
 buildOTF: false
-buildVariable: false
+buildVariable: true
 buildWebfont: true
-# axisOrder:
-#   - weight
+axisOrder:
+  - weight
 autohintTTF: false
