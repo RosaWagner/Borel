@@ -1,8 +1,6 @@
 # Borel, une écriture cursive pour l'école
 
-Project description here.
-
-[sample image here]
+!["Bonjour" using Borel font](documentation/images/Bonjour.jpg)
 
 ## Proportions et Lignes
 
