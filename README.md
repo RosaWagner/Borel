@@ -1,4 +1,4 @@
-# Borel, une écriture cursive pour l'école
+# Borel, une écriture cursive pour l'école primaire
 
 !["Bonjour" using Borel font](documentation/images/Bonjour.jpg)
 
