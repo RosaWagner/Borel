@@ -4,6 +4,10 @@
 
 ## Proportions et Lignes
 
+Borel Guidelines est une police pour tracer des lignes de cahier. Elle se superpose parfaitement à la police Borel. Elle contient différentes palettes de couleurs (bleu et jaune) pour s'ajuster à la préférence des petits écrivains.
+
+![Démonstration des lignes](documentation/images/lignes.jpg)
+
 ## About
 
 Rosalie Wagner bio here.
