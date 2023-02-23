@@ -10534,7 +10534,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Borel Project Authors (https://github.com/RosaWagner/CursiveCP)";
+value = "Copyright 2023 The Borel Project Authors (https://github.com/RosaWagner/Borel)";
 }
 );
 }
