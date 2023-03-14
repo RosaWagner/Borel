@@ -9,6 +9,7 @@ master_ufo
 instance_ufo
 *.idlk
 *.indd
+*(Autosaved)*
 
 # OS generated files #
 ######################
