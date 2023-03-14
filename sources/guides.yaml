@@ -6,5 +6,6 @@ buildOTF: false
 buildVariable: true
 buildWebfont: true
 axisOrder:
-  - weight
+  - wdth
+  - wght
 autohintTTF: false
