@@ -27207,6 +27207,27 @@ axesValues = (
 );
 customParameters = (
 {
+name = fileName;
+value = "BorelGuides[wdth,wght]";
+},
+{
+name = "Export COLR Table";
+value = 1;
+}
+);
+instanceInterpolations = {
+"52CE5CDA-BDAA-400E-B95A-A33DF0A9894B" = 1;
+};
+name = Light;
+type = variable;
+},
+{
+axesValues = (
+100,
+300
+);
+customParameters = (
+{
 name = "Color Palette for CPAL";
 value = 0;
 },
@@ -27264,14 +27285,6 @@ axesValues = (
 700
 );
 customParameters = (
-{
-name = "Color Palette for CPAL";
-value = 0;
-},
-{
-name = "Color Palette for SVG";
-value = 0;
-},
 {
 name = "Export COLR Table";
 value = 1;
