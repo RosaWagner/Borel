@@ -530,7 +530,7 @@ fontMaster = (
 customParameters = (
 {
 name = winAscent;
-value = 986;
+value = 992;
 },
 {
 name = winDescent;
@@ -16694,7 +16694,7 @@ color = 10;
 glyphname = x.isol;
 kernLeft = x;
 kernRight = x;
-lastChange = "2023-02-23 15:20:34 +0000";
+lastChange = "2023-03-23 13:14:36 +0000";
 layers = (
 {
 background = {
@@ -16717,7 +16717,7 @@ pos = (423,0);
 ref = _part.x.fin;
 }
 );
-width = 700;
+width = 680;
 }
 );
 metricLeft = x.init;
@@ -17225,22 +17225,21 @@ color = 10;
 glyphname = z.fina.cv02;
 kernLeft = no_kerning;
 kernRight = z;
-lastChange = "2023-02-23 15:07:13 +0000";
+lastChange = "2023-03-23 13:14:36 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
 alignment = -1;
-pos = (-2,0);
 ref = z.medi.cv02;
 },
 {
-pos = (276,7);
+pos = (278,7);
 ref = _part.z.fin;
 }
 );
-width = 563;
+width = 565;
 }
 );
 metricLeft = z.medi.cv02;
@@ -17251,22 +17250,21 @@ color = 10;
 glyphname = z.fina.cv03;
 kernLeft = no_kerning;
 kernRight = z;
-lastChange = "2023-02-23 15:07:16 +0000";
+lastChange = "2023-03-23 13:14:36 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
 alignment = -1;
-pos = (-2,0);
 ref = z.medi.cv03;
 },
 {
-pos = (415,7);
+pos = (417,7);
 ref = _part.z.fin;
 }
 );
-width = 702;
+width = 704;
 }
 );
 metricLeft = z.medi.cv03;
@@ -21074,7 +21072,7 @@ unicode = 770;
 {
 color = 6;
 glyphname = circumflexcomb.case;
-lastChange = "2023-02-23 13:15:03 +0000";
+lastChange = "2023-03-23 13:14:19 +0000";
 layers = (
 {
 anchors = (
@@ -21095,16 +21093,16 @@ nodes = (
 (147,905,o),
 (72,860,c),
 (76,831,o),
-(89,805,o),
-(116,793,c),
-(167,812,o),
-(229,852,o),
-(282,915,c),
-(223,915,l),
-(275,859,o),
-(337,812,o),
-(388,793,c),
-(416,805,o),
+(88,805,o),
+(114,793,c),
+(163,812,o),
+(224,852,o),
+(275,915,c),
+(228,917,l),
+(279,860,o),
+(340,812,o),
+(390,793,c),
+(417,805,o),
 (427,831,o),
 (431,860,c),
 (357,905,o),
@@ -26757,9 +26755,9 @@ kerningLTR = {
 "@MMK_R_hyphen" = -10.1;
 "@MMK_R_n" = -20.2;
 "@MMK_R_quote" = -101;
+"@MMK_R_sups" = -70;
 "@MMK_R_z" = -10.1;
 question = -20.2;
-"@MMK_R_sups" = -70;
 };
 "@MMK_L_B" = {
 "@MMK_R_M" = -15.15;
