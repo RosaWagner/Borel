@@ -15,7 +15,7 @@ Les termes typographiques sont nombreux et imposent tout un tas de lignes qui vi
 
 ![termes typographiques](./documentation/images/height.jpg)
 
-Pour les enfants, je préfère de simplifier en parlant de « zones ». Cela amène plus de liberté dans l’exercice d’écriture et c’est aussi plus logique par rapport aux différentes tailles des ascendantes qu'on retrouve conventionnellement en typographie. 
+Pour les enfants, je préfère simplifier en parlant de « zones ». Cela amène plus de liberté dans l’exercice d’écriture et c’est aussi plus logique par rapport aux différentes tailles des ascendantes qu'on retrouve conventionnellement en typographie. 
 
 ![termes adaptés aux enfants](./documentation/images/height2.jpg)
 
@@ -30,15 +30,14 @@ Veuillez trouvez toutes les informations sur le police **Borel Guides** dans ce 
 [Borel Guides Instructions](./documentation/proof/BorelGuides-Instructions.pdf)
 
 
-## The designer
+## Rosalie Wagner
 
-Rosalie Wagner bio here.
+Bio ici.
 
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at
-https://scripts.sil.org/OFL
+This license is available with a FAQ at https://scripts.sil.org/OFL
 
 ## Repository Layout
 
