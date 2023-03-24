@@ -1,7 +1,6 @@
 *~
 venv
 build.stamp
-proof
 node_modules
 package-lock.json
 package.json
