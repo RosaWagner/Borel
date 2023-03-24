@@ -3,6 +3,7 @@ sources:
   - BorelGuides.glyphs
 outputDir: ../fonts/BorelGuides
 buildOTF: false
+buildTTF: true
 buildVariable: true
 buildWebfont: true
 axisOrder:
