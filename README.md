@@ -45,11 +45,15 @@ J'ai donc adapté les proportions du Borel afin que la hauteur d'x corresponde �
 
 ![Proportions par rapport aux lignes du cahier](./documentation/images/height3.jpg)
 
-**Pourquoi les capitales sont plus petites que les grandes boucles?** Conventionnellement, la hauteur des capitales est la même que la hauteur des ascendantes, ou légèrement plus petites. Ceci dans le cas où les ascendentes sont droites comme dans n'importe quelle Serif (ex. Times New Roman), ou Sans-Serif (ex: Arial, Comic Sans). Dans l'écriture cursive en France, nous utilisons la boucle pour joindre l'ascendante par le haut; l'amplitude de la boucle augmente la hauteur de l'ascendante. Mais les lettres comme t, d, q, ainsi que les capitales qui ne bénéficient pas de cette jonction, sont donc plus petites que les grandes boucles.
+**Pourquoi les capitales sont-elles plus petites que les grandes boucles?** 
+
+Conventionnellement, la hauteur des capitales est la même que la hauteur des ascendantes, ou légèrement plus petites. Ceci dans le cas où les ascendentes sont droites comme dans n'importe quelle Serif (ex. Times New Roman), ou Sans-Serif (ex: Arial, Comic Sans). Dans l'écriture cursive en France, nous utilisons la boucle pour joindre l'ascendante par le haut; l'amplitude de la boucle augmente la hauteur de l'ascendante. Mais les lettres comme t, d, q, ainsi que les capitales qui ne bénéficient pas de cette jonction, sont donc plus petites que les grandes boucles.
 
 ---
 
-> J'invite les enseignants à me faire leur retour sur ces proportions après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait se mettre en place pour confirmer ou réfuter mes hypothèses. J'invite donc aussi les chercheurs intéressés à me contacter s'ils veulent que je produise un matériel expérimental adapté à une telle démarche.
+J'invite les enseignants à me faire leur retour sur ces proportions après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait se mettre en place pour confirmer ou réfuter mes hypothèses. J'invite donc aussi les chercheurs intéressés à me contacter s'ils veulent que je produise un matériel expérimental adapté à une telle démarche.
+
+---
 
 ## Borel Sans
 
@@ -76,9 +80,34 @@ Veuillez trouvez toutes les informations sur le police **Borel Guides** dans ce 
 
 [^6] *[Le geste d'écriture](https://legestedecriture.fr), Méthode d'apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité*, Danièle Dumont, Hatier, 2016
 
+## Milestones
+
+Si je trouve les financements, j'aimerais develepper le projet Borel pour lui permettre de s'adapter encore mieux aux besoins des enseignants et de la recherche.
+
+**Axes de variabilité:**
+- [ ] Weight (graisse)
+- [ ] Width (chasse) 
+- [ ] Spacing (Espacement)
+- [ ] HyperExpansion (chasse+espacement)
+- [ ] Slant (oblique)
+
+![Design Space](./documentation/images/designspace.jpg)
+
+- [ ] Ascender-height (hauteur des ascendantes)
+- [ ] Caps-height (heuteur des capitales)
+- [ ] x-height (hauteur d'x)
+
+
+**Styles:**
+- [ ] Dotted (pointillés)
+- [ ] Outlined (contours)
+- [ ] Guided (guidé)
+
+![Styles à venir](./documentation/images/styles.jpg)
+
 ## Bio
 
-[Rosalie Wagner](http://rosaliewagner.com) est diplômée d'un master des Beaux-Arts de Lyon en 2016, et d'un post-master de l'ANRT Nancy (Atelier National de Recherche typographique) en 2019. Elle s'est formée à l'ingénierie de police chez Black Foundry (Paris) et Alphabet Type (Berlin). Elle est maintenant basée à Berlin et travaille en tant que Type designer et Font engineer freelance pour Google Fonts depuis 2020. Elle a collaboré régulièrement avec des foundries comme 205TF, Fontwerk, NaN  et Fatype, ainsi que divers designers indépendants et studios de communication.
+[Rosalie Wagner](http://rosaliewagner.com) est diplômée d'un master des Beaux-Arts de Lyon en 2016, et d'un post-master de l'ANRT Nancy (Atelier National de Recherche typographique) en 2019. Elle s'est formée à l'ingénierie de fonte chez Black Foundry (Paris) et Alphabet Type (Berlin). Elle est maintenant basée à Berlin et travaille en tant que Type designer et Font engineer indépendantes pour Google Fonts depuis 2020. Elle a collaboré régulièrement avec des foundries comme 205TF, Fontwerk, NaN  et Fatype, ainsi que divers designers indépendants et studios de communication.
 
 ## License
 
