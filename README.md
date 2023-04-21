@@ -1,6 +1,6 @@
 # Borel, un système typographique pour l'école primaire
 
-!["Bonjour" using Borel font](documentation/images/Bonjour.jpg)
+![Bonjour](documentation/images/Bonjour.jpg)
 
 ## Apprendre à lire, apprendre à écrire
 
@@ -35,7 +35,7 @@ Hors, c'est la hauteur de la "zone des petites lettres" qui va conditionner la l
 
 4. Lors de l'apprentissage de l'écriture, il est important d'entrainer les doigts et les yeux à bien faire la différence entre les petites et les grandes lettres. Il faut arriver à une taille qui permette d'entrainer les muscles des doigts — passer de petites boucles à grande boucles en ne bougeant que les doigts, pas les mains. Il faut donc une claire différence entre hauteur d'x et ascendente, mais j'ajouterai: sans pour autant exagérer cette différence au risque d'impacter négativement la lisibilité.
 
-**Le défi que doit donc relevé la police Borel est celui du juste compromis entre hauteur d'x et ascendante pour permettre:** 
+**Le défi que doit donc relever la police Borel est celui du juste compromis entre hauteur d'x et ascendante pour permettre:** 
 - une lisibilité non contraignante
 - la clarté du déchiffraphe des graphèmes
 - l'entrainement au geste d'écriture
@@ -113,6 +113,10 @@ Si je trouve les financements, j'aimerais developper le projet Borel pour lui pe
 ## Bio
 
 [Rosalie Wagner](http://rosaliewagner.com) est diplômée d'un master des Beaux-Arts de Lyon en 2016, et d'un post-master de l'ANRT Nancy (Atelier National de Recherche typographique) en 2019. Elle s'est formée à l'ingénierie de fonte chez Black Foundry (Paris) et Alphabet Type (Berlin). Elle est maintenant basée à Berlin et travaille en tant que Type designer et Font engineer indépendantes pour Google Fonts depuis 2020. Elle a collaboré régulièrement avec des foundries comme 205TF, Fontwerk, NaN  et Fatype, ainsi que divers designers indépendants et studios de communication.
+
+- **Présentation du projet Borel à l'ANRT**, 2019, [[Video](https://anrt-nancy.fr/fr/videos#video-325200518)]
+- **Baskervville**, 2017, [[Google Fonts](https://fonts.google.com/specimen/Baskervville)] — *conception collaborative, design de l'italique, correction et développement du Romain, production de la fonte.*
+- **Arima Greek**, 2018, [[Google Fonts](https://fonts.google.com/specimen/Arima?noto.script=Grek&query=Arima&subset=greek)] — *conception et design du grec d'Arima de NDiscover sous la direction d'Emilios Theofanous et Irene Vlachou.*
 
 ## License
 
