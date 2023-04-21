@@ -87,8 +87,8 @@ Si je trouve les financements, j'aimerais develepper le projet Borel pour lui pe
 **Axes de variabilité:**
 - [ ] Weight (graisse)
 - [ ] Width (chasse) 
-- [ ] Spacing (Espacement)
-- [ ] HyperExpansion (chasse+espacement)
+- [ ] Spacing (espacement)
+- [ ] HyperExpansion (chasse + espacement)
 - [ ] Slant (oblique)
 
 ![Design Space](./documentation/images/designspace.jpg)
@@ -97,13 +97,12 @@ Si je trouve les financements, j'aimerais develepper le projet Borel pour lui pe
 - [ ] Caps-height (heuteur des capitales)
 - [ ] x-height (hauteur d'x)
 
-
 **Styles:**
 - [ ] Dotted (pointillés)
 - [ ] Outlined (contours)
 - [ ] Guided (guidé)
 
-![Styles à venir](./documentation/images/styles.jpg)
+![Styles pour l'éducation](./documentation/images/styles.jpg)
 
 ## Bio
 
