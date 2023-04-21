@@ -11,12 +11,18 @@ Un système typographique a donc été pensé dans cette logique, pour établir 
 **Les enseignants sont invités à faire leur retour d'utilisation du Borel après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait confirmer ou réfuter les hypothèses ci-dessous. Les chercheurs intéressés sont donc aussi invités à contacter Rosalie Wagner s'ils veulent collaborer pour la porduction d'un matériel expérimental adapté à une telle démarche.**
 
 ## Utiliser la police
+Vous pouvez télécharger les fonts depuis les dossiers:
+- [Borel/fonts/ttf](./Borel/fonts/ttf/)
+- [BorelGuides/fonts/ttf](./BorelGuides/fonts/ttf/)
+
+Sur internet, une recherche rapide vous aidera à installer correctement ces fichiers selon votre machine.
+
 L'utilisation de Borel dépend grandement des "alternatives contextuelles", qui est une option qui permet à la police de choisir la forme appropriée de la lettre en fonction des aux lettres autour d'elles.
 
-Pour activer les alternatives contextuelles dans Word sur Mac: barre des menu > "Mise en Page" > Police > Paramètres avancés > [x] Utiliser les alternatives contextuelles.
-
-Word sur Windows:
-Barre de recherche > tapez "Police" > Paramètres avancés > [x] Utiliser les alternatives contextuelles 
+Pour activer les alternatives contextuelles:
+- Word sur Mac: barre des menu > "Mise en Page" > Police > Paramètres avancés > [x] Utiliser les alternatives contextuelles.
+- Word sur Windows: barre de recherche > tapez "Police" > Paramètres avancés > [x] Utiliser les alternatives contextuelles 
+- Dans les autres environnements, les alternatives contextuelles devraient être activées par défaut.
 
 La police est open-source, cela veut dire qu'il est possible de l'utiliser comme bon vous semble, gratuitement, même pour des projets commerciaux. N'hésitez pas à m'envoyer des images de votre utilisation de Borel! Si vous remarquez un problème, il est recommandé d'ouvrir une "issue" dans [l'onglet "issues" de ce repository](https://github.com/RosaWagner/Borel/issues).
 
