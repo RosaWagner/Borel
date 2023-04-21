@@ -70,6 +70,10 @@ Veuillez trouvez toutes les informations sur le police **Borel Guides** dans ce 
 
 - Borel Guides est aussi une police *variable*. C’est un format qui permet de modifier la police sur différents axes comme par exemple: la largeur et l’épaisseur. Il est conseillé de ne pas utiliser [la police variable](./fonts/BorelGuides/variable/) dans vos logiciels de traitement de texte, elle est plutôt destinée au web. Utiliser des polices dites [statiques](./fonts/BorelGuides/ttf/). En effet, beacoup de logiciels supportent les polices colorées, et supportent les polices variables, mais pas les polices colorées et variable.
 
+## Processus
+Pour que la police soit un parfait modèle pour l'apprentissage de l'écriture, chaque lettre existe sous forme de 10 variantes contextuelles.
+
+![10 variantes par lettres](./documentation/images/process.jpg)
 
 ## À venir
 
