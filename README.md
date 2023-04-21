@@ -10,6 +10,8 @@ Un système typographique a donc été pensé dans cette logique, pour établir 
 
 Une utilisation harmonieuse des caractères dans les documents pédagogiques est rendue possible grace à leur caractéristiques communes; graisse, proportions, alignements et ductus.
 
+**J'invite les enseignants à me faire leur retour d'utilisation de Borel après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse confirmer ou réfuter mes hypothèses. J'invite donc aussi les chercheurs intéressés à me contacter s'ils veulent que je produise un matériel expérimental adapté à une telle démarche.**
+
 ## Lexique
 Les termes typographiques sont nombreux et imposent de nombreux repères qui peuvent perturber l’attention. Cependant, il est important pour l'adulte de les connaitre pour comprendre le projet Borel et la suite de cette documentation.
 
@@ -49,12 +51,6 @@ J'ai donc adapté les proportions du Borel afin que la hauteur d'x corresponde �
 
 Conventionnellement, la hauteur des capitales est la même que la hauteur des ascendantes, ou légèrement plus petites. Ceci dans le cas où les ascendentes sont droites comme dans n'importe quelle Serif (ex. Times New Roman), ou Sans-Serif (ex: Arial, Comic Sans). Dans l'écriture cursive en France, nous utilisons la boucle pour joindre l'ascendante par le haut; l'amplitude de la boucle augmente la hauteur de l'ascendante. Mais les lettres comme t, d, q, ainsi que les capitales qui ne bénéficient pas de cette jonction, sont donc plus petites que les grandes boucles.
 
----
-
-**J'invite les enseignants à me faire leur retour sur ces proportions après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait se mettre en place pour confirmer ou réfuter mes hypothèses. J'invite donc aussi les chercheurs intéressés à me contacter s'ils veulent que je produise un matériel expérimental adapté à une telle démarche.**
-
----
-
 ## Borel Sans
 
 Borel Sans est la contre-partie Sans-Serif de Borel. 
@@ -65,6 +61,8 @@ Borel Sans est la contre-partie Sans-Serif de Borel.
 
 Veuillez trouvez toutes les informations sur le police **Borel Guides** dans ce document:
 [Borel Guides Instructions](./documentation/proof/BorelGuides-Instructions.pdf).
+
+![Exemple de grilles](./documentation/images/grille.jpg)
 
 - L’interlignage est déjà réglé pour les logiciels de traitement de text communs comme Word, Page ou TextEdit. Il correspond à un interlignage de taille 1 dans votre logiciel. Si vous voulez resserer les lignes, utilisez un interlignage 0,5 pour que les lignes se superposent parfaitement. Dans Indesign, vous devrez observer un interlignage double pour permettre la parfaite imbrication de la grille d’une ligne à l’autre. Si vous choississez une taille de police 24 pt, choissisez un interlignage de 48 pt.
 
