@@ -10,6 +10,15 @@ Un système typographique a donc été pensé dans cette logique, pour établir 
 
 **Les enseignants sont invités à faire leur retour d'utilisation du Borel après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait confirmer ou réfuter les hypothèses ci-dessous. Les chercheurs intéressés sont donc aussi invités à contacter Rosalie Wagner s'ils veulent collaborer pour la porduction d'un matériel expérimental adapté à une telle démarche.**
 
+## Utiliser la police
+L'utilisation de Borel dépend grandement des "alternatives contextuelles", qui est une option qui permet à la police de choisir la forme appropriée de la lettre en fonction des aux lettres autour d'elles.
+
+Pour activer les alternatives contextuelles dans Word sur Mac: barre des menu > "Mise en Page" > Police > Paramètres avancés > [x] Utiliser les alternatives contextuelles.
+
+Word sur Windows:
+Barre de recherche > tapez "Police" > Paramètres avancés > [x] Utiliser les alternatives contextuelles 
+
+
 ## Lexique
 Les termes typographiques sont nombreux et imposent de nombreux repères qui peuvent perturber l’attention. Cependant, il est important pour l'adulte de les connaitre pour comprendre le projet Borel et la suite de cette documentation.
 
@@ -68,7 +77,7 @@ Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
 
 - Borel Guides est une *Color Font*. C’est un format particulier qui permet à une police de contenir et de rendre à l'écran des palettes de couleurs. Si vous ne voyez pas les couleurs dans votre logiciel de traitement de texte, cela signifie que votre logiciel ne supporte pas cette technologie. 
 
-- Borel Guides est aussi une police *variable*. C’est un format qui permet de modifier la police sur différents axes comme par exemple: la largeur et l’épaisseur. Il est conseillé de ne pas utiliser [la police variable](./fonts/BorelGuides/variable/) dans vos logiciels de traitement de texte, elle est plutôt destinée au web. Utiliser des polices dites [statiques](./fonts/BorelGuides/ttf/). En effet, beacoup de logiciels supportent les polices colorées, et supportent les polices variables, mais pas les polices colorées et variable.
+- Borel Guides est aussi une police *variable*. C’est un format qui permet de modifier la police sur différents axes comme par exemple: la largeur et l’épaisseur. Il est conseillé de ne pas utiliser [la police variable](./BorelGuides/fonts/variable/) dans vos logiciels de traitement de texte, elle est plutôt destinée au web. Utiliser des polices dites [statiques](./BorelGuides/fonts/ttf/). En effet, beacoup de logiciels supportent les polices colorées, et supportent les polices variables, mais pas les polices colorées et variable.
 
 ## À venir
 
@@ -104,7 +113,7 @@ Il pourrait être intéressant de pouvoir faire varier les proportions de la pol
 
 ## Bio
 
-[Rosalie Wagner](http://rosaliewagner.com) est diplômée d'un master des Beaux-Arts de Lyon en 2016, et d'un post-master de l'ANRT Nancy (Atelier National de Recherche typographique) en 2019. Elle s'est formée à l'ingénierie de fonte chez Black Foundry (Paris) et Alphabet Type (Berlin). Elle est maintenant basée à Berlin et travaille en tant que Type designer et Font engineer indépendantes pour Google Fonts depuis 2020. Elle a collaboré régulièrement avec des foundries comme 205TF, Fontwerk, NaN  et Fatype, ainsi que divers designers indépendants et studios de communication.
+[Rosalie Wagner](http://rosaliewagner.com) est diplômée d'un master des Beaux-Arts de Lyon en 2016, et d'un post-master de l'ANRT Nancy (Atelier National de Recherche typographique) en 2019. Elle s'est formée à l'ingénierie de fonte chez Black Foundry (Paris) et Alphabet Type (Berlin). Elle est basée à Berlin et travaille en tant que Type designer et Font engineer indépendante pour Google Fonts depuis 2020. Elle a collaboré avec des foundries comme 205TF, Fontwerk, NaN et Fatype, ainsi que divers designers indépendants et studios de communication.
 
 - **Présentation du projet Borel à l'ANRT**, 2019, [[Video](https://anrt-nancy.fr/fr/videos#video-325200518)]
 - **Baskervville**, 2017, [[Google Fonts](https://fonts.google.com/specimen/Baskervville)] — *conception collaborative, design de l'italique, correction et développement du Romain, production de la fonte.*
