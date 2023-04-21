@@ -51,13 +51,13 @@ Conventionnellement, la hauteur des capitales est la même que la hauteur des as
 
 ---
 
-J'invite les enseignants à me faire leur retour sur ces proportions après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait se mettre en place pour confirmer ou réfuter mes hypothèses. J'invite donc aussi les chercheurs intéressés à me contacter s'ils veulent que je produise un matériel expérimental adapté à une telle démarche.
+**J'invite les enseignants à me faire leur retour sur ces proportions après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait se mettre en place pour confirmer ou réfuter mes hypothèses. J'invite donc aussi les chercheurs intéressés à me contacter s'ils veulent que je produise un matériel expérimental adapté à une telle démarche.**
 
 ---
 
 ## Borel Sans
 
-Bientôt.
+Borel Sans est la contre-partie Sans-Serif de Borel. 
 
 ## Borel Guides
 
@@ -103,6 +103,12 @@ Si je trouve les financements, j'aimerais develepper le projet Borel pour lui pe
 - [ ] Guided (guidé)
 
 ![Styles pour l'éducation](./documentation/images/styles.jpg)
+
+**Alternates:**
+- [ ] Simplified cursive capitals (capitales cursives simplifiées)
+- [ ] Swashed capitals (capitales cursives ornées)
+
+![Variantes des capitales](./documentation/images/capitales.jpg)
 
 ## Bio
 
