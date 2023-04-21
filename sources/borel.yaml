@@ -1,8 +1,0 @@
-familyName: "Borel"
-sources:
-  - Borel.glyphs
-outputDir: ../fonts/Borel
-buildOTF: true
-buildVariable: false
-buildWebfont: true
-

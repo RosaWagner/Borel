@@ -1,0 +1,7 @@
+sources:
+  - Borel.glyphs
+familyName: "Borel"
+buildOTF: true
+buildVariable: false
+buildWebfont: true
+

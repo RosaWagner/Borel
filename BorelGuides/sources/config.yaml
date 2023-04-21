@@ -1,0 +1,11 @@
+sources:
+  - BorelGuides.glyphs
+familyName: "Borel Guides"
+buildOTF: false
+buildTTF: false
+buildVariable: true
+buildWebfont: true
+axisOrder:
+  - wdth
+  - wght
+autohintTTF: false
