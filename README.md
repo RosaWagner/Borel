@@ -1,8 +1,8 @@
-# Borel, un système typographique pour l'école primaire
-
-![Bonjour](documentation/images/Bonjour.jpg)
+# Borel, un système typographique pour l'école primaire.
 
 ## Apprendre à lire, apprendre à écrire
+
+![Bonjour](documentation/images/Bonjour.jpg)
 
 Comment penser la typographie pour l’apprentissage conjoint de la lecture et de l’écriture? Développé avec des enseignants du primaire et des orthophonistes, ce projet cherche à reconnecter les signes que l'on apprend à lire et ceux que l’on apprend à écrire. 
 
@@ -19,29 +19,29 @@ Pour les enfants, on peut simplifier en parlant de « zones ». Cela amène 
 
 ![termes adaptés aux enfants](./documentation/images/height2.jpg)
 
-## Les proportions
+## Proportions
 
-Les proportions de polices cursives d'école traditionnelles sont disprortionnées par rapport au polices d'écriture de l'usage courant — que l'on retrouve dans les livres, sur les écrans ou la signalétique. Si on regarde les cursives scolaires, les ascendantes seraient censé faire trois fois la taille de la hauteur d'x. Sachant que la taille des lettres est limitée aux lignes du cahier, cela veut dire que la hauteur d'x est écrasée entre deux lignes qui, le plus souvent, font 1.5 ou 2mm de hauteur. Ces proportions sont héritées de l'utilisation conjointe des fameuses réglures Séyès et d'un style calligraphique propres à l'utilisation des plumes à reservoir des siècles précédents.
+Les polices cursives scolaires traditionnelles sont disprortionnées par rapport au polices d'écriture de l'usage courant — que l'on retrouve dans les livres, sur les écrans ou la signalétique. Si on regarde les cursives scolaires, les ascendantes seraient censé faire trois fois la taille de la hauteur d'x. Sachant que la taille des lettres est souvent limitée aux lignes du cahier, cela veut dire que la hauteur d'x est écrasée entre deux lignes qui, le plus souvent, font 1.5 ou 2mm de hauteur. Ces proportions sont héritées de l'utilisation conjointe des fameuses réglures Séyès et d'un style calligraphique propres à l'utilisation des plumes à reservoir des siècles précédents. 
 
-Hors, c'est la hauteur de la "zone des petites lettres" qui va conditionner la lisibilité du mot. En effet, les lettres qui sont contenues entre la ligne de base et la hauteur d'x constituent environ 65% de notre alphabet (sans compter les lettres accentuées), en plus de cummuler la plus grande fréquence d'apparition dans le français (environ 80%) [^1]. C'est aussi cette zone qui contient le plus de formes signifiantes pour le déchiffrage. Il parait donc absurde de donner autant d'importance aux capitales, ainsi qu'aux ascendantes/descendantes. Je ne développerai pas davantage ici tous les autres arguments qui vont dans ce sens; le rapport que j'ai écrit lors mon post-master à l'ANRT en 2019 fait l'état de la recherche sur les rapports entre typographie, lisibilité et dyslexie, je vous invite à le lire (mise en ligne ici bientôt). D'autres études ont été publiées depuis, et à ma connaissance elles n'ont pas contredit mes conclusions. 
+Hors il a plusieurs arguments qui nous poussent à questionner ces canons:
 
-**Nous retiendrons que:**
-1. La taille perçue d'une police va paraitre plus ou moins grande en fonction du rapport entre hauteur d'x et hauteur d'ascendante. Par exemple, lorsque *Times New Roman* ou *Arial* sont composé en corps 12pt, *Arial* paraitra plus grande car sa hauteur d'x est plus haute.[^2] 
+1. C'est la hauteur de la "zone des petites lettres" qui va conditionner la lisibilité du mot. En effet, les lettres qui sont contenues entre la ligne de base et la hauteur d'x constituent environ 65% de notre alphabet (sans compter les lettres accentuées), en plus de cummuler la plus grande fréquence d'apparition dans le français (environ 80%).[^1] Il parait donc absurde de donner autant d'importance aux capitales, ainsi qu'aux ascendantes/descendantes. 
 
+2. La taille perçue d'une police va paraitre plus ou moins grande en fonction du rapport entre hauteur d'x et hauteur d'ascendante. Par exemple, lorsque *Times New Roman* ou *Arial* sont composé en corps 12pt, *Arial* paraitra plus grande car sa hauteur d'x est plus haute.[^2] Pour compenser la perte de lisibilité d'une police cursive qui a une hauteur d'ascendante 3 fois plus grande que la hauteur d'x, il faudra donc augmenter la taille globale de la police. Malheureusement, peu d'enseignants le font, et c'est aussi impossible lorsque les réglures Séyès dictent la composition du texte.
 
-2. Un interlignage trop serré ou trop grand impacte négativement la lisibilité.[^3] Le problème des ascendantes 3x plus grandes que la hauteur d'x est que, premièrement, plus la hauteur d'x est petite, et plus il faudra compenser la perte de lisibilité en augmentant la taille du corps. Deuxièment, il faudra un interlignage très grand pour éviter que les ascendantes et les descendantes ne s'entrechoque d'une ligne à l'autre, ce qui risque d'impacter négativement la lisibilité d'un paragraphe.
+3. Il faudra aussi un interlignage plus grand pour éviter que les ascendantes et les descendantes ne s'entrechoque d'une ligne à l'autre. Hors, un interlignage trop serré ou trop grand peut impacter négativement la lisibilité.[^3] Lorsque les polices cursives traditionnelles suivent les lignes du cahiers, l'interlignage parait trop serré, et lorsque l'on saute une ligne, il parait trop large.
 
-3. Pour la lecture continue d'un texte à une distance standard de 40cm, par un adulte normolecteur, la hauteur d'x devrait de trouver entre 1.5mm et 14mm pour rester lisible.[^4] 1.5mm est la taille minimum sur le spectre de la lisibilité pour un adulte (!). Des études ont démontré que les apprentis lecteurs, et particulèrement ceux présentant des troubles dys, bénéficiaient à lire des caractères légèrement plus grand.[^5] L'étude retenue pour soutenir cette thèse fait le cas de Times New Roman donnant de meilleurs resultats de lecture à 18pt jusqu'à la fin du CE1; cela correspond à une hauteur d'x de 2.84mm, ce qui correspond à Borel en 16pt. Ces chiffres ne sont bien sûr pas absolus et général à tous les enfants, mais ça donne une idée.
+4. Pour la lecture continue d'un texte à une distance standard de 40cm, par un adulte normolecteur, la hauteur d'x devrait de trouver entre 1.5mm et 14mm pour rester lisible.[^4] 1.5mm est la taille minimum sur le spectre de la lisibilité pour un adulte! Des études ont démontré que les apprentis lecteurs, et particulèrement ceux présentant des troubles dys, bénéficiaient à lire des caractères légèrement plus grand.[^5] L'étude retenue pour soutenir cette thèse fait le cas de Times New Roman donnant de meilleurs resultats de lecture à 18pt jusqu'à la fin du CE1; cela correspond à une hauteur d'x de 2.84mm (ce qui correspond à Borel en 16pt). Ces chiffres ne sont bien sûr pas absolus et général à tous les enfants, mais ça donne une idée.
 
-4. Lors de l'apprentissage de l'écriture, il est important d'entrainer les doigts et les yeux à bien faire la différence entre les petites et les grandes lettres. Il faut arriver à une taille qui permette d'entrainer les muscles des doigts — passer de petites boucles à grande boucles en ne bougeant que les doigts, pas les mains. Il faut donc une claire différence entre hauteur d'x et ascendente, mais j'ajouterai: sans pour autant exagérer cette différence au risque d'impacter négativement la lisibilité.
+Celi-dit, lors de l'apprentissage de l'écriture, il est important d'entrainer les doigts et les yeux à bien faire la différence entre les petites et les grandes lettres. Il faut arriver à une taille qui permette d'exercer la motricité fine — passer de petites boucles à grande boucles en ne bougeant que les doigts, pas les mains. Il faut donc une claire différence entre hauteur d'x et ascendente, sans pour autant exagérer cette différence au risque d'impacter négativement la lisibilité. De plus, il est pratiquement impossible dans l'enseignement en France de s'abtraire des cahiers d'écriture à réglure Séyès; il faut donc questionner les canons de l'écriture scolaire cursive, sans pour autant passer outre ce facteur.
 
-**Le défi que doit donc relever la police Borel est celui du juste compromis entre hauteur d'x et ascendante pour permettre:** 
+**Le défi que doit donc relever le projet Borel est celui du juste compromis entre hauteur d'x et ascendante pour permettre:** 
 - une lisibilité non contraignante
 - la clarté du déchiffraphe des graphèmes
 - l'entrainement au geste d'écriture
 - l'adaptation aux lignes du cahier
 
-J'ai donc adapté les proportions du Borel afin que la hauteur d'x corresponde à deux lignes du cahier, et que la hauteur des grandes boucles corresponde à quatre. Ainsi les proportions sont plus harminieuses avec les caratcères romains coventionnels.
+J'ai donc adapté les proportions du Borel afin que la hauteur d'x corresponde à deux lignes du cahier, et que la hauteur des grandes boucles corresponde à quatre. Ainsi les proportions sont plus harminieuses avec les caractères romains coventionnels.
 
 ![Proportions par rapport aux lignes du cahier](./documentation/images/height3.jpg)
 
@@ -49,29 +49,30 @@ J'ai donc adapté les proportions du Borel afin que la hauteur d'x corresponde �
 
 Conventionnellement, la hauteur des capitales est la même que la hauteur des ascendantes, ou légèrement plus petites. Ceci dans le cas où les ascendentes sont droites comme dans n'importe quelle Serif (ex. Times New Roman), ou Sans-Serif (ex: Arial, Comic Sans). Dans l'écriture cursive en France, nous utilisons la boucle pour joindre l'ascendante par le haut; l'amplitude de la boucle augmente la hauteur de l'ascendante. Mais les lettres comme t, d, q, ainsi que les capitales qui ne bénéficient pas de cette jonction, sont donc plus petites que les grandes boucles.
 
+## Processus de design
+Pour que la police soit un parfait modèle pour l'apprentissage de l'écriture, chaque lettre existe sous forme de 10 variantes contextuelles.
+
+![10 variantes par lettres](./documentation/images/process.jpg)
+
 ## Borel Guides
 
-**Borel Guides** est une police pour tracer des lignes de cahier. Elle se superpose parfaitement à la police Borel. Elle contient différentes palettes de couleurs, pour s'ajuster à la préférence des petits écrivains, mais aussi un grand choix de motifs linéaires pour s'adapter à l'objectif pédagogique, à la police utilisée, etc.
+Borel Guides est une police pour tracer des lignes de cahier. Elle se superpose parfaitement à la police Borel. Elle contient différentes palettes de couleurs, pour s'ajuster à la préférence des petits écrivains, mais aussi un grand choix de motifs linéaires pour s'adapter à l'objectif pédagogique, à la police utilisée, etc. L'enseignants est aussi libre d'utiliser Borel Guides avec une autre police que Borel, des motifs ont été pensé à cet égard.
 
-Veuillez trouvez toutes les informations sur le police **Borel Guides** dans ce document:
-[Borel Guides Instructions](./documentation/proof/BorelGuides-Instructions.pdf).
+Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
+**[Borel Guides Instructions](./documentation/proof/BorelGuides-Instructions.pdf)**.
 
 ![Exemple de grilles](./documentation/images/grille.jpg)
 
+**Attention:**
 - L’interlignage est déjà réglé pour les logiciels de traitement de text communs comme Word, Page ou TextEdit. Il correspond à un interlignage de taille 1 dans votre logiciel. Si vous voulez resserer les lignes, utilisez un interlignage 0,5 pour que les lignes se superposent parfaitement. Dans Indesign, vous devrez observer un interlignage double pour permettre la parfaite imbrication de la grille d’une ligne à l’autre. Si vous choississez une taille de police 24 pt, choissisez un interlignage de 48 pt.
 
 - Borel Guides est une *Color Font*. C’est un format particulier qui permet à une police de contenir et de rendre à l'écran des palettes de couleurs. Si vous ne voyez pas les couleurs dans votre logiciel de traitement de texte, cela signifie que votre logiciel ne supporte pas cette technologie. 
 
 - Borel Guides est aussi une police *variable*. C’est un format qui permet de modifier la police sur différents axes comme par exemple: la largeur et l’épaisseur. Il est conseillé de ne pas utiliser [la police variable](./fonts/BorelGuides/variable/) dans vos logiciels de traitement de texte, elle est plutôt destinée au web. Utiliser des polices dites [statiques](./fonts/BorelGuides/ttf/). En effet, beacoup de logiciels supportent les polices colorées, et supportent les polices variables, mais pas les polices colorées et variable.
 
-## Processus
-Pour que la police soit un parfait modèle pour l'apprentissage de l'écriture, chaque lettre existe sous forme de 10 variantes contextuelles.
-
-![10 variantes par lettres](./documentation/images/process.jpg)
-
 ## À venir
 
-Si je trouve les financements, j'aimerais developper le projet Borel pour lui permettre de s'adapter encore mieux aux besoins des enseignants et de la recherche.
+À condition de trouver les financements, il est envisagé de developper le projet Borel pour lui permettre de s'adapter encore mieux aux besoins des enseignants et de la recherche.
 
 **Axes de variabilité:**
 - [ ] Weight (graisse)
@@ -81,6 +82,8 @@ Si je trouve les financements, j'aimerais developper le projet Borel pour lui pe
 - [ ] Slant (oblique)
 
 ![Design Space](./documentation/images/designspace.jpg)
+
+Il pourrait être intéressant de pouvoir faire varier les proportions de la police afin de tester ces différents paramètres:
 
 - [ ] Ascender-height (hauteur des ascendantes)
 - [ ] Caps-height (heuteur des capitales)
