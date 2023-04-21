@@ -18,6 +18,8 @@ Pour activer les alternatives contextuelles dans Word sur Mac: barre des menu > 
 Word sur Windows:
 Barre de recherche > tapez "Police" > Paramètres avancés > [x] Utiliser les alternatives contextuelles 
 
+La police est open-source, cela veut dire qu'il est possible de l'utiliser comme bon vous semble, gratuitement, même pour des projets commerciaux. N'hésitez pas à m'envoyer des images de votre utilisation de Borel! Si vous remarquez un problème, il est recommandé d'ouvrir une "issue" dans [l'onglet "issues" de ce repository](https://github.com/RosaWagner/Borel/issues).
+
 
 ## Lexique
 Les termes typographiques sont nombreux et imposent de nombreux repères qui peuvent perturber l’attention. Cependant, il est important pour l'adulte de les connaitre pour comprendre le projet Borel et la suite de cette documentation.
