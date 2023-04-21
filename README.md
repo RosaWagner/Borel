@@ -66,8 +66,6 @@ Borel Sans est la contre-partie Sans-Serif de Borel.
 Veuillez trouvez toutes les informations sur le police **Borel Guides** dans ce document:
 [Borel Guides Instructions](./documentation/proof/BorelGuides-Instructions.pdf)
 
-## Sources
-
 [^1]: L'Université de Toulouse a recensé en 2008 [la fréquence des lettres dans tout le Wikipedia français](https://fr.wikipedia.org/wiki/Fréquence_d%27apparition_des_lettres).
 
 [^2]: *[Does print size matter for reading? A review of findings from vision science and typography](https://jov.arvojournals.org/article.aspx?articleid=2191906#88123043)*, Gordon E. Legge; Charles A. Bigelow, Journal of Vision August 2011, Vol.11, 8. doi:https://doi.org/10.1167/11.5.8
