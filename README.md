@@ -6,11 +6,9 @@
 
 Comment penser la typographie pour l’apprentissage conjoint de la lecture et de l’écriture? Développé avec des enseignants du primaire et des orthophonistes, ce projet cherche à reconnecter les signes que l'on apprend à lire et ceux que l’on apprend à écrire. 
 
-Un système typographique a donc été pensé dans cette logique, pour établir une continuité entre tracé cursif et forme typographique. **Borel** et **Borel Sans** (nommés en hommage à Suzanne Borel-Maisonny, pionnière de l’orthophonie) sont des caractères robustes, peu contrastés, avec une grande hauteur d'x. Les lettres sont ouvertes et bien distinctes, tout en respectant les règles de l’écriture dans les écoles françaises. **Borel Guides**, qui permet d'afficher des lignes de cahier, vient compléter ce système qui met en valeur l'accessibilité, l'adaptabilité et la cohérence.
+Un système typographique a donc été pensé dans cette logique, pour établir une continuité entre tracé cursif et forme typographique. **Borel** (nommé en hommage à Suzanne Borel-Maisonny, pionnière de l’orthophonie) est un caractère robuste, peu contrasté, avec une grande hauteur d'x. Les lettres sont ouvertes et bien distinctes, tout en respectant les règles de l’écriture dans les écoles françaises. **Borel Guides**, qui permet d'afficher des lignes de cahier, vient compléter ce système qui met en valeur l'accessibilité, l'adaptabilité et la cohérence.
 
-Une utilisation harmonieuse des caractères dans les documents pédagogiques est rendue possible grace à leur caractéristiques communes; graisse, proportions, alignements et ductus.
-
-**J'invite les enseignants à me faire leur retour d'utilisation de Borel après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse confirmer ou réfuter mes hypothèses. J'invite donc aussi les chercheurs intéressés à me contacter s'ils veulent que je produise un matériel expérimental adapté à une telle démarche.**
+**Les enseignants sont invités à faire leur retour d'utilisation du Borel après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait confirmer ou réfuter les hypothèses ci-dessous. Les chercheurs intéressés sont donc aussi invités à contacter Rosalie Wagner s'ils veulent collaborer pour la porduction d'un matériel expérimental adapté à une telle démarche.**
 
 ## Lexique
 Les termes typographiques sont nombreux et imposent de nombreux repères qui peuvent perturber l’attention. Cependant, il est important pour l'adulte de les connaitre pour comprendre le projet Borel et la suite de cette documentation.
@@ -43,17 +41,13 @@ Hors, c'est la hauteur de la "zone des petites lettres" qui va conditionner la l
 - l'entrainement au geste d'écriture
 - l'adaptation aux lignes du cahier
 
-J'ai donc adapté les proportions du Borel afin que la hauteur d'x corresponde à deux lignes du cahier, et que la hauteur des grandes boucles corresponde à quatre. Ce qui permet une meilleure harmonie avec la version Sans Serif (baton) du Borel.
+J'ai donc adapté les proportions du Borel afin que la hauteur d'x corresponde à deux lignes du cahier, et que la hauteur des grandes boucles corresponde à quatre. Ainsi les proportions sont plus harminieuses avec les caratcères romains coventionnels.
 
 ![Proportions par rapport aux lignes du cahier](./documentation/images/height3.jpg)
 
 **Pourquoi les capitales sont-elles plus petites que les grandes boucles?** 
 
 Conventionnellement, la hauteur des capitales est la même que la hauteur des ascendantes, ou légèrement plus petites. Ceci dans le cas où les ascendentes sont droites comme dans n'importe quelle Serif (ex. Times New Roman), ou Sans-Serif (ex: Arial, Comic Sans). Dans l'écriture cursive en France, nous utilisons la boucle pour joindre l'ascendante par le haut; l'amplitude de la boucle augmente la hauteur de l'ascendante. Mais les lettres comme t, d, q, ainsi que les capitales qui ne bénéficient pas de cette jonction, sont donc plus petites que les grandes boucles.
-
-## Borel Sans
-
-Borel Sans est la contre-partie Sans-Serif de Borel. 
 
 ## Borel Guides
 
