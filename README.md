@@ -17,7 +17,7 @@ Vous pouvez télécharger les fonts depuis les dossiers:
 
 Sur internet, une recherche rapide vous aidera à installer correctement ces fichiers selon votre machine.
 
-L'utilisation de Borel dépend grandement des "alternatives contextuelles", qui est une option qui permet à la police de choisir la forme appropriée de la lettre en fonction des aux lettres autour d'elles.
+L'utilisation de Borel dépend grandement des "alternatives contextuelles", qui est une option qui permet à la police de choisir la forme appropriée de la lettre en fonction des lettres autour d'elles.
 
 Pour activer les alternatives contextuelles:
 - Word sur Mac: barre des menu > "Mise en Page" > Police > Paramètres avancés > [x] Utiliser les alternatives contextuelles.
@@ -46,7 +46,7 @@ Hors il a plusieurs arguments qui nous poussent à questionner ces canons:
 
 2. La taille perçue d'une police va paraitre plus ou moins grande en fonction du rapport entre hauteur d'x et hauteur d'ascendante. Par exemple, lorsque *Times New Roman* ou *Arial* sont composé en corps 12pt, *Arial* paraitra plus grande car sa hauteur d'x est plus haute.[^2] Pour compenser la perte de lisibilité d'une police cursive qui a une hauteur d'ascendante 3 fois plus grande que la hauteur d'x, il faudra donc augmenter la taille globale de la police. Malheureusement, peu d'enseignants le font, et c'est aussi impossible lorsque les réglures Séyès dictent la composition du texte.
 
-3. Il faudra aussi un interlignage plus grand pour éviter que les ascendantes et les descendantes ne s'entrechoque d'une ligne à l'autre. Hors, un interlignage trop serré ou trop grand peut impacter négativement la lisibilité.[^3] Lorsque les polices cursives traditionnelles suivent les lignes du cahiers, l'interlignage parait trop serré, et lorsque l'on saute une ligne, il parait trop large.
+3. Il faudra aussi un interlignage plus grand pour éviter que les ascendantes et les descendantes ne s'entrechoquent d'une ligne à l'autre. Hors, un interlignage trop serré ou trop grand peut impacter négativement la lisibilité.[^3] Lorsque les polices cursives traditionnelles suivent les lignes du cahiers, l'interlignage parait trop serré, et lorsque l'on saute une ligne, il parait trop large.
 
 4. Pour la lecture continue d'un texte à une distance standard de 40cm, par un adulte normolecteur, la hauteur d'x devrait de trouver entre 1.5mm et 14mm pour rester lisible.[^4] 1.5mm est la taille minimum sur le spectre de la lisibilité pour un adulte! Des études ont démontré que les apprentis lecteurs, et particulèrement ceux présentant des troubles dys, bénéficiaient à lire des caractères légèrement plus grand.[^5] L'étude retenue pour soutenir cette thèse fait le cas de Times New Roman donnant de meilleurs resultats de lecture à 18pt jusqu'à la fin du CE1; cela correspond à une hauteur d'x de 2.84mm (ce qui correspond à Borel en 16pt). Ces chiffres ne sont bien sûr pas absolus et général à tous les enfants, mais ça donne une idée.
 
