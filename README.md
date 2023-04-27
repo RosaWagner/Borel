@@ -26,7 +26,9 @@ Pour activer les alternatives contextuelles:
 - Dans les autres environnements, les alternatives contextuelles devraient être activées par défaut.
 
 **La police n'apparait pas dans le menu déroulant des applications Mac?** 
-Cela arrive sur certaines version, c'est parce que la fonte ne supporte qu'un set limité de caractères. Pour la trouver il suffit d'aller dans le menu: format > police > afficher les polices. Une fois selectionner à cet endroit elle apparaitra ensuite tout en haut du menu déroulant des polices l'application.
+Cela arrive sur certaines version, c'est parce que la fonte ne supporte qu'un set limité de caractères. Pour la trouver il suffit d'aller dans le menu: format > police > afficher les polices. 
+
+Une fois selectionnée à cet endroit elle apparaitra ensuite tout en haut du menu déroulant des polices l'application.
 
 **Dans quel contexte utiliser Borel?**
 La police est open-source, cela veut dire qu'il est possible de l'utiliser comme bon vous semble, gratuitement, même pour des projets commerciaux. N'hésitez pas à m'envoyer des images de votre utilisation de Borel! Si vous remarquez un problème, il est recommandé d'ouvrir une "issue" dans [l'onglet "issues" de ce repository](https://github.com/RosaWagner/Borel/issues).
