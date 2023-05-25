@@ -15,7 +15,7 @@ Un système typographique a donc été pensé dans cette logique, pour établir 
 - [Borel/fonts/ttf](./Borel/fonts/ttf/)
 - [BorelGuides/fonts/ttf](./BorelGuides/fonts/ttf/)
 
-Sur internet, une recherche rapide vous aidera à installer correctement ces fichiers selon votre machine (Mac, Windows, etc).
+Sur internet, une recherche rapide vous aidera à installer correctement ces fichiers selon votre machine (Mac, Windows, etc). S'il y a le moindre problème lors de l'installation, s'il vous plait envoyez-moi un message avec le message d'erreur qui est apparu à ce moment.
 
 **Les lettres ne s'accrochent pas les unes aux autres?**
 L'utilisation de Borel dépend grandement des "alternatives contextuelles", qui est une option qui permet à la police de choisir la forme appropriée de la lettre en fonction des lettres autour d'elles.
@@ -60,9 +60,9 @@ Hors il a plusieurs arguments qui nous poussent à questionner ces canons:
 Celi-dit, lors de l'apprentissage de l'écriture, il est important d'entrainer les doigts et les yeux à bien faire la différence entre les petites et les grandes lettres. Il faut arriver à une taille qui permette d'exercer la motricité fine — passer de petites boucles à grande boucles en ne bougeant que les doigts, pas les mains. Il faut donc une claire différence entre hauteur d'x et ascendente, sans pour autant exagérer cette différence au risque d'impacter négativement la lisibilité. De plus, il est pratiquement impossible dans l'enseignement en France de s'abtraire des cahiers d'écriture à réglure Séyès; il faut donc questionner les canons de l'écriture scolaire cursive, sans pour autant passer outre ce facteur.
 
 **Le défi que doit donc relever le projet Borel est celui du juste compromis entre hauteur d'x et ascendante pour permettre:** 
-- une lisibilité non contraignante
+- une lisibilité non contraignante[^6]
 - la clarté du déchiffraphe des graphèmes
-- l'entrainement au geste d'écriture
+- l'entrainement au geste d'écriture[^7]
 - l'adaptation aux lignes du cahier
 
 J'ai donc adapté les proportions du Borel afin que la hauteur d'x corresponde à deux lignes du cahier, et que la hauteur des grandes boucles corresponde à quatre. Ainsi les proportions sont plus harminieuses avec les caractères romains coventionnels.
@@ -88,6 +88,8 @@ Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
 ![Exemple de grilles](./documentation/images/grille.jpg)
 
 **Attention:**
+- Pour utiliser Borel et Borel Guides ensemble, il faut bien deux blocs de textes différents à superposer. Dans Word, cela veut dire qu'il faut utiliser la page comme un bloc de texte (jusque là tout est est normal) et ensuite en créer un autre pour la grille de Borel Guides en allant dans le menu: **insertion** > **zone de texte**. Cette zone de texte va se régler comme un bloc image, c'est à dire qu'avec la petite ancre vous pouvez lui dire de se mettre "derrière le texte" de la page principal.
+
 - L’interlignage est déjà réglé pour les logiciels de traitement de text communs comme Word, Page ou TextEdit. Il correspond à un interlignage de taille 1 dans votre logiciel. Si vous voulez resserer les lignes, utilisez un interlignage 0,5 pour que les lignes se superposent parfaitement. Dans Indesign, vous devrez observer un interlignage double pour permettre la parfaite imbrication de la grille d’une ligne à l’autre. Si vous choississez une taille de police 24 pt, choissisez un interlignage de 48 pt.
 
 - Borel Guides est une *Color Font*. C’est un format particulier qui permet à une police de contenir et de rendre à l'écran des palettes de couleurs. Si vous ne voyez pas les couleurs dans votre logiciel de traitement de texte, cela signifie que votre logiciel ne supporte pas cette technologie. 
@@ -155,4 +157,6 @@ This font repository structure is inspired by [Unified Font Repository v0.3](htt
 
 [^5]: *[Influence de la typographie sur l’aisance de lecture d’une population d’enfants dyslexiques. Master Thesis.](https://dumas.ccsd.cnrs.fr/dumas-01302521/document)*, Klein V., *op. cit.*
 
-[^6]: *[Le geste d'écriture](https://legestedecriture.fr), Méthode d'apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité*, Danièle Dumont, Hatier, 2016
+[^6]: Pour plus d'information sur le sujet, *[Legibility, How and why typography affects ease of reading](https://legible-typography.com/en/)*, Mary C. Dyson, [Design Regression](https://designregression.com), 2023. 
+
+[^7]: Pour plus d'informations sur le sujet, *[Le geste d'écriture](https://legestedecriture.fr), Méthode d'apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité*, Danièle Dumont, Hatier, 2016
