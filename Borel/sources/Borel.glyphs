@@ -1,5 +1,5 @@
 {
-.appVersion = "3189";
+.appVersion = "3199";
 .formatVersion = 3;
 classes = (
 {
@@ -75,24 +75,26 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb circumflexcomb dieresiscomb dotaccentcomb gravecomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb];
-	sub [i]' @CombiningTopAccents by [idotless];
-	sub [i]' @CombiningNonTopAccents @CombiningTopAccents by [idotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
 	@Markscomb = [dieresiscomb gravecomb acutecomb circumflexcomb tildecomb];
 	@MarkscombCase = [dieresiscomb.case gravecomb.case acutecomb.case circumflexcomb.case tildecomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
+} ccmp_Other_2;
 
-lookup ccmp_Other_2 {
+lookup ccmp_Other_3 {
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_Other_3;
 ";
 tag = ccmp;
 },
 {
-code = "@Medial=[a aacute acircumflex adieresis agrave ae b c ccedilla d e eacute ecircumflex edieresis egrave f g h i idotless iacute icircumflex idieresis igrave j k l m n ntilde o oacute ocircumflex odieresis ograve oe p q r s t u uacute ucircumflex udieresis ugrave v w x y z]; 
+code = "@Medial=[a aacute acircumflex adieresis agrave ae b c ccedilla d e eacute ecircumflex edieresis egrave f g h i idotless iacute icircumflex idieresis igrave j k l m n ntilde o oacute ocircumflex odieresis ograve oe p q r s germandbls t u uacute ucircumflex udieresis ugrave v w x y z]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -100,7 +102,7 @@ code = "@Medial=[a aacute acircumflex adieresis agrave ae b c ccedilla d e eacut
 
 @Final=[$[name endswith \".fina\"]];
 
-@Base=[$[name beginswith \"e\"] $[name beginswith \"oe\"] $[name beginswith \"ae\"] $[name beginswith \"c\"] $[name beginswith \"l\"] $[name beginswith \"s\"] $[name beginswith \"x\"]];
+@Base=[$[name beginswith \"e\"] $[name beginswith \"oe\"] $[name beginswith \"ae\"] $[name beginswith \"c\"] $[name beginswith \"l\"] $[name beginswith \"s\"] $[name beginswith \"germandbls\"] $[name beginswith \"x\"]];
 
 @BaseMedial=[$[name endswith \".medi.cv01\"]];
 
@@ -13670,7 +13672,7 @@ color = 10;
 glyphname = p.fina.cv01;
 kernLeft = no_kerning;
 kernRight = n;
-lastChange = "2023-02-23 14:47:31 +0000";
+lastChange = "2023-06-09 08:55:38 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -14448,20 +14450,25 @@ color = 10;
 glyphname = s;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-02-23 15:11:55 +0000";
+lastChange = "2023-06-09 08:57:32 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
-ref = s.fina;
+alignment = -1;
+ref = _part.s;
+},
+{
+alignment = -1;
+ref = _part.s.in;
 },
 {
 pos = (-13,0);
 ref = _part.s.out;
 }
 );
-width = 582;
+width = 607;
 }
 );
 metricLeft = n;
@@ -14576,20 +14583,27 @@ color = 10;
 glyphname = s.init;
 kernLeft = s;
 kernRight = no_kerning;
-lastChange = "2023-02-23 15:11:55 +0000";
+lastChange = "2023-06-09 08:56:02 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
-ref = s.isol;
+alignment = -1;
+pos = (3,0);
+ref = _part.s;
+},
+{
+alignment = -1;
+pos = (8,0);
+ref = _part.s.ini;
 },
 {
 pos = (-10,0);
 ref = _part.s.out;
 }
 );
-width = 585;
+width = 610;
 }
 );
 metricRight = s;
@@ -14625,20 +14639,27 @@ color = 10;
 glyphname = s.medi.cv01;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-02-23 15:12:38 +0000";
+lastChange = "2023-06-09 08:56:02 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
-ref = s.fina.cv01;
+alignment = -1;
+pos = (-84,0);
+ref = _part.s;
+},
+{
+alignment = -1;
+pos = (-106,0);
+ref = _part.s.in.cv01;
 },
 {
 pos = (-97,0);
 ref = _part.s.out;
 }
 );
-width = 498;
+width = 523;
 }
 );
 metricRight = s;
@@ -14648,12 +14669,13 @@ color = 10;
 glyphname = s.medi.cv02;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-02-23 15:12:38 +0000";
+lastChange = "2023-06-09 08:58:51 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
+alignment = -1;
 ref = s.fina.cv02;
 },
 {
@@ -14661,7 +14683,7 @@ pos = (-252,0);
 ref = _part.s.out;
 }
 );
-width = 343;
+width = 368;
 }
 );
 metricRight = s;
@@ -14671,12 +14693,13 @@ color = 10;
 glyphname = s.medi.cv03;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-02-23 15:12:38 +0000";
+lastChange = "2023-06-09 08:59:14 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
+alignment = -1;
 ref = s.fina.cv03;
 },
 {
@@ -14684,7 +14707,7 @@ pos = (-129,0);
 ref = _part.s.out;
 }
 );
-width = 466;
+width = 491;
 }
 );
 metricRight = s;
@@ -17558,6 +17581,117 @@ width = 655;
 }
 );
 metricRight = z;
+},
+{
+export = 0;
+glyphname = germandbls;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+unicode = 223;
+},
+{
+export = 0;
+glyphname = germandbls.fina;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = germandbls.fina.cv01;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = germandbls.fina.cv02;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = germandbls.fina.cv03;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = germandbls.init;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = germandbls.isol;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = germandbls.medi.cv01;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = germandbls.medi.cv02;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
+},
+{
+export = 0;
+glyphname = germandbls.medi.cv03;
+lastChange = "2023-06-09 09:00:32 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+width = 600;
+}
+);
 },
 {
 color = 6;
@@ -25705,7 +25839,7 @@ width = 574;
 color = 6;
 export = 0;
 glyphname = _part.s;
-lastChange = "2023-02-23 14:54:05 +0000";
+lastChange = "2023-06-09 08:57:24 +0000";
 layers = (
 {
 anchors = (
@@ -25758,7 +25892,7 @@ nodes = (
 );
 }
 );
-width = 557;
+width = 607;
 }
 );
 },
@@ -25940,7 +26074,7 @@ width = 570;
 color = 6;
 export = 0;
 glyphname = _part.s.out;
-lastChange = "2023-02-23 13:15:03 +0000";
+lastChange = "2023-06-09 08:54:39 +0000";
 layers = (
 {
 anchors = (
@@ -27438,5 +27572,5 @@ tH = "80";
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
