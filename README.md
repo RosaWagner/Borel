@@ -159,7 +159,7 @@ This font repository structure is inspired by [Unified Font Repository v0.3](htt
 
 [^5]: Klein V., *op. cit.*
 
-[^6]: Pour plus d'information sur le sujet, TypeTogether a entrepris récemment [une recherche globale sur les écritures scolaires dans le monde](https://www.type-together.com/new-research-handwriting).
+[^6]: Pour plus d'information sur le sujet, TypeTogether a entrepris récemment [une recherche globale sur les écritures scolaires dans le monde](https://primarium.info).
 
 [^7]: Pour plus d'information sur le sujet, *[Legibility, How and why typography affects ease of reading](https://legible-typography.com/en/)*, Mary C. Dyson, [Design Regression](https://designregression.com), 2023 
 
