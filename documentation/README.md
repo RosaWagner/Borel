@@ -21,6 +21,8 @@ Borel est une police open source, ce qui signifie que vous avez la liberté de l
 
 3. **Vérifiez l'installation** : Une fois installée, vous pouvez trouver la police répertoriée dans le Livre des polices. Vous pouvez également utiliser la police dans différentes applications sur votre Mac, telles que les éditeurs de texte ou les logiciels de conception.
 
+Si la police n'apparait pas dans le menu déroulant de l'application, vous pouvez toujours la trouver dans le panneau des polices (cmd+T) ou menu: `format > Police > afficher les polices`.
+
 ### Windows :
 
 1. **Installez la police** : Double-cliquez sur chaque fichier de police. Une fenêtre d'aperçu s'ouvrira. Cliquez sur le bouton "Installer" en haut de la fenêtre d'aperçu. Alternativement, vous pouvez cliquer avec le bouton droit sur le fichier de police et sélectionner "Installer" dans le menu contextuel.

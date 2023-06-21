@@ -19,6 +19,8 @@ Borel is an open source font, which means you have the liberty to use it in all 
 
 3. **Verify installation**: Once installed, you can find the font listed in Font Book. You can also use the font in various applications on your Mac, such as text editors or design software.
 
+If the font doesn't appear in the font dropdown menu, you can still find it in the Font Panel (cmd+T). This is due to language support since Borel still has a limited glyphset.
+
 ### Windows:
 
 1. **Install the font**: Double-click each font file. A preview window will open. Click the "Install" button at the top of the preview window. Alternatively, you can right-click the font file and select "Install" from the context menu.
