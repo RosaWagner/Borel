@@ -21,11 +21,11 @@ Currently, there is little to no empirical research focusing on the legibility o
 ## Glossary
 There are many typographic terms, but it is important for adults to know them in order to understand the Borel project and the rest of this documentation.
 
-![Typographic terms](./documentation/images/height.jpg)
+![Typographic terms](./documentation/images/height_en.jpg)
 
-To simplify for children, we can use the term "zones" instead. This approach provides greater flexibility in writing exercises and aligns more logically with the varying sizes of ascenders commonly observed in typography.
+To simplify for children, we can use the term "area" instead. This approach provides greater flexibility in writing exercises and aligns more logically with the varying sizes of ascenders commonly observed in typography.
 
-![Terms adapted for children](./documentation/images/height2.jpg)
+![Terms adapted for children](./documentation/images/height2_en.jpg)
 
 ## Proportions
 
@@ -63,7 +63,7 @@ Traditionally, uppercase letters have been designed to match the height of ascen
 ## Design Process
 To create a font that serves as an ideal model for handwriting instruction, each letter in Borel has been crafted in 10 contextual variants.
 
-![10 contextual variations per letter](./documentation/images/process.jpg)
+![10 contextual variations per letter](./documentation/images/process_en.jpg)
 
 The design of Borel was initiated following an extensive analysis of research on readability, dyslexia, and the learning process of reading and writing. Throughout the design journey, professionals in the fields of speech therapy and education were involved and their valuable insights were taken into account.
 
