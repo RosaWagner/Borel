@@ -2,7 +2,7 @@
 
 Borel is an open source font, which means you have the liberty to use it in all your projects, including commercial ones, completely free of charge.
 
-## Downloading Fonts
+## Download the fonts
 
 1. **From the [release package](https://github.com/RosaWagner/Borel/releases)**: click the `fonts.zip` file from the last release to download it.
 
@@ -10,7 +10,7 @@ Borel is an open source font, which means you have the liberty to use it in all 
    - [Borel](../Borel/fonts/ttf/)
    - [Borel Guide](../BorelGuides/fonts/ttf/) 
 
-## Installing Fonts
+## Install the fonts
 ### Mac
 
 1. **Open Font Book**: Font Book is the default font management tool on macOS. You can find it by going to the "Applications" folder or by using Spotlight search.
@@ -27,7 +27,7 @@ Borel is an open source font, which means you have the liberty to use it in all 
 
 **If an error message pops up during installation, please report it by [opening an issue](https://github.com/RosaWagner/Borel/issues) in this repository. To do so, follow the link and click the green button "New issue", don't forget to join a screenshot of the error message.**
 
-## Activating Contextual Alternates in Fonts
+## Activate Contextual Alternates
 
 The use of Borel depends greatly on "contextual alternatives", which is an option that allows the font to choose the appropriate letter form based on the surrounding letters and thus connect them.
 

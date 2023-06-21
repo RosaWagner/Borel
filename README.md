@@ -1,5 +1,7 @@
 # Borel, un système typographique pour l'école primaire.
 
+### Find the english version of this documentation here: [Borel, a typographic system for primary school](./README_en.md).
+
 ## Apprendre à lire, apprendre à écrire
 
 ![Bonjour](documentation/images/Bonjour.jpg)
@@ -64,6 +66,14 @@ Pour que la police soit un parfait modèle pour l'apprentissage de l'écriture, 
 
 ![10 variantes par lettres](./documentation/images/process.jpg)
 
+Le design du Borel à commencé après avoir analysé un corpus de recherches sur la lisibilité, la dyslexie et l'apprentissage de la lecture et de l'écriture. Des professionnels dans l'orthophonie et l'enseignement ont été interrogés tout du long, et leurs conseils pris en compte.
+
+Chaque lettre a fait l'objet d'une étude particulière afin de permettre un geste souple, fluide et ininterrompu. Le but était de proposer un ductus simple mais sans équivoque, adapté à un enfant qui développe sa motricité fine.
+
+Voici un exemple de comment le tracé de la lettre `a` peut se développer chez un élève lorsqu'il grandit et écrit de plus en plus vite.
+
+![Évolution de la lettre a en fonction d'un ductus de base appris](./documentation/images/exemple_a.png)
+
 ## Borel Guides
 
 Borel Guides est une police pour tracer des lignes de cahier. Elle se superpose parfaitement à la police Borel. Elle contient différentes palettes de couleurs, pour s'ajuster à la préférence des petits écrivains, mais aussi un grand choix de motifs linéaires pour s'adapter à l'objectif pédagogique, à la police utilisée, etc. L'enseignants est aussi libre d'utiliser Borel Guides avec une autre police que Borel, des motifs ont été pensé à cet égard.
@@ -79,30 +89,30 @@ Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
 À condition de trouver les financements, il est envisagé de developper le projet Borel pour lui permettre de s'adapter encore mieux aux besoins des enseignants et de la recherche.
 
 **Axes de variabilité:**
-- [ ] Weight (graisse)
-- [ ] Width (chasse) 
-- [ ] Spacing (espacement)
+- [ ] Graisse
+- [ ] Chasse
+- [ ] Espacement
 - [ ] HyperExpansion (chasse + espacement)
-- [ ] Slant (oblique)
+- [ ] Oblique
 
 ![Design Space](./documentation/images/designspace.jpg)
 
 Il pourrait être intéressant de pouvoir faire varier les proportions de la police afin de tester ces différents paramètres:
 
-- [ ] Ascender-height (hauteur des ascendantes)
-- [ ] Caps-height (heuteur des capitales)
-- [ ] x-height (hauteur d'x)
+- [ ] Hauteur des ascendantes
+- [ ] Hauteur des capitales
+- [ ] Hauteur d'x
 
 **Styles:**
-- [ ] Dotted (pointillés)
-- [ ] Outlined (contours)
-- [ ] Guided (guidé)
+- [ ] Pointillés
+- [ ] Contours
+- [ ] Guide et flèches
 
 ![Styles pour l'éducation](./documentation/images/styles.jpg)
 
 **Alternates:**
-- [ ] Simplified cursive capitals (capitales cursives simplifiées)
-- [ ] Swashed capitals (capitales cursives ornées)
+- [ ] Capitales cursives simplifiées
+- [ ] Capitales cursives ornées
 
 ![Variantes des capitales](./documentation/images/capitales.jpg)
 
@@ -117,12 +127,12 @@ Il pourrait être intéressant de pouvoir faire varier les proportions de la pol
 
 ## License
 
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at https://scripts.sil.org/OFL
+Ce logiciel de police est soumis à la license SIL Open Font License, Version 1.1.
+Cette license est disponible avec une FAQ à l'adresse https://scripts.sil.org/OFL
 
 ## Repository Layout
 
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+La structure de ce répertoire github est inspiré de l'[Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modifié pour les besoins de Google Fonts.
 
 ### Notes
 
