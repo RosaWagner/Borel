@@ -1,3 +1,5 @@
+### Find the english version of this documentation: ["How to use Borel"](./README_en.md)
+
 # Comment utiliser Borel
 
 Borel est une police open source, ce qui signifie que vous avez la liberté de l'utiliser dans tous vos projets, y compris les projets commerciaux, et ce, gratuitement.
