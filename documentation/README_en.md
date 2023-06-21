@@ -4,7 +4,7 @@ Borel is an open source font, which means you have the liberty to use it in all 
 
 ## Downloading Fonts
 
-1. **From the [release package](https://github.com/RosaWagner/Borel/releases/tag/v1.000)**: click the zip file to download it.
+1. **From the [release package](https://github.com/RosaWagner/Borel/releases)**: click the `fonts.zip` file from the last release to download it.
 
 2. **From the "fonts" directory**: 
    - [Borel](../Borel/fonts/ttf/)
@@ -21,11 +21,9 @@ Borel is an open source font, which means you have the liberty to use it in all 
 
 ### Windows:
 
-1. **Locate the downloaded font files**: Open the folder where you saved the downloaded font files.
+1. **Install the font**: Double-click each font file. A preview window will open. Click the "Install" button at the top of the preview window. Alternatively, you can right-click the font file and select "Install" from the context menu.
 
-2. **Install the font**: Double-click each font file. A preview window will open. Click the "Install" button at the top of the preview window. Alternatively, you can right-click the font file and select "Install" from the context menu.
-
-3. **Verify installation**: After installation, the font will be available for use in applications. You can confirm the installation by checking the font list in programs like word processors, graphic design software, or the Windows Fonts folder located in the Control Panel.
+2. **Verify installation**: After installation, the font will be available for use in applications. You can confirm the installation by checking the font list in programs like word processors, graphic design software, or the Windows Fonts folder located in the Control Panel.
 
 **If an error message pops up during installation, please report it by [opening an issue](https://github.com/RosaWagner/Borel/issues) in this repository. To do so, follow the link and click the green button "New issue", don't forget to join a screenshot of the error message.**
 
@@ -65,5 +63,5 @@ In MS Word, you can use Borel to write the main text. Then you would have to cre
 
 - Line spacing is already set for common text editors such as Word, Page or TextEdit. Nevertheless, make sure that Borel and Borel Guide have the same value so they can overlap perfectly. Set the linespacing to `1` for a better experience.
  
-- In Indesign, you'll need to use double line spacing to allow the grid to nest perfectly from one line to the next. If you choose a `24 pt` font size, choose `48 pt` line spacing.
+- In Indesign, you'll need to use double line spacing to allow the grid to nest perfectly from one line to the next. For example, ff you choose a `24 pt` font size, choose `48 pt` line spacing.
 
