@@ -1,10 +1,10 @@
 ### Find the english version of this documentation: ["How to use Borel"](./README_en.md)
 
-# Comment utiliser Borel
+# Utiliser Borel
 
 Borel est une police open source, ce qui signifie que vous avez la liberté de l'utiliser dans tous vos projets, y compris les projets commerciaux, et ce, gratuitement.
 
-## Téléchargement des polices
+## Télécharger les polices
 
 1. **À partir du ["release"](https://github.com/RosaWagner/Borel/releases)** : cliquez sur le fichier `fonts.zip` de la dernière version pour le télécharger.
 
@@ -12,7 +12,7 @@ Borel est une police open source, ce qui signifie que vous avez la liberté de l
    - [Borel](../Borel/fonts/ttf/)
    - [Guide Borel](../BorelGuides/fonts/ttf/)
 
-## Installation des polices
+## Installer les polices
 ### Mac
 
 1. **Ouvrez le Livre des polices** : le Livre des polices est l'outil de gestion de polices par défaut sur macOS. Vous pouvez le trouver en accédant au dossier "Applications" ou en utilisant la recherche Spotlight.
@@ -29,7 +29,7 @@ Borel est une police open source, ce qui signifie que vous avez la liberté de l
 
 **Si un message d'erreur apparaît lors de l'installation, veuillez le signaler en [ouvrant une "issue"](https://github.com/RosaWagner/Borel/issues). Pour ce faire, suivez le lien et cliquez sur le bouton vert "New issue" et n'oubliez pas de joindre une capture d'écran du message d'erreur.**
 
-## Activation des alternatives contextuelles dans les polices
+## Activer les alternatives contextuelles
 
 L'utilisation de Borel dépend largement des "alternatives contextuelles", qui est une option permettant à la police de choisir la forme appropriée de la lettre en fonction des lettres environnantes et ainsi de les connecter.
 
@@ -57,7 +57,7 @@ Cette option est activée par défaut dans de nombreuses applications de bureau 
 
 - Borel Guides est également une *fonte variable*. Il s'agit d'un format qui vous permet de modifier la police sur différents axes, tels que la largeur et la graisse. Il est conseillé de ne pas utiliser la [police variable](./BorelGuides/fonts/variable/) dans votre logiciel d'édition de texte, car elle est destinée au web. Utilisez plutôt les [polices statiques](./BorelGuides/fonts/ttf/). De nombreux programmes prennent en charge les polices colorées *ou* les polices variables, mais pas les polices colorées *et* variables simultanément.
 
-## Utilisation de Borel et Borel Guide ensemble
+## Utiliser de Borel et Borel Guide ensemble
 
 Pour utiliser Borel et Borel Guides ensemble, vous devez superposer deux cadres de texte différents.
 

@@ -8,34 +8,18 @@ Comment penser la typographie pour l’apprentissage conjoint de la lecture et d
 
 Un système typographique a donc été pensé dans cette logique, pour établir une continuité entre tracé cursif et forme typographique. **Borel** (nommé en hommage à Suzanne Borel-Maisonny, pionnière de l’orthophonie) est un caractère robuste, peu contrasté, avec une grande hauteur d'x. Les lettres sont ouvertes et bien distinctes, tout en respectant les règles de l’écriture dans les écoles françaises. **Borel Guides**, qui permet d'afficher des lignes de cahier, vient compléter ce système qui met en valeur l'accessibilité, l'adaptabilité et la cohérence.
 
-**Les enseignants sont invités à faire leur retour d'utilisation du Borel après avoir expérimenter avec leur élèves. Idéalement, une étude expérimentale rigoureuse devrait confirmer ou réfuter les hypothèses ci-dessous. Les chercheurs intéressés sont donc aussi invités à contacter Rosalie Wagner s'ils veulent collaborer pour la porduction d'un matériel expérimental adapté à une telle démarche.**
+**Les enseignants sont invités à faire leur retour d'utilisation du Borel après avoir expérimenter avec leur élèves.** 
 
-## Utiliser la police
-**Vous pouvez télécharger les fonts depuis les dossiers:**
-- [Borel/fonts/ttf](./Borel/fonts/ttf/)
-- [BorelGuides/fonts/ttf](./BorelGuides/fonts/ttf/)
+Pour l'instant il n'existe pas (ou alors très peu) d'étude expérimentale spécifique à la lisibilité des polices cursives dans le contexte de l'apprentissage de la lecture. Les chercheurs intéressés sont invités à contacter Rosalie Wagner s'ils veulent collaborer pour la porduction d'un matériel expérimental adapté à une telle démarche.
 
-Sur internet, une recherche rapide vous aidera à installer correctement ces fichiers selon votre machine (Mac, Windows, etc). S'il y a le moindre problème lors de l'installation, s'il vous plait envoyez-moi un message avec le message d'erreur qui est apparu à ce moment.
-
-**Les lettres ne s'accrochent pas les unes aux autres?**
-L'utilisation de Borel dépend grandement des "alternatives contextuelles", qui est une option qui permet à la police de choisir la forme appropriée de la lettre en fonction des lettres autour d'elles.
-
-Pour activer les alternatives contextuelles:
-- Word sur Mac: barre des menu > "Mise en Page" > Police > Paramètres avancés > [x] Utiliser les alternatives contextuelles.
-- Word sur Windows: barre de recherche > tapez "Police" > Paramètres avancés > [x] Utiliser les alternatives contextuelles 
-- Dans les autres environnements, les alternatives contextuelles devraient être activées par défaut.
-
-**La police n'apparait pas dans le menu déroulant des applications Mac?** 
-Cela arrive sur certaines version, c'est parce que la fonte ne supporte qu'un set limité de caractères. Pour la trouver il suffit d'aller dans le menu: format > police > afficher les polices. 
-
-Une fois selectionnée à cet endroit elle apparaitra ensuite tout en haut du menu déroulant des polices l'application.
-
-**Dans quel contexte utiliser Borel?**
-La police est open-source, cela veut dire qu'il est possible de l'utiliser comme bon vous semble, gratuitement, même pour des projets commerciaux. N'hésitez pas à m'envoyer des images de votre utilisation de Borel! Si vous remarquez un problème, il est recommandé d'ouvrir une "issue" dans [l'onglet "issues" de ce repository](https://github.com/RosaWagner/Borel/issues).
-
+## Tutoriels
+- [Télécharger les polices](./documentation/README.md#télécharger-les-polices)
+- [Installer les polices](./documentation/README.md#installer-les-polices)
+- [Que faire si les lettres ne se connectent pas](./documentation/README.md#activer-les-alternatives-contextuelles)
+- [Utiliser Borel et Borel Guides ensemble](./documentation/README.md#utiliser-de-borel-et-borel-guide-ensemble)
 
 ## Lexique
-Les termes typographiques sont nombreux et imposent de nombreux repères qui peuvent perturber l’attention. Cependant, il est important pour l'adulte de les connaitre pour comprendre le projet Borel et la suite de cette documentation.
+Les termes typographiques sont nombreux, mais il est important pour l'adulte de les connaitre pour comprendre le projet Borel et la suite de cette documentation.
 
 ![termes typographiques](./documentation/images/height.jpg)
 
@@ -89,14 +73,6 @@ Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
 
 ![Exemple de grilles](./documentation/images/grille.jpg)
 
-**Attention:**
-- Pour utiliser Borel et Borel Guides ensemble, il faut bien deux blocs de textes différents à superposer. Dans Word, cela veut dire qu'il faut utiliser la page comme un bloc de texte (jusque là tout est est normal) et ensuite en créer un autre pour la grille de Borel Guides en allant dans le menu: **insertion** > **zone de texte**. Cette zone de texte va se régler comme un bloc image, c'est à dire qu'avec la petite ancre vous pouvez lui dire de se mettre "derrière le texte" de la page principal.
-
-- L’interlignage est déjà réglé pour les logiciels de traitement de text communs comme Word, Page ou TextEdit. Il correspond à un interlignage de taille 1 dans votre logiciel. Si vous voulez resserer les lignes, utilisez un interlignage 0,5 pour que les lignes se superposent parfaitement. Dans Indesign, vous devrez observer un interlignage double pour permettre la parfaite imbrication de la grille d’une ligne à l’autre. Si vous choississez une taille de police 24 pt, choissisez un interlignage de 48 pt.
-
-- Borel Guides est une *Color Font*. C’est un format particulier qui permet à une police de contenir et de rendre à l'écran des palettes de couleurs. Si vous ne voyez pas les couleurs dans votre logiciel de traitement de texte, cela signifie que votre logiciel ne supporte pas cette technologie. 
-
-- Borel Guides est aussi une police *variable*. C’est un format qui permet de modifier la police sur différents axes comme par exemple: la largeur et l’épaisseur. Il est conseillé de ne pas utiliser [la police variable](./BorelGuides/fonts/variable/) dans vos logiciels de traitement de texte, elle est plutôt destinée au web. Utiliser des polices dites [statiques](./BorelGuides/fonts/ttf/). En effet, beacoup de logiciels supportent les polices colorées, et supportent les polices variables, mais pas les polices colorées et variable.
 
 ## À venir
 
@@ -129,6 +105,7 @@ Il pourrait être intéressant de pouvoir faire varier les proportions de la pol
 - [ ] Swashed capitals (capitales cursives ornées)
 
 ![Variantes des capitales](./documentation/images/capitales.jpg)
+
 
 ## Bio
 
