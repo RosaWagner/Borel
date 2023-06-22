@@ -12,7 +12,7 @@ Un système typographique a donc été pensé dans cette logique, pour établir 
 
 **Les enseignants sont invités à faire leur retour d'utilisation du Borel après avoir expérimenter avec leur élèves.** 
 
-Pour l'instant il n'existe pas (ou alors très peu) d'étude expérimentale spécifique à la lisibilité des polices cursives dans le contexte de l'apprentissage de la lecture. Les chercheurs intéressés sont invités à contacter Rosalie Wagner s'ils veulent collaborer pour la porduction d'un matériel expérimental adapté à une telle démarche.
+Pour l'instant il n'existe pas (ou alors très peu) d'étude expérimentale spécifique à la lisibilité des polices cursives dans le contexte de l'apprentissage de la lecture. Les chercheurs intéressés sont invités à contacter Rosalie Wagner s'ils veulent collaborer pour la production d'un matériel expérimental adapté à une telle démarche.
 
 ## Tutoriels
 - [Télécharger les polices](./documentation/README.md#télécharger-les-polices)
