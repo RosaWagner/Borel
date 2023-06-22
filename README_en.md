@@ -131,6 +131,9 @@ This license is available with a FAQ at https://scripts.sil.org/OFL
 
 This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
 
+### About the translation
+This documentation is translated from French with some help from DeepL and ChatGPT4.
+
 ### Notes
 
 [^1]: The University of Toulouse compiled in 2008 [the frequency of letters in the entire French Wikipedia](https://fr.wikipedia.org/wiki/Fréquence_d%27apparition_des_lettres).
