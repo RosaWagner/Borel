@@ -9,12 +9,12 @@ name = AllLetters;
 },
 {
 automatic = 1;
-code = "A Aacute Acircumflex Adieresis Agrave AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave F G G.ss04 G.ss05 H I Iacute Icircumflex Idieresis Igrave J J.calt K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve OE P Q R S Germandbls T U Uacute Ucircumflex Udieresis Ugrave V W X Y Z Z.ss01";
+code = "A Aacute Acircumflex Adieresis Agrave AE B C Ccedilla D E Eacute Ecircumflex Edieresis Egrave F G G.init.ss04 G.init.ss05 G.ss04 G.ss05 H I Iacute Icircumflex Idieresis Igrave J J.calt K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve OE P Q R S Germandbls T U Uacute Ucircumflex Udieresis Ugrave V W X Y Z Z.ss01";
 name = Uppercase;
 },
 {
 automatic = 1;
-code = "a a.fina a.fina.cv01 a.fina.cv02 a.fina.cv03 a.init a.isol a.medi.cv01 a.medi.cv02 a.medi.cv03 aacute aacute.fina aacute.fina.cv01 aacute.fina.cv02 aacute.fina.cv03 aacute.init aacute.isol aacute.medi.cv01 aacute.medi.cv02 aacute.medi.cv03 acircumflex acircumflex.fina acircumflex.fina.cv01 acircumflex.fina.cv02 acircumflex.fina.cv03 acircumflex.init acircumflex.isol acircumflex.medi.cv01 acircumflex.medi.cv02 acircumflex.medi.cv03 adieresis adieresis.fina adieresis.fina.cv01 adieresis.fina.cv02 adieresis.fina.cv03 adieresis.init adieresis.isol adieresis.medi.cv01 adieresis.medi.cv02 adieresis.medi.cv03 agrave agrave.fina agrave.fina.cv01 agrave.fina.cv02 agrave.fina.cv03 agrave.init agrave.isol agrave.medi.cv01 agrave.medi.cv02 agrave.medi.cv03 ae ae.fina ae.fina.cv01 ae.fina.cv02 ae.fina.cv03 ae.init ae.isol ae.medi.cv01 ae.medi.cv02 ae.medi.cv03 b b.fina b.fina.cv01 b.fina.cv02 b.fina.cv03 b.init b.isol b.medi.cv01 b.medi.cv02 b.medi.cv03 c c.fina c.fina.cv01 c.fina.cv02 c.fina.cv03 c.init c.isol c.medi.cv01 c.medi.cv02 c.medi.cv03 ccedilla ccedilla.fina ccedilla.fina.cv01 ccedilla.fina.cv02 ccedilla.fina.cv03 ccedilla.init ccedilla.isol ccedilla.medi.cv01 ccedilla.medi.cv02 ccedilla.medi.cv03 d d.fina d.fina.cv01 d.fina.cv02 d.fina.cv03 d.init d.isol d.medi.cv01 d.medi.cv02 d.medi.cv03 e e.fina e.fina.cv01 e.fina.cv02 e.fina.cv03 e.init e.isol e.medi.cv01 e.medi.cv02 e.medi.cv03 eacute eacute.fina eacute.fina.cv01 eacute.fina.cv02 eacute.fina.cv03 eacute.init eacute.isol eacute.medi.cv01 eacute.medi.cv02 eacute.medi.cv03 ecircumflex ecircumflex.fina ecircumflex.fina.cv01 ecircumflex.fina.cv02 ecircumflex.fina.cv03 ecircumflex.init ecircumflex.isol ecircumflex.medi.cv01 ecircumflex.medi.cv02 ecircumflex.medi.cv03 edieresis edieresis.fina edieresis.fina.cv01 edieresis.fina.cv02 edieresis.fina.cv03 edieresis.init edieresis.isol edieresis.medi.cv01 edieresis.medi.cv02 edieresis.medi.cv03 egrave egrave.fina egrave.fina.cv01 egrave.fina.cv02 egrave.fina.cv03 egrave.init egrave.isol egrave.medi.cv01 egrave.medi.cv02 egrave.medi.cv03 f f.fina f.fina.cv01 f.fina.cv02 f.fina.cv03 f.init f.isol f.medi.cv01 f.medi.cv02 f.medi.cv03 g g.fina g.fina.cv01 g.fina.cv02 g.fina.cv03 g.init g.isol g.medi.cv01 g.medi.cv02 g.medi.cv03 h h.fina h.fina.cv01 h.fina.cv02 h.fina.cv03 h.init h.isol h.medi.cv01 h.medi.cv02 h.medi.cv03 i i.fina i.fina.cv01 i.fina.cv02 i.fina.cv03 i.init i.isol i.medi.cv01 i.medi.cv02 i.medi.cv03 idotless idotless.fina idotless.fina.cv01 idotless.fina.cv02 idotless.fina.cv03 idotless.init idotless.isol idotless.medi.cv01 idotless.medi.cv02 idotless.medi.cv03 iacute iacute.fina iacute.fina.cv01 iacute.fina.cv02 iacute.fina.cv03 iacute.init iacute.isol iacute.medi.cv01 iacute.medi.cv02 iacute.medi.cv03 icircumflex icircumflex.fina icircumflex.fina.cv01 icircumflex.fina.cv02 icircumflex.fina.cv03 icircumflex.init icircumflex.isol icircumflex.medi.cv01 icircumflex.medi.cv02 icircumflex.medi.cv03 idieresis idieresis.fina idieresis.fina.cv01 idieresis.fina.cv02 idieresis.fina.cv03 idieresis.init idieresis.isol idieresis.medi.cv01 idieresis.medi.cv02 idieresis.medi.cv03 igrave igrave.fina igrave.fina.cv01 igrave.fina.cv02 igrave.fina.cv03 igrave.init igrave.isol igrave.medi.cv01 igrave.medi.cv02 igrave.medi.cv03 j j.fina j.fina.cv01 j.fina.cv02 j.fina.cv03 j.init j.isol j.medi.cv01 j.medi.cv02 j.medi.cv03 k k.fina k.fina.cv01 k.fina.cv02 k.fina.cv03 k.init k.isol k.medi.cv01 k.medi.cv02 k.medi.cv03 l l.fina l.fina.cv01 l.fina.cv02 l.fina.cv03 l.init l.isol l.medi.cv01 l.medi.cv02 l.medi.cv03 m m.fina m.fina.cv01 m.fina.cv02 m.fina.cv03 m.init m.isol m.medi.cv01 m.medi.cv02 m.medi.cv03 n n.fina n.fina.cv01 n.fina.cv02 n.fina.cv03 n.init n.isol n.medi.cv01 n.medi.cv02 n.medi.cv03 ntilde ntilde.fina ntilde.fina.cv01 ntilde.fina.cv02 ntilde.fina.cv03 ntilde.init ntilde.isol ntilde.medi.cv01 ntilde.medi.cv02 ntilde.medi.cv03 o o.fina o.fina.cv01 o.fina.cv02 o.fina.cv03 o.init o.isol o.medi.cv01 o.medi.cv02 o.medi.cv03 oacute oacute.fina oacute.fina.cv01 oacute.fina.cv02 oacute.fina.cv03 oacute.init oacute.isol oacute.medi.cv01 oacute.medi.cv02 oacute.medi.cv03 ocircumflex ocircumflex.fina ocircumflex.fina.cv01 ocircumflex.fina.cv02 ocircumflex.fina.cv03 ocircumflex.init ocircumflex.isol ocircumflex.medi.cv01 ocircumflex.medi.cv02 ocircumflex.medi.cv03 odieresis odieresis.fina odieresis.fina.cv01 odieresis.fina.cv02 odieresis.fina.cv03 odieresis.init odieresis.isol odieresis.medi.cv01 odieresis.medi.cv02 odieresis.medi.cv03 ograve ograve.fina ograve.fina.cv01 ograve.fina.cv02 ograve.fina.cv03 ograve.init ograve.isol ograve.medi.cv01 ograve.medi.cv02 ograve.medi.cv03 oe oe.fina oe.fina.cv01 oe.fina.cv02 oe.fina.cv03 oe.init oe.isol oe.medi.cv01 oe.medi.cv02 oe.medi.cv03 p p.fina p.fina.cv01 p.fina.cv02 p.fina.cv03 p.init p.isol p.medi.cv01 p.medi.cv02 p.medi.cv03 q q.fina q.fina.cv01 q.fina.cv02 q.fina.cv03 q.init q.isol q.medi.cv01 q.medi.cv02 q.medi.cv03 r r.fina r.fina.cv01 r.fina.cv02 r.fina.cv03 r.init r.isol r.medi.cv01 r.medi.cv02 r.medi.cv03 s s.fina s.fina.cv01 s.fina.cv02 s.fina.cv03 s.init s.isol s.medi.cv01 s.medi.cv02 s.medi.cv03 germandbls germandbls.fina germandbls.fina.cv01 germandbls.fina.cv02 germandbls.fina.cv03 germandbls.init germandbls.isol germandbls.medi.cv01 germandbls.medi.cv02 germandbls.medi.cv03 t t.fina t.fina.cv01 t.fina.cv02 t.fina.cv03 t.init t.isol t.medi.cv01 t.medi.cv02 t.medi.cv03 u u.fina u.fina.cv01 u.fina.cv02 u.fina.cv03 u.init u.isol u.medi.cv01 u.medi.cv02 u.medi.cv03 uacute uacute.fina uacute.fina.cv01 uacute.fina.cv02 uacute.fina.cv03 uacute.init uacute.isol uacute.medi.cv01 uacute.medi.cv02 uacute.medi.cv03 ucircumflex ucircumflex.fina ucircumflex.fina.cv01 ucircumflex.fina.cv02 ucircumflex.fina.cv03 ucircumflex.init ucircumflex.isol ucircumflex.medi.cv01 ucircumflex.medi.cv02 ucircumflex.medi.cv03 udieresis udieresis.fina udieresis.fina.cv01 udieresis.fina.cv02 udieresis.fina.cv03 udieresis.init udieresis.isol udieresis.medi.cv01 udieresis.medi.cv02 udieresis.medi.cv03 ugrave ugrave.fina ugrave.fina.cv01 ugrave.fina.cv02 ugrave.fina.cv03 ugrave.init ugrave.isol ugrave.medi.cv01 ugrave.medi.cv02 ugrave.medi.cv03 v v.fina v.fina.cv01 v.fina.cv02 v.fina.cv03 v.init v.isol v.medi.cv01 v.medi.cv02 v.medi.cv03 w w.fina w.fina.cv01 w.fina.cv02 w.fina.cv03 w.init w.isol w.medi.cv01 w.medi.cv02 w.medi.cv03 x x.fina x.fina.cv01 x.fina.cv02 x.fina.cv03 x.init x.isol x.medi.cv01 x.medi.cv02 x.medi.cv03 y y.fina y.fina.cv01 y.fina.cv02 y.fina.cv03 y.init y.isol y.medi.cv01 y.medi.cv02 y.medi.cv03 z z.fina z.fina.cv01 z.fina.cv02 z.fina.cv03 z.init z.isol z.medi.cv01 z.medi.cv02 z.medi.cv03";
+code = "a a.fina a.fina.cv01 a.fina.cv02 a.fina.cv03 a.init a.isol a.medi.cv01 a.medi.cv02 a.medi.cv03 aacute aacute.fina aacute.fina.cv01 aacute.fina.cv02 aacute.fina.cv03 aacute.init aacute.isol aacute.medi.cv01 aacute.medi.cv02 aacute.medi.cv03 acircumflex acircumflex.fina acircumflex.fina.cv01 acircumflex.fina.cv02 acircumflex.fina.cv03 acircumflex.init acircumflex.isol acircumflex.medi.cv01 acircumflex.medi.cv02 acircumflex.medi.cv03 adieresis adieresis.fina adieresis.fina.cv01 adieresis.fina.cv02 adieresis.fina.cv03 adieresis.init adieresis.isol adieresis.medi.cv01 adieresis.medi.cv02 adieresis.medi.cv03 agrave agrave.fina agrave.fina.cv01 agrave.fina.cv02 agrave.fina.cv03 agrave.init agrave.isol agrave.medi.cv01 agrave.medi.cv02 agrave.medi.cv03 ae ae.fina ae.fina.cv01 ae.fina.cv02 ae.fina.cv03 ae.init ae.isol ae.medi.cv01 ae.medi.cv02 ae.medi.cv03 b b.fina b.fina.cv01 b.fina.cv02 b.fina.cv03 b.init b.isol b.medi.cv01 b.medi.cv02 b.medi.cv03 c c.fina c.fina.cv01 c.fina.cv02 c.fina.cv03 c.init c.isol c.medi.cv01 c.medi.cv02 c.medi.cv03 ccedilla ccedilla.fina ccedilla.fina.cv01 ccedilla.fina.cv02 ccedilla.fina.cv03 ccedilla.init ccedilla.isol ccedilla.medi.cv01 ccedilla.medi.cv02 ccedilla.medi.cv03 d d.fina d.fina.cv01 d.fina.cv02 d.fina.cv03 d.init d.isol d.medi.cv01 d.medi.cv02 d.medi.cv03 e e.fina e.fina.cv01 e.fina.cv02 e.fina.cv03 e.init e.isol e.medi.cv01 e.medi.cv02 e.medi.cv03 eacute eacute.fina eacute.fina.cv01 eacute.fina.cv02 eacute.fina.cv03 eacute.init eacute.isol eacute.medi.cv01 eacute.medi.cv02 eacute.medi.cv03 ecircumflex ecircumflex.fina ecircumflex.fina.cv01 ecircumflex.fina.cv02 ecircumflex.fina.cv03 ecircumflex.init ecircumflex.isol ecircumflex.medi.cv01 ecircumflex.medi.cv02 ecircumflex.medi.cv03 edieresis edieresis.fina edieresis.fina.cv01 edieresis.fina.cv02 edieresis.fina.cv03 edieresis.init edieresis.isol edieresis.medi.cv01 edieresis.medi.cv02 edieresis.medi.cv03 egrave egrave.fina egrave.fina.cv01 egrave.fina.cv02 egrave.fina.cv03 egrave.init egrave.isol egrave.medi.cv01 egrave.medi.cv02 egrave.medi.cv03 f f.fina f.fina.cv01 f.fina.cv02 f.fina.cv03 f.init f.isol f.medi.cv01 f.medi.cv02 f.medi.cv03 g g.fina g.fina.cv01 g.fina.cv02 g.fina.cv03 g.init g.isol g.medi.cv01 g.medi.cv02 g.medi.cv03 h h.fina h.fina.cv01 h.fina.cv02 h.fina.cv03 h.init h.isol h.medi.cv01 h.medi.cv02 h.medi.cv03 i i.fina i.fina.cv01 i.fina.cv02 i.fina.cv03 i.init i.isol i.medi.cv01 i.medi.cv02 i.medi.cv03 idotless idotless.fina idotless.fina.cv01 idotless.fina.cv02 idotless.fina.cv03 idotless.init idotless.isol idotless.medi.cv01 idotless.medi.cv02 idotless.medi.cv03 iacute iacute.fina iacute.fina.cv01 iacute.fina.cv02 iacute.fina.cv03 iacute.init iacute.isol iacute.medi.cv01 iacute.medi.cv02 iacute.medi.cv03 icircumflex icircumflex.fina icircumflex.fina.cv01 icircumflex.fina.cv02 icircumflex.fina.cv03 icircumflex.init icircumflex.isol icircumflex.medi.cv01 icircumflex.medi.cv02 icircumflex.medi.cv03 idieresis idieresis.fina idieresis.fina.cv01 idieresis.fina.cv02 idieresis.fina.cv03 idieresis.init idieresis.isol idieresis.medi.cv01 idieresis.medi.cv02 idieresis.medi.cv03 igrave igrave.fina igrave.fina.cv01 igrave.fina.cv02 igrave.fina.cv03 igrave.init igrave.isol igrave.medi.cv01 igrave.medi.cv02 igrave.medi.cv03 j j.fina j.fina.cv01 j.fina.cv02 j.fina.cv03 j.init j.isol j.medi.cv01 j.medi.cv02 j.medi.cv03 jdotless jdotless.fina jdotless.fina.cv01 jdotless.fina.cv02 jdotless.fina.cv03 jdotless.init jdotless.isol jdotless.medi.cv01 jdotless.medi.cv02 jdotless.medi.cv03 k k.fina k.fina.cv01 k.fina.cv02 k.fina.cv03 k.init k.isol k.medi.cv01 k.medi.cv02 k.medi.cv03 l l.fina l.fina.cv01 l.fina.cv02 l.fina.cv03 l.init l.isol l.medi.cv01 l.medi.cv02 l.medi.cv03 m m.fina m.fina.cv01 m.fina.cv02 m.fina.cv03 m.init m.isol m.medi.cv01 m.medi.cv02 m.medi.cv03 n n.fina n.fina.cv01 n.fina.cv02 n.fina.cv03 n.init n.isol n.medi.cv01 n.medi.cv02 n.medi.cv03 ntilde ntilde.fina ntilde.fina.cv01 ntilde.fina.cv02 ntilde.fina.cv03 ntilde.init ntilde.isol ntilde.medi.cv01 ntilde.medi.cv02 ntilde.medi.cv03 o o.fina o.fina.cv01 o.fina.cv02 o.fina.cv03 o.init o.isol o.medi.cv01 o.medi.cv02 o.medi.cv03 oacute oacute.fina oacute.fina.cv01 oacute.fina.cv02 oacute.fina.cv03 oacute.init oacute.isol oacute.medi.cv01 oacute.medi.cv02 oacute.medi.cv03 ocircumflex ocircumflex.fina ocircumflex.fina.cv01 ocircumflex.fina.cv02 ocircumflex.fina.cv03 ocircumflex.init ocircumflex.isol ocircumflex.medi.cv01 ocircumflex.medi.cv02 ocircumflex.medi.cv03 odieresis odieresis.fina odieresis.fina.cv01 odieresis.fina.cv02 odieresis.fina.cv03 odieresis.init odieresis.isol odieresis.medi.cv01 odieresis.medi.cv02 odieresis.medi.cv03 ograve ograve.fina ograve.fina.cv01 ograve.fina.cv02 ograve.fina.cv03 ograve.init ograve.isol ograve.medi.cv01 ograve.medi.cv02 ograve.medi.cv03 oe oe.fina oe.fina.cv01 oe.fina.cv02 oe.fina.cv03 oe.init oe.isol oe.medi.cv01 oe.medi.cv02 oe.medi.cv03 p p.fina p.fina.cv01 p.fina.cv02 p.fina.cv03 p.init p.isol p.medi.cv01 p.medi.cv02 p.medi.cv03 q q.fina q.fina.cv01 q.fina.cv02 q.fina.cv03 q.init q.isol q.medi.cv01 q.medi.cv02 q.medi.cv03 r r.fina r.fina.cv01 r.fina.cv02 r.fina.cv03 r.init r.isol r.medi.cv01 r.medi.cv02 r.medi.cv03 s s.fina s.fina.cv01 s.fina.cv02 s.fina.cv03 s.init s.isol s.medi.cv01 s.medi.cv02 s.medi.cv03 germandbls germandbls.fina germandbls.fina.cv01 germandbls.fina.cv02 germandbls.fina.cv03 germandbls.init germandbls.isol germandbls.medi.cv01 germandbls.medi.cv02 germandbls.medi.cv03 t t.fina t.fina.cv01 t.fina.cv02 t.fina.cv03 t.init t.isol t.medi.cv01 t.medi.cv02 t.medi.cv03 u u.fina u.fina.cv01 u.fina.cv02 u.fina.cv03 u.init u.isol u.medi.cv01 u.medi.cv02 u.medi.cv03 uacute uacute.fina uacute.fina.cv01 uacute.fina.cv02 uacute.fina.cv03 uacute.init uacute.isol uacute.medi.cv01 uacute.medi.cv02 uacute.medi.cv03 ucircumflex ucircumflex.fina ucircumflex.fina.cv01 ucircumflex.fina.cv02 ucircumflex.fina.cv03 ucircumflex.init ucircumflex.isol ucircumflex.medi.cv01 ucircumflex.medi.cv02 ucircumflex.medi.cv03 udieresis udieresis.fina udieresis.fina.cv01 udieresis.fina.cv02 udieresis.fina.cv03 udieresis.init udieresis.isol udieresis.medi.cv01 udieresis.medi.cv02 udieresis.medi.cv03 ugrave ugrave.fina ugrave.fina.cv01 ugrave.fina.cv02 ugrave.fina.cv03 ugrave.init ugrave.isol ugrave.medi.cv01 ugrave.medi.cv02 ugrave.medi.cv03 v v.fina v.fina.cv01 v.fina.cv02 v.fina.cv03 v.init v.isol v.medi.cv01 v.medi.cv02 v.medi.cv03 w w.fina w.fina.cv01 w.fina.cv02 w.fina.cv03 w.init w.isol w.medi.cv01 w.medi.cv02 w.medi.cv03 x x.fina x.fina.cv01 x.fina.cv02 x.fina.cv03 x.init x.isol x.medi.cv01 x.medi.cv02 x.medi.cv03 y y.fina y.fina.cv01 y.fina.cv02 y.fina.cv03 y.init y.isol y.medi.cv01 y.medi.cv02 y.medi.cv03 z z.fina z.fina.cv01 z.fina.cv02 z.fina.cv03 z.init z.isol z.medi.cv01 z.medi.cv02 z.medi.cv03";
 name = Lowercase;
 }
 );
@@ -103,7 +103,7 @@ code = "@Medial=[a aacute acircumflex adieresis agrave ae b c ccedilla d e eacut
 
 @Final=[$[name endswith \".fina\"]];
 
-@Base=[e eacute egrave ecircumflex edieresis oe ae c l s germandbls x $[name beginswith \"e.\"] $[name beginswith \"eacute.\"] $[name beginswith \"egrave.\"] $[name beginswith \"ecircumflex.\"] $[name beginswith \"edieresis.\"] $[name beginswith \"oe.\"] $[name beginswith \"ae.\"] $[name beginswith \"c.\"] $[name beginswith \"l.\"] $[name beginswith \"s.\"] $[name beginswith \"germandbls.\"] $[name beginswith \"x.\"]];
+@Base=[e eacute egrave ecircumflex edieresis oe ae c ccedilla l s germandbls x $[name beginswith \"e.\"] $[name beginswith \"eacute.\"] $[name beginswith \"egrave.\"] $[name beginswith \"ecircumflex.\"] $[name beginswith \"edieresis.\"] $[name beginswith \"oe.\"] $[name beginswith \"ae.\"] $[name beginswith \"c.\"] $[name beginswith \"ccedilla.\"] $[name beginswith \"l.\"] $[name beginswith \"s.\"] $[name beginswith \"germandbls.\"] $[name beginswith \"x.\"]];
 
 @BaseMedial=[$[name endswith \".medi.cv01\"]];
 
@@ -144,6 +144,14 @@ lookup MEDIAL {
 	sub @Top @Medial' by @TopMedial;
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
+
+lookup CAPS {
+	@capsSimple=[G.ss04];
+	@capsSimple.init=[$[name endswith \".init.ss04\"]];
+	@capsOrn=[G.ss05];
+	@capsOrn.init=[$[name endswith \".init.ss05\"]];
+	sub [@capsSimple @capsOrn]' @Lowercase by [@capsSimple.init @capsOrn.init];
+} CAPS;
 
 sub J' T by J.calt;
 pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
@@ -198,30 +206,6 @@ value = "Seven with bar";
 }
 );
 tag = ss03;
-},
-{
-automatic = 1;
-code = "sub G by G.ss04;
-";
-labels = (
-{
-language = dflt;
-value = "Simplified cursive caps";
-}
-);
-tag = ss04;
-},
-{
-automatic = 1;
-code = "sub G by G.ss05;
-";
-labels = (
-{
-language = dflt;
-value = "Swashed cursive caps";
-}
-);
-tag = ss05;
 },
 {
 code = "sub a by a.isol;
@@ -552,6 +536,30 @@ sub z.fina by z.fina.cv03;
 ";
 disabled = 1;
 tag = cv03;
+},
+{
+automatic = 1;
+code = "sub G by G.ss04;
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss04;
+},
+{
+automatic = 1;
+code = "sub G by G.ss05;
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss05;
 }
 );
 fontMaster = (
@@ -1310,107 +1318,102 @@ unicode = 71;
 },
 {
 color = 6;
-glyphname = G.ss04;
+glyphname = G.init.ss04;
 kernLeft = O;
 kernRight = O;
-lastChange = "2023-06-30 14:10:27 +0000";
+lastChange = "2023-07-06 12:39:22 +0000";
 layers = (
 {
+anchors = (
+{
+name = "#fina";
+pos = (586,17);
+}
+);
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
 closed = 1;
 nodes = (
-(485,-14,o),
-(585,116,o),
-(585,273,cs),
-(585,347,l),
-(554,355,o),
-(525,355,o),
-(493,347,c),
-(493,273,ls),
-(493,153,o),
-(416,77,o),
-(320,77,cs),
-(176,77,o),
-(106,205,o),
-(106,364,cs),
-(106,546,o),
-(200,635,o),
-(307,635,cs),
-(383,635,o),
-(446,591,o),
-(472,519,c),
-(500,518,o),
-(542,537,o),
-(551,565,c),
-(511,668,o),
-(421,725,o),
-(310,725,cs),
-(119,725,o),
-(11,561,o),
-(11,364,cs),
-(11,153,o),
-(115,-14,o),
-(320,-14,cs)
+(529,-14,o),
+(629,116,o),
+(629,273,cs),
+(629,347,l),
+(598,355,o),
+(569,355,o),
+(537,347,c),
+(537,273,ls),
+(537,153,o),
+(460,77,o),
+(364,77,cs),
+(220,77,o),
+(150,205,o),
+(150,364,cs),
+(150,546,o),
+(244,635,o),
+(351,635,cs),
+(427,635,o),
+(490,591,o),
+(516,519,c),
+(544,518,o),
+(586,537,o),
+(595,565,c),
+(555,668,o),
+(465,725,o),
+(354,725,cs),
+(163,725,o),
+(55,561,o),
+(55,364,cs),
+(55,153,o),
+(159,-14,o),
+(364,-14,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(531,-514,o),
-(585,-437,o),
-(585,-274,cs),
-(585,278,l),
-(493,278,l),
-(493,-274,ls),
-(493,-373,o),
-(468,-424,o),
-(409,-424,cs),
-(362,-424,o),
-(334,-390,o),
-(334,-334,cs),
-(334,-250,o),
-(401,-163,o),
-(533,-81,c),
-(511,14,l),
-(328,-96,o),
-(239,-211,o),
-(239,-338,cs),
-(239,-443,o),
-(308,-514,o),
-(406,-514,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(613,-41,o),
-(686,6,o),
-(719,29,c),
-(715,64,o),
-(700,91,o),
-(672,108,c),
-(635,88,o),
-(562,37,o),
-(543,20,c),
-(582,-62,l)
+(575,-514,o),
+(629,-437,o),
+(629,-274,cs),
+(629,278,l),
+(537,278,l),
+(537,-274,ls),
+(537,-373,o),
+(512,-424,o),
+(453,-424,cs),
+(406,-424,o),
+(378,-390,o),
+(378,-334,cs),
+(378,-250,o),
+(445,-163,o),
+(577,-81,c),
+(555,14,l),
+(372,-96,o),
+(283,-211,o),
+(283,-338,cs),
+(283,-443,o),
+(352,-514,o),
+(450,-514,cs)
 );
 }
 );
-width = 653;
+width = 757;
 }
 );
-metricLeft = C.ss05;
+metricLeft = O;
+metricRight = g;
 },
 {
-color = 6;
-glyphname = G.ss05;
-kernLeft = O;
-kernRight = O;
-lastChange = "2023-06-30 14:10:27 +0000";
+glyphname = G.init.ss05;
+lastChange = "2023-07-06 12:48:24 +0000";
 layers = (
 {
+anchors = (
+{
+name = "#fina";
+pos = (676,17);
+}
+);
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
@@ -1488,26 +1491,59 @@ nodes = (
 (438,-514,o),
 (536,-514,cs)
 );
+}
+);
+width = 843;
+}
+);
+metricRight = g;
 },
 {
-closed = 1;
-nodes = (
-(743,-41,o),
-(816,6,o),
-(849,29,c),
-(845,64,o),
-(830,91,o),
-(802,108,c),
-(765,88,o),
-(692,37,o),
-(673,20,c),
-(712,-62,l)
-);
+color = 6;
+glyphname = G.ss04;
+kernLeft = O;
+kernRight = O;
+lastChange = "2023-07-06 12:40:49 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = G.init.ss04;
+},
+{
+pos = (474,-22);
+ref = _part.z.fin;
 }
 );
-width = 783;
+width = 757;
 }
 );
+metricLeft = O;
+metricRight = g.fina;
+},
+{
+color = 6;
+glyphname = G.ss05;
+kernLeft = O;
+kernRight = O;
+lastChange = "2023-07-06 12:48:28 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = G.init.ss05;
+},
+{
+pos = (564,-22);
+ref = _part.z.fin;
+}
+);
+width = 843;
+}
+);
+metricRight = g.fina;
 },
 {
 color = 6;
@@ -6622,7 +6658,7 @@ color = 10;
 glyphname = ccedilla.medi.cv02;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-06-30 14:10:27 +0000";
+lastChange = "2023-07-06 12:49:39 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
