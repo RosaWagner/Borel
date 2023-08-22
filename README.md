@@ -6,7 +6,7 @@
 
 ![Bonjour](documentation/images/Bonjour.jpg)
 
-Comment penser la typographie pour l’apprentissage conjoint de la lecture et de l’écriture? Développé avec des enseignants du primaire et des orthophonistes, ce projet cherche à reconnecter les signes que l'on apprend à lire et ceux que l’on apprend à écrire. 
+Comment penser la typographie pour l’apprentissage conjoint de la lecture et de l’écriture? Développé avec des enseignants du primaire et des orthophonistes, ce projet cherche à harmoniser, dans la mesure du possible, les signes que l'on apprend à lire et ceux que l’on apprend à écrire. 
 
 Un système typographique a donc été pensé dans cette logique, pour établir une continuité entre tracé cursif et forme typographique. **Borel** (nommé en hommage à Suzanne Borel-Maisonny, pionnière de l’orthophonie) est un caractère robuste, peu contrasté, avec une grande hauteur d'x. Les lettres sont ouvertes et bien distinctes, tout en respectant les règles de l’écriture dans les écoles françaises. **Borel Guides**, qui permet d'afficher des lignes de cahier, vient compléter ce système qui met en valeur l'accessibilité, l'adaptabilité et la cohérence.
 
@@ -61,6 +61,30 @@ J'ai donc adapté les proportions de Borel afin que la hauteur d'x corresponde �
 
 Conventionnellement, la hauteur des capitales est la même que la hauteur des ascendantes, ou légèrement plus petite. Ceci dans le cas où les ascendantes sont droites comme dans n'importe quelle Serif (ex. Times New Roman), ou Sans-Serif (ex: Arial, Comic Sans). Dans l'écriture cursive en France, nous utilisons la boucle pour joindre l'ascendante par le haut; l'amplitude de la boucle augmente la hauteur de l'ascendante. Mais les lettres comme `t`, `d`, `q`, ainsi que les capitales qui ne bénéficient pas de cette jonction, sont donc plus petites que les grandes boucles.
 
+**Pourquoi les capitales ne sont-elles pas cursives?** 
+
+Traditionnellement, une fonte cursive présente un modèle de capitales qui est lui-même cursif. Seulement ces capitales cursives ne supportent qu'une cohérence esthétique et oublie l'aspect pédagogique:
+
+- Elles ont des formes compliquées qui prêtent à confusion (par exemple. S, T, C), particulièrement pour les enfants présentant des troubles des apprentissages.
+- Elles ne correspondent pas à des modèles de calligraphie logique par rapport au geste ou à l'outil d'écriture.
+- Elles représentent un modèle additionnel à apprendre. Les enfants doivent déjà apprendre à lire les versions capitales et minuscules typographique d'une lettre, ils doivent en plus apprendre à écrire cette même lettre dans une forme légèrement différente dans sa forme cursive. Il ne semble donc pas nécessaire d'alourdir l'apprentissage en ajoutant la version capitale cursive qui de plus est naturellement abandonnée par l'étudiant lorsqu'il grandit.
+- D'un pays à l'autre, les modèles de capitales cursives diffèrent considérablement.
+
+Les capitales typographiques (dites "bâton"), en revanche, sont celles initialement introduites en maternelle[^8] pour des raisons pertinentes:
+
+- Elles sont simples. Former les capitales typographiques nécessite seulement de savoir faire des traits droits (horizontaux, verticaux, obliques) et des ronds (entier, semi, ouverts) —à l'exception seul du S qui sort un peu du lot. Ces formes font partie des apprentissages moteurs en maternelle et il n'est donc pas nécessaire d'ajouter un programme spécifique au dessin les capitales.  
+- Elles sont immuables. Qu'elle que soit la police choisie ou la langue latine, leur structure reste globalement constante.
+
+Il est donc plus intéressant d'un point de vu pédagogique de garder les capitales typographie dans la police Borel. Cela-dit, une prochaine version proposera des formes cursives simplifiées afin d'amener une esthétique cohérente à la police. Cette version sera destinée aux enfants qui ont une appétence particulière pour l'exercice d'écriture ou de calligraphie, ou encore pour les entreprises et éditeurs qui utilisent la police en dehors du contexte pédagogique.
+
+**Pourquoi enseigner l'écriture cursive en maternelle et primaire?**
+
+Certains pensent qu'en plein ère numérique il n'est plus nécessaire d'enseigner l'écriture cursive. Pourtant de nombreuses études démontrent le contraire:[^9]
+
+- Le style cursif, en plus d'être prédictif de meilleures compétences en écriture, semble plus facile à apprendre pour les jeunes enfants à l'école primaire.
+- Le développement des compétences en matière d'écriture académique (orthographie, grammaire, aisance d'écriture) pourrait être efficacement soutenu par des stratégies de formation axées sur l'écriture cursive.
+- Les enfants qui ont appris à écrire uniquement en cursive présentent des performances supérieures en orthographe et en syntaxe par rapport aux deux autres groupes. Il n'est donc pas conseillé d'enseigner les minuscules typographiques (que ce soit comme seul enseignement ou en amont de l'introduction aux formes cursives).
+
 ## Processus de design
 Pour que la police soit un parfait modèle pour l'apprentissage de l'écriture, chaque lettre existe sous forme de 10 variantes contextuelles.
 
@@ -87,6 +111,11 @@ Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
 ## À venir
 
 À condition de trouver les financements, il est envisagé de developper le projet Borel pour lui permettre de s'adapter encore mieux aux besoins des enseignants et de la recherche.
+
+**Support linguistique:**
+- [ ] Turque
+- [ ] Vietnamien
+- [ ] Portugais
 
 **Axes de variabilité:**
 - [ ] Graisse
@@ -151,3 +180,5 @@ La structure de ce répertoire github est inspiré de l'[Unified Font Repository
 [^7]: Pour plus d'information sur le sujet, *[Legibility, How and why typography affects ease of reading](https://legible-typography.com/en/)*, Mary C. Dyson, [Design Regression](https://designregression.com), 2023 
 
 [^8]: Pour plus d'informations sur le sujet, *[Le geste d'écriture](https://legestedecriture.fr), Méthode d'apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité*, Danièle Dumont, Hatier, 2016
+
+[^9] Semeraro C, Coppola G, Cassibba R, Lucangeli D. [*Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills.*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6366728/) PLoS One. 2019 Feb 7;14(2):e0209978. doi: 10.1371/journal.pone.0209978. PMID: 30730894; PMCID: PMC6366728.
