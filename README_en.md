@@ -84,6 +84,8 @@ Some people believe that in the digital age, teaching cursive writing is no long
 - The development of academic writing skills (spelling, grammar, writing fluency) could be effectively supported by training strategies focused on cursive writing.
 - Children who have learned to write exclusively in cursive show better performance in spelling and syntax. Therefore, it is not recommended to teach typographic lowercase letters at all (either as the sole instruction or as a precursor to introducing cursive forms).
 
+The study linked in the bibliography is fascinating in that regard and refers to even more passionating articles. Read the full article to know more about this subject.
+
 ## Design Process
 To create a font that serves as an ideal model for handwriting instruction, each letter in Borel has been crafted in 10 contextual variants.
 
