@@ -4,7 +4,7 @@
 
 ![Bonjour](documentation/images/Bonjour.jpg)
 
-What considerations should be taken into account when approaching typography in the context of simultaneous learning of reading and writing? Developed with primary school teachers and speech therapists, this project aims to reconnect the signs that we learn to read with those that we learn to write.
+What considerations should be taken into account when approaching typography in the context of simultaneous learning of reading and writing? Developed with primary school teachers and speech therapists, this project aims to harmonise the signs that we learn to read with those that we learn to write.
 
 The **Borel** project is a typographic toolbox which aims to establish a seamless connection between cursive strokes and common typographic structure. This typeface, named in tribute to Suzanne Borel-Maisonny, a pioneer in speech therapy, boasts a sturdy design featuring low contrast and a generous x-height. The letters are intentionally open and clearly differentiated while adhering to the conventions of writing in French schools. Complementing this system, **Borel Guides** enables the display of notebook lines, further enhancing the emphasis on accessibility, adaptability, and overall coherence.
 
@@ -60,6 +60,30 @@ Consequently, the proportions of Borel have been adjusted so that the x-height c
 
 Traditionally, uppercase letters have been designed to match the height of ascenders or be slightly smaller. This is the case for serif typefaces (like Times New Roman) or sans-serif typefaces (like Arial and Comic Sans). However, in French cursive writing, a loop is used to connect ascenders from the top, which increases their height. Consequently, letters such as "t", "d", "q", as well as uppercase letters that don't have this connection, appear smaller compared to the expansive large loops.
 
+**Why there is no cursive capitals?**
+
+Traditionally, a cursive font features a set of capital letters that are themselves in cursive style. However, these cursive capitals only prioritize aesthetic consistency and overlook the pedagogical aspect:
+
+- They have complicated shapes that lead to confusion (for example, S, T, C), especially for children with learning disabilities.
+- They don't align with logical calligraphy models based on handwriting gestures or tools.
+- They introduce an additional pattern to learn. Children already need to learn how to read both typographic uppercase and lowercase; they already learn how to write curives lowercase and print upercases. Adding another different cursive uppercase version to write seems unnecessary, especially since students naturally abandon cursive capitals as they grow older.
+- Cursive capital models vary significantly from one country to another.
+
+Typographic capitals (often called "print"), on the other hand, were initially introduced in french kindergarten[^8] for relevant reasons:
+
+- They are simple. Tracing printed capitals only requires the ability to make straight lines (horizontal, vertical, diagonal) and circles (full, half, open) — with the exception of the S. These shapes are part of motor skill development in kindergarten, so there's no need to add a specific program for drawing capitals.
+- They are consistent. Regardless of the chosen font or the Latin language used, their structure remains largely constant.
+
+Therefore, from a pedagogical standpoint, it is more beneficial to retain print capitals in the Borel font. However, a future version will offer simplified cursive forms to provide a coherent aesthetic to the font. This version will be intended for children with a particular interest in writing or calligraphy exercises, as well as for businesses and publishers using the font outside of educational contexts.
+
+**Why do we still teach cursive handwriting?**
+
+Some people believe that in the digital age, teaching cursive writing is no longer necessary. However, numerous studies demonstrate the opposite:[^9]
+
+- Cursive style, in addition to predicting better writing skills, appears to be easier for young children to learn in primary school.
+- The development of academic writing skills (spelling, grammar, writing fluency) could be effectively supported by training strategies focused on cursive writing.
+- Children who have learned to write exclusively in cursive show better performance in spelling and syntax. Therefore, it is not recommended to teach typographic lowercase letters at all (either as the sole instruction or as a precursor to introducing cursive forms).
+
 ## Design Process
 To create a font that serves as an ideal model for handwriting instruction, each letter in Borel has been crafted in 10 contextual variants.
 
@@ -85,6 +109,11 @@ For detailed instructions on using Borel Guides, please refer to the following d
 ## Future
 
 Subject to securing funding, there are plans to further develop the Borel project to better cater to the needs of educators and research.
+
+**linguistic coverage:**
+- [ ] Turkish
+- [ ] Vietnamese
+- [ ] Portuguese
 
 **Variability axes:**
 - [ ] Weight
