@@ -83,7 +83,7 @@ Certains pensent qu'en plein ère numérique il n'est plus nécessaire d'enseign
 
 - Le style cursif, en plus d'être prédictif de meilleures compétences en écriture, semble plus facile à apprendre pour les jeunes enfants à l'école primaire.
 - Le développement des compétences en matière d'écriture académique (orthographie, grammaire, aisance d'écriture) pourrait être efficacement soutenu par des stratégies de formation axées sur l'écriture cursive.
-- Les enfants qui ont appris à écrire uniquement en cursive présentent des performances supérieures en orthographe et en syntaxe par rapport aux deux autres groupes. Il n'est donc pas conseillé d'enseigner les minuscules typographiques (que ce soit comme seul enseignement ou en amont de l'introduction aux formes cursives).
+- Les enfants qui ont appris à écrire uniquement en cursif présentent des performances supérieures en orthographe et en syntaxe. Il n'est donc pas conseillé d'enseigner les minuscules typographiques (que ce soit comme seul enseignement ou en amont de l'introduction aux formes cursives).
 
 ## Processus de design
 Pour que la police soit un parfait modèle pour l'apprentissage de l'écriture, chaque lettre existe sous forme de 10 variantes contextuelles.
