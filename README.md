@@ -181,4 +181,4 @@ La structure de ce répertoire github est inspiré de l'[Unified Font Repository
 
 [^8]: Pour plus d'informations sur le sujet, *[Le geste d'écriture](https://legestedecriture.fr), Méthode d'apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité*, Danièle Dumont, Hatier, 2016
 
-[^9] Semeraro C, Coppola G, Cassibba R, Lucangeli D. [*Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills.*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6366728/) PLoS One. 2019 Feb 7;14(2):e0209978. doi: 10.1371/journal.pone.0209978. PMID: 30730894; PMCID: PMC6366728.
+[^9]: Semeraro C, Coppola G, Cassibba R, Lucangeli D. [*Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills.*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6366728/) PLoS One. 2019 Feb 7;14(2):e0209978. doi: 10.1371/journal.pone.0209978. PMID: 30730894; PMCID: PMC6366728.
