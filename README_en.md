@@ -180,3 +180,5 @@ This documentation is translated from French with some help from DeepL and ChatG
 [^7]: For more information on the subject, *[Legibility, How and why typography affects ease of reading](https://legible-typography.com/en/)*, Mary C. Dyson, [Design Regression](https://designregression.com), 2023.
 
 [^8]: For more information on the subject, *[Le geste d'écriture](https://legestedecriture.fr), Méthode d'apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité*, Danièle Dumont, Hatier, 2016.
+
+[^9]: Semeraro C, Coppola G, Cassibba R, Lucangeli D. Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills. PLoS One. 2019 Feb 7;14(2):e0209978. doi: 10.1371/journal.pone.0209978. PMID: 30730894; PMCID: PMC6366728. ↩
