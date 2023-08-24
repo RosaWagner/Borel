@@ -1,4 +1,4 @@
-# Borel, a typographic system for primary school.
+# Borel, a handwriting font for primary school.
 
 ## Learning to read, learning to write
 
@@ -6,7 +6,7 @@
 
 What considerations should be taken into account when approaching typography in the context of simultaneous learning of reading and writing? Developed with primary school teachers and speech therapists, this project aims to harmonise the signs that we learn to read with those that we learn to write.
 
-The **Borel** project is a typographic toolbox which aims to establish a seamless connection between cursive strokes and common typographic structure. This typeface, named in tribute to Suzanne Borel-Maisonny, a pioneer in speech therapy, boasts a sturdy design featuring low contrast and a generous x-height. The letters are intentionally open and clearly differentiated while adhering to the conventions of writing in French schools. Complementing this system, **Borel Guides** enables the display of notebook lines, further enhancing the emphasis on accessibility, adaptability, and overall coherence.
+The **Borel** project aims to harmonise cursive strokes and common typographic structure. This typeface, named in tribute to Suzanne Borel-Maisonny, a pioneer in speech therapy, boasts a sturdy design featuring low contrast and a generous x-height. The letters are intentionally open and clearly differentiated while adhering to the conventions of writing in French schools. Complementing the project, **Borel Guides** enables the display of notebook lines, further enhancing the emphasis on accessibility, adaptability, and overall coherence.
 
 **Teachers are invited to provide feedback on their use of Borel after experimenting with their students.**
 
