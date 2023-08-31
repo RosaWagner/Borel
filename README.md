@@ -118,7 +118,7 @@ Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
 - [x] Espagnol
 - [x] Allemand
 - [x] Portugais
-- [ ] Turque
+- [x] Turque
 - [ ] Vietnamien
 
 **Axes de variabilité:**
