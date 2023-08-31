@@ -113,9 +113,13 @@ Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
 À condition de trouver les financements, il est envisagé de developper le projet Borel pour lui permettre de s'adapter encore mieux aux besoins des enseignants et de la recherche.
 
 **Support linguistique:**
+- [x] Anglais
+- [x] Français / Italien
+- [x] Espagnol
+- [x] Allemand
+- [x] Portugais
 - [ ] Turque
 - [ ] Vietnamien
-- [ ] Portugais
 
 **Axes de variabilité:**
 - [ ] Graisse
