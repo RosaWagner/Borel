@@ -131,6 +131,18 @@ lookup locl_latn_0;
 tag = locl;
 },
 {
+code = "lookup other {
+	lookupflag IgnoreMarks;
+	sub J' T by J.calt; 
+} other;
+
+lookup quotes {
+	lookupflag IgnoreMarks;
+	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
+} quotes;";
+tag = calt;
+},
+{
 code = "# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
 @Medial=[a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove atilde ae b c ccedilla d dcroat e eacute ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z]; 
 
@@ -188,18 +200,8 @@ lookup MEDIAL {
 	sub @Top @Medial' by @TopMedial;
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
-
-lookup other {
-	lookupflag IgnoreMarks;
-	sub J' T by J.calt; 
-} other;
-
-lookup quotes {
-	lookupflag IgnoreMarks;
-	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
-} quotes;
 ";
-tag = calt;
+tag = rlig;
 },
 {
 code = "pos [exclamdown questiondown] <0 240 0 0>;
@@ -15073,7 +15075,7 @@ color = 1;
 glyphname = dcroat;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:06:25 +0000";
 layers = (
 {
 color = 7;
@@ -15082,7 +15084,7 @@ shapes = (
 {
 alignment = -1;
 pos = (57,0);
-ref = _part.d;
+ref = _part.dcroat;
 },
 {
 alignment = -1;
@@ -15107,13 +15109,13 @@ color = 1;
 glyphname = dcroat.fina;
 kernLeft = no_kerning;
 kernRight = d;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:07:01 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
-ref = d;
+ref = dcroat;
 },
 {
 pos = (417,0);
@@ -15131,13 +15133,13 @@ color = 1;
 glyphname = dcroat.fina.cv01;
 kernLeft = no_kerning;
 kernRight = d;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:07:08 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
-ref = d.medi.cv01;
+ref = dcroat.medi.cv01;
 },
 {
 pos = (389,0);
@@ -15155,13 +15157,13 @@ color = 1;
 glyphname = dcroat.fina.cv02;
 kernLeft = no_kerning;
 kernRight = d;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:07:23 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
-ref = d.medi.cv02;
+ref = dcroat.medi.cv02;
 },
 {
 pos = (367,0);
@@ -15179,13 +15181,13 @@ color = 1;
 glyphname = dcroat.fina.cv03;
 kernLeft = no_kerning;
 kernRight = d;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:07:28 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
-ref = d.medi.cv03;
+ref = dcroat.medi.cv03;
 },
 {
 pos = (306,0);
@@ -15203,7 +15205,7 @@ color = 1;
 glyphname = dcroat.init;
 kernLeft = o;
 kernRight = no_kerning;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:06:50 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -15211,7 +15213,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-27,0);
-ref = _part.d;
+ref = _part.dcroat;
 },
 {
 alignment = -1;
@@ -15230,14 +15232,14 @@ color = 1;
 glyphname = dcroat.isol;
 kernLeft = o;
 kernRight = d;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:07:34 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
 alignment = -1;
-ref = d.init;
+ref = dcroat.init;
 },
 {
 pos = (333,0);
@@ -15255,7 +15257,7 @@ color = 1;
 glyphname = dcroat.medi.cv01;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:06:50 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -15268,7 +15270,7 @@ ref = _part.n.out;
 {
 alignment = -1;
 pos = (29,0);
-ref = _part.d;
+ref = _part.dcroat;
 },
 {
 alignment = -1;
@@ -15287,7 +15289,7 @@ color = 1;
 glyphname = dcroat.medi.cv02;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-09-15 13:48:48 +0000";
+lastChange = "2023-09-19 10:06:50 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -15295,7 +15297,7 @@ shapes = (
 {
 alignment = -1;
 pos = (7,0);
-ref = _part.d;
+ref = _part.dcroat;
 },
 {
 alignment = -1;
@@ -15319,7 +15321,7 @@ color = 1;
 glyphname = dcroat.medi.cv03;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2023-09-15 13:48:10 +0000";
+lastChange = "2023-09-19 10:06:50 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -15332,7 +15334,7 @@ ref = _part.o.in.cv03;
 {
 alignment = -1;
 pos = (-54,0);
-ref = _part.d;
+ref = _part.dcroat;
 },
 {
 alignment = -1;
@@ -44875,7 +44877,43 @@ width = 763;
 color = 3;
 export = 0;
 glyphname = _part.d;
-lastChange = "2023-09-15 13:49:33 +0000";
+lastChange = "2023-09-19 10:05:53 +0000";
+layers = (
+{
+guides = (
+{
+pos = (328,840);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(508,472,l),
+(508,840,l),
+(492,845,o),
+(478,847,o),
+(463,847,cs),
+(445,847,o),
+(428,844,o),
+(417,840,c),
+(417,472,l)
+);
+},
+{
+ref = _part.a;
+}
+);
+width = 675;
+}
+);
+},
+{
+color = 3;
+export = 0;
+glyphname = _part.dcroat;
+lastChange = "2023-09-19 10:06:18 +0000";
 layers = (
 {
 guides = (
