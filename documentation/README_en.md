@@ -31,23 +31,23 @@ If the font doesn't appear in the font dropdown menu, you can still find it in t
 
 ## Activate Contextual Alternates
 
-The use of Borel depends greatly on "contextual alternatives", which is an option that allows the font to choose the appropriate letter form based on the surrounding letters and thus connect them.
+The use of Borel depends greatly on the "required ligatures", which is an option that allows the font to choose the appropriate letter form based on the surrounding letters and thus connect them.
 
-This option is activated by default in many desktop and web application but not in Micsoft Office apps. If the letters don't connect, follow these steps below.
+This option is activated by default in many desktop and web application but if the letters don't connect, follow these steps below:
 
 ### Mac
 
 1. Select the text.
 2. Go to `Format` > `Font` or `Show Fonts`.
 3. Look for `Typography` or `Advanced` section.
-4. Check the `Use Contextual Alternates` box.
+4. In `Ligatures`, choose `All`.
 
 ### Windows
 
 1. Select the text.
 2. Right-click and choose `Font` or `Font Settings`.
 3. Go to `Advanced` tab.
-4. Check the `Use Contextual Alternates` box.
+4. In `Ligatures`, choose `All`.
 
 ## Borel Guide: Color and Variable fonts
 
