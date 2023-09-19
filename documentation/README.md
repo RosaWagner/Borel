@@ -33,9 +33,9 @@ Si la police n'apparait pas dans le menu déroulant de l'application, vous pouve
 
 ## Activer les alternatives contextuelles
 
-L'utilisation de Borel dépend largement des "alternatives contextuelles", qui est une option permettant à la police de choisir la forme appropriée de la lettre en fonction des lettres environnantes et ainsi de les connecter.
+L'utilisation de Borel dépend largement des "ligatures requises", qui est une option permettant à la police de choisir la forme appropriée de la lettre en fonction des lettres environnantes et ainsi de les connecter.
 
-Cette option est activée par défaut dans de nombreuses applications de bureau et web, mais pas dans les applications de Microsoft Office. Si les lettres ne se connectent pas, suivez ces étapes ci-dessous.
+Cette option est activée par défaut dans de nombreuses applications de bureau et web, mais si les lettres ne se connectent pas, suivez ces étapes ci-dessous pour:
 
 ###
 
@@ -44,14 +44,14 @@ Cette option est activée par défaut dans de nombreuses applications de bureau 
 1. Sélectionnez le texte.
 2. Allez dans `Format` > `Police`.
 3. Recherchez la section `Typographie` ou `Avancé`.
-4. Cochez la case `Utiliser les alternatives contextuelles`.
+4. Dans "Ligatures" choisissez `Toutes`.
 
 ### Windows
 
 1. Sélectionnez le texte.
 2. Cliquez avec le bouton droit de la souris et choisissez `Police` ou `Paramètres de police`.
 3. Accédez à l'onglet `Avancé`.
-4. Cochez la case `Utiliser les alternatives contextuelles`.
+4. Dans "Ligatures" choisissez `Toutes`.
 
 ## Guide Borel : Police Couleur et Variable 
 
