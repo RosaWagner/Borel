@@ -1,5 +1,5 @@
 {
-.appVersion = "3226";
+.appVersion = "3231";
 .formatVersion = 3;
 classes = (
 {
@@ -53550,7 +53550,6 @@ rlig
 );
 }
 );
-exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };
@@ -53595,6 +53594,7 @@ name = "Replace Feature";
 value = "rlig;@high=[a.init a.isol c.init c.isol d.init d.isol g.init g.isol  o.init o.isol  m.init m.isol n.init n.isol q.init q.isol v.init v.isol w.init w.isol y.init y.isol];\012\012@short=[C E];\012@long=[$[name endswith \".long\"]];\012\012#sub @short' @high by @long;";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };
@@ -53791,6 +53791,9 @@ j.isol = -80;
 "@MMK_R_seven" = -80;
 "@MMK_R_z" = -40;
 "@MMK_R_zero" = -30;
+};
+"@MMK_L_N.cv04" = {
+"@MMK_R_o" = -100;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -15;
@@ -54376,9 +54379,6 @@ slash = -150;
 x.isol = {
 "@MMK_R_Y" = -70;
 };
-"@MMK_L_N.cv04" = {
-"@MMK_R_o" = -100;
-};
 };
 };
 metrics = (
@@ -54492,5 +54492,5 @@ tH = "80";
 };
 };
 versionMajor = 1;
-versionMinor = 5;
+versionMinor = 6;
 }
