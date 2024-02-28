@@ -53,6 +53,16 @@ Cette option est activée par défaut dans de nombreuses applications de bureau 
 3. Accédez à l'onglet `Avancé`.
 4. Cochez la case Utiliser `les alternatives contextuelles`
 
+## Activer les jeux stylistiques pour utiliser les variantes des lettres "françaises" (Z et 7)
+
+Borel a deux "jeux stylistiques" (variantes de style) pour permettre de changer la forme de certains signes par rapport aux canons internationaux. Aucune police n'a la lettre Z et le chiffre 7 avec une barre au milieu, pourtant c'est bien comme ceci qu'on apprend à les écrire à l'école en France. Il est aussi courant de mettre le chiffre 1 sur un petit socle pour lui donner plus de poids dans une suite de chiffres. On trouve généralement ce style dans les polices dites "monospace ou "monochasse" (tous les signes ont la même largeur) mais c'est plus rare dans les polices "à chasse proportionnelle" comme celle-ci.
+
+Borel donne donc l'option aux utilisateurs d'activer:
+set 01: Z et 7 avec barre au milieu[^1]
+set 02: 1 avec ligne du dessous
+
+Pour activer ces sets, il suffit de suivre les étapes 1 à 3 décrites précédemment, puis activer le set voulu.
+
 ## Guide Borel : Police Couleur et Variable 
 
 - Borel Guides est une *fonte couleur*. Il s'agit d'un format spécial qui permet à une police de contenir et d'afficher des palettes de couleurs à l'écran. Si vous ne voyez pas les couleurs dans votre éditeur de texte, cela signifie que votre logiciel ne prend pas en charge cette technologie.
@@ -70,3 +80,7 @@ Dans MS Word, vous pouvez utiliser Borel pour écrire le texte principal. Ensuit
 - L'espacement entre les lignes est déjà configuré pour les éditeurs de texte courants tels que Word, Page ou TextEdit. Néanmoins, assurez-vous que Borel et Borel Guide ont la même valeur pour qu'ils se superposent parfaitement. Définissez l'interlignage sur `1` pour une meilleure expérience.
 
 - Dans InDesign, vous devrez utiliser un interlignage double pour permettre au quadrillage de s'emboîter parfaitement d'une ligne à l'autre. Par exemple, si vous choisissez une taille de police de `24 pt`, choisissez un espacement des lignes de `48 pt`.
+
+### Notes
+
+[^1]:Dans une version précédente de la police Borel, le 7 avec barre était dans le set 03, il a été regroupé à partir de la version 1.007, dans le même set que le Z pour une utilisation plus simple de la police.

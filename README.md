@@ -114,12 +114,13 @@ Veuillez trouvez toutes les informations sur Borel Guides dans ce document:
 
 **Support linguistique:**
 - [x] Anglais
-- [x] Français / Italien
+- [x] Français
+- [x] Italien
 - [x] Espagnol
 - [x] Allemand
 - [x] Portugais
 - [x] Turque
-- [ ] Vietnamien
+- [x] Vietnamien
 
 **Axes de variabilité:**
 - [ ] Graisse
