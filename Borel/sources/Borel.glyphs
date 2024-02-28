@@ -72,9 +72,9 @@ automatic = 1;
 code = "feature locl;
 feature calt;
 feature case;
+feature ordn;
 feature ss01;
 feature ss02;
-feature ordn;
 ";
 tag = aalt;
 },
@@ -219,9 +219,9 @@ lookup quotes {
 } quotes;
 
 lookup arrows {
-	sub hyphen hyphen greater by rightArrow;
-	sub hyphen hyphen less by leftArrow;
-	sub less hyphen greater by leftRightDoubleArrow;
+	sub hyphen greater by rightArrow;
+	sub hyphen less by leftArrow;
+	sub less greater by leftRightDoubleArrow;
 } arrows;
 
 ";
@@ -44710,27 +44710,28 @@ unicode = 94;
 {
 color = 10;
 glyphname = percent;
-lastChange = "2024-02-28 08:36:43 +0000";
+lastChange = "2024-02-28 09:49:41 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
 shapes = (
 {
 alignment = -1;
+pos = (0,-124);
 ref = degree;
 },
 {
 alignment = -1;
-pos = (366,0);
+pos = (372,0);
 ref = slash;
 },
 {
 alignment = -1;
-pos = (643,-372);
+pos = (663,-487);
 ref = degree;
 }
 );
-width = 1157;
+width = 1177;
 }
 );
 unicode = 37;
