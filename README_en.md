@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C5TZAYG)
+
 # Borel, a handwriting font for primary school.
 
 ## Learning to read, learning to write

@@ -9,6 +9,7 @@ instance_ufo
 *.idlk
 *.indd
 *(Autosaved)*
+*.ninja
 
 # OS generated files #
 ######################

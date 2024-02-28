@@ -1,3 +1,5 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C5TZAYG)
+
 # Borel, un système typographique pour l'école primaire.
 
 ### Find the english version of this documentation here: [Borel, a typographic system for primary school](./README_en.md).
