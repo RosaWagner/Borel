@@ -1,188 +1,192 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C5TZAYG)
 
-# Borel, a handwriting font for primary school.
+# Borel, a cursive font for elementary school.
 
-## Learning to read, learning to write
+![Bonjour](documentation/images/Bonjour.png)
 
-![Bonjour](documentation/images/Bonjour.jpg)
+### Learning to read, learning to write
 
-What considerations should be taken into account when approaching typography in the context of simultaneous learning of reading and writing? Developed with primary school teachers and speech therapists, this project aims to harmonise the signs that we learn to read with those that we learn to write.
+What typographic factors should be considered when teaching reading and writing simultaneously? Initiated in 2017 at the ANRT (research post-master, Nancy, France), this font project was developed in collaboration with teachers and speech therapists, aiming to question educational typographic conventions and explore non-disruptive solutions.
 
-The **Borel** project aims to harmonise cursive strokes and common typographic structure. This typeface, named in tribute to Suzanne Borel-Maisonny, a pioneer in speech therapy, boasts a sturdy design featuring low contrast and a generous x-height. The letters are intentionally open and clearly differentiated while adhering to the conventions of writing in French schools. Complementing the project, **Borel Guides** enables the display of notebook lines, further enhancing the emphasis on accessibility, adaptability, and overall coherence.
+The traditional cursive style taught in French primary schools has an high ascender/x-height ratio, arguing against its legibility at the size of practice. This can pose as a challenge for all beginner readers, particularly those with learning disabilities. Thus, *Borel* aims to harmonise cursive strokes with more common typographic structures that are recognised for enhancing readability. This typeface, named in tribute to Suzanne Borel-Maisonny (a french pioneer in speech therapy), features a robust design with a low contrast and a generous x-height. The letters are intentionally open and clearly differentiated while adhering to the conventions of writing in French schools.
 
-**Teachers are invited to provide feedback on their use of Borel after experimenting with their students.**
+The font is open-source and therefore accessible to all on Google Fonts: [https://fonts.google.com/specimen/Borel](https://fonts.google.com/specimen/Borel), enabling teachers, students, researchers, and publishers to freely use it in their educational materials and beyond.
 
-Currently, there is little to no empirical research focusing on the legibility of cursive fonts within the framework of literacy development. Researchers with a interest in this area are encouraged to get in touch with Rosalie Wagner to explore potential collaborations aimed at generating experimental material tailored to this particular approach.
+The documentation also exists in French on a github repository, follow to not miss a new release: [https://github.com/RosaWagner/Borel](https://github.com/RosaWagner/Borel)
 
-## Tutorials
-- [Download the fonts](./documentation/README_en.md#download-the-fonts)
-- [Install the fonts](./documentation/README_en.md#install-the-fonts)
-- [What to do if the letters do not connect](./documentation/README_en.md#activate-contextual-alternates)
-- [Using Borel and Borel Guides together](./documentation/README_en.md#using-borel-and-borel-guide-together)
+### Glossary
 
-## Glossary
-There are many typographic terms, but it is important for adults to know them in order to understand the Borel project and the rest of this documentation.
+There are many typographic terms, but it is important for adults to know some of them in order to understand the *Borel* project and the rest of this documentation.
 
-![Typographic terms](./documentation/images/height_en.jpg)
+![Traditional vertical metrics terms](documentation/images/height_en.png)*Traditional typographic terms to describe vertical metrics*
 
-To simplify for children, we can use the term "area" instead. This approach provides greater flexibility in writing exercises and aligns more logically with the varying sizes of ascenders commonly observed in typography.
+To simplify for children, we can use the term “area” instead. This approach provides greater flexibility in writing exercises and aligns more logically with the varying sizes of ascenders commonly observed in typography.
 
-![Terms adapted for children](./documentation/images/height2_en.jpg)
+![Simplified terms for childrens](documentation/images/height2_en.png)*Simplified terms for children to define typographic zones*
 
-## Proportions
+### The French cursive
 
-Traditional school cursive fonts are disproportionate compared to the handwriting fonts used in everyday life—those found in books, on screens, or in signage. If we look at the cursive fonts used in French schools, the ascenders are supposed to be three times the size of the x-height. Considering that the size of letters is often limited to the lines of the notebook, this means that the x-height is compressed between two lines, which most often have a height of 1.5 or 2mm. These proportions are inherited from the combined use of the famous Séyès ruling and a calligraphic style specific to the use of reservoir pens from previous centuries.
+Some people believe that in the digital age, teaching cursive writing is no longer necessary. However, a recent study[^1] has demonstrated the opposite:
+
+- The cursive style, in addition to predicting better writing skills, appears to be easier for young children to learn in primary school.
+- The development of academic writing skills (spelling, grammar, writing fluency) could be effectively supported by training strategies focused on cursive writing.
+- Children who have learned to write exclusively in cursive show better performance in spelling and syntax. Therefore, it is not recommended to teach roman typographic lowercase letters at all (either as the sole instruction or as a precursor to introducing cursive forms).
+
+The handwriting taught in French primary schools is therefore still relevant, but it is not without pitfalls to analyse and, if necessary, correct.
+
+This is an example of a typical French cursive handwriting, drawn by a teacher. 
+
+![A teacher's alphabet](documentation/images/french_cursive_abc.gif)*“Affichage alphabet 4 écritures” (“Display of alphabet in 4 writing styles”) from the [blog of “Estelle”](https://estelledocs.eklablog.com/affichage-alphabet-4-ecritures-a112643642), 2014. One of the numerous teacher’s blog proposing handcrafted educational resources.*
+
+This style exhibits several features:
+
+* **The ascenders are reaching three times the size of the x-height**, which is significantly taller compared to what we see in a more common typographic environment (books, screen, signage etc.), and especially regarding what we know about readability.
+
+* **The capital letters often follow the cursive style**, although it is not recommended anymore since they can be challenging for beginning writers—they are hard to trace and some letter shapes are easily confusable for readers.
+
+* **The script has an upright angle**, which is actually thoughtful for the left handed people. If the upright angle is hard to reproduce for some children, they can rotate their sheet to be more comfortable.
+
+* **It follows a rounded aesthetic.** 
+
+* **Some letters (like ‘b’, ‘f’, ‘r’, ‘s’, ‘x’, ‘z’, and ‘Z’) have unique shapes** that are different from what you might see in other countries. 
+
+* **The “Séyès” lines — a system of guidelines — dictate the proportions of the letters**, with the lowercase letters using one line, ascenders using three lines, and so on.
+
+### An issue of proportion
+
+The main issue that the *Borel* project aims to address is the **1/3 ratio** between the ascender height and the x-height. Indeed, the letter size is often confined to the lines of a notebook, which means that the x-height is compressed between two lines, typically measuring **1.5 to 2 millimeters**. These proportions are a legacy of the combined use of the Séyès ruling system and a calligraphic style that was popular when reservoir pens were widely used in previous centuries.
+
+![Extract of a student’s schoolbook](documentation/images/mathieu_blog.jpg)*Extract of a student’s schoolbook from the [blog of “Monsieur Mathieu”](https://monsieurmathieu.fr/tag/ecriture), 2023, teacher in elementary school. This is an example of a writing exercice commonly found in 1st grade.*
+
+![Cahier d’écolier 1906](documentation/images/1906.jpg)*“Cahier d’écolier de René Courteaux de 1906” (School book of René Courteaux, 1906), [https://fragments-histoires.com](https://fragments-histoires.com/Cahier-d-ecolier-de-Rene-Courteux.html?id_document=2014#documents_portfolio)*
 
 However, there exist several compelling arguments that prompt us to question these conventions:
 
-1. The readability of words is significantly influenced by the height of the "zone of small letters." Remarkably, the letters encompassed within the baseline and the x-height constitute approximately 65% of our alphabet (excluding accented letters), and they also have the highest frequency of occurrence in French (approximately 80%).[^1] Consequently, attributing excessive significance to uppercase letters and ascenders/descenders appears rather illogical.
+**The readability of words is significantly influenced by the height of the “small letters”.** Remarkably, the letters encompassed within the baseline and the x-height constitute approximately 60% of our alphabet (excluding accented letters), and they also have the highest frequency of occurrence in French (approximately 80%).[^2] Consequently, attributing excessive space to uppercase letters and ascenders/descenders, decreasing the significance of the small letters in the process, appears rather illogical.
 
-2. The perceived size of a typeface can appear larger or smaller depending on the ratio between the x-height and ascender height. For instance, when *Times New Roman* or *Arial* are set in a 12pt font size, *Arial* will appear larger due to its taller x-height.[^2] To compensate for the decreased legibility of a cursive font with ascender height three times greater than the x-height, it is necessary to increase the overall font size. Unfortunately, this practice is rarely adopted by teachers, and it becomes challenging when adhering to the Séyès ruling for text composition.
+![Distribution of letter heights within a basic latin alphabet](documentation/images/lowercase_percentage.png)*Distribution of letter heights within a basic latin alphabet*
 
-3. A wider line spacing is also essential to prevent collisions between ascenders and descenders across multiple lines. However, an excessively tight or loose line spacing can negatively affect legibility.[^3] Traditional cursive fonts that align with notebook lines often result in a cramped appearance, while skipping a line can create an overly spacious feel.
+**The perceived size of a typeface can appear larger or smaller depending on the ratio between the x-height and ascender height.** For instance, when *Times New Roman* or *Arial* are set in 12pt, *Arial* will appear larger due to its taller x-height.[^3] To compensate for the decreased legibility of a cursive font with ascender height three times greater than the x-height, it is necessary to increase the overall font size. Unfortunately, this practice is rarely adopted by teachers, and it becomes challenging when adhering to the Séyès ruling for text composition.
 
-4. When reading continuous text at a standard distance of 40cm, adults with normal reading abilities require the x-height to be between 1.5mm and 14mm to ensure readability.[^4] Remarkably, 1.5mm represents the minimum threshold of legibility for adults! Studies have indicated that beginning readers, particularly those with dyslexia, benefit from slightly larger characters.[^5] A study supporting this proposition found that Times New Roman yielded better reading outcomes at 18pt until the end of the first grade, corresponding to an x-height of 2.84mm (equivalent to Borel in 16pt). It is important to note that these figures are not universally applicable to all children but serve as a general guideline.
+![X-height comparison between Arial and Times New Roman.](documentation/images/Arial_Times.png)*X-height comparison between Arial and Times New Roman.*
 
-5. The proportions of x-height and ascender height observed in France (x-height being one-third of the ascender height) are rarely, if ever, found abroad.[^6] This demonstrates that there is not a single standardized approach, and there are limited reasons to perpetuate such a rigid system.
+**When reading continuous text at a standard distance of 40cm, adults with normal reading abilities require the x-height to be between 1.5mm and 14mm to ensure proper readability.[^4]** Remarkably, 1.5mm represents the minimum threshold of legibility for adult readers. Several studies have indicated that beginner readers, particularly those with dyslexia, benefit from a larger font size. **As a matter of fact, children in elementary school tend to have faster reading comprehension when the x-height is around 5mm.[^5]** In children’s books, x-heights typically range from 4mm (for 5-year-olds) to 2mm (for 11-year-olds). It was first found that children under 10 showed improved reading speed with the font size used for 5-year-olds. Building on this, children aged 7–8 were tested with *Arial* font sizes ranging from 22pt (4.2mm) to 26pt (5mm): the results revealed that reading speed peaked when the x-height was 5mm—without altering the comprehension as demonstrated in a correction study[^6].
 
-Nevertheless, during the acquisition of writing skills, it is crucial to train fingers and eyes to distinguish between small and large letters. Achieving a size that allows for fine motor skill development—transitioning from small loops to larger ones using only the fingers, not the entire hand—is paramount. Therefore, it is necessary to establish a clear distinction between x-height and ascender height without excessively compromising legibility. Moreover, it is practically impossible to deviate from Séyès ruled writing notebooks in the French education system, necessitating a critical examination of conventional cursive writing norms while still considering this factor.
+**Unfortunately, fonts commonly used by teachers can’t be sized up to resolve this legibility issue.** Indeed, the ratio x-height/ascender would remain the same, and the long loops would be even longer and clashing with the Séyès guidelines.
 
-**Hence, the Borel project faces the challenge of striking the right balance between x-height and ascender height to achieve:**
+![Dumont Maternelle by Danièle Dumont](documentation/images/line-height/finally.gif)*“Dumont Maternelle” by Danièle Dumont is a popular typeface among educators. Despite its beautiful execution, the conventional proportions prevent from scaling-up to a more comfortable body size.*
 
-- Legibility without unnecessary constraints[^7]
+The typeface *Dumont Maternelle* by Danièle Dumont is one of the few typefaces for elementary school that is actually well made and recommended by official instances of the french education system. This is why we use it as an example here, any other one wouldn't be a serious comparison.
+
+**A wider line spacing is also essential to prevent collisions between ascenders and descenders across multiple lines.** However, an excessively tight or loose line spacing can negatively affect legibility.[^7] Traditional cursive fonts that align with notebook lines often result in a cramped appearance, while skipping a line can create an overly spacious feel. 
+
+![Interline spacing issue](documentation/images/line-height/affordable_chocolate.gif)*The conventional proportions also prevent from proper paragraph composition; the interline space is either too short or too large.*
+
+**These proportions as observed in France are rarely, if ever, found abroad.[^8]** This demonstrates that there is not a single standardised approach, and there are limited reasons to perpetuate such a rigid system. 
+
+![primarium project](documentation/images/primarium.png)*[TypeTogether](https://www.type-together.com) conducted research on school handwriting models used around the world and identified (until now) 68 different models for 40 countries. See [primarium.info](https://primarium.info)*
+
+Nevertheless, during the acquisition of writing skills, it is crucial to train fingers and eyes to distinguish between small and large letters. Achieving a size that allows for fine motor skill development — transitioning from small loops to larger ones using only the fingers, not the entire hand — is essential.[^9] Therefore, it is necessary to establish a clear distinction between x-height and ascender height without excessively compromising legibility.
+
+Moreover, it is practically impossible to deviate from the Séyès guideline system from writing notebooks in the French education system, necessitating a critical examination of conventional cursive writing norms while still considering this factor.
+
+**Beyond these proportions, other typographic elements influence readability, especially at a small distance.** Sofie Beier’s research provides valuable insights on this. For instance, a bolder weight[^10], a wider width[^11] (or at least *not* a narrow width), and low contrast strokes[^12] can contribute to better comprehension and reading speed.
+
+It is interesting to note that traditional cursive fonts often feature a very light strokes. This is partly due to design constraints — thickening the strokes in such a small space could distort the letter’s identification at small size— and the will to mimic the ballpoint pen. This stresses the importance of increasing letter size to accommodate a bolder weight.
+
+**Finally, a common design issue disrupts the natural rhythm of words.** In an effort to simplify the design process, letters are frequently connected at a consistent height, which forces them to join at an identical diagonal angle. While this makes all connections uniform—and thus easier to make for the designer—,it results in a rigid and overly regular appearance. 
+
+![primarium project](documentation/images/rythm.gif)*From top to bottom: Écriture A (by Malou Verlomme, Laurence Bedoin, Marion Andrews), Gaston (by Jean Boyault) and Écolier (by JM Douteau).*
+
+This is the case with these free typefaces. *Écriture A*, commissioned by the French Ministry of Education and designed by professional type designers, is elegantly crafted but was developed without input from teachers or reference to educational research. As a result, it fails to reflect the conventional rounded forms and does not follow the Séyès guidelines, making it unpopular among educators. *Gaston* and *Écolier*, on the other hand, were created by non-professional designers. Although poorly executed, they are widely used by teachers because they align more closely with the traditional shapes teachers themselves learned to write with. Ultimately, none of these typefaces are truly suited to the needs of children learning to read and write.
+
+For words to be easily deciphered, it is essential that individual letters remain clearly distinguishable. The rigidity of uniform connections tends to homogenize word shapes—especially at small sizes—and fails to reflect the natural rhythm of handwriting. This is often why teachers resort to using hand-crafted models: letters connect at varying heights and angles, allowing for a more natural flow and helping guide a child’s hand more effectively.
+
+## Borel’s design
+
+The design of *Borel* took initially place during a 18 month research program at the [ANRT](https://anrt-nancy.fr/en), France. The project was initiated following an extensive analysis of research on readability, dyslexia, and the learning process of reading and writing. Throughout the design journey, professionals in the fields of speech therapy and education were involved and their valuable insights were taken into account.
+
+The Borel project faces the challenge of finding the right balance between x-height and ascender height to achieve:
+
+- Legibility without unnecessary constraints[^13]
 - Clear decoding of graphemes
-- Development of proficient handwriting skills[^8]
+- Development of proficient handwriting skills
 - Adaptation to notebook lines
 
-Consequently, the proportions of Borel have been adjusted so that the x-height corresponds to the height of two notebook lines, while the height of large loops aligns with four lines. This adjustment ensures a more harmonious relationship with conventional Roman characters, and hopefully, a better legibility.
+Therefore Borel’s x-height is one half of the ascender height. This adjustment allows to scale-up the x-height to 2 lines and the ascenders to 4 lines, giving enough space to thicken the stroke—without altering the letter legibility—and achieving a more harmonious interline spacing. 
 
-![Borel over all conventional notebook lines](./documentation/images/height3.jpg)
+![Borel's interline space](documentation/images/line-height/borel_chocolate.gif)*Borel allows a reasonable interline spacing.*
 
-**Why are uppercase letters smaller than large loops?**
+The design adhere to the traditional cursive style, featuring rounded curves and fluid connections. The upright angle of the letters also benefits left-handed children, making writing more accessible. Additionally, the curves of the letters and the connecting strokes follow distinct dynamics, helping to prevent confusion between letterforms within words.
 
-Traditionally, uppercase letters have been designed to match the height of ascenders or be slightly smaller. This is the case for serif typefaces (like Times New Roman) or sans-serif typefaces (like Arial and Comic Sans). However, in French cursive writing, a loop is used to connect ascenders from the top, which increases their height. Consequently, letters such as "t", "d", "q", as well as uppercase letters that don't have this connection, appear smaller compared to the expansive large loops.
+![Borel's curves](documentation/images/minimum.gif)*Borel has upright curves and rounded connections.*
 
-**Why there is no cursive capitals?**
+With four positioning variants and four types of connections, the system includes ten alternate letterforms, allowing for a smooth and natural  writing flow.
 
-Traditionally, a cursive font features a set of capital letters that are themselves in cursive style. However, these cursive capitals only prioritize aesthetic consistency and overlook the pedagogical aspect:
+![Borel's connections](documentation/images/connections.png)*Each letters exists in 10 variants to achieve a smooth and natural flow.*
 
-- They have complicated shapes that lead to confusion (for example, S, T, C), especially for children with learning disabilities.
-- They don't align with logical calligraphy models based on handwriting gestures or tools.
-- They introduce an additional pattern to learn. Children already need to learn how to read both typographic uppercase and lowercase; they already learn how to write curives lowercase and print upercases. Adding another different cursive uppercase version to write seems unnecessary, especially since students naturally abandon cursive capitals as they grow older.
+Every individual letter underwent a meticulous study to ensure a seamless, fluid, and uninterrupted writing experience. The primary objective was to create a ductus that was both straightforward and unambiguous, tailored to the needs of children as they developed their fine motor skills.
+
+Consider the evolution of the letter ‘a’ in a student’s handwriting as they progress and gain proficiency, gradually transitioning from a learned basic ductus to a potential confusing forms.
+
+![How the writing instructions can influence future writing skills.](documentation/images/ductus.jpg)*How the writing instructions can influence future writing skills.*
+
+The default capitals are roman and not cursive. Traditionally, a cursive font features a set of capital letters that are themselves in cursive style. However, these cursive capitals only prioritise aesthetic consistency and overlook the pedagogical aspect:
+
+- **They have complicated shapes** that lead to confusion (for example S, T, C), especially for children with learning disabilities.
+- **They don’t align with logical calligraphy models** based on handwriting gestures or tools.
+- **They introduce an additional pattern to learn.** Children already need to learn how to read both typographic uppercase and lowercase; they already learn how to write cursive lowercases and print uppercases. Adding another different cursive uppercase version to write seems unnecessary, especially since students naturally abandon cursive capitals as they grow older.
 - Cursive capital models vary significantly from one country to another.
 
-Typographic capitals (often called "print"), on the other hand, were initially introduced in french kindergarten[^8] for relevant reasons:
+Typographic roman capitals, on the other hand, are introduced in french kindergarten for relevant reasons:
 
-- They are simple. Tracing printed capitals only requires the ability to make straight lines (horizontal, vertical, diagonal) and circles (full, half, open) — with the exception of the S. These shapes are part of motor skill development in kindergarten, so there's no need to add a specific program for drawing capitals.
-- They are consistent. Regardless of the chosen font or the Latin language used, their structure remains largely constant.
+- **They are simple:** tracing printed capitals only requires the ability to make straight lines (horizontal, vertical, diagonal) and circles (full, half, open) — with the exception of the S. These shapes are part of motor skill development in kindergarten, so there’s no need to add a specific program for drawing capitals.
+- **They are consistent:** regardless of the chosen font or the Latin language used, their structure remains largely constant.
 
-Therefore, from a pedagogical standpoint, it is more beneficial to retain print capitals in the Borel font. However, a future version will offer simplified cursive forms to provide a coherent aesthetic to the font. This version will be intended for children with a particular interest in writing or calligraphy exercises, as well as for businesses and publishers using the font outside of educational contexts.
+Therefore, from a pedagogical standpoint, it is more beneficial to retain roman capitals in the *Borel* font. 
 
-**Why do we still teach cursive handwriting?**
+## Borel’s different styles
 
-Some people believe that in the digital age, teaching cursive writing is no longer necessary. However, numerous studies demonstrate the opposite:[^9]
+To answer the need of several instances, such as more traditional teachers or less conventional publishers, Borel comes in different styles.
 
-- Cursive style, in addition to predicting better writing skills, appears to be easier for young children to learn in primary school.
-- The development of academic writing skills (spelling, grammar, writing fluency) could be effectively supported by training strategies focused on cursive writing.
-- Children who have learned to write exclusively in cursive show better performance in spelling and syntax. Therefore, it is not recommended to teach typographic lowercase letters at all (either as the sole instruction or as a precursor to introducing cursive forms).
-
-The study linked in the bibliography is fascinating in that regard and refers to even more passionating articles. Read the full article to know more about this subject.
-
-## Design Process
-To create a font that serves as an ideal model for handwriting instruction, each letter in Borel has been crafted in 10 contextual variants.
-
-![10 contextual variations per letter](./documentation/images/process_en.jpg)
-
-The design of Borel was initiated following an extensive analysis of research on readability, dyslexia, and the learning process of reading and writing. Throughout the design journey, professionals in the fields of speech therapy and education were involved and their valuable insights were taken into account.
-
-Every individual letter underwent a meticulous study to ensure a seamless, fluid, and uninterrupted writing experience. The primary objective was to create a ductus that was both straightforward and unambiguous, catering to the needs of children as they developed their fine motor skills.
-
-Consider the evolution of the letter 'a' in a student's handwriting as they progress and gain proficiency, gradually transitioning from a learned basic ductus to a potential confusing forms. 
-
-![Progression of the letter 'a' based on an acquired foundational ductus](./documentation/images/exemple_a.png)
-
-## Borel Guides
-
-Borel Guides is a font specifically designed for creating notebook lines. It perfectly aligns with the Borel font and offers a range of color palettes to suit the preferences of young writers. Additionally, it provides a wide selection of linear patterns to align with specific teaching objectives or font styles. Teachers can also use Borel Guides with fonts other than Borel, as the patterns have been designed with flexibility in mind.
-
-For detailed instructions on using Borel Guides, please refer to the following document:
-**[Borel Guides Instructions](./documentation/proof/BorelGuides-Instructions_en.pdf)**.
-
-![Example of grid patterns](./documentation/images/grille.jpg)
-
-## Future
-
-Subject to securing funding, there are plans to further develop the Borel project to better cater to the needs of educators and research.
-
-**linguistic coverage:**
-- [ ] Turkish
-- [ ] Vietnamese
-- [ ] Portuguese
-
-**Variability axes:**
-- [ ] Weight
-- [ ] Width
-- [ ] Spacing
-- [ ] HyperExpansion
-- [ ] Slant
-
-![Design Space](./documentation/images/designspace.jpg)
-
-It would be interesting to be able to vary the proportions of the font in order to test these different parameters:
-
-- [ ] Ascender-height
-- [ ] Caps-height
-- [ ] x-height
-
-**Styles:**
-- [ ] Dotted 
-- [ ] Outlined 
-- [ ] Guided
-
-![Styles fo education](./documentation/images/styles.jpg)
-
-**Alternates:**
-- [ ] Simplified cursive capitals
-- [ ] Swashed capitals
-
-![Capital variants](./documentation/images/capitales.jpg)
-
-## Bio
-
-[Rosalie Wagner](http://rosaliewagner.com) holds a Master's degree in Fine Arts from Lyon in 2016 and a post-master's degree from ANRT Nancy (National Workshop of Typographic Research) in 2019. She has received training in typeface engineering at Black Foundry (Paris) and Alphabet Type (Berlin). Based in Berlin, she works as an independent Type Designer and Font Engineer for Google Fonts since 2020. She has collaborated with foundries such as 205TF, Fontwerk, NaN, Fatype, as well as various independent designers and communication studios.
-
-- **Presentation of the Borel project at ANRT**, 2019, [[Video](https://anrt-nancy.fr/fr/videos#video-325200518)]
-- **Baskervville**, 2017, [[Google Fonts](https://fonts.google.com/specimen/Baskervville)] — *collaborative design, italic design, correction and development of the Roman, font production.*
-- **Arima Greek**, 2018, [[Google Fonts](https://fonts.google.com/specimen/Arima?noto.script=Grek&query=Arima&subset=greek)] — *design and Greek adaptation of Arima by NDiscover, under the direction of Emilios Theofanous and Irene Vlachou.*
-
-## License
-
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at https://scripts.sil.org/OFL
-
-## Repository Layout
-
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
-
-### About the translation
-This documentation is translated from French with some help from DeepL and ChatGPT4.
+                | Borel | Borel Orn | Borel Orn Round | Borel Display | Borel Display Round | Borel FR Traditional
+----------------|-------|-----------|-----------------|---------------|---------------------|---------------------
+Roman capitals  |  [X]  |    [ ]    |       [ ]       |      [ ]      |         [ ]         |           [ ]       
+Cursive capitals|  [ ]  |    [X]    |       [X]       |      [X]      |         [X]         |           [X]       
+A               |       |    /\     |       ()        |      /\       |         ()          |           /\        
+M               |       |    /\     |       ()        |      /\       |         ()          |           /\        
+N               |       |    /\     |       ()        |      /\       |         ()          |           /\        
+V               |       |    /\     |       ()        |      /\       |         ()          |           ()        
+W               |       |    /\     |       ()        |      /\       |         ()          |           ()        
+X               |       |    /\     |       ()        |      /\       |         ()          |           ()        
+Interline       |  200% |    200%   |      200%       |      150%     |         150%        |         200%        
 
 ### Notes
 
-[^1]: The University of Toulouse compiled in 2008 [the frequency of letters in the entire French Wikipedia](https://fr.wikipedia.org/wiki/Fréquence_d%27apparition_des_lettres).
+^1 Semeraro C, Coppola G, Cassibba R, Lucangeli D (2019) *Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills.* Plos One .14. 2. doi: [10.1371/journal.pone.0209978](https://doi.org/10.1371/journal.pone.0209978).
 
-[^2]: *[Does print size matter for reading? A review of findings from vision science and typography](https://jov.arvojournals.org/article.aspx?articleid=2191906#88123043)*, Gordon E. Legge; Charles A. Bigelow, Journal of Vision August 2011, Vol.11, 8. doi:https://doi.org/10.1167/11.5.8
+^2 The University of Toulouse compiled in 2008 the [frequency of letters in the entire French Wikipedia](https://fr.wikipedia.org/wiki/Fréquence_d%27apparition_des_lettres)).
 
-[^3]: *[Influence de la typographie sur l’aisance de lecture d’une population d’enfants dyslexiques. Master Thesis.](https://dumas.ccsd.cnrs.fr/dumas-01302521/document)*, Klein V., Bordeaux: University of Bordeaux, 2010.
+^3 Legge GE, Bigelow CA. (2011) *Does print size matter for reading? A review of findings from vision science and typography*. Journal of Vision. 11. 8. doi: [10.1167/11.5.8.](https://doi.org/10.1167/11.5.8)
 
-[^4]: Gordon E. Legge, Charles A. Bigelow, *op. cit.*
+^4 Legge GE, Bigelow CA, *op. cit.*
 
-[^5]: Klein V., *op. cit.*
+^5 Hughes, Laura & Wilkins, Arnold. (2000). *Typography in children’s reading schemes may be suboptimal: Evidence from measures of reading rate.* Journal of Research in Reading. 23. 314–324. doi: [10.1111/1467–9817.00126.](https://doi.org/10.1111/1467-9817.00126)
 
-[^6]: For more information on the subject, TypeTogether has recently undertaken [a global research on school scripts around the world](https://primarium.info).
+^6 Wilkins, Arnold & Cleave, Roanna & Grayson, Nicola & Wilson, Louise. (2009). *Typography for children may be inappropriately designed.* Journal of Research in Reading. 32. 402–412. doi: [10.1111/j.1467–9817.2009.01402.x.](https://doi.org/10.1111/j.1467-9817.2009.01402.x)
 
-[^7]: For more information on the subject, *[Legibility, How and why typography affects ease of reading](https://legible-typography.com/en/)*, Mary C. Dyson, [Design Regression](https://designregression.com), 2023.
+^7 Virginia Klein. (2010). *Influence de la typographie sur l’aisance de lecture d’une population d’enfants dyslexiques.* Université Bordeaux Segalen — Bordeaux 2. Sciences cognitives. HAL id: [dumas-01302521f](https://dumas.ccsd.cnrs.fr/dumas-01302521v1).
 
-[^8]: For more information on the subject, *[Le geste d'écriture](https://legestedecriture.fr), Méthode d'apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité*, Danièle Dumont, Hatier, 2016.
+^8 TypeTogether has recently undertaken a global research on school scripts around the world: *[primarium.info](https://primarium.info).*
 
-[^9]: Semeraro C, Coppola G, Cassibba R, Lucangeli D. Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills. PLoS One. 2019 Feb 7;14(2):e0209978. doi: 10.1371/journal.pone.0209978. PMID: 30730894; PMCID: PMC6366728. ↩
+^9 Danièle Dumont. (2016). *Le geste d’écriture, Méthode d’apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité.* Hatier.
+
+^10 Beier, Sofie & Oderkerk, Chiron. (2019). *Smaller visual angles show greater benefit of letter boldness than larger visual angles.* Acta Psychologica. 199. doi: [102904. 10.1016/j.actpsy.2019.102904.](https://www.sciencedirect.com/science/article/pii/S000169181830581X?via%3Dihub)
+
+^11 Oderkerk, C. A. T., & Beier, S. (2021). *Fonts of wider letter shapes improve letter recognition in parafovea and periphery. Ergonomics, 65 (5), 753–761. doi: [10.1080/00140139.2021.1991001](https://www.tandfonline.com/doi/full/10.1080/00140139.2021.1991001)
+
+^12 Minakata, Katsumi & Eckmann-Hansen, Christina & Larsen, Michael & Bek, Toke & Beier, Sofie. (2023). *The effect of serifs and stroke contrast on low vision reading.* Acta Psychologica. 232. doi: [103810. 10.1016/j.actpsy.2022.103810.](https://www.sciencedirect.com/science/article/pii/S0001691822003250?via%3Dihub)
+
+^13 For more informations on the subject of legibility and typography: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
+
+
