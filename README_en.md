@@ -149,17 +149,17 @@ Therefore, from a pedagogical standpoint, it is more beneficial to retain roman 
 
 To answer the need of several instances, such as more traditional teachers or less conventional publishers, Borel comes in different styles.
 
-                | Borel | Borel Orn | Borel Orn Round | Borel Display | Borel Display Round | Borel FR Traditional
-----------------|-------|-----------|-----------------|---------------|---------------------|---------------------
-Roman capitals  |  [X]  |    [ ]    |       [ ]       |      [ ]      |         [ ]         |           [ ]       
-Cursive capitals|  [ ]  |    [X]    |       [X]       |      [X]      |         [X]         |           [X]       
-A               |       |    /\     |       ()        |      /\       |         ()          |           /\        
-M               |       |    /\     |       ()        |      /\       |         ()          |           /\        
-N               |       |    /\     |       ()        |      /\       |         ()          |           /\        
-V               |       |    /\     |       ()        |      /\       |         ()          |           ()        
-W               |       |    /\     |       ()        |      /\       |         ()          |           ()        
-X               |       |    /\     |       ()        |      /\       |         ()          |           ()        
-Interline       |  200% |    200%   |      200%       |      150%     |         150%        |         200%        
+|                 | Borel | Borel Orn | Borel Orn Round | Borel Display | Borel Display Round | Borel FR Traditional |
+|-----------------|-------|-----------|-----------------|---------------|---------------------|----------------------
+| Roman capitals  |  [X]  |    [ ]    |       [ ]       |      [ ]      |         [ ]         |           [ ]        |
+| Cursive capitals|  [ ]  |    [X]    |       [X]       |      [X]      |         [X]         |           [X]        |
+| A               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
+| M               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
+| N               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
+| V               |       |    /\     |       ()        |      /\       |         ()          |           ()         |
+| W               |       |    /\     |       ()        |      /\       |         ()          |           ()         |
+| X               |       |    /\     |       ()        |      /\       |         ()          |           ()         |
+| Interline       |  200% |    200%   |      200%       |      150%     |         150%        |         200%         |
 
 ### Notes
 
