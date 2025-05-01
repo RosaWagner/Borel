@@ -163,30 +163,30 @@ To answer the need of several instances, such as more traditional teachers or le
 
 ### Notes
 
-[^1] Semeraro C, Coppola G, Cassibba R, Lucangeli D (2019) *Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills.* Plos One .14. 2. doi: [10.1371/journal.pone.0209978](https://doi.org/10.1371/journal.pone.0209978).
+[^1]: Semeraro C, Coppola G, Cassibba R, Lucangeli D (2019) *Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills.* Plos One .14. 2. doi: [10.1371/journal.pone.0209978](https://doi.org/10.1371/journal.pone.0209978).
 
-[^2] The University of Toulouse compiled in 2008 the [frequency of letters in the entire French Wikipedia](https://fr.wikipedia.org/wiki/Fréquence_d%27apparition_des_lettres)).
+[^2]: The University of Toulouse compiled in 2008 the [frequency of letters in the entire French Wikipedia](https://fr.wikipedia.org/wiki/Fréquence_d%27apparition_des_lettres)).
 
-[^3] Legge GE, Bigelow CA. (2011) *Does print size matter for reading? A review of findings from vision science and typography*. Journal of Vision. 11. 8. doi: [10.1167/11.5.8.](https://doi.org/10.1167/11.5.8)
+[^3]: Legge GE, Bigelow CA. (2011) *Does print size matter for reading? A review of findings from vision science and typography*. Journal of Vision. 11. 8. doi: [10.1167/11.5.8.](https://doi.org/10.1167/11.5.8)
 
-[^4] Legge GE, Bigelow CA, *op. cit.*
+[^4]: Legge GE, Bigelow CA, *op. cit.*
 
-[^5] Hughes, Laura & Wilkins, Arnold. (2000). *Typography in children’s reading schemes may be suboptimal: Evidence from measures of reading rate.* Journal of Research in Reading. 23. 314–324. doi: [10.1111/1467–9817.00126.](https://doi.org/10.1111/1467-9817.00126)
+[^5]: Hughes, Laura & Wilkins, Arnold. (2000). *Typography in children’s reading schemes may be suboptimal: Evidence from measures of reading rate.* Journal of Research in Reading. 23. 314–324. doi: [10.1111/1467–9817.00126.](https://doi.org/10.1111/1467-9817.00126)
 
-[^6] Wilkins, Arnold & Cleave, Roanna & Grayson, Nicola & Wilson, Louise. (2009). *Typography for children may be inappropriately designed.* Journal of Research in Reading. 32. 402–412. doi: [10.1111/j.1467–9817.2009.01402.x.](https://doi.org/10.1111/j.1467-9817.2009.01402.x)
+[^6]: Wilkins, Arnold & Cleave, Roanna & Grayson, Nicola & Wilson, Louise. (2009). *Typography for children may be inappropriately designed.* Journal of Research in Reading. 32. 402–412. doi: [10.1111/j.1467–9817.2009.01402.x.](https://doi.org/10.1111/j.1467-9817.2009.01402.x)
 
-[^7] Virginia Klein. (2010). *Influence de la typographie sur l’aisance de lecture d’une population d’enfants dyslexiques.* Université Bordeaux Segalen — Bordeaux 2. Sciences cognitives. HAL id: [dumas-01302521f](https://dumas.ccsd.cnrs.fr/dumas-01302521v1).
+[^7]: Virginia Klein. (2010). *Influence de la typographie sur l’aisance de lecture d’une population d’enfants dyslexiques.* Université Bordeaux Segalen — Bordeaux 2. Sciences cognitives. HAL id: [dumas-01302521f](https://dumas.ccsd.cnrs.fr/dumas-01302521v1).
 
-[^8] TypeTogether has recently undertaken a global research on school scripts around the world: *[primarium.info](https://primarium.info).*
+[^8]: TypeTogether has recently undertaken a global research on school scripts around the world: *[primarium.info](https://primarium.info).*
 
-[^9] Danièle Dumont. (2016). *Le geste d’écriture, Méthode d’apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité.* Hatier.
+[^9]: Danièle Dumont. (2016). *Le geste d’écriture, Méthode d’apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité.* Hatier.
 
-[^10] Beier, Sofie & Oderkerk, Chiron. (2019). *Smaller visual angles show greater benefit of letter boldness than larger visual angles.* Acta Psychologica. 199. doi: [102904. 10.1016/j.actpsy.2019.102904.](https://www.sciencedirect.com/science/article/pii/S000169181830581X?via%3Dihub)
+[^10]: Beier, Sofie & Oderkerk, Chiron. (2019). *Smaller visual angles show greater benefit of letter boldness than larger visual angles.* Acta Psychologica. 199. doi: [102904. 10.1016/j.actpsy.2019.102904.](https://www.sciencedirect.com/science/article/pii/S000169181830581X?via%3Dihub)
 
-[^11] Oderkerk, C. A. T., & Beier, S. (2021). *Fonts of wider letter shapes improve letter recognition in parafovea and periphery. Ergonomics, 65 (5), 753–761. doi: [10.1080/00140139.2021.1991001](https://www.tandfonline.com/doi/full/10.1080/00140139.2021.1991001)
+[^11]: Oderkerk, C. A. T., & Beier, S. (2021). *Fonts of wider letter shapes improve letter recognition in parafovea and periphery. Ergonomics, 65 (5), 753–761. doi: [10.1080/00140139.2021.1991001](https://www.tandfonline.com/doi/full/10.1080/00140139.2021.1991001)
 
-[^12] Minakata, Katsumi & Eckmann-Hansen, Christina & Larsen, Michael & Bek, Toke & Beier, Sofie. (2023). *The effect of serifs and stroke contrast on low vision reading.* Acta Psychologica. 232. doi: [103810. 10.1016/j.actpsy.2022.103810.](https://www.sciencedirect.com/science/article/pii/S0001691822003250?via%3Dihub)
+[^12]: Minakata, Katsumi & Eckmann-Hansen, Christina & Larsen, Michael & Bek, Toke & Beier, Sofie. (2023). *The effect of serifs and stroke contrast on low vision reading.* Acta Psychologica. 232. doi: [103810. 10.1016/j.actpsy.2022.103810.](https://www.sciencedirect.com/science/article/pii/S0001691822003250?via%3Dihub)
 
-[^13] For more informations on the subject of legibility and typography: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
+[^13]: For more informations on the subject of legibility and typography: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
 
 
