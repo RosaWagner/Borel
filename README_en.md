@@ -151,8 +151,8 @@ To answer the need of several instances, such as more traditional teachers or le
 
 |                 | Borel | Borel Orn | Borel Orn Round | Borel Display | Borel Display Round | Borel FR Traditional |
 |-----------------|-------|-----------|-----------------|---------------|---------------------|----------------------
-| Roman capitals  |  [X]  |    [ ]    |       [ ]       |      [ ]      |         [ ]         |           [ ]        |
-| Cursive capitals|  [ ]  |    [X]    |       [X]       |      [X]      |         [X]         |           [X]        |
+| Roman capitals  |   X   |           |                 |               |                     |                      |
+| Cursive capitals|       |     X     |        X        |       X       |          X          |            X         |
 | A               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
 | M               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
 | N               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
