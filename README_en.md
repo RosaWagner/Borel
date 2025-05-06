@@ -94,7 +94,7 @@ Moreover, it is practically impossible to deviate from the Séyès guideline sys
 
 It is interesting to note that traditional cursive fonts often feature a very light strokes. This is partly due to design constraints — thickening the strokes in such a small space could distort the letter’s identification at small size— and the will to mimic the ballpoint pen. This stresses the importance of increasing letter size to accommodate a bolder weight.
 
-**Finally, a common design issue disrupts the natural rhythm of words.** In an effort to simplify the design process, letters are frequently connected at a consistent height, which forces them to join at an identical diagonal angle. While this makes all connections uniform—and thus easier to make for the designer—,it results in a rigid and overly regular appearance. 
+**Finally, a common design issue disrupts the natural rhythm of words.** In an effort to simplify the design process, letters are frequently connected at a consistent height, which forces them to join at an identical diagonal angle. While this makes all connections uniform—and thus easier to make for the designer— it results in a rigid and overly regular appearance. Connecting letters at the same height can lead to shape confusion: for example, an 'o' may resemble an 'a' if the connection point is too low.
 
 ![primarium project](documentation/images/rythm.gif)*From top to bottom: Écriture A (by Malou Verlomme, Laurence Bedoin, Marion Andrews), Gaston (by Jean Boyault) and Écolier (by JM Douteau).*
 
@@ -106,14 +106,14 @@ For words to be easily deciphered, it is essential that individual letters remai
 
 The design of *Borel* took initially place during a 18 month research program at the [ANRT](https://anrt-nancy.fr/en), France. The project was initiated following an extensive analysis of research on readability, dyslexia, and the learning process of reading and writing. Throughout the design journey, professionals in the fields of speech therapy and education were involved and their valuable insights were taken into account.
 
-The Borel project faces the challenge of finding the right balance between x-height and ascender height to achieve:
+The *Borel* project faces the challenge of finding the right balance between x-height and ascender height to achieve:
 
 - Legibility without unnecessary constraints[^13]
 - Clear decoding of graphemes
 - Development of proficient handwriting skills
 - Adaptation to notebook lines
 
-Therefore Borel’s x-height is one half of the ascender height. This adjustment allows to scale-up the x-height to 2 lines and the ascenders to 4 lines, giving enough space to thicken the stroke—without altering the letter legibility—and achieving a more harmonious interline spacing. 
+Therefore *Borel*’s x-height is one half of the ascender height. This adjustment allows to scale-up the x-height to 2 lines and the ascenders to 4 lines, giving enough space to thicken the stroke—without altering the letter legibility—and achieving a more harmonious interline spacing. 
 
 ![Borel's interline space](documentation/images/line-height/borel_chocolate.gif)*Borel allows a reasonable interline spacing.*
 
@@ -131,7 +131,7 @@ Consider the evolution of the letter ‘a’ in a student’s handwriting as the
 
 ![How the writing instructions can influence future writing skills.](documentation/images/ductus.jpg)*How the writing instructions can influence future writing skills.*
 
-The default capitals are roman and not cursive. Traditionally, a cursive font features a set of capital letters that are themselves in cursive style. However, these cursive capitals only prioritise aesthetic consistency and overlook the pedagogical aspect:
+**The default capitals are roman and not cursive.** Traditionally, a cursive font features a set of capital letters that are themselves in cursive style. However, these cursive capitals only prioritise aesthetic consistency and overlook the pedagogical aspect:
 
 - **They have complicated shapes** that lead to confusion (for example S, T, C), especially for children with learning disabilities.
 - **They don’t align with logical calligraphy models** based on handwriting gestures or tools.
@@ -143,23 +143,30 @@ Typographic roman capitals, on the other hand, are introduced in french kinderga
 - **They are simple:** tracing printed capitals only requires the ability to make straight lines (horizontal, vertical, diagonal) and circles (full, half, open) — with the exception of the S. These shapes are part of motor skill development in kindergarten, so there’s no need to add a specific program for drawing capitals.
 - **They are consistent:** regardless of the chosen font or the Latin language used, their structure remains largely constant.
 
-Therefore, from a pedagogical standpoint, it is more beneficial to retain roman capitals in the *Borel* font. 
+Therefore, from a pedagogical standpoint, it is more beneficial to retain roman capitals in the default *Borel* font. 
 
 ## Borel’s different styles
 
-To answer the need of several instances, such as more traditional teachers or less conventional publishers, Borel comes in different styles.
+To answer the need of several instances —such as more traditional teachers or less conventional publishers— *Borel* comes in different styles.
 
 |                 | Borel | Borel Orn | Borel Orn Round | Borel Display | Borel Display Round | Borel FR Traditional |
 |-----------------|-------|-----------|-----------------|---------------|---------------------|----------------------
 | Roman capitals  |   X   |           |                 |               |                     |                      |
 | Cursive capitals|       |     X     |        X        |       X       |          X          |            X         |
-| A               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
-| M               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
-| N               |       |    /\     |       ()        |      /\       |         ()          |           /\         |
-| V               |       |    /\     |       ()        |      /\       |         ()          |           ()         |
-| W               |       |    /\     |       ()        |      /\       |         ()          |           ()         |
-| X               |       |    /\     |       ()        |      /\       |         ()          |           ()         |
+| cursive A       |       |    /\     |       ()        |      /\       |         ()          |           /\         |
+| cursive M       |       |    /\     |       ()        |      /\       |         ()          |           /\         |
+| cursive N       |       |    /\     |       ()        |      /\       |         ()          |           /\         |
+| cursive V       |       |    /\     |       ()        |      /\       |         ()          |           ()         |
+| cursive W       |       |    /\     |       ()        |      /\       |         ()          |           ()         |
+| cursive X       |       |    /\     |       ()        |      /\       |         ()          |           ()         |
+| Symetric l      |       |           |                 |       X       |          X          |                      |
+| Asc-H loops     |  200% |    200%   |      200%       |      190%     |         190%        |         200%         |
+| Asc-H straight  |  175% |    175%   |      175%       |      175%     |         175%        |         200%         |
 | Interline       |  200% |    200%   |      200%       |      150%     |         150%        |         200%         |
+
+<br>
+
+![Borel's different available styles](documentation/images/Borel_styles.png)
 
 ### Notes
 
