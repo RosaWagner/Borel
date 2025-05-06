@@ -1,5 +1,5 @@
 {
-.appVersion = "3410";
+.appVersion = "3414";
 .formatVersion = 3;
 axes = (
 {
@@ -25720,7 +25720,7 @@ color = 10;
 glyphname = d;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2024-12-11 19:27:14 +0000";
+lastChange = "2025-05-06 10:40:30 +0000";
 layers = (
 {
 color = 7;
@@ -37438,7 +37438,7 @@ color = 10;
 glyphname = l.init;
 kernLeft = l;
 kernRight = no_kerning;
-lastChange = "2024-11-28 16:26:39 +0000";
+lastChange = "2025-05-06 09:08:06 +0000";
 layers = (
 {
 anchors = (
@@ -45065,7 +45065,7 @@ color = 10;
 glyphname = p;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2024-12-11 19:43:51 +0000";
+lastChange = "2025-05-06 08:57:27 +0000";
 layers = (
 {
 color = 7;
@@ -66769,7 +66769,7 @@ width = 647;
 color = 6;
 export = 0;
 glyphname = _part.h.in;
-lastChange = "2024-12-11 19:29:22 +0000";
+lastChange = "2025-05-06 13:56:57 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -66844,12 +66844,12 @@ closed = 1;
 nodes = (
 (359,392,l),
 (453,510,o),
-(496,613,o),
-(496,720,c),
-(473,729,o),
-(435,729,o),
-(407,721,c),
-(407,612,o),
+(496,614,o),
+(496,721,c),
+(473,730,o),
+(435,730,o),
+(407,722,c),
+(407,613,o),
 (356,506,o),
 (240,371,c)
 );
@@ -73718,6 +73718,32 @@ name = Regular;
 type = variable;
 },
 {
+axesValues = (
+853,
+986
+);
+customParameters = (
+{
+name = "Remove Glyphs";
+value = (
+"*.cv04",
+"*.long",
+"*.cv05",
+"*.cv05",
+"*.cv06"
+);
+},
+{
+name = "Update Features";
+value = 1;
+}
+);
+instanceInterpolations = {
+"6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
+};
+name = Regular;
+},
+{
 customParameters = (
 {
 name = fileName;
@@ -73852,6 +73878,7 @@ lookup arrows {
 ";
 }
 );
+exports = 0;
 name = Regular;
 properties = (
 {
@@ -73865,161 +73892,6 @@ value = "Borel Orn";
 }
 );
 type = variable;
-},
-{
-customParameters = (
-{
-name = fileName;
-value = "BorelOrnRnd[DPQH,LOOH]";
-},
-{
-name = "Rename Glyphs";
-value = (
-"*.cv04=*",
-"*.cv05=*"
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-"*.cv06",
-X.isol
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Replace Feature";
-value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
-@Letters=[@Lowercase @CapsOrn];
-@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
-@CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
-@CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
-@CapsBase=[L Ldot Z]; 
-
-# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
-
-@Isolated=[$[name endswith \".isol\"]];
-
-@Initial=[@CapsMedial $[name endswith \".init\"]];
-
-@Final=[@CapsIsol $[name endswith \".fina\"]];
-
-# Letters that need a long connection on the base line
-@Base=[@CapsBase e $[name beginswith \"e.\"] $[name beginswith \"eacute\"] $[name beginswith \"ecircumflex\"] $[name beginswith \"edieresis\"] $[name beginswith \"edotbelow\"] $[name beginswith \"egrave\"] $[name beginswith \"ehookabove\"] $[name beginswith \"etilde\"] oe $[name beginswith \"oe.\"] ae $[name beginswith \"ae.\"] c $[name beginswith \"c.\"] l $[name beginswith \"l.\"] $[name beginswith \"ldot\"] $[name beginswith \"ccedilla\"] s $[name beginswith \"s.\"] $[name beginswith \"scedilla\"] $[name beginswith \"germandbls\"] x $[name beginswith \"x.\"]];
-
-@BaseMedial=[@CapsMedial $[name endswith \".medi.cv01\"]];
-
-@BaseFinal=[@CapsIsol $[name endswith \".fina.cv01\"]];
-
-# Letters that needs connection from the top
-@Top=[b $[name beginswith \"b.\"] o $[name beginswith \"o.\"] $[name beginswith \"oacute\"] $[name beginswith \"ocircumflex\"] $[name beginswith \"odieresis\"] $[name beginswith \"odotbelow\"] $[name beginswith \"ograve\"] $[name beginswith \"ohookabove\"] $[name beginswith \"ohorn\"] $[name beginswith \"otilde\"] v $[name beginswith \"v.\"] w $[name beginswith \"w.\"]];
-
-@TopMedial=[@CapsMedial $[name endswith \".medi.cv02\"]];
-
-@TopFinal=[@CapsIsol $[name endswith \".fina.cv02\"]];
-
-# Letters that needs connection from the bottom
-@Bottom=[@CapsBottom j $[name beginswith \"j.\"] $[name beginswith \"jdotless\"] g $[name beginswith \"g.\"] $[name beginswith \"gbreve\"] q $[name beginswith \"q.\"] y $[name beginswith \"y.\"] $[name beginswith \"yacute\"] $[name beginswith \"ydotbelow\"] $[name beginswith \"ygrave\"] $[name beginswith \"yhookabove\"] $[name beginswith \"ytilde\"] z $[name beginswith \"z.\"]];
-
-@BottomMedial=[@CapsMedial $[name endswith \".medi.cv03\"]];
-
-@BottomFinal=[@CapsIsol $[name endswith \".fina.cv03\"]];
-
-lookup ISOLATED {
-	lookupflag IgnoreMarks;
-	ignore sub @Medial' @Lowercase, @Letters @Medial';
-	sub @Medial' by @Isolated;
-} ISOLATED;
-
-lookup INITIAL {
-	lookupflag IgnoreMarks;
-	ignore sub @Letters @Medial';
-	sub @Medial' by @Initial;
-} INITIAL;
-
-lookup FINAL {
-	lookupflag IgnoreMarks;
-	ignore sub @Medial' @Lowercase;
-	sub @Base @Medial' by @BaseFinal;
-	sub @Top @Medial' by @TopFinal;
-	sub @Bottom @Medial' by @BottomFinal;
-	sub @Medial' by @Final;
-} FINAL;	
-
-lookup MEDIAL {
-	lookupflag IgnoreMarks;
-	sub @Base @Medial' by @BaseMedial;
-	sub @Top @Medial' by @TopMedial;
-	sub @Bottom @Medial' by @BottomMedial;
-} MEDIAL;
-
-# all lowercase letter ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol ];
-
-@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
-
-@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T X];
-
-@long=[$[name endswith \".long\"]];
-
-lookup after_CETX {
-	lookupflag IgnoreMarks;
-	sub @short' @high by @long;
-} after_CETX;
-
-@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link X_e.link];
-
-lookup before_e {
-	lookupflag IgnoreMarks;
-	sub @short' @e by @short.link;
-} before_e;
-";
-}
-);
-name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Borel Orn Rnd";
-}
-);
-}
-);
-type = variable;
-},
-{
-axesValues = (
-853,
-986
-);
-customParameters = (
-{
-name = "Remove Glyphs";
-value = (
-"*.cv04",
-"*.long",
-"*.cv05",
-"*.cv05",
-"*.cv06"
-);
-},
-{
-name = "Update Features";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
-};
-name = Regular;
 },
 {
 axesValues = (
@@ -74171,6 +74043,135 @@ value = "Borel Orn";
 );
 }
 );
+},
+{
+customParameters = (
+{
+name = fileName;
+value = "BorelOrnRnd[DPQH,LOOH]";
+},
+{
+name = "Rename Glyphs";
+value = (
+"*.cv04=*",
+"*.cv05=*"
+);
+},
+{
+name = "Remove Glyphs";
+value = (
+"*.cv06",
+X.isol
+);
+},
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Replace Feature";
+value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
+@Letters=[@Lowercase @CapsOrn];
+@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
+@CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
+@CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
+@CapsBase=[L Ldot Z]; 
+
+# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
+@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+
+@Isolated=[$[name endswith \".isol\"]];
+
+@Initial=[@CapsMedial $[name endswith \".init\"]];
+
+@Final=[@CapsIsol $[name endswith \".fina\"]];
+
+# Letters that need a long connection on the base line
+@Base=[@CapsBase e $[name beginswith \"e.\"] $[name beginswith \"eacute\"] $[name beginswith \"ecircumflex\"] $[name beginswith \"edieresis\"] $[name beginswith \"edotbelow\"] $[name beginswith \"egrave\"] $[name beginswith \"ehookabove\"] $[name beginswith \"etilde\"] oe $[name beginswith \"oe.\"] ae $[name beginswith \"ae.\"] c $[name beginswith \"c.\"] l $[name beginswith \"l.\"] $[name beginswith \"ldot\"] $[name beginswith \"ccedilla\"] s $[name beginswith \"s.\"] $[name beginswith \"scedilla\"] $[name beginswith \"germandbls\"] x $[name beginswith \"x.\"]];
+
+@BaseMedial=[@CapsMedial $[name endswith \".medi.cv01\"]];
+
+@BaseFinal=[@CapsIsol $[name endswith \".fina.cv01\"]];
+
+# Letters that needs connection from the top
+@Top=[b $[name beginswith \"b.\"] o $[name beginswith \"o.\"] $[name beginswith \"oacute\"] $[name beginswith \"ocircumflex\"] $[name beginswith \"odieresis\"] $[name beginswith \"odotbelow\"] $[name beginswith \"ograve\"] $[name beginswith \"ohookabove\"] $[name beginswith \"ohorn\"] $[name beginswith \"otilde\"] v $[name beginswith \"v.\"] w $[name beginswith \"w.\"]];
+
+@TopMedial=[@CapsMedial $[name endswith \".medi.cv02\"]];
+
+@TopFinal=[@CapsIsol $[name endswith \".fina.cv02\"]];
+
+# Letters that needs connection from the bottom
+@Bottom=[@CapsBottom j $[name beginswith \"j.\"] $[name beginswith \"jdotless\"] g $[name beginswith \"g.\"] $[name beginswith \"gbreve\"] q $[name beginswith \"q.\"] y $[name beginswith \"y.\"] $[name beginswith \"yacute\"] $[name beginswith \"ydotbelow\"] $[name beginswith \"ygrave\"] $[name beginswith \"yhookabove\"] $[name beginswith \"ytilde\"] z $[name beginswith \"z.\"]];
+
+@BottomMedial=[@CapsMedial $[name endswith \".medi.cv03\"]];
+
+@BottomFinal=[@CapsIsol $[name endswith \".fina.cv03\"]];
+
+lookup ISOLATED {
+	lookupflag IgnoreMarks;
+	ignore sub @Medial' @Lowercase, @Letters @Medial';
+	sub @Medial' by @Isolated;
+} ISOLATED;
+
+lookup INITIAL {
+	lookupflag IgnoreMarks;
+	ignore sub @Letters @Medial';
+	sub @Medial' by @Initial;
+} INITIAL;
+
+lookup FINAL {
+	lookupflag IgnoreMarks;
+	ignore sub @Medial' @Lowercase;
+	sub @Base @Medial' by @BaseFinal;
+	sub @Top @Medial' by @TopFinal;
+	sub @Bottom @Medial' by @BottomFinal;
+	sub @Medial' by @Final;
+} FINAL;	
+
+lookup MEDIAL {
+	lookupflag IgnoreMarks;
+	sub @Base @Medial' by @BaseMedial;
+	sub @Top @Medial' by @TopMedial;
+	sub @Bottom @Medial' by @BottomMedial;
+} MEDIAL;
+
+# all lowercase letter ending with .init or .isol that is not the letter e
+@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol ];
+
+@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
+
+@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T X];
+
+@long=[$[name endswith \".long\"]];
+
+lookup after_CETX {
+	lookupflag IgnoreMarks;
+	sub @short' @high by @long;
+} after_CETX;
+
+@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link X_e.link];
+
+lookup before_e {
+	lookupflag IgnoreMarks;
+	sub @short' @e by @short.link;
+} before_e;
+";
+}
+);
+exports = 0;
+name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Borel Orn Rnd";
+}
+);
+}
+);
+type = variable;
 },
 {
 axesValues = (
