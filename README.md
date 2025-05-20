@@ -77,12 +77,10 @@ Ces proportions sont héritées de l’usage de la réglure Séyès d’une part
 
 Cependant, plusieurs arguments nous invitent à remettre en question ces conventions:
 
-**La lisibilité des mots est fortement influencée par la hauteur des lettres minuscules.**  En effet, les lettres comprises entre la ligne de base et la hauteur d’x représentent environ 60 % de notre alphabet, et elles sont aussi les plus fréquentes en français (environ 80 %).[^2] Il paraît donc peu logique d’accorder une attention disproportionné aux majuscules et aux ascendantes/descendantes, et ce au détriment des petites lettres.
-
+**La lisibilité des mots est fortement influencée par la hauteur des “petites” lettres.**  En effet, les lettres comprises entre la ligne de base et la hauteur d’x représentent environ 60 % de notre alphabet, et elles sont aussi les plus fréquentes en français (environ 80 %).[^2] Il paraît donc peu logique d’accorder une attention disproportionné aux majuscules et aux ascendantes/descendantes, et ce au détriment des petites lettres.
 
 ![Distribution des lettres dans un alphabet latin de base en fonction de leur hauteur](documentation/images/lowercase_percentage.png)  
 *Distribution des lettres dans un alphabet latin de base en fonction de leur hauteur.*
-
 
 **Il y a un rapport direct entre taille de corps d’un texte et sa lisibité.** La taille perçue d’une police peut sembler plus grande ou plus petite selon le rapport entre la hauteur d’x et la hauteur des ascendantes. Par exemple, lorsqu’on utilise *Times New Roman* ou *Arial* en taille 12 pt, *Arial* paraîtra plus lisible en raison de sa hauteur d’x plus grande.[^3]  
 
@@ -97,7 +95,7 @@ Malheureusement, les polices couramment utilisées par les enseignants ne peuven
 ![Dumont Maternelle par Danièle Dumont](documentation/images/line-height/finally.gif)  
 *“Dumont Maternelle” de Danièle Dumont est une police très utilisée par les enseignants. Malgré la qualité évidente du dessin, les proportions tradionnelles empêchent toute mise à l’échelle vers une taille de lecture plus confortable.*
 
-La police *Dumont Maternelle* de Danièle Dumont est l’une des rares polices destinées à l’école élémentaire qui soit réellement bien dessinée et recommandée par les instances officielles de l’Éducation nationale.   C’est pourquoi elle est utilisée ici à titre d’exemple — toute autre police n’aurait pas permis une comparaison sérieuse.
+La police *Dumont Maternelle* de Danièle Dumont est l’une des rares polices destinées à l’école élémentaire qui soit réellement bien dessinée et recommandée par les instances officielles de l’Éducation nationale. C’est pourquoi elle est utilisée ici à titre d’exemple — toute autre police n’aurait pas permis une comparaison sérieuse.
 
 **Un interligne équilibré est également essentiel pour éviter les collisions entre ascendantes et descendantes d’une ligne à l’autre.** En effet, un interlignage trop serré ou trop espacé peut nuire à la lisibilité.[^7]  
 Les polices cursives traditionnelles calées sur les lignes de cahier donnent souvent un rendu visuel trop encombré, tandis que le saut d’une ligne crée une impression d’espacement excessif.
@@ -109,11 +107,11 @@ Les polices cursives traditionnelles calées sur les lignes de cahier donnent so
 
 ![Projet Primarium](documentation/images/primarium.png) *[TypeTogether](https://www.type-together.com) a mené une recherche sur les modèles d’écriture scolaire utilisés dans le monde et a identifié (à ce jour) 68 modèles différents dans 40 pays. Voir [primarium.info](https://primarium.info)*
 
-Néanmoins, lors de l’apprentissage de l’écriture, il est essentiel d’entraîner les doigts et les yeux à distinguer les petites lettres des grandes. Trouver un ratio permettant le développement de la motricité fine — passer de petites boucles à de plus grandes, à l’aide des seuls doigts et non de la main entière — est fondamental.[^9] Il est donc nécessaire de marquer clairement la différence entre hauteur d’x et hauteur des ascendantes, sans pour autant compromettre excessivement la lisibilité.
+Néanmoins, lors de l’apprentissage de l’écriture, il est essentiel d’exercer à la fois les doigts et les yeux à distinguer les petites lettres des grandes. Il est donc fondamental de trouver un ratio permettant de développer la motricité fine — passer de petites à grandes boucles en ne mobilisant seulement les doigts, et non toute la main.[^9] En outre, la reconnaissance des grandes lettres repose sur la présence d’une extension verticale bien visible[^10], car c’est un trait distinctif important. Par exemple, seule l’ascendante permet de différencier un `a` d’un `d`. Il faut donc trouver un équilibre qui permette de marquer clairement la différence entre la hauteur d’x et celle des ascendantes, sans compromettre pour autant la lisibilité du mot dans son ensemble. 
 
 Par ailleurs, il est pratiquement impossible de s’affranchir des lignes Séyès — qui sont présentes dans la grande majorité des cahiers scolaires. Cela impose une analyse critique des normes d’écriture cursive, tout en tenant compte de cette contrainte incontournable.
 
-**Au-delà de ces proportions, d’autres éléments typographiques influencent la lisibilité, en particulier à une courte distance de lecture.** Les travaux de recherche de Sofie Beier donnent des instructions claires à ce sujet. Par exemple, une graisse plus épaisse[^10], une chasse plus large[^11] (ou du moins non-étroite), ainsi que des pleins et déliés peu contrastés[^12], peuvent contribuer à une meilleure compréhension et vitesse de lecture.
+**Au-delà de ces proportions, d’autres éléments typographiques influencent la lisibilité, en particulier à une courte distance de lecture.** Les travaux de recherche de Sofie Beier donnent des instructions claires à ce sujet. Par exemple, une graisse plus épaisse[^11], une chasse plus large[^12] (ou du moins non-étroite), ainsi que des pleins et déliés peu contrastés[^13], peuvent contribuer à une meilleure compréhension et vitesse de lecture.
 
 On peut aussi noter que les polices cursives traditionnelles présentent souvent une épaisseur de tracé très fine. Cela s’explique en partie par la volonté d’imiter le rendu du stylo-bille, mais aussi par des contraintes de design: épaissir le trait dans un espace aussi réduit pourrait nuire à la reconnaissance des lettres en petit corps. Cela souligne l’importance d’augmenter la taille des lettres pour permettre une graisse plus forte.
 
@@ -132,7 +130,7 @@ La conception du *Borel* a d’abord eu lieu durant un programme de recherche de
 
 Le projet *Borel* relève le défi de trouver le bon équilibre entre la hauteur d’x et la hauteur des ascendantes afin d’atteindre:
 
-- Une lisibilité sans contraintes inutiles[^13]  
+- Une lisibilité sans contraintes inutiles[^14]  
 - Un décodage clair des graphèmes  
 - Le développement de compétences avancées en écriture manuscrite  
 - Une adaptation aux lignes des cahiers scolaires  
@@ -213,12 +211,14 @@ Pour répondre aux besoins de plusieurs acteurs — tels que des enseignants plu
 
 [^9]: Danièle Dumont. (2016). *Le geste d’écriture, Méthode d’apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité.* Hatier.
 
-[^10]: Beier, Sofie & Oderkerk, Chiron. (2019). *Smaller visual angles show greater benefit of letter boldness than larger visual angles.* Acta Psychologica. 199. doi: [102904. 10.1016/j.actpsy.2019.102904.](https://www.sciencedirect.com/science/article/pii/S000169181830581X?via%3Dihub)
+[^10]: Cooreman, B., & Beier, S. (2024). *A Theory of Visual Attention Based Assessment of Font Style: How important is x-height for font legibility?*. Poster session presented at Society for the Scientific Study of Reading: Annual Conference, Copenhagen, Denmark. [Website](https://adk.elsevierpure.com/en/publications/a-theory-of-visual-attention-based-assessment-of-font-style-how-i)
 
-[^11]: Oderkerk, C. A. T., & Beier, S. (2021). *Fonts of wider letter shapes improve letter recognition in parafovea and periphery.* Ergonomics, 65 (5), 753–761. doi: [10.1080/00140139.2021.1991001](https://www.tandfonline.com/doi/full/10.1080/00140139.2021.1991001)
+[^11]: Beier, Sofie & Cooreman, Bart. (2025). *Smaller visual angles show greater benefit of letter boldness than larger visual angles.* Acta Psychologica. 199. doi: [102904. 10.1016/j.actpsy.2019.102904.](https://www.sciencedirect.com/science/article/pii/S000169181830581X?via%3Dihub)
 
-[^12]: Minakata, Katsumi & Eckmann-Hansen, Christina & Larsen, Michael & Bek, Toke & Beier, Sofie. (2023). *The effect of serifs and stroke contrast on low vision reading.* Acta Psychologica. 232. doi: [103810. 10.1016/j.actpsy.2022.103810.](https://www.sciencedirect.com/science/article/pii/S0001691822003250?via%3Dihub)
+[^12]: Oderkerk, C. A. T., & Beier, S. (2021). *Fonts of wider letter shapes improve letter recognition in parafovea and periphery.* Ergonomics, 65 (5), 753–761. doi: [10.1080/00140139.2021.1991001](https://www.tandfonline.com/doi/full/10.1080/00140139.2021.1991001)
 
-[^13]: Pour plus d’informations sur le sujet de la lisibilité en typographie: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
+[^13]: Minakata, Katsumi & Eckmann-Hansen, Christina & Larsen, Michael & Bek, Toke & Beier, Sofie. (2023). *The effect of serifs and stroke contrast on low vision reading.* Acta Psychologica. 232. doi: [103810. 10.1016/j.actpsy.2022.103810.](https://www.sciencedirect.com/science/article/pii/S0001691822003250?via%3Dihub)
+
+[^14]: Pour plus d’informations sur le sujet de la lisibilité en typographie: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
 
 

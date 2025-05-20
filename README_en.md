@@ -56,7 +56,7 @@ This style exhibits several features:
 
 * **Some letters (like `b`, `f`, `r`, `s`, `x`, `z`, and `Z`) have unique shapes** that are different from what you might see in other countries. 
 
-* **The “Séyès” lines — a system of guidelines — dictate the proportions of the letters**, with the lowercase letters using one line, ascenders using three lines, and so on.
+* **The “Séyès” lines—a system of guidelines—dictate the proportions of the letters**, with the lowercase letters using one line, ascenders using three lines, and so on.
 
 ### An issue of proportion
 
@@ -94,15 +94,15 @@ The typeface *Dumont Maternelle* by Danièle Dumont is one of the few typefaces 
 
 ![primarium project](documentation/images/primarium.png)*[TypeTogether](https://www.type-together.com) conducted research on school handwriting models used around the world and identified (until now) 68 different models for 40 countries. See [primarium.info](https://primarium.info)*
 
-Nevertheless, during the acquisition of writing skills, it is crucial to train fingers and eyes to distinguish between small and large letters. Achieving a size that allows for fine motor skill development — transitioning from small loops to larger ones using only the fingers, not the entire hand — is essential.[^9] Therefore, it is necessary to establish a clear distinction between x-height and ascender height without excessively compromising legibility.
+Nevertheless, during the acquisition of writing skills, it is essential to train both the fingers and the eyes to distinguish between small and large letters. Finding a ratio that supports the development of fine motor skills—progressing from small to larger loops using only the fingers, not the whole hand—is crucial.[^9] In addition, the recognition of large letters relies on a clearly visible vertical extenders[^10], as it is a key distinguishing feature. For instance, only the ascender differentiates an `a` from a `d`. It is therefore necessary to find a balance that clearly marks the difference between the x-height and the ascender height, without compromising the overall legibility of the word.
 
 Moreover, it is practically impossible to deviate from the Séyès guideline system from writing notebooks in the French education system, necessitating a critical examination of conventional cursive writing norms while still considering this factor.
 
-**Beyond these proportions, other typographic elements influence readability, especially at a small distance.** Sofie Beier’s research provides valuable insights on this. For instance, a bolder weight[^10], a wider width[^11] (or at least *not* a narrow width), and low contrast strokes[^12] can contribute to better comprehension and reading speed.
+**Beyond these proportions, other typographic elements influence readability, especially at a small distance.** Sofie Beier’s research provides valuable insights on this. For instance, a bolder weight[^11], a wider width[^12] (or at least *not* a narrow width), and low contrast strokes[^13] can contribute to better comprehension and reading speed.
 
-It is interesting to note that traditional cursive fonts often feature a very light strokes. This is partly due to design constraints — thickening the strokes in such a small space could distort the letter’s identification at small size— and the will to mimic the ballpoint pen. This stresses the importance of increasing letter size to accommodate a bolder weight.
+It is interesting to note that traditional cursive fonts often feature a very light strokes. This is partly due to design constraints—thickening the strokes in such a small space could distort the letter’s identification at small size—and the will to mimic the ballpoint pen. This stresses the importance of increasing letter size to accommodate a bolder weight.
 
-**Finally, a common design issue disrupts the natural rhythm of words.** In an effort to simplify the design process, letters are frequently connected at a consistent height, which forces them to join at an identical diagonal angle. While this makes all connections uniform—and thus easier to make for the designer— it results in a rigid and overly regular appearance. Connecting letters at the same height can lead to shape confusion: for example, an `o` may resemble an `a` if the connection point is too low.
+**Finally, a common design issue disrupts the natural rhythm of words.** In an effort to simplify the design process, letters are frequently connected at a consistent height, which forces them to join at an identical diagonal angle. While this makes all connections uniform—and thus easier to make for the designer—it results in a rigid and overly regular appearance. Connecting letters at the same height can lead to shape confusion: for example, an `o` may resemble an `a` if the connection point is too low.
 
 ![Ecriture A, Gaston, Ecolier](documentation/images/rythm.gif)*From top to bottom: Écriture A (by Malou Verlomme, Laurence Bedoin, Marion Andrews), Gaston (by Jean Boyault) and Écolier (by JM Douteau).*
 
@@ -116,7 +116,7 @@ The design of *Borel* took initially place during a 18 month research program at
 
 The *Borel* project faces the challenge of finding the right balance between x-height and ascender height to achieve:
 
-- Legibility without unnecessary constraints[^13]
+- Legibility without unnecessary constraints[^14]
 - Clear decoding of graphemes
 - Development of proficient handwriting skills
 - Adaptation to notebook lines
@@ -154,7 +154,7 @@ Therefore, from a pedagogical standpoint, it is more beneficial to retain roman 
 
 ## Borel’s different styles
 
-To answer the need of several instances —such as more traditional teachers or less conventional publishers— *Borel* comes in different styles.
+To answer the need of several instances—such as more traditional teachers or less conventional publishers—*Borel* comes in different styles.
 
 |                 | Borel | Borel Orn | Borel Orn Round | Borel Display | Borel Display Round | Borel FR Traditional |
 |-----------------|-------|-----------|-----------------|---------------|---------------------|----------------------
@@ -189,18 +189,20 @@ To answer the need of several instances —such as more traditional teachers or 
 
 [^6]: Wilkins, Arnold & Cleave, Roanna & Grayson, Nicola & Wilson, Louise. (2009). *Typography for children may be inappropriately designed.* Journal of Research in Reading. 32. 402–412. doi: [10.1111/j.1467–9817.2009.01402.x.](https://doi.org/10.1111/j.1467-9817.2009.01402.x)
 
-[^7]: Virginia Klein. (2010). *Influence de la typographie sur l’aisance de lecture d’une population d’enfants dyslexiques.* Université Bordeaux Segalen — Bordeaux 2. Sciences cognitives. HAL id: [dumas-01302521f](https://dumas.ccsd.cnrs.fr/dumas-01302521v1).
+[^7]: Virginia Klein. (2010). *Influence de la typographie sur l’aisance de lecture d’une population d’enfants dyslexiques.* Université Bordeaux Segalen—Bordeaux 2. Sciences cognitives. HAL id: [dumas-01302521f](https://dumas.ccsd.cnrs.fr/dumas-01302521v1).
 
 [^8]: TypeTogether has recently undertaken a global research on school scripts around the world: *[primarium.info](https://primarium.info).*
 
 [^9]: Danièle Dumont. (2016). *Le geste d’écriture, Méthode d’apprentissage Cycle 1 • Cycle 2, Différenciation et transversalité.* Hatier.
 
-[^10]: Beier, Sofie & Oderkerk, Chiron. (2019). *Smaller visual angles show greater benefit of letter boldness than larger visual angles.* Acta Psychologica. 199. doi: [102904. 10.1016/j.actpsy.2019.102904.](https://www.sciencedirect.com/science/article/pii/S000169181830581X?via%3Dihub)
+[^10]: Cooreman, B., & Beier, S. (2024). *A Theory of Visual Attention Based Assessment of Font Style: How important is x-height for font legibility?*. Poster session presented at Society for the Scientific Study of Reading: Annual Conference, Copenhagen, Denmark. [Website](https://adk.elsevierpure.com/en/publications/a-theory-of-visual-attention-based-assessment-of-font-style-how-i)
 
-[^11]: Oderkerk, C. A. T., & Beier, S. (2021). *Fonts of wider letter shapes improve letter recognition in parafovea and periphery.* Ergonomics, 65 (5), 753–761. doi: [10.1080/00140139.2021.1991001](https://www.tandfonline.com/doi/full/10.1080/00140139.2021.1991001)
+[^11]: Beier, Sofie & Oderkerk, Chiron. (2019). *Smaller visual angles show greater benefit of letter boldness than larger visual angles.* Acta Psychologica. 199. doi: [102904. 10.1016/j.actpsy.2019.102904.](https://www.sciencedirect.com/science/article/pii/S000169181830581X?via%3Dihub)
 
-[^12]: Minakata, Katsumi & Eckmann-Hansen, Christina & Larsen, Michael & Bek, Toke & Beier, Sofie. (2023). *The effect of serifs and stroke contrast on low vision reading.* Acta Psychologica. 232. doi: [103810. 10.1016/j.actpsy.2022.103810.](https://www.sciencedirect.com/science/article/pii/S0001691822003250?via%3Dihub)
+[^12]: Oderkerk, C. A. T., & Beier, S. (2021). *Fonts of wider letter shapes improve letter recognition in parafovea and periphery.* Ergonomics, 65 (5), 753–761. doi: [10.1080/00140139.2021.1991001](https://www.tandfonline.com/doi/full/10.1080/00140139.2021.1991001)
 
-[^13]: For more informations on the subject of legibility and typography: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
+[^13]: Minakata, Katsumi & Eckmann-Hansen, Christina & Larsen, Michael & Bek, Toke & Beier, Sofie. (2023). *The effect of serifs and stroke contrast on low vision reading.* Acta Psychologica. 232. doi: [103810. 10.1016/j.actpsy.2022.103810.](https://www.sciencedirect.com/science/article/pii/S0001691822003250?via%3Dihub)
+
+[^14]: For more informations on the subject of legibility and typography: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
 
 
