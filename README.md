@@ -1,6 +1,6 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C5TZAYG)
 
-### Find the english version of this documentation here: [Borel, a typographic system for primary school](./README_en.md).
+### Find the english version of this documentation here: [Borel, a cursive font for elementary school.](./README_en.md).
 
 ## Tutoriels
 - [Télécharger les polices](./documentation/README.md#télécharger-les-polices)
@@ -18,7 +18,7 @@ Comment penser la typographie pour l’apprentissage conjoint de la lecture et d
 
 Le style cursif traditionnel enseigné à l’école primaire en France présente un rapport de proportion élevé entre les ascendantes et la hauteur d’x, ce qui nuit à la lisibilité des écrits tels que présentés en classe. Cela peut constituer un obstacle pour l’ensemble des lecteurs débutants, et en particulier pour ceux ayant des troubles des apprentissages. Ainsi, *Borel* vise à harmoniser les tracés cursifs avec des structures typographiques plus communes, reconnues pour favoriser la lisibilité. Cette police, nommée en hommage à Suzanne Borel-Maisonny (pionnière française de l’orthophonie), adopte un dessin robuste, à faible contraste et à hauteur d’x généreuse. Les lettres sont volontairement ouvertes et facilement différenciables, tout en respectant les conventions de l’écriture scolaire française.
 
-La police est "open-source" (libre) et disponible sur Google Fonts: [https://fonts.google.com/specimen/Borel](https://fonts.google.com/specimen/Borel). Cela veut dire qu’elle est accessible à tous, gratuitement, dans des conditions d’utilisation absolument minimales: 
+La police est *open-source* (libre) et disponible sur [Google Fonts](https://fonts.google.com/specimen/Borel). Cela veut dire qu’elle est accessible à tous, gratuitement, dans des conditions d’utilisation absolument minimales: 
 - La police peut-être utilisée dans n’importe quel cadre (pédagogique, personnel, commercial…).
 - Il est possible de modifier la police et de la réexporter, à partir du moment où la modification est elle-même open-source, gratuite et l’auteure originale (Rosalie Wagner) créditée.
 - Il est interdit de vendre la police ainsi que tous ses dérivés.
@@ -37,7 +37,7 @@ Pour les enfants, on peut simplifier en parlant de « zones ». Cela amène 
 
 ![Simplified terms for childrens](documentation/images/height2_fr.png)*Termes simplifiés adaptés aux enfants.*
 
-### L'écriture cursive à la française
+### L’écriture cursive à la française
 
 On pourrait croire qu’à l’ère numérique, l’enseignement de l’écriture cursif serait devenu obsolète. Pourtant de récentes études[^1] ont démontré l’opposé:
 
@@ -53,40 +53,40 @@ Voici un exemple typique d’écriture cursive française, tracée par un enseig
 
 Ce style présente plusieurs caractéristiques:
 
-- **Les ascendantes sont trois fois plus grandes que la hauteur d'x**, ce qui est nettement plus élevé que ce que l’on observe dans des environnements typographiques plus communs (livres, écrans, signalétique, etc.), et surtout au regard de ce que l’on sait en matière de lisibilité.
+- **Les ascendantes sont trois fois plus grandes que la hauteur d’x**, ce qui est nettement plus élevé que ce que l’on observe dans des environnements typographiques plus communs (livres, écrans, signalétique, etc.), et surtout au regard de ce que l’on sait en matière de lisibilité.
 
 - **Les lettres capitales adoptent souvent le style cursif**, bien que cela ne soit plus recommandé. En effet, elles peuvent poser des difficultés aux jeunes scripteurs puisqu’elles sont difficiles à tracer et certaines formes de lettres peuvent prêter à confusion.
 
 - **L’angle des lettres est droit**, ce qui est particulièrement bénéfique pour les élèves gauchers. Si certains enfants éprouvent des difficultés à maintenir cet angle, ils peuvent incliner leur feuille pour plus de confort.
 
-- **Le style suit une esthétique arrondie.**
+- **Le style suit une esthétique arrondie**, ce qui donne un aspect doux et enfantin.
 
-- **Certaines lettres (comme le 'b', 'f', 'r', 's', 'x', 'z' et 'Z') présentent des formes “localisée”**, différentes de celles que l’on rencontre dans d’autres pays.
+- **Certaines lettres (comme le `b`, `f`, `r`, `s`, `x`, `z` et `Z`) présentent des formes “localisée”**, différentes de celles que l’on rencontre dans d’autres pays.
 
 - **Les lignes “Séyès” déterminent les proportions des lettres**, les minuscules occupant une ligne, les ascendantes s’étendant sur trois, etc.
 
 
 ### Un problème de taille
 
-Le principal problème que le projet *Borel* cherche à résoudre est le rapport 1/3 entre la hauteur des ascendantes et la hauteur d’x. En effet, la taille des lettres est souvent contrainte par les lignes du cahier, ce qui signifie que la hauteur d’x est comprimée entre deux lignes, mesurant généralement 1,5 à 2 millimètres.
+Le principal problème que le projet *Borel* cherche à résoudre est le rapport de proportion entre la hauteur des ascendantes et la hauteur d’x (trois fois plus petite). En effet, la taille des lettres est souvent contrainte par les lignes du cahier, ce qui signifie que la hauteur d’x est comprimée entre deux lignes, mesurant généralement 1,5 à 2 millimètres.
 
-Ces proportions sont héritées de l’usage de la réglure Séyès d'une part, et d’un style calligraphique populaire du XIXe siècle où les stylos à réservoir étaient largement utilisés d'autre part.
+Ces proportions sont héritées de l’usage de la réglure Séyès d’une part, et d’un style calligraphique populaire du XIXe siècle où les stylos à réservoir étaient largement utilisés d’autre part.
 
 
 ![Cahier d’écolier 1906](documentation/images/1906.jpg)*“Cahier d’écolier de René Courteaux de 1906”, [https://fragments-histoires.com](https://fragments-histoires.com/Cahier-d-ecolier-de-Rene-Courteux.html?id_document=2014#documents_portfolio)*
 
-Cependant, plusieurs arguments nous invitent à remettre en question ces conventions :
+Cependant, plusieurs arguments nous invitent à remettre en question ces conventions:
 
-**La lisibilité des mots est fortement influencée par la hauteur des « petites lettres ».**  En effet, Les lettres comprises entre la ligne de base et la hauteur d’x représentent environ 60 % de notre alphabet, et elles sont aussi les plus fréquentes en français (environ 80 %).[^2] Il paraît donc peu logique d’accorder une attention disproportionné aux majuscules et aux ascendantes/descendantes, et ce au détriment des petites lettres.
+**La lisibilité des mots est fortement influencée par la hauteur des lettres minuscules.**  En effet, les lettres comprises entre la ligne de base et la hauteur d’x représentent environ 60 % de notre alphabet, et elles sont aussi les plus fréquentes en français (environ 80 %).[^2] Il paraît donc peu logique d’accorder une attention disproportionné aux majuscules et aux ascendantes/descendantes, et ce au détriment des petites lettres.
 
 
 ![Distribution des lettres dans un alphabet latin de base en fonction de leur hauteur](documentation/images/lowercase_percentage.png)  
 *Distribution des lettres dans un alphabet latin de base en fonction de leur hauteur.*
 
 
-**Il y a un rapport direct entre taille de corps d'un teste et sa lisibité. Aussi, la taille perçue d’une police peut sembler plus grande ou plus petite selon le rapport entre la hauteur d’x et la hauteur des ascendantes.** Par exemple, lorsqu’on utilise *Times New Roman* ou *Arial* en taille 12 pt, *Arial* paraîtra plus lisible en raison de sa hauteur d’x plus grande.[^3]  
+**Il y a un rapport direct entre taille de corps d’un texte et sa lisibité.** La taille perçue d’une police peut sembler plus grande ou plus petite selon le rapport entre la hauteur d’x et la hauteur des ascendantes. Par exemple, lorsqu’on utilise *Times New Roman* ou *Arial* en taille 12 pt, *Arial* paraîtra plus lisible en raison de sa hauteur d’x plus grande.[^3]  
 
-![Comparaison de la hauteur d'x entre Arial et Times New Roman](documentation/images/Arial_Times.png)*Comparaison de la hauteur d'x entre Arial et Times New Roman.*
+![Comparaison de la hauteur d’x entre Arial et Times New Roman](documentation/images/Arial_Times.png)*Comparaison de la hauteur d’x entre Arial et Times New Roman.*
 
 **Lorsqu’un lecteur entrainé adulte lit un texte continu à une distance standard de 40 cm, une hauteur d’x comprise entre 1,5 mm et 14 mm est nécessaire pour garantir une bonne lisibilité.[^4]** Ainsi, 1,5 mm constitue le seuil minimal de lisibilité pour un lecteur entrainé. En outre, plusieurs études indiquent que les lecteurs débutants — en particulier ceux présentant une dyslexie — bénéficient d’un plus grand corps de texte.  
 
@@ -109,20 +109,20 @@ Les polices cursives traditionnelles calées sur les lignes de cahier donnent so
 
 ![Projet Primarium](documentation/images/primarium.png) *[TypeTogether](https://www.type-together.com) a mené une recherche sur les modèles d’écriture scolaire utilisés dans le monde et a identifié (à ce jour) 68 modèles différents dans 40 pays. Voir [primarium.info](https://primarium.info)*
 
-Néanmoins, lors de l’apprentissage de l’écriture, il est essentiel d’entraîner les doigts et les yeux à distinguer les petites lettres des grandes. Atteindre une taille permettant le développement de la motricité fine — passer de petites boucles à de plus grandes, à l’aide des seuls doigts et non de la main entière — est fondamental.[^9] Il est donc nécessaire de marquer clairement la différence entre hauteur d’x et hauteur des ascendantes, sans pour autant compromettre excessivement la lisibilité.
+Néanmoins, lors de l’apprentissage de l’écriture, il est essentiel d’entraîner les doigts et les yeux à distinguer les petites lettres des grandes. Trouver un ratio permettant le développement de la motricité fine — passer de petites boucles à de plus grandes, à l’aide des seuls doigts et non de la main entière — est fondamental.[^9] Il est donc nécessaire de marquer clairement la différence entre hauteur d’x et hauteur des ascendantes, sans pour autant compromettre excessivement la lisibilité.
 
-Par ailleurs, il est pratiquement impossible de s’affranchir des lignes Séyès — qui sont présentent dans la grande majorité des cahiers scolaires. Cela impose une analyse critique des normes d’écriture cursive, tout en tenant compte de cette contrainte incontournable.
+Par ailleurs, il est pratiquement impossible de s’affranchir des lignes Séyès — qui sont présentes dans la grande majorité des cahiers scolaires. Cela impose une analyse critique des normes d’écriture cursive, tout en tenant compte de cette contrainte incontournable.
 
 **Au-delà de ces proportions, d’autres éléments typographiques influencent la lisibilité, en particulier à une courte distance de lecture.** Les travaux de recherche de Sofie Beier donnent des instructions claires à ce sujet. Par exemple, une graisse plus épaisse[^10], une chasse plus large[^11] (ou du moins non-étroite), ainsi que des pleins et déliés peu contrastés[^12], peuvent contribuer à une meilleure compréhension et vitesse de lecture.
 
 On peut aussi noter que les polices cursives traditionnelles présentent souvent une épaisseur de tracé très fine. Cela s’explique en partie par la volonté d’imiter le rendu du stylo-bille, mais aussi par des contraintes de design: épaissir le trait dans un espace aussi réduit pourrait nuire à la reconnaissance des lettres en petit corps. Cela souligne l’importance d’augmenter la taille des lettres pour permettre une graisse plus forte.
 
-**Enfin, un problème de design fréquent perturbe le rythme naturel de l'écriture.** Dans un souci de simplification du processus de dessin numérique, le point de jonction entre les lettres se fait à la même hauteur, ce qui les oblige à se connecter dans un angle diagonal identique. Si cela rend les connexions uniformes — donc plus faciles à réaliser pour le designer — cela donne un aspect rigide, voire même trop régulier. Connecter les lettres au même niveau peut aussi provoquer des confusions de formes: par exemple, un 'o' peut ressembler à un 'a' si le point de jonction est trop bas.
+**Enfin, un problème de design fréquent perturbe le rythme naturel de l’écriture.** Dans un souci de simplification du processus de design, le point de jonction entre les lettres se fait à la même hauteur, ce qui les oblige à se connecter dans un angle diagonal identique. Si cela rend les connexions uniformes — et donc plus faciles à réaliser pour le designer — cela donne un aspect rigide, voire même trop régulier. Connecter les lettres au même niveau peut aussi provoquer des confusions de formes: par exemple, un `o` peut ressembler à un `a` si le point de jonction est trop bas.
 
 ![Écriture A, Gaston, Écolier](documentation/images/rythm.gif)  
-*De haut en bas : Écriture A (par Malou Verlomme, Laurence Bedoin, Marion Andrews), Gaston (par Jean Boyault) et Écolier (par JM Douteau).*
+*De haut en bas: Écriture A (par Malou Verlomme, Laurence Bedoin, Marion Andrews), Gaston (par Jean Boyault) et Écolier (par JM Douteau).*
 
-C’est le cas de ces polices libres. L’*Écriture A*, commandée par le Ministère de l’Éducation nationale et conçue par des professionnels de la typographie, est très élégante mais a été développée sans consulter les enseignants du primaire ni la recherche sur le sujet. En conséquence, elle ne reflète pas lestyle arrondie conventionnelle et ne suit pas la réglure Séyès, ce qui limite son utilisation par les enseignants. *Gaston* et *Écolier*, en revanche, ont été créées par des designers amateurs. Bien que plutôt mal dessinées (il faut l'admettre), elles sont largement utilisées par les enseignants car elles se rapprochent davantage des formes traditionnelles que ces derniers ont eux-mêmes apprises à l'école. Au final, aucune de ces polices ne répond vraiment aux besoins des enfants apprenant à lire et écrire.
+C’est le cas de ces trois polices d’écriture libres. L’*Écriture A*, commandée par le Ministère de l’Éducation Nationale, et conçue par des professionnels de la typographie, est très élégante mais n’a pas été développée en consultation avec des enseignants du primaire ni en regardant la recherche scientifique sur le sujet. En conséquence, elle ne reflète pas le style arrondie conventionnel et ne suit pas les lignes Séyès, ce qui limite son utilisation par les enseignants. *Gaston* et *Écolier*, en revanche, ont été créées par des designers amateurs. Bien que plutôt mal dessinées (il faut l’admettre), elles sont largement utilisées par les enseignants car elles se rapprochent davantage des formes traditionnelles que ces derniers ont eux-mêmes apprises à l’école. Au final, aucune de ces polices ne répond vraiment aux besoins des enfants apprenant à lire et écrire.
 
 Pour qu’un mot soit facilement déchiffrable, il est essentiel que les lettres restent clairement différenciables au sein de celui-ci. La rigidité des connexions uniformes tend à homogénéiser les formes des mots — surtout en petit corps — et ne reflète pas le rythme naturel de l’écriture manuscrite. C’est souvent pour cette raison que les enseignants préfèrent utiliser des modèles faits main: les lettres se connectent à des hauteurs et angles variables, ce qui permet un flux plus naturel et aide mieux à guider la main de l’enfant.
 
@@ -130,7 +130,7 @@ Pour qu’un mot soit facilement déchiffrable, il est essentiel que les lettres
 
 La conception du *Borel* a d’abord eu lieu durant un programme de recherche de 18 mois à l’[ANRT](https://anrt-nancy.fr/en). Le projet a été lancé en parallèle d’une analyse approfondie des recherches disponibles en 2018 sur la lisibilité, la dyslexie, ainsi que sur le processus d’apprentissage de la lecture et de l’écriture. Tout au long de la conception, des professionnels des domaines de l’orthophonie et de l’éducation ont été consultés.
 
-Le projet *Borel* relève le défi de trouver le bon équilibre entre la hauteur d’x et la hauteur des ascendantes afin d’atteindre :
+Le projet *Borel* relève le défi de trouver le bon équilibre entre la hauteur d’x et la hauteur des ascendantes afin d’atteindre:
 
 - Une lisibilité sans contraintes inutiles[^13]  
 - Un décodage clair des graphèmes  
@@ -141,7 +141,7 @@ Ainsi, la hauteur d’x de *Borel* correspond à la moitié de la hauteur des as
 
 ![Interlignage de Borel](documentation/images/line-height/borel_chocolate.gif)*Borel offre un interlignage raisonnable.*
 
-Le dessin respecte le style cursif traditionnel, avec un style arrondie et des connexions fluides. L'inclinaison strictement verticale des lettres profite également aux enfants gauchers, rendant l’écriture plus accessible. De plus, les courbes des lettres et les jonctions suivent des dynamiques distinctes, ce qui aide distinguer les lettres au sein d'un même mot.
+Le dessin respecte le style cursif traditionnel, avec un style arrondie et des connexions fluides. L’inclinaison strictement verticale des lettres profite également aux enfants gauchers, rendant l’écriture plus accessible. De plus, les courbes des lettres et les jonctions suivent des dynamiques distinctes, ce qui aide distinguer les lettres au sein d’un même mot.
 
 ![Les courbes de Borel](documentation/images/minimum.gif)*Borel présente un angle d’inclinaison droit et des connexions arrondies.*
 
@@ -151,21 +151,21 @@ Avec quatre variantes de positionnement et quatre types de jonctions, le systèm
 
 Chaque lettre a fait l’objet d’une étude minutieuse afin d’assurer un guidage clair et univoque de l’écriture. L’objectif principal était de respecter un ductus simple tout en étant adapté aux besoins des enfants en plein développement de leur motricité fine.
 
-Considérons l’évolution de la lettre 'a' dans l’écriture d’un élève au fil de sa progression. Selon les instructions reçues, la forme de la lettre peut parfois devenir source de confusion lorsque l’élève écrira plus rapidement. 
+Considérons l’évolution de la lettre `a` dans l’écriture d’un élève au fil de sa progression. Selon les instructions reçues, la forme de la lettre peut parfois devenir source de confusion lorsque l’élève écrira plus rapidement. 
 
 ![Influence des instructions d’écriture sur les compétences futures](documentation/images/ductus.jpg)*Comment les instructions d’écriture peuvent influencer les compétences futures.*
 
 **Les capitales par défaut sont romaines et non cursives.**  
-Traditionnellement, une police cursive comprend un jeu de lettres capitales elles-mêmes cursives. Cependant, ces capitales cursives privilégient uniquement la cohérence esthétique et négligent l’aspect pédagogique :
+Traditionnellement, une police cursive comprend un jeu de lettres capitales elles-mêmes cursives. Cependant, ces capitales cursives privilégient uniquement la cohérence esthétique et négligent l’aspect pédagogique:
 
-- **Elles ont des formes compliquées** qui peuvent induire en erreur (par exemple 'S', 'T', 'C'), surtout pour les enfants en difficulté d’apprentissage.  
-- **Elles ne correspondent pas à des modèles calligraphiques logiques**.  
+- **Elles ont des formes compliquées** qui peuvent induire en erreur (par exemple `S`, `T`, `C`), surtout pour les enfants en difficulté d’apprentissage.  
+- **Elles ne correspondent pas à des modèles calligraphiques logiques** basés sur des ductus propres aux outils de l’écriture.  
 - **Elles ajoutent un modèle supplémentaire à apprendre.** Les enfants doivent déjà apprendre à lire les majuscules et minuscules typographiques; ils apprennent aussi à écrire les minuscules cursives et les majuscules imprimées. Ajouter une version différente de capitale cursive semble superflu, d’autant plus que les élèves abandonnent naturellement les capitales cursives en grandissant.  
 
 Les capitales romaines, quant à elles, sont introduites dès la maternelle pour des raisons pertinentes:
 
-- **Elles sont simples.** Tracer des capitales imprimées ne nécessite que la capacité de réaliser des lignes droites (horizontales, verticales, diagonales) et des cercles (entiers, demi, ouverts) — exception faite du S. Ces formes font partie du développement moteur en maternelle, il n’y a donc pas besoin d’un programme spécifique pour apprendre les capitales.  
-- **Elles sont cohérentes.** quelle que soit la police choisie ou la langue latine utilisée, leur structure reste globalement constante.
+- **Elles sont simples.** Tracer des capitales imprimées ne nécessite que la capacité de réaliser des lignes droites (horizontales, verticales, diagonales) et des cercles (entiers, demi, ouverts) — exception faite du `S`. Ces formes font partie du développement moteur en maternelle, il n’y a donc pas besoin d’un programme spécifique pour apprendre les capitales.  
+- **Elles sont cohérentes.** Quelle que soit la police choisie ou la langue latine utilisée, leur structure reste globalement constante.
 
 Ainsi, d’un point de vue pédagogique, il est plus pertinent de conserver les capitales romaines dans la police *Borel* par défaut.
 
@@ -197,7 +197,7 @@ Pour répondre aux besoins de plusieurs acteurs — tels que des enseignants plu
 
 [^1]: Semeraro C, Coppola G, Cassibba R, Lucangeli D (2019) *Teaching of cursive writing in the first year of primary school: Effect on reading and writing skills.* Plos One .14. 2. doi: [10.1371/journal.pone.0209978](https://doi.org/10.1371/journal.pone.0209978).
 
-[^2]: En 2008, l'université de Toulouse a recensé [la fréquence des lettre dans tout le Wikipedia français](https://fr.wikipedia.org/wiki/Fréquence_d%27apparition_des_lettres)).
+[^2]: En 2008, l’université de Toulouse a recensé [la fréquence des lettre dans tout le Wikipedia français](https://fr.wikipedia.org/wiki/Fréquence_d%27apparition_des_lettres)).
 
 [^3]: Legge GE, Bigelow CA. (2011) *Does print size matter for reading? A review of findings from vision science and typography*. Journal of Vision. 11. 8. doi: [10.1167/11.5.8.](https://doi.org/10.1167/11.5.8)
 
@@ -219,6 +219,6 @@ Pour répondre aux besoins de plusieurs acteurs — tels que des enseignants plu
 
 [^12]: Minakata, Katsumi & Eckmann-Hansen, Christina & Larsen, Michael & Bek, Toke & Beier, Sofie. (2023). *The effect of serifs and stroke contrast on low vision reading.* Acta Psychologica. 232. doi: [103810. 10.1016/j.actpsy.2022.103810.](https://www.sciencedirect.com/science/article/pii/S0001691822003250?via%3Dihub)
 
-[^13]: Pour plus d'informations sur le sujet de la lisibilité en typographie: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
+[^13]: Pour plus d’informations sur le sujet de la lisibilité en typographie: Mary C. Dyson. (2023). *How and why typography affects ease of reading.* [legible-typography.com/en/](https://legible-typography.com/en/).
 
 

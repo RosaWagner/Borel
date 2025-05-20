@@ -52,9 +52,9 @@ This style exhibits several features:
 
 * **The script has an upright angle**, which is actually thoughtful for the left handed people. If the upright angle is hard to reproduce for some children, they can rotate their sheet to be more comfortable.
 
-* **It follows a rounded aesthetic.** 
+* **It follows a rounded aesthetic**, which contributes to a soft, child-like, style.
 
-* **Some letters (like 'b', 'f', 'r', 's', 'x', 'z', and 'Z') have unique shapes** that are different from what you might see in other countries. 
+* **Some letters (like `b`, `f`, `r`, `s`, `x`, `z`, and `Z`) have unique shapes** that are different from what you might see in other countries. 
 
 * **The “Séyès” lines — a system of guidelines — dictate the proportions of the letters**, with the lowercase letters using one line, ascenders using three lines, and so on.
 
@@ -102,7 +102,7 @@ Moreover, it is practically impossible to deviate from the Séyès guideline sys
 
 It is interesting to note that traditional cursive fonts often feature a very light strokes. This is partly due to design constraints — thickening the strokes in such a small space could distort the letter’s identification at small size— and the will to mimic the ballpoint pen. This stresses the importance of increasing letter size to accommodate a bolder weight.
 
-**Finally, a common design issue disrupts the natural rhythm of words.** In an effort to simplify the design process, letters are frequently connected at a consistent height, which forces them to join at an identical diagonal angle. While this makes all connections uniform—and thus easier to make for the designer— it results in a rigid and overly regular appearance. Connecting letters at the same height can lead to shape confusion: for example, an 'o' may resemble an 'a' if the connection point is too low.
+**Finally, a common design issue disrupts the natural rhythm of words.** In an effort to simplify the design process, letters are frequently connected at a consistent height, which forces them to join at an identical diagonal angle. While this makes all connections uniform—and thus easier to make for the designer— it results in a rigid and overly regular appearance. Connecting letters at the same height can lead to shape confusion: for example, an `o` may resemble an `a` if the connection point is too low.
 
 ![Ecriture A, Gaston, Ecolier](documentation/images/rythm.gif)*From top to bottom: Écriture A (by Malou Verlomme, Laurence Bedoin, Marion Andrews), Gaston (by Jean Boyault) and Écolier (by JM Douteau).*
 
@@ -135,19 +135,19 @@ With four positioning variants and four types of connections, the system include
 
 Every individual letter underwent a meticulous study to ensure a seamless, fluid, and uninterrupted writing experience. The primary objective was to create a ductus that was both straightforward and unambiguous, tailored to the needs of children as they developed their fine motor skills.
 
-Consider the evolution of the letter ‘a’ in a student’s handwriting as they progress and gain proficiency, gradually transitioning from a learned basic ductus to a potential confusing forms.
+Consider the evolution of the letter `a` in a student’s handwriting as they progress and gain proficiency, gradually transitioning from a learned basic ductus to a potential confusing forms.
 
 ![How the writing instructions can influence future writing skills.](documentation/images/ductus.jpg)*How the writing instructions can influence future writing skills.*
 
 **The default capitals are roman and not cursive.** Traditionally, a cursive font features a set of capital letters that are themselves in cursive style. However, these cursive capitals only prioritise aesthetic consistency and overlook the pedagogical aspect:
 
-- **They have complicated shapes** that lead to confusion (for example S, T, C), especially for children with learning disabilities.
-- **They don’t align with logical calligraphy models** based on handwriting gestures or tools.
+- **They have complicated shapes** that lead to confusion (for example `S`, `T`, `C`), especially for children with learning disabilities.
+- **They don’t align with logical calligraphy models** based on handwriting gestures specific to calligraphic tools.
 - **They introduce an additional pattern to learn.** Children already need to learn how to read both typographic uppercase and lowercase; they already learn how to write cursive lowercases and print uppercases. Adding another different cursive uppercase version to write seems unnecessary, especially since students naturally abandon cursive capitals as they grow older.
 
 Typographic roman capitals, on the other hand, are introduced in french kindergarten for relevant reasons:
 
-- **They are simple.** Tracing printed capitals only requires the ability to make straight lines (horizontal, vertical, diagonal) and circles (full, half, open) — with the exception of the S. These shapes are part of motor skill development in kindergarten, so there’s no need to add a specific program for drawing capitals.
+- **They are simple.** Tracing printed capitals only requires the ability to make straight lines (horizontal, vertical, diagonal) and circles (full, half, open)—with the exception of the `S`. These shapes are part of motor skill development in kindergarten, so there’s no need to add a specific program for drawing capitals.
 - **They are consistent.** Regardless of the chosen font or the Latin language used, their structure remains largely constant.
 
 Therefore, from a pedagogical standpoint, it is more beneficial to retain roman capitals in the default *Borel* font. 
