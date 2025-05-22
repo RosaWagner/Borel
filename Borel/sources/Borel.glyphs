@@ -1155,7 +1155,7 @@ axesValues = (
 customParameters = (
 {
 name = winAscent;
-value = 1203;
+value = 1290;
 },
 {
 name = winDescent;
