@@ -1,10 +1,6 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
-DisplayStrings = (
-"/.notdef/idotaccent.fina/idotaccent.fina.cv01/idotaccent.fina.cv02/idotaccent.fina.cv03/idotaccent.init/idotaccent.isol/idotaccent.medi.cv01/idotaccent.medi.cv02/idotaccent.medi.cv03",
-"/idotaccent"
-);
 axes = (
 {
 name = "d p q Height";
@@ -553,9 +549,7 @@ sub t t by t_t.liga;
 tag = liga;
 },
 {
-code = "@high=[$[category like \"Letter\" && case==lower && name endswith \".init\"] $[category like \"Letter\" && case==lower && name endswith \".isol\"]];
-
-# All base lowercases letters (has unicode + idotaccent + jdotless)
+code = "# All encoded lowercases letters + idotaccent + t_t
 @Medial=[$[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
@@ -63396,7 +63390,6 @@ name = fileName;
 value = "Borel[DPQH,LOOH]";
 }
 );
-exports = 0;
 name = Regular;
 type = variable;
 },
@@ -63421,7 +63414,6 @@ name = "Update Features";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };
@@ -63461,14 +63453,14 @@ value = 1;
 },
 {
 name = "Replace Feature";
-value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde X Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
-@Letters=[@Lowercase @CapsOrn];
-@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
+value = "calt;# Cursive capitals that exist in positional variants (#NotAllCaps)
 @CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde X Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
+@CapsIsol=[$[case==upper && name endswith \".isol\"]];
 @CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
 @CapsBase=[L Ldot Z]; 
+@Letters=[@Lowercase @CapsMedial @CapsIsol];
 
-# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
+# All encoded lowercases letters + idotaccent + t_t
 @Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
@@ -63526,27 +63518,6 @@ lookup MEDIAL {
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
 
-# all lowercase letters ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol ];
-
-@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
-
-@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T];
-
-@long=[$[name endswith \".long\"]];
-
-lookup after_CET {
-	lookupflag IgnoreMarks;
-	sub @short' @high by @long;
-} after_CET;
-
-@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link];
-
-lookup before_e {
-	lookupflag IgnoreMarks;
-	sub @short' @e by @short.link;
-} before_e;
-
 lookup quotes {
 	lookupflag IgnoreMarks;
 	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
@@ -63559,6 +63530,31 @@ lookup arrows {
 	sub hyphen hyphen by endash;
 	sub hyphen hyphen hyphen by emdash;
 } arrows;
+
+# Letters ending with .init or .isol starting with glyph e
+@e=[$[category like \"Letter\" && case==lower && name beginswith \"e\" && (name endswith \".init\" OR name endswith \".isol\")]];
+
+# all lowercase letters ending with .init or .isol that is not in class @e
+@high=[$[(category like \"Letter\" && case==lower && (name endswith \".init\" OR name endswith \".isol\")) && NOT name beginswith \"e\"]];
+
+# Caps that are too short (C,E,T) to reach following lowercase
+@short=[$[category like \"Letter\" && case==upper && unicode != nil && (name beginswith \"C\" OR name beginswith \"E\" OR name beginswith \"T\")]];
+
+# C,E,T with long terminal
+@long=[$[name endswith \".long\"]];
+
+# Ligature of C,E,T + link (to reach glyph e)
+@short.link=[$[name endswith \".link\" && NOT name like \"e.link\"]];
+
+lookup after_CET {
+	lookupflag IgnoreMarks;
+	sub @short' @high by @long;
+} after_CET;
+
+lookup before_e {
+	lookupflag IgnoreMarks;
+	sub @short' @e by @short.link;
+} before_e;
 ";
 }
 );
@@ -63611,14 +63607,14 @@ value = 1;
 },
 {
 name = "Replace Feature";
-value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde X Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
-@Letters=[@Lowercase @CapsOrn];
-@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
+value = "calt;# Cursive capitals that exist in positional variants (#NotAllCaps)
 @CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde X Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
+@CapsIsol=[$[case==upper && name endswith \".isol\"]];
 @CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
 @CapsBase=[L Ldot Z]; 
+@Letters=[@Lowercase @CapsMedial @CapsIsol];
 
-# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
+# All encoded lowercases letters + idotaccent + t_t
 @Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
@@ -63676,27 +63672,6 @@ lookup MEDIAL {
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
 
-# all lowercase letters ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
-
-@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
-
-@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T];
-
-@long=[$[name endswith \".long\"]];
-
-lookup after_CET {
-	lookupflag IgnoreMarks;
-	sub @short' @high by @long;
-} after_CET;
-
-@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link];
-
-lookup before_e {
-	lookupflag IgnoreMarks;
-	sub @short' @e by @short.link;
-} before_e;
-
 lookup quotes {
 	lookupflag IgnoreMarks;
 	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
@@ -63709,9 +63684,35 @@ lookup arrows {
 	sub hyphen hyphen by endash;
 	sub hyphen hyphen hyphen by emdash;
 } arrows;
+
+# Letters ending with .init or .isol starting with glyph e
+@e=[$[category like \"Letter\" && case==lower && name beginswith \"e\" && (name endswith \".init\" OR name endswith \".isol\")]];
+
+# all lowercase letters ending with .init or .isol that is not in class @e
+@high=[$[(category like \"Letter\" && case==lower && (name endswith \".init\" OR name endswith \".isol\")) && NOT name beginswith \"e\"]];
+
+# Caps that are too short (C,E,T) to reach following lowercase
+@short=[$[category like \"Letter\" && case==upper && unicode != nil && (name beginswith \"C\" OR name beginswith \"E\" OR name beginswith \"T\")]];
+
+# C,E,T with long terminal
+@long=[$[name endswith \".long\"]];
+
+# Ligature of C,E,T + link (to reach glyph e)
+@short.link=[$[name endswith \".link\" && NOT name like \"e.link\"]];
+
+lookup after_CET {
+	lookupflag IgnoreMarks;
+	sub @short' @high by @long;
+} after_CET;
+
+lookup before_e {
+	lookupflag IgnoreMarks;
+	sub @short' @e by @short.link;
+} before_e;
 ";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };
@@ -63754,14 +63755,15 @@ value = 1;
 },
 {
 name = "Replace Feature";
-value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
-@Letters=[@Lowercase @CapsOrn];
-@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
+value = "calt;# Cursive capitals that exist in positional variants (#NotAllCaps)
+## Added N Ntilde and removed X
 @CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
+@CapsIsol=[$[case==upper && name endswith \".isol\"]];
 @CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
 @CapsBase=[L Ldot Z]; 
+@Letters=[@Lowercase @CapsMedial @CapsIsol];
 
-# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
+# All encoded lowercases letters + idotaccent + t_t
 @Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
@@ -63819,26 +63821,45 @@ lookup MEDIAL {
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
 
-# all lowercase letter ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
+lookup quotes {
+	lookupflag IgnoreMarks;
+	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
+} quotes;
 
-@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
+lookup arrows {
+	sub hyphen greater by rightArrow;
+	sub hyphen less by leftArrow;
+	sub less greater by leftRightDoubleArrow;
+	sub hyphen hyphen by endash;
+	sub hyphen hyphen hyphen by emdash;
+} arrows;
 
-@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T X];
+# Letters ending with .init or .isol starting with glyph e
+@e=[$[category like \"Letter\" && case==lower && name beginswith \"e\" && (name endswith \".init\" OR name endswith \".isol\")]];
 
+# all lowercase letters ending with .init or .isol that is not in class @e
+@high=[$[(category like \"Letter\" && case==lower && (name endswith \".init\" OR name endswith \".isol\")) && NOT name beginswith \"e\"]];
+
+# Caps that are too short (C,E,T,X) to reach following lowercase
+## Added X
+@short=[$[category like \"Letter\" && case==upper && unicode != nil && (name beginswith \"C\" OR name beginswith \"E\" OR name beginswith \"T\" OR name beginswith \"X\")]];
+
+# C,E,T,X with long terminal
 @long=[$[name endswith \".long\"]];
+
+# Ligature of C,E,T,X + link (to reach glyph e)
+@short.link=[$[name endswith \".link\" && NOT name like \"e.link\"]];
 
 lookup after_CETX {
 	lookupflag IgnoreMarks;
 	sub @short' @high by @long;
 } after_CETX;
 
-@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link X_e.link];
-
 lookup before_e {
 	lookupflag IgnoreMarks;
 	sub @short' @e by @short.link;
 } before_e;
+
 ";
 }
 );
@@ -63883,14 +63904,15 @@ value = 1;
 },
 {
 name = "Replace Feature";
-value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
-@Letters=[@Lowercase @CapsOrn];
-@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
+value = "calt;# Cursive capitals that exist in positional variants (#NotAllCaps)
+## Added N Ntilde and removed X
 @CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
+@CapsIsol=[$[case==upper && name endswith \".isol\"]];
 @CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
 @CapsBase=[L Ldot Z]; 
+@Letters=[@Lowercase @CapsMedial @CapsIsol];
 
-# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
+# All encoded lowercases letters + idotaccent + t_t
 @Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
@@ -63948,26 +63970,45 @@ lookup MEDIAL {
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
 
-# all lowercase letter ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
+lookup quotes {
+	lookupflag IgnoreMarks;
+	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
+} quotes;
 
-@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
+lookup arrows {
+	sub hyphen greater by rightArrow;
+	sub hyphen less by leftArrow;
+	sub less greater by leftRightDoubleArrow;
+	sub hyphen hyphen by endash;
+	sub hyphen hyphen hyphen by emdash;
+} arrows;
 
-@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T X];
+# Letters ending with .init or .isol starting with glyph e
+@e=[$[category like \"Letter\" && case==lower && name beginswith \"e\" && (name endswith \".init\" OR name endswith \".isol\")]];
 
+# all lowercase letters ending with .init or .isol that is not in class @e
+@high=[$[(category like \"Letter\" && case==lower && (name endswith \".init\" OR name endswith \".isol\")) && NOT name beginswith \"e\"]];
+
+# Caps that are too short (C,E,T,X) to reach following lowercase
+## Added X
+@short=[$[category like \"Letter\" && case==upper && unicode != nil && (name beginswith \"C\" OR name beginswith \"E\" OR name beginswith \"T\" OR name beginswith \"X\")]];
+
+# C,E,T,X with long terminal
 @long=[$[name endswith \".long\"]];
+
+# Ligature of C,E,T,X + link (to reach glyph e)
+@short.link=[$[name endswith \".link\" && NOT name like \"e.link\"]];
 
 lookup after_CETX {
 	lookupflag IgnoreMarks;
 	sub @short' @high by @long;
 } after_CETX;
 
-@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link X_e.link];
-
 lookup before_e {
 	lookupflag IgnoreMarks;
 	sub @short' @e by @short.link;
 } before_e;
+
 ";
 }
 );
@@ -64019,14 +64060,15 @@ value = 1;
 },
 {
 name = "Replace Feature";
-value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
-@Letters=[@Lowercase @CapsOrn];
-@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
+value = "calt;# Cursive capitals that exist in positional variants (#NotAllCaps)
+## Removed X
 @CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
+@CapsIsol=[$[case==upper && name endswith \".isol\"]];
 @CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
 @CapsBase=[L Ldot Z]; 
+@Letters=[@Lowercase @CapsMedial @CapsIsol];
 
-# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
+# All encoded lowercases letters + idotaccent + t_t
 @Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
@@ -64084,27 +64126,6 @@ lookup MEDIAL {
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
 
-# all lowercase letters ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
-
-@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
-
-@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T X];
-
-@long=[$[name endswith \".long\"]];
-
-lookup after_CETX {
-	lookupflag IgnoreMarks;
-	sub @short' @high by @long;
-} after_CETX;
-
-@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link X_e.link];
-
-lookup before_e {
-	lookupflag IgnoreMarks;
-	sub @short' @e by @short.link;
-} before_e;
-
 lookup quotes {
 	lookupflag IgnoreMarks;
 	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
@@ -64117,6 +64138,33 @@ lookup arrows {
 	sub hyphen hyphen by endash;
 	sub hyphen hyphen hyphen by emdash;
 } arrows;
+
+# Letters ending with .init or .isol starting with glyph e
+@e=[$[category like \"Letter\" && case==lower && name beginswith \"e\" && (name endswith \".init\" OR name endswith \".isol\")]];
+
+# all lowercase letters ending with .init or .isol that is not in class @e
+@high=[$[(category like \"Letter\" && case==lower && (name endswith \".init\" OR name endswith \".isol\")) && NOT name beginswith \"e\"]];
+
+# Caps that are too short (C,E,T,X) to reach following lowercase
+## Added X
+@short=[$[category like \"Letter\" && case==upper && unicode != nil && (name beginswith \"C\" OR name beginswith \"E\" OR name beginswith \"T\" OR name beginswith \"X\")]];
+
+# C,E,T,X with long terminal
+@long=[$[name endswith \".long\"]];
+
+# Ligature of C,E,T,X + link (to reach glyph e)
+@short.link=[$[name endswith \".link\" && NOT name like \"e.link\"]];
+
+lookup after_CETX {
+	lookupflag IgnoreMarks;
+	sub @short' @high by @long;
+} after_CETX;
+
+lookup before_e {
+	lookupflag IgnoreMarks;
+	sub @short' @e by @short.link;
+} before_e;
+
 ";
 }
 );
@@ -64171,14 +64219,14 @@ value = 1;
 },
 {
 name = "Replace Feature";
-value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde X Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
-@Letters=[@Lowercase @CapsOrn];
-@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
+value = "calt;# Cursive capitals that exist in positional variants (#NotAllCaps)
 @CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde X Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
+@CapsIsol=[$[case==upper && name endswith \".isol\"]];
 @CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
 @CapsBase=[L Ldot Z]; 
+@Letters=[@Lowercase @CapsMedial @CapsIsol];
 
-# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
+# All encoded lowercases letters + idotaccent + t_t
 @Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
@@ -64188,6 +64236,7 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @Final=[@CapsIsol $[name endswith \".fina\"]];
 
 # Letters that need a long connection on the base line
+## Removed l
 @Base=[@CapsBase e $[name beginswith \"e.\"] $[name beginswith \"eacute\"] $[name beginswith \"ecircumflex\"] $[name beginswith \"edieresis\"] $[name beginswith \"edotbelow\"] $[name beginswith \"egrave\"] $[name beginswith \"ehookabove\"] $[name beginswith \"etilde\"] oe $[name beginswith \"oe.\"] ae $[name beginswith \"ae.\"] c $[name beginswith \"c.\"] $[name beginswith \"ccedilla\"] s $[name beginswith \"s.\"] $[name beginswith \"scedilla\"] $[name beginswith \"germandbls\"] x $[name beginswith \"x.\"]];
 
 @BaseMedial=[@CapsMedial $[name endswith \".medi.cv01\"]];
@@ -64236,27 +64285,6 @@ lookup MEDIAL {
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
 
-# all lowercase letters ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
-
-@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
-
-@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T];
-
-@long=[$[name endswith \".long\"]];
-
-lookup after_CET {
-	lookupflag IgnoreMarks;
-	sub @short' @high by @long;
-} after_CET;
-
-@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link];
-
-lookup before_e {
-	lookupflag IgnoreMarks;
-	sub @short' @e by @short.link;
-} before_e;
-
 lookup quotes {
 	lookupflag IgnoreMarks;
 	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
@@ -64269,6 +64297,31 @@ lookup arrows {
 	sub hyphen hyphen by endash;
 	sub hyphen hyphen hyphen by emdash;
 } arrows;
+
+# Letters ending with .init or .isol starting with glyph e
+@e=[$[category like \"Letter\" && case==lower && name beginswith \"e\" && (name endswith \".init\" OR name endswith \".isol\")]];
+
+# all lowercase letters ending with .init or .isol that is not in class @e
+@high=[$[(category like \"Letter\" && case==lower && (name endswith \".init\" OR name endswith \".isol\")) && NOT name beginswith \"e\"]];
+
+# Caps that are too short (C,E,T) to reach following lowercase
+@short=[$[category like \"Letter\" && case==upper && unicode != nil && (name beginswith \"C\" OR name beginswith \"E\" OR name beginswith \"T\")]];
+
+# C,E,T with long terminal
+@long=[$[name endswith \".long\"]];
+
+# Ligature of C,E,T + link (to reach glyph e)
+@short.link=[$[name endswith \".link\" && NOT name like \"e.link\"]];
+
+lookup after_CET {
+	lookupflag IgnoreMarks;
+	sub @short' @high by @long;
+} after_CET;
+
+lookup before_e {
+	lookupflag IgnoreMarks;
+	sub @short' @e by @short.link;
+} before_e;
 ";
 },
 {
@@ -64331,14 +64384,15 @@ value = 1;
 },
 {
 name = "Replace Feature";
-value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z $[case == upper AND name endswith \".isol\"]];
-@Letters=[@Lowercase @CapsOrn];
-@CapsIsol=[$[case == upper AND name endswith \".isol\"]];
+value = "calt;# Cursive capitals that exist in positional variants (#NotAllCaps)
+## Added N Ntilde and removed X
 @CapsMedial=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Aring Atilde G Gbreve H J K L Ldot M N Ntilde Q R U Uacute Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Utilde Y Yacute Ydotbelow Ygrave Yhookabove Ytilde Z];
+@CapsIsol=[$[case==upper && name endswith \".isol\"]];
 @CapsBottom=[G Gbreve J Y Yacute Ydotbelow Ygrave Yhookabove Ytilde];
 @CapsBase=[L Ldot Z]; 
+@Letters=[@Lowercase @CapsMedial @CapsIsol];
 
-# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
+# All encoded lowercases letters + idotaccent + t_t
 @Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
@@ -64348,7 +64402,8 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @Final=[@CapsIsol $[name endswith \".fina\"]];
 
 # Letters that need a long connection on the base line
-@Base=[@CapsBase e $[name beginswith \"e.\"] $[name beginswith \"eacute\"] $[name beginswith \"ecircumflex\"] $[name beginswith \"edieresis\"] $[name beginswith \"edotbelow\"] $[name beginswith \"egrave\"] $[name beginswith \"ehookabove\"] $[name beginswith \"etilde\"] oe $[name beginswith \"oe.\"] ae $[name beginswith \"ae.\"] c $[name beginswith \"c.\"] $[name beginswith \"ccedilla\"] s $[name beginswith \"s.\"] $[name beginswith \"scedilla\"] $[name beginswith \"germandbls\"] x $[name beginswith \"x.\"]];
+## Removed l
+@Base=[@CapsBase e $[name beginswith \"e.\"] $[name beginswith \"eacute\"] $[name beginswith \"ecircumflex\"] $[name beginswith \"edieresis\"] $[name beginswith \"edotbelow\"] $[name beginswith \"egrave\"] $[name beginswith \"ehookabove\"] $[name beginswith \"etilde\"] oe $[name beginswith \"oe.\"] ae $[name beginswith \"ae.\"] c $[name beginswith \"c.\"] $[name beginswith \"ldot\"] $[name beginswith \"ccedilla\"] s $[name beginswith \"s.\"] $[name beginswith \"scedilla\"] $[name beginswith \"germandbls\"] x $[name beginswith \"x.\"]];
 
 @BaseMedial=[@CapsMedial $[name endswith \".medi.cv01\"]];
 
@@ -64396,26 +64451,45 @@ lookup MEDIAL {
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
 
-# all lowercase letters ending with .init or .isol that is not part of the group @e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
+lookup quotes {
+	lookupflag IgnoreMarks;
+	pos @Uppercase [quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle]' <0 -136 0 0>;
+} quotes;
 
-@e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
+lookup arrows {
+	sub hyphen greater by rightArrow;
+	sub hyphen less by leftArrow;
+	sub less greater by leftRightDoubleArrow;
+	sub hyphen hyphen by endash;
+	sub hyphen hyphen hyphen by emdash;
+} arrows;
 
-@short=[C Ccedilla E Eacute Ebreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotbelow Egrave Ehookabove Etilde T X];
+# Letters ending with .init or .isol starting with glyph e
+@e=[$[category like \"Letter\" && case==lower && name beginswith \"e\" && (name endswith \".init\" OR name endswith \".isol\")]];
 
+# all lowercase letters ending with .init or .isol that is not in class @e
+@high=[$[(category like \"Letter\" && case==lower && (name endswith \".init\" OR name endswith \".isol\")) && NOT name beginswith \"e\"]];
+
+# Caps that are too short (C,E,T,X) to reach following lowercase
+## Added X
+@short=[$[category like \"Letter\" && case==upper && unicode != nil && (name beginswith \"C\" OR name beginswith \"E\" OR name beginswith \"T\" OR name beginswith \"X\")]];
+
+# C,E,T,X with long terminal
 @long=[$[name endswith \".long\"]];
+
+# Ligature of C,E,T,X + link (to reach glyph e)
+@short.link=[$[name endswith \".link\" && NOT name like \"e.link\"]];
 
 lookup after_CETX {
 	lookupflag IgnoreMarks;
 	sub @short' @high by @long;
 } after_CETX;
 
-@short.link=[C_e.link Ccedilla_e.link E_e.link Eacute_e.link Ebreve_e.link Ecircumflex_e.link Ecircumflexacute_e.link Ecircumflexdotbelow_e.link Ecircumflexgrave_e.link Ecircumflexhookabove_e.link Ecircumflextilde_e.link Edieresis_e.link Edotbelow_e.link Egrave_e.link Ehookabove_e.link Etilde_e.link T_e.link X_e.link];
-
 lookup before_e {
 	lookupflag IgnoreMarks;
 	sub @short' @e by @short.link;
 } before_e;
+
 ";
 },
 {
