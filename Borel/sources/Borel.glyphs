@@ -1,6 +1,10 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
+DisplayStrings = (
+"/.notdef/idotaccent.fina/idotaccent.fina.cv01/idotaccent.fina.cv02/idotaccent.fina.cv03/idotaccent.init/idotaccent.isol/idotaccent.medi.cv01/idotaccent.medi.cv02/idotaccent.medi.cv03",
+"/idotaccent"
+);
 axes = (
 {
 name = "d p q Height";
@@ -19,12 +23,12 @@ name = Uppercase;
 },
 {
 automatic = 1;
-code = "A A.cv04 A.cv05 A.isol.cv04 A.isol.cv05 Aacute Aacute.isol.cv04 Aacute.isol.cv05 Abreve Abreve.isol.cv04 Abreve.isol.cv05 Abreveacute Abreveacute.isol.cv04 Abreveacute.isol.cv05 Abrevedotbelow Abrevedotbelow.isol.cv04 Abrevedotbelow.isol.cv05 Abrevegrave Abrevegrave.isol.cv04 Abrevegrave.isol.cv05 Abrevehookabove Abrevehookabove.isol.cv04 Abrevehookabove.isol.cv05 Abrevetilde Abrevetilde.isol.cv04 Abrevetilde.isol.cv05 Acircumflex Acircumflex.isol.cv04 Acircumflex.isol.cv05 Acircumflexacute Acircumflexacute.isol.cv04 Acircumflexacute.isol.cv05 Acircumflexdotbelow Acircumflexdotbelow.isol.cv04 Acircumflexdotbelow.isol.cv05 Acircumflexgrave Acircumflexgrave.isol.cv04 Acircumflexgrave.isol.cv05 Acircumflexhookabove Acircumflexhookabove.isol.cv04 Acircumflexhookabove.isol.cv05 Acircumflextilde Acircumflextilde.isol.cv04 Acircumflextilde.isol.cv05 Adieresis Adieresis.isol.cv04 Adieresis.isol.cv05 Adotbelow Adotbelow.isol.cv04 Adotbelow.isol.cv05 Agrave Agrave.isol.cv04 Agrave.isol.cv05 Ahookabove Ahookabove.isol.cv04 Ahookabove.isol.cv05 Aring Aring.cv04 Aring.cv05 Aring.isol.cv04 Aring.isol.cv05 Atilde Atilde.isol.cv04 Atilde.isol.cv05 AE B B.cv04 C C.cv04 C.long Ccedilla Ccedilla.long D D.cv04 Dcroat Dcroat.cv04 E E.cv04 E.long Eacute Eacute.long Ebreve Ebreve.long Ecircumflex Ecircumflex.long Ecircumflexacute Ecircumflexacute.long Ecircumflexdotbelow Ecircumflexdotbelow.long Ecircumflexgrave Ecircumflexgrave.long Ecircumflexhookabove Ecircumflexhookabove.long Ecircumflextilde Ecircumflextilde.long Edieresis Edieresis.long Edotbelow Edotbelow.long Egrave Egrave.long Ehookabove Ehookabove.long Etilde Etilde.long F F.cv04 G G.cv04 G.isol.cv04 Gbreve Gbreve.isol.cv04 H H.cv04 H.isol.cv04 I I.cv04 Iacute Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Itilde J J.calt J.cv04 J.isol.cv04 K K.cv04 K.isol.cv04 L L.cv04 L.isol.cv04 Ldot Ldot.isol.cv04 M M.cv04 M.cv05 M.isol.cv04 M.isol.cv05 N N.cv04 N.cv05 N.isol.cv05 Ntilde Ntilde.isol.cv05 O O.cv04 Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Oslash Otilde OE P P.cv04 Q Q.cv04 Q.isol.cv04 R R.cv04 R.isol.cv04 S S.cv04 Scedilla Germandbls T T.cv04 T.long U U.cv04 U.isol.cv04 Uacute Uacute.isol.cv04 Ucircumflex Ucircumflex.isol.cv04 Udieresis Udieresis.isol.cv04 Udotbelow Udotbelow.isol.cv04 Ugrave Ugrave.isol.cv04 Uhookabove Uhookabove.isol.cv04 Uhorn Uhorn.isol.cv04 Uhornacute Uhornacute.isol.cv04 Uhorndotbelow Uhorndotbelow.isol.cv04 Uhorngrave Uhorngrave.isol.cv04 Uhornhookabove Uhornhookabove.isol.cv04 Uhorntilde Uhorntilde.isol.cv04 Utilde Utilde.isol.cv04 V V.cv04 V.cv05 W W.cv04 W.cv05 X X.cv04 X.cv05 X.isol.cv04 X.long.cv05 Y Y.cv04 Y.isol.cv04 Yacute Yacute.isol.cv04 Ydotbelow Ydotbelow.isol.cv04 Ygrave Ygrave.isol.cv04 Yhookabove Yhookabove.isol.cv04 Ytilde Ytilde.isol.cv04 Z Z.cv04 Z.isol.cv04 Z.isol.ss01.cv04 Z.ss01 Z.ss01.cv04 C_e.link.cv04 Ccedilla_e.link.cv04 E_e.link.cv04 Eacute_e.link.cv04 Ebreve_e.link.cv04 Ecircumflex_e.link.cv04 Ecircumflexacute_e.link.cv04 Ecircumflexdotbelow_e.link.cv04 Ecircumflexgrave_e.link.cv04 Ecircumflexhookabove_e.link.cv04 Ecircumflextilde_e.link.cv04 Edieresis_e.link.cv04 Edotbelow_e.link.cv04 Egrave_e.link.cv04 Ehookabove_e.link.cv04 Etilde_e.link.cv04 T_e.link.cv04 X_e.link.cv05 a a.fina a.fina.cv01 a.fina.cv02 a.fina.cv03 a.init a.isol a.medi.cv01 a.medi.cv02 a.medi.cv03 aacute aacute.fina aacute.fina.cv01 aacute.fina.cv02 aacute.fina.cv03 aacute.init aacute.isol aacute.medi.cv01 aacute.medi.cv02 aacute.medi.cv03 abreve abreve.fina abreve.fina.cv01 abreve.fina.cv02 abreve.fina.cv03 abreve.init abreve.isol abreve.medi.cv01 abreve.medi.cv02 abreve.medi.cv03 abreveacute abreveacute.fina abreveacute.fina.cv01 abreveacute.fina.cv02 abreveacute.fina.cv03 abreveacute.init abreveacute.isol abreveacute.medi.cv01 abreveacute.medi.cv02 abreveacute.medi.cv03 abrevedotbelow abrevedotbelow.fina abrevedotbelow.fina.cv01 abrevedotbelow.fina.cv02 abrevedotbelow.fina.cv03 abrevedotbelow.init abrevedotbelow.isol abrevedotbelow.medi.cv01 abrevedotbelow.medi.cv02 abrevedotbelow.medi.cv03 abrevegrave abrevegrave.fina abrevegrave.fina.cv01 abrevegrave.fina.cv02 abrevegrave.fina.cv03 abrevegrave.init abrevegrave.isol abrevegrave.medi.cv01 abrevegrave.medi.cv02 abrevegrave.medi.cv03 abrevehookabove abrevehookabove.fina abrevehookabove.fina.cv01 abrevehookabove.fina.cv02 abrevehookabove.fina.cv03 abrevehookabove.init abrevehookabove.isol abrevehookabove.medi.cv01 abrevehookabove.medi.cv02 abrevehookabove.medi.cv03 abrevetilde abrevetilde.fina abrevetilde.fina.cv01 abrevetilde.fina.cv02 abrevetilde.fina.cv03 abrevetilde.init abrevetilde.isol abrevetilde.medi.cv01 abrevetilde.medi.cv02 abrevetilde.medi.cv03 acircumflex acircumflex.fina acircumflex.fina.cv01 acircumflex.fina.cv02 acircumflex.fina.cv03 acircumflex.init acircumflex.isol acircumflex.medi.cv01 acircumflex.medi.cv02 acircumflex.medi.cv03 acircumflexacute acircumflexacute.fina acircumflexacute.fina.cv01 acircumflexacute.fina.cv02 acircumflexacute.fina.cv03 acircumflexacute.init acircumflexacute.isol acircumflexacute.medi.cv01 acircumflexacute.medi.cv02 acircumflexacute.medi.cv03 acircumflexdotbelow acircumflexdotbelow.fina acircumflexdotbelow.fina.cv01 acircumflexdotbelow.fina.cv02 acircumflexdotbelow.fina.cv03 acircumflexdotbelow.init acircumflexdotbelow.isol acircumflexdotbelow.medi.cv01 acircumflexdotbelow.medi.cv02 acircumflexdotbelow.medi.cv03 acircumflexgrave acircumflexgrave.fina acircumflexgrave.fina.cv01 acircumflexgrave.fina.cv02 acircumflexgrave.fina.cv03 acircumflexgrave.init acircumflexgrave.isol acircumflexgrave.medi.cv01 acircumflexgrave.medi.cv02 acircumflexgrave.medi.cv03 acircumflexhookabove acircumflexhookabove.fina acircumflexhookabove.fina.cv01 acircumflexhookabove.fina.cv02 acircumflexhookabove.fina.cv03 acircumflexhookabove.init acircumflexhookabove.isol acircumflexhookabove.medi.cv01 acircumflexhookabove.medi.cv02 acircumflexhookabove.medi.cv03 acircumflextilde acircumflextilde.fina acircumflextilde.fina.cv01 acircumflextilde.fina.cv02 acircumflextilde.fina.cv03 acircumflextilde.init acircumflextilde.isol acircumflextilde.medi.cv01 acircumflextilde.medi.cv02 acircumflextilde.medi.cv03 adieresis adieresis.fina adieresis.fina.cv01 adieresis.fina.cv02 adieresis.fina.cv03 adieresis.init adieresis.isol adieresis.medi.cv01 adieresis.medi.cv02 adieresis.medi.cv03 adotbelow adotbelow.fina adotbelow.fina.cv01 adotbelow.fina.cv02 adotbelow.fina.cv03 adotbelow.init adotbelow.isol adotbelow.medi.cv01 adotbelow.medi.cv02 adotbelow.medi.cv03 agrave agrave.fina agrave.fina.cv01 agrave.fina.cv02 agrave.fina.cv03 agrave.init agrave.isol agrave.medi.cv01 agrave.medi.cv02 agrave.medi.cv03 ahookabove ahookabove.fina ahookabove.fina.cv01 ahookabove.fina.cv02 ahookabove.fina.cv03 ahookabove.init ahookabove.isol ahookabove.medi.cv01 ahookabove.medi.cv02 ahookabove.medi.cv03 aring aring.fina aring.fina.cv01 aring.fina.cv02 aring.fina.cv03 aring.init aring.isol aring.medi.cv01 aring.medi.cv02 aring.medi.cv03 atilde atilde.fina atilde.fina.cv01 atilde.fina.cv02 atilde.fina.cv03 atilde.init atilde.isol atilde.medi.cv01 atilde.medi.cv02 atilde.medi.cv03 ae ae.fina ae.fina.cv01 ae.fina.cv02 ae.fina.cv03 ae.init ae.isol ae.medi.cv01 ae.medi.cv02 ae.medi.cv03 b b.fina b.fina.cv01 b.fina.cv02 b.fina.cv03 b.init b.init.cv04 b.isol b.isol.cv04 b.medi.cv01 b.medi.cv02 b.medi.cv03 c c.fina c.fina.cv01 c.fina.cv02 c.fina.cv03 c.init c.isol c.medi.cv01 c.medi.cv02 c.medi.cv03 ccedilla ccedilla.fina ccedilla.fina.cv01 ccedilla.fina.cv02 ccedilla.fina.cv03 ccedilla.init ccedilla.isol ccedilla.medi.cv01 ccedilla.medi.cv02 ccedilla.medi.cv03 d d.fina d.fina.cv01 d.fina.cv02 d.fina.cv03 d.init d.isol d.medi.cv01 d.medi.cv02 d.medi.cv03 dcroat dcroat.fina dcroat.fina.cv01 dcroat.fina.cv02 dcroat.fina.cv03 dcroat.init dcroat.isol dcroat.medi.cv01 dcroat.medi.cv02 dcroat.medi.cv03 e e.fina e.fina.cv01 e.fina.cv02 e.fina.cv03 e.init e.init.cv04 e.isol e.isol.cv04 e.link.cv04 e.medi.cv01 e.medi.cv02 e.medi.cv03 eacute eacute.fina eacute.fina.cv01 eacute.fina.cv02 eacute.fina.cv03 eacute.init eacute.isol eacute.medi.cv01 eacute.medi.cv02 eacute.medi.cv03 ebreve ebreve.fina ebreve.fina.cv01 ebreve.fina.cv02 ebreve.fina.cv03 ebreve.init ebreve.isol ebreve.medi.cv01 ebreve.medi.cv02 ebreve.medi.cv03 ecircumflex ecircumflex.fina ecircumflex.fina.cv01 ecircumflex.fina.cv02 ecircumflex.fina.cv03 ecircumflex.init ecircumflex.isol ecircumflex.medi.cv01 ecircumflex.medi.cv02 ecircumflex.medi.cv03 ecircumflexacute ecircumflexacute.fina ecircumflexacute.fina.cv01 ecircumflexacute.fina.cv02 ecircumflexacute.fina.cv03 ecircumflexacute.init ecircumflexacute.isol ecircumflexacute.medi.cv01 ecircumflexacute.medi.cv02 ecircumflexacute.medi.cv03 ecircumflexdotbelow ecircumflexdotbelow.fina ecircumflexdotbelow.fina.cv01 ecircumflexdotbelow.fina.cv02 ecircumflexdotbelow.fina.cv03 ecircumflexdotbelow.init ecircumflexdotbelow.isol ecircumflexdotbelow.medi.cv01 ecircumflexdotbelow.medi.cv02 ecircumflexdotbelow.medi.cv03 ecircumflexgrave ecircumflexgrave.fina ecircumflexgrave.fina.cv01 ecircumflexgrave.fina.cv02 ecircumflexgrave.fina.cv03 ecircumflexgrave.init ecircumflexgrave.isol ecircumflexgrave.medi.cv01 ecircumflexgrave.medi.cv02 ecircumflexgrave.medi.cv03 ecircumflexhookabove ecircumflexhookabove.fina ecircumflexhookabove.fina.cv01 ecircumflexhookabove.fina.cv02 ecircumflexhookabove.fina.cv03 ecircumflexhookabove.init ecircumflexhookabove.isol ecircumflexhookabove.medi.cv01 ecircumflexhookabove.medi.cv02 ecircumflexhookabove.medi.cv03 ecircumflextilde ecircumflextilde.fina ecircumflextilde.fina.cv01 ecircumflextilde.fina.cv02 ecircumflextilde.fina.cv03 ecircumflextilde.init ecircumflextilde.isol ecircumflextilde.medi.cv01 ecircumflextilde.medi.cv02 ecircumflextilde.medi.cv03 edieresis edieresis.fina edieresis.fina.cv01 edieresis.fina.cv02 edieresis.fina.cv03 edieresis.init edieresis.isol edieresis.medi.cv01 edieresis.medi.cv02 edieresis.medi.cv03 edotbelow edotbelow.fina edotbelow.fina.cv01 edotbelow.fina.cv02 edotbelow.fina.cv03 edotbelow.init edotbelow.isol edotbelow.medi.cv01 edotbelow.medi.cv02 edotbelow.medi.cv03 egrave egrave.fina egrave.fina.cv01 egrave.fina.cv02 egrave.fina.cv03 egrave.init egrave.isol egrave.medi.cv01 egrave.medi.cv02 egrave.medi.cv03 ehookabove ehookabove.fina ehookabove.fina.cv01 ehookabove.fina.cv02 ehookabove.fina.cv03 ehookabove.init ehookabove.isol ehookabove.medi.cv01 ehookabove.medi.cv02 ehookabove.medi.cv03 etilde etilde.fina etilde.fina.cv01 etilde.fina.cv02 etilde.fina.cv03 etilde.init etilde.isol etilde.medi.cv01 etilde.medi.cv02 etilde.medi.cv03 f f.fina f.fina.cv01 f.fina.cv02 f.fina.cv03 f.init f.init.cv04 f.isol f.isol.cv04 f.medi.cv01 f.medi.cv02 f.medi.cv03 g g.fina g.fina.cv01 g.fina.cv02 g.fina.cv03 g.init g.isol g.medi.cv01 g.medi.cv02 g.medi.cv03 gbreve gbreve.fina gbreve.fina.cv01 gbreve.fina.cv02 gbreve.fina.cv03 gbreve.init gbreve.isol gbreve.medi.cv01 gbreve.medi.cv02 gbreve.medi.cv03 h h.fina h.fina.cv01 h.fina.cv02 h.fina.cv03 h.init h.init.cv04 h.isol h.isol.cv04 h.medi.cv01 h.medi.cv02 h.medi.cv03 i i.fina i.fina.cv01 i.fina.cv02 i.fina.cv03 i.init i.init.cv04 i.isol i.isol.cv04 i.medi.cv01 i.medi.cv02 i.medi.cv03 idotless idotless.fina idotless.fina.cv01 idotless.fina.cv02 idotless.fina.cv03 idotless.init idotless.init.cv04 idotless.isol idotless.isol.cv04 idotless.medi.cv01 idotless.medi.cv02 idotless.medi.cv03 iacute iacute.fina iacute.fina.cv01 iacute.fina.cv02 iacute.fina.cv03 iacute.init iacute.isol iacute.medi.cv01 iacute.medi.cv02 iacute.medi.cv03 icircumflex icircumflex.fina icircumflex.fina.cv01 icircumflex.fina.cv02 icircumflex.fina.cv03 icircumflex.init icircumflex.isol icircumflex.medi.cv01 icircumflex.medi.cv02 icircumflex.medi.cv03 idieresis idieresis.fina idieresis.fina.cv01 idieresis.fina.cv02 idieresis.fina.cv03 idieresis.init idieresis.isol idieresis.medi.cv01 idieresis.medi.cv02 idieresis.medi.cv03 idotaccent idotaccent.fina idotaccent.fina.cv01 idotaccent.fina.cv02 idotaccent.fina.cv03 idotaccent.init idotaccent.isol idotaccent.medi.cv01 idotaccent.medi.cv02 idotaccent.medi.cv03 idotbelow idotbelow.fina idotbelow.fina.cv01 idotbelow.fina.cv02 idotbelow.fina.cv03 idotbelow.init idotbelow.isol idotbelow.medi.cv01 idotbelow.medi.cv02 idotbelow.medi.cv03 igrave igrave.fina igrave.fina.cv01 igrave.fina.cv02 igrave.fina.cv03 igrave.init igrave.isol igrave.medi.cv01 igrave.medi.cv02 igrave.medi.cv03 ihookabove ihookabove.fina ihookabove.fina.cv01 ihookabove.fina.cv02 ihookabove.fina.cv03 ihookabove.init ihookabove.isol ihookabove.medi.cv01 ihookabove.medi.cv02 ihookabove.medi.cv03 itilde itilde.fina itilde.fina.cv01 itilde.fina.cv02 itilde.fina.cv03 itilde.init itilde.isol itilde.medi.cv01 itilde.medi.cv02 itilde.medi.cv03 j j.fina j.fina.cv01 j.fina.cv02 j.fina.cv03 j.init j.init.cv04 j.isol j.isol.cv04 j.medi.cv01 j.medi.cv02 j.medi.cv03 jdotless jdotless.fina jdotless.fina.cv01 jdotless.fina.cv02 jdotless.fina.cv03 jdotless.init jdotless.init.cv04 jdotless.isol jdotless.isol.cv04 jdotless.medi.cv01 jdotless.medi.cv02 jdotless.medi.cv03 k k.fina k.fina.cv01 k.fina.cv02 k.fina.cv03 k.init k.init.cv04 k.isol k.isol.cv04 k.medi.cv01 k.medi.cv02 k.medi.cv03 l l.cv06 l.fina l.fina.cv01 l.fina.cv01.cv06 l.fina.cv02 l.fina.cv02.cv06 l.fina.cv03 l.fina.cv03.cv06 l.fina.cv06 l.init l.init.cv04 l.init.cv06 l.isol l.isol.cv04 l.isol.cv06 l.medi.cv01 l.medi.cv01.cv06 l.medi.cv02 l.medi.cv02.cv06 l.medi.cv03 l.medi.cv03.cv06 ldot ldot.fina ldot.fina.cv01 ldot.fina.cv02 ldot.fina.cv03 ldot.init ldot.init.cv04 ldot.isol ldot.isol.cv04 ldot.medi.cv01 ldot.medi.cv02 ldot.medi.cv03 m m.fina m.fina.cv01 m.fina.cv02 m.fina.cv03 m.init m.isol m.medi.cv01 m.medi.cv02 m.medi.cv03 n n.fina n.fina.cv01 n.fina.cv02 n.fina.cv03 n.init n.isol n.medi.cv01 n.medi.cv02 n.medi.cv03 ntilde ntilde.fina ntilde.fina.cv01 ntilde.fina.cv02 ntilde.fina.cv03 ntilde.init ntilde.isol ntilde.medi.cv01 ntilde.medi.cv02 ntilde.medi.cv03 o o.fina o.fina.cv01 o.fina.cv02 o.fina.cv03 o.init o.isol o.medi.cv01 o.medi.cv02 o.medi.cv03 oacute oacute.fina oacute.fina.cv01 oacute.fina.cv02 oacute.fina.cv03 oacute.init oacute.isol oacute.medi.cv01 oacute.medi.cv02 oacute.medi.cv03 ocircumflex ocircumflex.fina ocircumflex.fina.cv01 ocircumflex.fina.cv02 ocircumflex.fina.cv03 ocircumflex.init ocircumflex.isol ocircumflex.medi.cv01 ocircumflex.medi.cv02 ocircumflex.medi.cv03 ocircumflexacute ocircumflexacute.fina ocircumflexacute.fina.cv01 ocircumflexacute.fina.cv02 ocircumflexacute.fina.cv03 ocircumflexacute.init ocircumflexacute.isol ocircumflexacute.medi.cv01 ocircumflexacute.medi.cv02 ocircumflexacute.medi.cv03 ocircumflexdotbelow ocircumflexdotbelow.fina ocircumflexdotbelow.fina.cv01 ocircumflexdotbelow.fina.cv02 ocircumflexdotbelow.fina.cv03 ocircumflexdotbelow.init ocircumflexdotbelow.isol ocircumflexdotbelow.medi.cv01 ocircumflexdotbelow.medi.cv02 ocircumflexdotbelow.medi.cv03 ocircumflexgrave ocircumflexgrave.fina ocircumflexgrave.fina.cv01 ocircumflexgrave.fina.cv02 ocircumflexgrave.fina.cv03 ocircumflexgrave.init ocircumflexgrave.isol ocircumflexgrave.medi.cv01 ocircumflexgrave.medi.cv02 ocircumflexgrave.medi.cv03 ocircumflexhookabove ocircumflexhookabove.fina ocircumflexhookabove.fina.cv01 ocircumflexhookabove.fina.cv02 ocircumflexhookabove.fina.cv03 ocircumflexhookabove.init ocircumflexhookabove.isol ocircumflexhookabove.medi.cv01 ocircumflexhookabove.medi.cv02 ocircumflexhookabove.medi.cv03 ocircumflextilde ocircumflextilde.fina ocircumflextilde.fina.cv01 ocircumflextilde.fina.cv02 ocircumflextilde.fina.cv03 ocircumflextilde.init ocircumflextilde.isol ocircumflextilde.medi.cv01 ocircumflextilde.medi.cv02 ocircumflextilde.medi.cv03 odieresis odieresis.fina odieresis.fina.cv01 odieresis.fina.cv02 odieresis.fina.cv03 odieresis.init odieresis.isol odieresis.medi.cv01 odieresis.medi.cv02 odieresis.medi.cv03 odotbelow odotbelow.fina odotbelow.fina.cv01 odotbelow.fina.cv02 odotbelow.fina.cv03 odotbelow.init odotbelow.isol odotbelow.medi.cv01 odotbelow.medi.cv02 odotbelow.medi.cv03 ograve ograve.fina ograve.fina.cv01 ograve.fina.cv02 ograve.fina.cv03 ograve.init ograve.isol ograve.medi.cv01 ograve.medi.cv02 ograve.medi.cv03 ohookabove ohookabove.fina ohookabove.fina.cv01 ohookabove.fina.cv02 ohookabove.fina.cv03 ohookabove.init ohookabove.isol ohookabove.medi.cv01 ohookabove.medi.cv02 ohookabove.medi.cv03 ohorn ohorn.fina ohorn.fina.cv01 ohorn.fina.cv02 ohorn.fina.cv03 ohorn.init ohorn.isol ohorn.medi.cv01 ohorn.medi.cv02 ohorn.medi.cv03 ohornacute ohornacute.fina ohornacute.fina.cv01 ohornacute.fina.cv02 ohornacute.fina.cv03 ohornacute.init ohornacute.isol ohornacute.medi.cv01 ohornacute.medi.cv02 ohornacute.medi.cv03 ohorndotbelow ohorndotbelow.fina ohorndotbelow.fina.cv01 ohorndotbelow.fina.cv02 ohorndotbelow.fina.cv03 ohorndotbelow.init ohorndotbelow.isol ohorndotbelow.medi.cv01 ohorndotbelow.medi.cv02 ohorndotbelow.medi.cv03 ohorngrave ohorngrave.fina ohorngrave.fina.cv01 ohorngrave.fina.cv02 ohorngrave.fina.cv03 ohorngrave.init ohorngrave.isol ohorngrave.medi.cv01 ohorngrave.medi.cv02 ohorngrave.medi.cv03 ohornhookabove ohornhookabove.fina ohornhookabove.fina.cv01 ohornhookabove.fina.cv02 ohornhookabove.fina.cv03 ohornhookabove.init ohornhookabove.isol ohornhookabove.medi.cv01 ohornhookabove.medi.cv02 ohornhookabove.medi.cv03 ohorntilde ohorntilde.fina ohorntilde.fina.cv01 ohorntilde.fina.cv02 ohorntilde.fina.cv03 ohorntilde.init ohorntilde.isol ohorntilde.medi.cv01 ohorntilde.medi.cv02 ohorntilde.medi.cv03 oslash oslash.fina oslash.fina.cv01 oslash.fina.cv02 oslash.fina.cv03 oslash.init oslash.isol oslash.medi.cv01 oslash.medi.cv02 oslash.medi.cv03 otilde otilde.fina otilde.fina.cv01 otilde.fina.cv02 otilde.fina.cv03 otilde.init otilde.isol otilde.medi.cv01 otilde.medi.cv02 otilde.medi.cv03 oe oe.fina oe.fina.cv01 oe.fina.cv02 oe.fina.cv03 oe.init oe.isol oe.medi.cv01 oe.medi.cv02 oe.medi.cv03 p p.fina p.fina.cv01 p.fina.cv02 p.fina.cv03 p.init p.init.cv04 p.isol p.isol.cv04 p.medi.cv01 p.medi.cv02 p.medi.cv03 q q.fina q.fina.cv01 q.fina.cv02 q.fina.cv03 q.init q.isol q.medi.cv01 q.medi.cv02 q.medi.cv03 r r.fina r.fina.cv01 r.fina.cv02 r.fina.cv03 r.init r.init.cv04 r.isol r.isol.cv04 r.medi.cv01 r.medi.cv02 r.medi.cv03 s s.fina s.fina.cv01 s.fina.cv02 s.fina.cv03 s.init s.init.cv04 s.isol s.isol.cv04 s.medi.cv01 s.medi.cv02 s.medi.cv03 scedilla scedilla.fina scedilla.fina.cv01 scedilla.fina.cv02 scedilla.fina.cv03 scedilla.init scedilla.isol scedilla.medi.cv01 scedilla.medi.cv02 scedilla.medi.cv03 germandbls germandbls.fina germandbls.fina.cv01 germandbls.fina.cv02 germandbls.fina.cv03 germandbls.init germandbls.init.cv04 germandbls.isol germandbls.isol.cv04 germandbls.medi.cv01 germandbls.medi.cv02 germandbls.medi.cv03 t t.fina t.fina.cv01 t.fina.cv02 t.fina.cv03 t.init t.init.cv04 t.isol t.isol.cv04 t.medi.cv01 t.medi.cv02 t.medi.cv03 u u.fina u.fina.cv01 u.fina.cv02 u.fina.cv03 u.init u.init.cv04 u.isol u.isol.cv04 u.medi.cv01 u.medi.cv02 u.medi.cv03 uacute uacute.fina uacute.fina.cv01 uacute.fina.cv02 uacute.fina.cv03 uacute.init uacute.isol uacute.medi.cv01 uacute.medi.cv02 uacute.medi.cv03 ucircumflex ucircumflex.fina ucircumflex.fina.cv01 ucircumflex.fina.cv02 ucircumflex.fina.cv03 ucircumflex.init ucircumflex.isol ucircumflex.medi.cv01 ucircumflex.medi.cv02 ucircumflex.medi.cv03 udieresis udieresis.fina udieresis.fina.cv01 udieresis.fina.cv02 udieresis.fina.cv03 udieresis.init udieresis.isol udieresis.medi.cv01 udieresis.medi.cv02 udieresis.medi.cv03 udotbelow udotbelow.fina udotbelow.fina.cv01 udotbelow.fina.cv02 udotbelow.fina.cv03 udotbelow.init udotbelow.isol udotbelow.medi.cv01 udotbelow.medi.cv02 udotbelow.medi.cv03 ugrave ugrave.fina ugrave.fina.cv01 ugrave.fina.cv02 ugrave.fina.cv03 ugrave.init ugrave.isol ugrave.medi.cv01 ugrave.medi.cv02 ugrave.medi.cv03 uhookabove uhookabove.fina uhookabove.fina.cv01 uhookabove.fina.cv02 uhookabove.fina.cv03 uhookabove.init uhookabove.isol uhookabove.medi.cv01 uhookabove.medi.cv02 uhookabove.medi.cv03 uhorn uhorn.fina uhorn.fina.cv01 uhorn.fina.cv02 uhorn.fina.cv03 uhorn.init uhorn.init.cv04 uhorn.isol uhorn.isol.cv04 uhorn.medi.cv01 uhorn.medi.cv02 uhorn.medi.cv03 uhornacute uhornacute.fina uhornacute.fina.cv01 uhornacute.fina.cv02 uhornacute.fina.cv03 uhornacute.init uhornacute.isol uhornacute.medi.cv01 uhornacute.medi.cv02 uhornacute.medi.cv03 uhorndotbelow uhorndotbelow.fina uhorndotbelow.fina.cv01 uhorndotbelow.fina.cv02 uhorndotbelow.fina.cv03 uhorndotbelow.init uhorndotbelow.isol uhorndotbelow.medi.cv01 uhorndotbelow.medi.cv02 uhorndotbelow.medi.cv03 uhorngrave uhorngrave.fina uhorngrave.fina.cv01 uhorngrave.fina.cv02 uhorngrave.fina.cv03 uhorngrave.init uhorngrave.isol uhorngrave.medi.cv01 uhorngrave.medi.cv02 uhorngrave.medi.cv03 uhornhookabove uhornhookabove.fina uhornhookabove.fina.cv01 uhornhookabove.fina.cv02 uhornhookabove.fina.cv03 uhornhookabove.init uhornhookabove.isol uhornhookabove.medi.cv01 uhornhookabove.medi.cv02 uhornhookabove.medi.cv03 uhorntilde uhorntilde.fina uhorntilde.fina.cv01 uhorntilde.fina.cv02 uhorntilde.fina.cv03 uhorntilde.init uhorntilde.isol uhorntilde.medi.cv01 uhorntilde.medi.cv02 uhorntilde.medi.cv03 utilde utilde.fina utilde.fina.cv01 utilde.fina.cv02 utilde.fina.cv03 utilde.init utilde.isol utilde.medi.cv01 utilde.medi.cv02 utilde.medi.cv03 v v.fina v.fina.cv01 v.fina.cv02 v.fina.cv03 v.init v.isol v.medi.cv01 v.medi.cv02 v.medi.cv03 w w.fina w.fina.cv01 w.fina.cv02 w.fina.cv03 w.init w.isol w.medi.cv01 w.medi.cv02 w.medi.cv03 x x.fina x.fina.cv01 x.fina.cv02 x.fina.cv03 x.init x.init.cv04 x.isol x.isol.cv04 x.medi.cv01 x.medi.cv02 x.medi.cv03 y y.fina y.fina.cv01 y.fina.cv02 y.fina.cv03 y.init y.init.cv04 y.isol y.isol.cv04 y.medi.cv01 y.medi.cv02 y.medi.cv03 yacute yacute.fina yacute.fina.cv01 yacute.fina.cv02 yacute.fina.cv03 yacute.init yacute.isol yacute.medi.cv01 yacute.medi.cv02 yacute.medi.cv03 ydotbelow ydotbelow.fina ydotbelow.fina.cv01 ydotbelow.fina.cv02 ydotbelow.fina.cv03 ydotbelow.init ydotbelow.isol ydotbelow.medi.cv01 ydotbelow.medi.cv02 ydotbelow.medi.cv03 ygrave ygrave.fina ygrave.fina.cv01 ygrave.fina.cv02 ygrave.fina.cv03 ygrave.init ygrave.isol ygrave.medi.cv01 ygrave.medi.cv02 ygrave.medi.cv03 yhookabove yhookabove.fina yhookabove.fina.cv01 yhookabove.fina.cv02 yhookabove.fina.cv03 yhookabove.init yhookabove.isol yhookabove.medi.cv01 yhookabove.medi.cv02 yhookabove.medi.cv03 ytilde ytilde.fina ytilde.fina.cv01 ytilde.fina.cv02 ytilde.fina.cv03 ytilde.init ytilde.isol ytilde.medi.cv01 ytilde.medi.cv02 ytilde.medi.cv03 z z.fina z.fina.cv01 z.fina.cv02 z.fina.cv03 z.init z.init.cv04 z.isol z.isol.cv04 z.medi.cv01 z.medi.cv02 z.medi.cv03 t_t.liga t_t.liga.fina t_t.liga.fina.cv01 t_t.liga.fina.cv02 t_t.liga.fina.cv03 t_t.liga.init t_t.liga.isol t_t.liga.medi.cv01 t_t.liga.medi.cv02 t_t.liga.medi.cv03 ordfeminine ordmasculine";
+code = "A A.cv04 A.cv05 A.isol.cv04 A.isol.cv05 Aacute Aacute.isol.cv04 Aacute.isol.cv05 Abreve Abreve.isol.cv04 Abreve.isol.cv05 Abreveacute Abreveacute.isol.cv04 Abreveacute.isol.cv05 Abrevedotbelow Abrevedotbelow.isol.cv04 Abrevedotbelow.isol.cv05 Abrevegrave Abrevegrave.isol.cv04 Abrevegrave.isol.cv05 Abrevehookabove Abrevehookabove.isol.cv04 Abrevehookabove.isol.cv05 Abrevetilde Abrevetilde.isol.cv04 Abrevetilde.isol.cv05 Acircumflex Acircumflex.isol.cv04 Acircumflex.isol.cv05 Acircumflexacute Acircumflexacute.isol.cv04 Acircumflexacute.isol.cv05 Acircumflexdotbelow Acircumflexdotbelow.isol.cv04 Acircumflexdotbelow.isol.cv05 Acircumflexgrave Acircumflexgrave.isol.cv04 Acircumflexgrave.isol.cv05 Acircumflexhookabove Acircumflexhookabove.isol.cv04 Acircumflexhookabove.isol.cv05 Acircumflextilde Acircumflextilde.isol.cv04 Acircumflextilde.isol.cv05 Adieresis Adieresis.isol.cv04 Adieresis.isol.cv05 Adotbelow Adotbelow.isol.cv04 Adotbelow.isol.cv05 Agrave Agrave.isol.cv04 Agrave.isol.cv05 Ahookabove Ahookabove.isol.cv04 Ahookabove.isol.cv05 Aring Aring.cv04 Aring.cv05 Aring.isol.cv04 Aring.isol.cv05 Atilde Atilde.isol.cv04 Atilde.isol.cv05 AE B B.cv04 C C.cv04 C.long Ccedilla Ccedilla.long D D.cv04 Dcroat Dcroat.cv04 E E.cv04 E.long Eacute Eacute.long Ebreve Ebreve.long Ecircumflex Ecircumflex.long Ecircumflexacute Ecircumflexacute.long Ecircumflexdotbelow Ecircumflexdotbelow.long Ecircumflexgrave Ecircumflexgrave.long Ecircumflexhookabove Ecircumflexhookabove.long Ecircumflextilde Ecircumflextilde.long Edieresis Edieresis.long Edotbelow Edotbelow.long Egrave Egrave.long Ehookabove Ehookabove.long Etilde Etilde.long F F.cv04 G G.cv04 G.isol.cv04 Gbreve Gbreve.isol.cv04 H H.cv04 H.isol.cv04 I I.cv04 Iacute Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Itilde J J.calt J.cv04 J.isol.cv04 K K.cv04 K.isol.cv04 L L.cv04 L.isol.cv04 Ldot Ldot.isol.cv04 M M.cv04 M.cv05 M.isol.cv04 M.isol.cv05 N N.cv04 N.cv05 N.isol.cv05 Ntilde Ntilde.isol.cv05 O O.cv04 Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Oslash Otilde OE P P.cv04 Q Q.cv04 Q.isol.cv04 R R.cv04 R.isol.cv04 S S.cv04 Scedilla Germandbls T T.cv04 T.long U U.cv04 U.isol.cv04 Uacute Uacute.isol.cv04 Ucircumflex Ucircumflex.isol.cv04 Udieresis Udieresis.isol.cv04 Udotbelow Udotbelow.isol.cv04 Ugrave Ugrave.isol.cv04 Uhookabove Uhookabove.isol.cv04 Uhorn Uhorn.isol.cv04 Uhornacute Uhornacute.isol.cv04 Uhorndotbelow Uhorndotbelow.isol.cv04 Uhorngrave Uhorngrave.isol.cv04 Uhornhookabove Uhornhookabove.isol.cv04 Uhorntilde Uhorntilde.isol.cv04 Utilde Utilde.isol.cv04 V V.cv04 V.cv05 W W.cv04 W.cv05 X X.cv04 X.cv05 X.isol.cv04 X.long.cv05 Y Y.cv04 Y.isol.cv04 Yacute Yacute.isol.cv04 Ydotbelow Ydotbelow.isol.cv04 Ygrave Ygrave.isol.cv04 Yhookabove Yhookabove.isol.cv04 Ytilde Ytilde.isol.cv04 Z Z.cv04 Z.isol.cv04 Z.isol.ss01.cv04 Z.ss01 Z.ss01.cv04 C_e.link.cv04 Ccedilla_e.link.cv04 E_e.link.cv04 Eacute_e.link.cv04 Ebreve_e.link.cv04 Ecircumflex_e.link.cv04 Ecircumflexacute_e.link.cv04 Ecircumflexdotbelow_e.link.cv04 Ecircumflexgrave_e.link.cv04 Ecircumflexhookabove_e.link.cv04 Ecircumflextilde_e.link.cv04 Edieresis_e.link.cv04 Edotbelow_e.link.cv04 Egrave_e.link.cv04 Ehookabove_e.link.cv04 Etilde_e.link.cv04 T_e.link.cv04 X_e.link.cv05 a a.fina a.fina.cv01 a.fina.cv02 a.fina.cv03 a.init a.isol a.medi.cv01 a.medi.cv02 a.medi.cv03 aacute aacute.fina aacute.fina.cv01 aacute.fina.cv02 aacute.fina.cv03 aacute.init aacute.isol aacute.medi.cv01 aacute.medi.cv02 aacute.medi.cv03 abreve abreve.fina abreve.fina.cv01 abreve.fina.cv02 abreve.fina.cv03 abreve.init abreve.isol abreve.medi.cv01 abreve.medi.cv02 abreve.medi.cv03 abreveacute abreveacute.fina abreveacute.fina.cv01 abreveacute.fina.cv02 abreveacute.fina.cv03 abreveacute.init abreveacute.isol abreveacute.medi.cv01 abreveacute.medi.cv02 abreveacute.medi.cv03 abrevedotbelow abrevedotbelow.fina abrevedotbelow.fina.cv01 abrevedotbelow.fina.cv02 abrevedotbelow.fina.cv03 abrevedotbelow.init abrevedotbelow.isol abrevedotbelow.medi.cv01 abrevedotbelow.medi.cv02 abrevedotbelow.medi.cv03 abrevegrave abrevegrave.fina abrevegrave.fina.cv01 abrevegrave.fina.cv02 abrevegrave.fina.cv03 abrevegrave.init abrevegrave.isol abrevegrave.medi.cv01 abrevegrave.medi.cv02 abrevegrave.medi.cv03 abrevehookabove abrevehookabove.fina abrevehookabove.fina.cv01 abrevehookabove.fina.cv02 abrevehookabove.fina.cv03 abrevehookabove.init abrevehookabove.isol abrevehookabove.medi.cv01 abrevehookabove.medi.cv02 abrevehookabove.medi.cv03 abrevetilde abrevetilde.fina abrevetilde.fina.cv01 abrevetilde.fina.cv02 abrevetilde.fina.cv03 abrevetilde.init abrevetilde.isol abrevetilde.medi.cv01 abrevetilde.medi.cv02 abrevetilde.medi.cv03 acircumflex acircumflex.fina acircumflex.fina.cv01 acircumflex.fina.cv02 acircumflex.fina.cv03 acircumflex.init acircumflex.isol acircumflex.medi.cv01 acircumflex.medi.cv02 acircumflex.medi.cv03 acircumflexacute acircumflexacute.fina acircumflexacute.fina.cv01 acircumflexacute.fina.cv02 acircumflexacute.fina.cv03 acircumflexacute.init acircumflexacute.isol acircumflexacute.medi.cv01 acircumflexacute.medi.cv02 acircumflexacute.medi.cv03 acircumflexdotbelow acircumflexdotbelow.fina acircumflexdotbelow.fina.cv01 acircumflexdotbelow.fina.cv02 acircumflexdotbelow.fina.cv03 acircumflexdotbelow.init acircumflexdotbelow.isol acircumflexdotbelow.medi.cv01 acircumflexdotbelow.medi.cv02 acircumflexdotbelow.medi.cv03 acircumflexgrave acircumflexgrave.fina acircumflexgrave.fina.cv01 acircumflexgrave.fina.cv02 acircumflexgrave.fina.cv03 acircumflexgrave.init acircumflexgrave.isol acircumflexgrave.medi.cv01 acircumflexgrave.medi.cv02 acircumflexgrave.medi.cv03 acircumflexhookabove acircumflexhookabove.fina acircumflexhookabove.fina.cv01 acircumflexhookabove.fina.cv02 acircumflexhookabove.fina.cv03 acircumflexhookabove.init acircumflexhookabove.isol acircumflexhookabove.medi.cv01 acircumflexhookabove.medi.cv02 acircumflexhookabove.medi.cv03 acircumflextilde acircumflextilde.fina acircumflextilde.fina.cv01 acircumflextilde.fina.cv02 acircumflextilde.fina.cv03 acircumflextilde.init acircumflextilde.isol acircumflextilde.medi.cv01 acircumflextilde.medi.cv02 acircumflextilde.medi.cv03 adieresis adieresis.fina adieresis.fina.cv01 adieresis.fina.cv02 adieresis.fina.cv03 adieresis.init adieresis.isol adieresis.medi.cv01 adieresis.medi.cv02 adieresis.medi.cv03 adotbelow adotbelow.fina adotbelow.fina.cv01 adotbelow.fina.cv02 adotbelow.fina.cv03 adotbelow.init adotbelow.isol adotbelow.medi.cv01 adotbelow.medi.cv02 adotbelow.medi.cv03 agrave agrave.fina agrave.fina.cv01 agrave.fina.cv02 agrave.fina.cv03 agrave.init agrave.isol agrave.medi.cv01 agrave.medi.cv02 agrave.medi.cv03 ahookabove ahookabove.fina ahookabove.fina.cv01 ahookabove.fina.cv02 ahookabove.fina.cv03 ahookabove.init ahookabove.isol ahookabove.medi.cv01 ahookabove.medi.cv02 ahookabove.medi.cv03 aring aring.fina aring.fina.cv01 aring.fina.cv02 aring.fina.cv03 aring.init aring.isol aring.medi.cv01 aring.medi.cv02 aring.medi.cv03 atilde atilde.fina atilde.fina.cv01 atilde.fina.cv02 atilde.fina.cv03 atilde.init atilde.isol atilde.medi.cv01 atilde.medi.cv02 atilde.medi.cv03 ae ae.fina ae.fina.cv01 ae.fina.cv02 ae.fina.cv03 ae.init ae.isol ae.medi.cv01 ae.medi.cv02 ae.medi.cv03 b b.fina b.fina.cv01 b.fina.cv02 b.fina.cv03 b.init b.init.cv04 b.isol b.isol.cv04 b.medi.cv01 b.medi.cv02 b.medi.cv03 c c.fina c.fina.cv01 c.fina.cv02 c.fina.cv03 c.init c.isol c.medi.cv01 c.medi.cv02 c.medi.cv03 ccedilla ccedilla.fina ccedilla.fina.cv01 ccedilla.fina.cv02 ccedilla.fina.cv03 ccedilla.init ccedilla.isol ccedilla.medi.cv01 ccedilla.medi.cv02 ccedilla.medi.cv03 d d.fina d.fina.cv01 d.fina.cv02 d.fina.cv03 d.init d.isol d.medi.cv01 d.medi.cv02 d.medi.cv03 dcroat dcroat.fina dcroat.fina.cv01 dcroat.fina.cv02 dcroat.fina.cv03 dcroat.init dcroat.isol dcroat.medi.cv01 dcroat.medi.cv02 dcroat.medi.cv03 e e.fina e.fina.cv01 e.fina.cv02 e.fina.cv03 e.init e.init.cv04 e.isol e.isol.cv04 e.link.cv04 e.medi.cv01 e.medi.cv02 e.medi.cv03 eacute eacute.fina eacute.fina.cv01 eacute.fina.cv02 eacute.fina.cv03 eacute.init eacute.isol eacute.medi.cv01 eacute.medi.cv02 eacute.medi.cv03 ebreve ebreve.fina ebreve.fina.cv01 ebreve.fina.cv02 ebreve.fina.cv03 ebreve.init ebreve.isol ebreve.medi.cv01 ebreve.medi.cv02 ebreve.medi.cv03 ecircumflex ecircumflex.fina ecircumflex.fina.cv01 ecircumflex.fina.cv02 ecircumflex.fina.cv03 ecircumflex.init ecircumflex.isol ecircumflex.medi.cv01 ecircumflex.medi.cv02 ecircumflex.medi.cv03 ecircumflexacute ecircumflexacute.fina ecircumflexacute.fina.cv01 ecircumflexacute.fina.cv02 ecircumflexacute.fina.cv03 ecircumflexacute.init ecircumflexacute.isol ecircumflexacute.medi.cv01 ecircumflexacute.medi.cv02 ecircumflexacute.medi.cv03 ecircumflexdotbelow ecircumflexdotbelow.fina ecircumflexdotbelow.fina.cv01 ecircumflexdotbelow.fina.cv02 ecircumflexdotbelow.fina.cv03 ecircumflexdotbelow.init ecircumflexdotbelow.isol ecircumflexdotbelow.medi.cv01 ecircumflexdotbelow.medi.cv02 ecircumflexdotbelow.medi.cv03 ecircumflexgrave ecircumflexgrave.fina ecircumflexgrave.fina.cv01 ecircumflexgrave.fina.cv02 ecircumflexgrave.fina.cv03 ecircumflexgrave.init ecircumflexgrave.isol ecircumflexgrave.medi.cv01 ecircumflexgrave.medi.cv02 ecircumflexgrave.medi.cv03 ecircumflexhookabove ecircumflexhookabove.fina ecircumflexhookabove.fina.cv01 ecircumflexhookabove.fina.cv02 ecircumflexhookabove.fina.cv03 ecircumflexhookabove.init ecircumflexhookabove.isol ecircumflexhookabove.medi.cv01 ecircumflexhookabove.medi.cv02 ecircumflexhookabove.medi.cv03 ecircumflextilde ecircumflextilde.fina ecircumflextilde.fina.cv01 ecircumflextilde.fina.cv02 ecircumflextilde.fina.cv03 ecircumflextilde.init ecircumflextilde.isol ecircumflextilde.medi.cv01 ecircumflextilde.medi.cv02 ecircumflextilde.medi.cv03 edieresis edieresis.fina edieresis.fina.cv01 edieresis.fina.cv02 edieresis.fina.cv03 edieresis.init edieresis.isol edieresis.medi.cv01 edieresis.medi.cv02 edieresis.medi.cv03 edotbelow edotbelow.fina edotbelow.fina.cv01 edotbelow.fina.cv02 edotbelow.fina.cv03 edotbelow.init edotbelow.isol edotbelow.medi.cv01 edotbelow.medi.cv02 edotbelow.medi.cv03 egrave egrave.fina egrave.fina.cv01 egrave.fina.cv02 egrave.fina.cv03 egrave.init egrave.isol egrave.medi.cv01 egrave.medi.cv02 egrave.medi.cv03 ehookabove ehookabove.fina ehookabove.fina.cv01 ehookabove.fina.cv02 ehookabove.fina.cv03 ehookabove.init ehookabove.isol ehookabove.medi.cv01 ehookabove.medi.cv02 ehookabove.medi.cv03 etilde etilde.fina etilde.fina.cv01 etilde.fina.cv02 etilde.fina.cv03 etilde.init etilde.isol etilde.medi.cv01 etilde.medi.cv02 etilde.medi.cv03 f f.fina f.fina.cv01 f.fina.cv02 f.fina.cv03 f.init f.init.cv04 f.isol f.isol.cv04 f.medi.cv01 f.medi.cv02 f.medi.cv03 g g.fina g.fina.cv01 g.fina.cv02 g.fina.cv03 g.init g.isol g.medi.cv01 g.medi.cv02 g.medi.cv03 gbreve gbreve.fina gbreve.fina.cv01 gbreve.fina.cv02 gbreve.fina.cv03 gbreve.init gbreve.isol gbreve.medi.cv01 gbreve.medi.cv02 gbreve.medi.cv03 h h.fina h.fina.cv01 h.fina.cv02 h.fina.cv03 h.init h.init.cv04 h.isol h.isol.cv04 h.medi.cv01 h.medi.cv02 h.medi.cv03 i i.fina i.fina.cv01 i.fina.cv02 i.fina.cv03 i.init i.init.cv04 i.isol i.isol.cv04 i.medi.cv01 i.medi.cv02 i.medi.cv03 idotless idotless.fina idotless.fina.cv01 idotless.fina.cv02 idotless.fina.cv03 idotless.init idotless.init.cv04 idotless.isol idotless.isol.cv04 idotless.medi.cv01 idotless.medi.cv02 idotless.medi.cv03 iacute iacute.fina iacute.fina.cv01 iacute.fina.cv02 iacute.fina.cv03 iacute.init iacute.isol iacute.medi.cv01 iacute.medi.cv02 iacute.medi.cv03 icircumflex icircumflex.fina icircumflex.fina.cv01 icircumflex.fina.cv02 icircumflex.fina.cv03 icircumflex.init icircumflex.isol icircumflex.medi.cv01 icircumflex.medi.cv02 icircumflex.medi.cv03 idieresis idieresis.fina idieresis.fina.cv01 idieresis.fina.cv02 idieresis.fina.cv03 idieresis.init idieresis.isol idieresis.medi.cv01 idieresis.medi.cv02 idieresis.medi.cv03 idotbelow idotbelow.fina idotbelow.fina.cv01 idotbelow.fina.cv02 idotbelow.fina.cv03 idotbelow.init idotbelow.isol idotbelow.medi.cv01 idotbelow.medi.cv02 idotbelow.medi.cv03 igrave igrave.fina igrave.fina.cv01 igrave.fina.cv02 igrave.fina.cv03 igrave.init igrave.isol igrave.medi.cv01 igrave.medi.cv02 igrave.medi.cv03 ihookabove ihookabove.fina ihookabove.fina.cv01 ihookabove.fina.cv02 ihookabove.fina.cv03 ihookabove.init ihookabove.isol ihookabove.medi.cv01 ihookabove.medi.cv02 ihookabove.medi.cv03 itilde itilde.fina itilde.fina.cv01 itilde.fina.cv02 itilde.fina.cv03 itilde.init itilde.isol itilde.medi.cv01 itilde.medi.cv02 itilde.medi.cv03 j j.fina j.fina.cv01 j.fina.cv02 j.fina.cv03 j.init j.init.cv04 j.isol j.isol.cv04 j.medi.cv01 j.medi.cv02 j.medi.cv03 jdotless jdotless.fina jdotless.fina.cv01 jdotless.fina.cv02 jdotless.fina.cv03 jdotless.init jdotless.init.cv04 jdotless.isol jdotless.isol.cv04 jdotless.medi.cv01 jdotless.medi.cv02 jdotless.medi.cv03 k k.fina k.fina.cv01 k.fina.cv02 k.fina.cv03 k.init k.init.cv04 k.isol k.isol.cv04 k.medi.cv01 k.medi.cv02 k.medi.cv03 l l.cv06 l.fina l.fina.cv01 l.fina.cv01.cv06 l.fina.cv02 l.fina.cv02.cv06 l.fina.cv03 l.fina.cv03.cv06 l.fina.cv06 l.init l.init.cv04 l.init.cv06 l.isol l.isol.cv04 l.isol.cv06 l.medi.cv01 l.medi.cv01.cv06 l.medi.cv02 l.medi.cv02.cv06 l.medi.cv03 l.medi.cv03.cv06 ldot ldot.fina ldot.fina.cv01 ldot.fina.cv02 ldot.fina.cv03 ldot.init ldot.init.cv04 ldot.isol ldot.isol.cv04 ldot.medi.cv01 ldot.medi.cv02 ldot.medi.cv03 m m.fina m.fina.cv01 m.fina.cv02 m.fina.cv03 m.init m.isol m.medi.cv01 m.medi.cv02 m.medi.cv03 n n.fina n.fina.cv01 n.fina.cv02 n.fina.cv03 n.init n.isol n.medi.cv01 n.medi.cv02 n.medi.cv03 ntilde ntilde.fina ntilde.fina.cv01 ntilde.fina.cv02 ntilde.fina.cv03 ntilde.init ntilde.isol ntilde.medi.cv01 ntilde.medi.cv02 ntilde.medi.cv03 o o.fina o.fina.cv01 o.fina.cv02 o.fina.cv03 o.init o.isol o.medi.cv01 o.medi.cv02 o.medi.cv03 oacute oacute.fina oacute.fina.cv01 oacute.fina.cv02 oacute.fina.cv03 oacute.init oacute.isol oacute.medi.cv01 oacute.medi.cv02 oacute.medi.cv03 ocircumflex ocircumflex.fina ocircumflex.fina.cv01 ocircumflex.fina.cv02 ocircumflex.fina.cv03 ocircumflex.init ocircumflex.isol ocircumflex.medi.cv01 ocircumflex.medi.cv02 ocircumflex.medi.cv03 ocircumflexacute ocircumflexacute.fina ocircumflexacute.fina.cv01 ocircumflexacute.fina.cv02 ocircumflexacute.fina.cv03 ocircumflexacute.init ocircumflexacute.isol ocircumflexacute.medi.cv01 ocircumflexacute.medi.cv02 ocircumflexacute.medi.cv03 ocircumflexdotbelow ocircumflexdotbelow.fina ocircumflexdotbelow.fina.cv01 ocircumflexdotbelow.fina.cv02 ocircumflexdotbelow.fina.cv03 ocircumflexdotbelow.init ocircumflexdotbelow.isol ocircumflexdotbelow.medi.cv01 ocircumflexdotbelow.medi.cv02 ocircumflexdotbelow.medi.cv03 ocircumflexgrave ocircumflexgrave.fina ocircumflexgrave.fina.cv01 ocircumflexgrave.fina.cv02 ocircumflexgrave.fina.cv03 ocircumflexgrave.init ocircumflexgrave.isol ocircumflexgrave.medi.cv01 ocircumflexgrave.medi.cv02 ocircumflexgrave.medi.cv03 ocircumflexhookabove ocircumflexhookabove.fina ocircumflexhookabove.fina.cv01 ocircumflexhookabove.fina.cv02 ocircumflexhookabove.fina.cv03 ocircumflexhookabove.init ocircumflexhookabove.isol ocircumflexhookabove.medi.cv01 ocircumflexhookabove.medi.cv02 ocircumflexhookabove.medi.cv03 ocircumflextilde ocircumflextilde.fina ocircumflextilde.fina.cv01 ocircumflextilde.fina.cv02 ocircumflextilde.fina.cv03 ocircumflextilde.init ocircumflextilde.isol ocircumflextilde.medi.cv01 ocircumflextilde.medi.cv02 ocircumflextilde.medi.cv03 odieresis odieresis.fina odieresis.fina.cv01 odieresis.fina.cv02 odieresis.fina.cv03 odieresis.init odieresis.isol odieresis.medi.cv01 odieresis.medi.cv02 odieresis.medi.cv03 odotbelow odotbelow.fina odotbelow.fina.cv01 odotbelow.fina.cv02 odotbelow.fina.cv03 odotbelow.init odotbelow.isol odotbelow.medi.cv01 odotbelow.medi.cv02 odotbelow.medi.cv03 ograve ograve.fina ograve.fina.cv01 ograve.fina.cv02 ograve.fina.cv03 ograve.init ograve.isol ograve.medi.cv01 ograve.medi.cv02 ograve.medi.cv03 ohookabove ohookabove.fina ohookabove.fina.cv01 ohookabove.fina.cv02 ohookabove.fina.cv03 ohookabove.init ohookabove.isol ohookabove.medi.cv01 ohookabove.medi.cv02 ohookabove.medi.cv03 ohorn ohorn.fina ohorn.fina.cv01 ohorn.fina.cv02 ohorn.fina.cv03 ohorn.init ohorn.isol ohorn.medi.cv01 ohorn.medi.cv02 ohorn.medi.cv03 ohornacute ohornacute.fina ohornacute.fina.cv01 ohornacute.fina.cv02 ohornacute.fina.cv03 ohornacute.init ohornacute.isol ohornacute.medi.cv01 ohornacute.medi.cv02 ohornacute.medi.cv03 ohorndotbelow ohorndotbelow.fina ohorndotbelow.fina.cv01 ohorndotbelow.fina.cv02 ohorndotbelow.fina.cv03 ohorndotbelow.init ohorndotbelow.isol ohorndotbelow.medi.cv01 ohorndotbelow.medi.cv02 ohorndotbelow.medi.cv03 ohorngrave ohorngrave.fina ohorngrave.fina.cv01 ohorngrave.fina.cv02 ohorngrave.fina.cv03 ohorngrave.init ohorngrave.isol ohorngrave.medi.cv01 ohorngrave.medi.cv02 ohorngrave.medi.cv03 ohornhookabove ohornhookabove.fina ohornhookabove.fina.cv01 ohornhookabove.fina.cv02 ohornhookabove.fina.cv03 ohornhookabove.init ohornhookabove.isol ohornhookabove.medi.cv01 ohornhookabove.medi.cv02 ohornhookabove.medi.cv03 ohorntilde ohorntilde.fina ohorntilde.fina.cv01 ohorntilde.fina.cv02 ohorntilde.fina.cv03 ohorntilde.init ohorntilde.isol ohorntilde.medi.cv01 ohorntilde.medi.cv02 ohorntilde.medi.cv03 oslash oslash.fina oslash.fina.cv01 oslash.fina.cv02 oslash.fina.cv03 oslash.init oslash.isol oslash.medi.cv01 oslash.medi.cv02 oslash.medi.cv03 otilde otilde.fina otilde.fina.cv01 otilde.fina.cv02 otilde.fina.cv03 otilde.init otilde.isol otilde.medi.cv01 otilde.medi.cv02 otilde.medi.cv03 oe oe.fina oe.fina.cv01 oe.fina.cv02 oe.fina.cv03 oe.init oe.isol oe.medi.cv01 oe.medi.cv02 oe.medi.cv03 p p.fina p.fina.cv01 p.fina.cv02 p.fina.cv03 p.init p.init.cv04 p.isol p.isol.cv04 p.medi.cv01 p.medi.cv02 p.medi.cv03 q q.fina q.fina.cv01 q.fina.cv02 q.fina.cv03 q.init q.isol q.medi.cv01 q.medi.cv02 q.medi.cv03 r r.fina r.fina.cv01 r.fina.cv02 r.fina.cv03 r.init r.init.cv04 r.isol r.isol.cv04 r.medi.cv01 r.medi.cv02 r.medi.cv03 s s.fina s.fina.cv01 s.fina.cv02 s.fina.cv03 s.init s.init.cv04 s.isol s.isol.cv04 s.medi.cv01 s.medi.cv02 s.medi.cv03 scedilla scedilla.fina scedilla.fina.cv01 scedilla.fina.cv02 scedilla.fina.cv03 scedilla.init scedilla.isol scedilla.medi.cv01 scedilla.medi.cv02 scedilla.medi.cv03 germandbls germandbls.fina germandbls.fina.cv01 germandbls.fina.cv02 germandbls.fina.cv03 germandbls.init germandbls.init.cv04 germandbls.isol germandbls.isol.cv04 germandbls.medi.cv01 germandbls.medi.cv02 germandbls.medi.cv03 t t.fina t.fina.cv01 t.fina.cv02 t.fina.cv03 t.init t.init.cv04 t.isol t.isol.cv04 t.medi.cv01 t.medi.cv02 t.medi.cv03 u u.fina u.fina.cv01 u.fina.cv02 u.fina.cv03 u.init u.init.cv04 u.isol u.isol.cv04 u.medi.cv01 u.medi.cv02 u.medi.cv03 uacute uacute.fina uacute.fina.cv01 uacute.fina.cv02 uacute.fina.cv03 uacute.init uacute.isol uacute.medi.cv01 uacute.medi.cv02 uacute.medi.cv03 ucircumflex ucircumflex.fina ucircumflex.fina.cv01 ucircumflex.fina.cv02 ucircumflex.fina.cv03 ucircumflex.init ucircumflex.isol ucircumflex.medi.cv01 ucircumflex.medi.cv02 ucircumflex.medi.cv03 udieresis udieresis.fina udieresis.fina.cv01 udieresis.fina.cv02 udieresis.fina.cv03 udieresis.init udieresis.isol udieresis.medi.cv01 udieresis.medi.cv02 udieresis.medi.cv03 udotbelow udotbelow.fina udotbelow.fina.cv01 udotbelow.fina.cv02 udotbelow.fina.cv03 udotbelow.init udotbelow.isol udotbelow.medi.cv01 udotbelow.medi.cv02 udotbelow.medi.cv03 ugrave ugrave.fina ugrave.fina.cv01 ugrave.fina.cv02 ugrave.fina.cv03 ugrave.init ugrave.isol ugrave.medi.cv01 ugrave.medi.cv02 ugrave.medi.cv03 uhookabove uhookabove.fina uhookabove.fina.cv01 uhookabove.fina.cv02 uhookabove.fina.cv03 uhookabove.init uhookabove.isol uhookabove.medi.cv01 uhookabove.medi.cv02 uhookabove.medi.cv03 uhorn uhorn.fina uhorn.fina.cv01 uhorn.fina.cv02 uhorn.fina.cv03 uhorn.init uhorn.init.cv04 uhorn.isol uhorn.isol.cv04 uhorn.medi.cv01 uhorn.medi.cv02 uhorn.medi.cv03 uhornacute uhornacute.fina uhornacute.fina.cv01 uhornacute.fina.cv02 uhornacute.fina.cv03 uhornacute.init uhornacute.isol uhornacute.medi.cv01 uhornacute.medi.cv02 uhornacute.medi.cv03 uhorndotbelow uhorndotbelow.fina uhorndotbelow.fina.cv01 uhorndotbelow.fina.cv02 uhorndotbelow.fina.cv03 uhorndotbelow.init uhorndotbelow.isol uhorndotbelow.medi.cv01 uhorndotbelow.medi.cv02 uhorndotbelow.medi.cv03 uhorngrave uhorngrave.fina uhorngrave.fina.cv01 uhorngrave.fina.cv02 uhorngrave.fina.cv03 uhorngrave.init uhorngrave.isol uhorngrave.medi.cv01 uhorngrave.medi.cv02 uhorngrave.medi.cv03 uhornhookabove uhornhookabove.fina uhornhookabove.fina.cv01 uhornhookabove.fina.cv02 uhornhookabove.fina.cv03 uhornhookabove.init uhornhookabove.isol uhornhookabove.medi.cv01 uhornhookabove.medi.cv02 uhornhookabove.medi.cv03 uhorntilde uhorntilde.fina uhorntilde.fina.cv01 uhorntilde.fina.cv02 uhorntilde.fina.cv03 uhorntilde.init uhorntilde.isol uhorntilde.medi.cv01 uhorntilde.medi.cv02 uhorntilde.medi.cv03 utilde utilde.fina utilde.fina.cv01 utilde.fina.cv02 utilde.fina.cv03 utilde.init utilde.isol utilde.medi.cv01 utilde.medi.cv02 utilde.medi.cv03 v v.fina v.fina.cv01 v.fina.cv02 v.fina.cv03 v.init v.isol v.medi.cv01 v.medi.cv02 v.medi.cv03 w w.fina w.fina.cv01 w.fina.cv02 w.fina.cv03 w.init w.isol w.medi.cv01 w.medi.cv02 w.medi.cv03 x x.fina x.fina.cv01 x.fina.cv02 x.fina.cv03 x.init x.init.cv04 x.isol x.isol.cv04 x.medi.cv01 x.medi.cv02 x.medi.cv03 y y.fina y.fina.cv01 y.fina.cv02 y.fina.cv03 y.init y.init.cv04 y.isol y.isol.cv04 y.medi.cv01 y.medi.cv02 y.medi.cv03 yacute yacute.fina yacute.fina.cv01 yacute.fina.cv02 yacute.fina.cv03 yacute.init yacute.isol yacute.medi.cv01 yacute.medi.cv02 yacute.medi.cv03 ydotbelow ydotbelow.fina ydotbelow.fina.cv01 ydotbelow.fina.cv02 ydotbelow.fina.cv03 ydotbelow.init ydotbelow.isol ydotbelow.medi.cv01 ydotbelow.medi.cv02 ydotbelow.medi.cv03 ygrave ygrave.fina ygrave.fina.cv01 ygrave.fina.cv02 ygrave.fina.cv03 ygrave.init ygrave.isol ygrave.medi.cv01 ygrave.medi.cv02 ygrave.medi.cv03 yhookabove yhookabove.fina yhookabove.fina.cv01 yhookabove.fina.cv02 yhookabove.fina.cv03 yhookabove.init yhookabove.isol yhookabove.medi.cv01 yhookabove.medi.cv02 yhookabove.medi.cv03 ytilde ytilde.fina ytilde.fina.cv01 ytilde.fina.cv02 ytilde.fina.cv03 ytilde.init ytilde.isol ytilde.medi.cv01 ytilde.medi.cv02 ytilde.medi.cv03 z z.fina z.fina.cv01 z.fina.cv02 z.fina.cv03 z.init z.init.cv04 z.isol z.isol.cv04 z.medi.cv01 z.medi.cv02 z.medi.cv03 idotaccent idotaccent.fina idotaccent.fina.cv01 idotaccent.fina.cv02 idotaccent.fina.cv03 idotaccent.init idotaccent.isol idotaccent.medi.cv01 idotaccent.medi.cv02 idotaccent.medi.cv03 t_t.liga t_t.liga.fina t_t.liga.fina.cv01 t_t.liga.fina.cv02 t_t.liga.fina.cv03 t_t.liga.init t_t.liga.isol t_t.liga.medi.cv01 t_t.liga.medi.cv02 t_t.liga.medi.cv03 ordfeminine ordmasculine";
 name = AllLetters;
 },
 {
 automatic = 1;
-code = "a a.fina a.fina.cv01 a.fina.cv02 a.fina.cv03 a.init a.isol a.medi.cv01 a.medi.cv02 a.medi.cv03 aacute aacute.fina aacute.fina.cv01 aacute.fina.cv02 aacute.fina.cv03 aacute.init aacute.isol aacute.medi.cv01 aacute.medi.cv02 aacute.medi.cv03 abreve abreve.fina abreve.fina.cv01 abreve.fina.cv02 abreve.fina.cv03 abreve.init abreve.isol abreve.medi.cv01 abreve.medi.cv02 abreve.medi.cv03 abreveacute abreveacute.fina abreveacute.fina.cv01 abreveacute.fina.cv02 abreveacute.fina.cv03 abreveacute.init abreveacute.isol abreveacute.medi.cv01 abreveacute.medi.cv02 abreveacute.medi.cv03 abrevedotbelow abrevedotbelow.fina abrevedotbelow.fina.cv01 abrevedotbelow.fina.cv02 abrevedotbelow.fina.cv03 abrevedotbelow.init abrevedotbelow.isol abrevedotbelow.medi.cv01 abrevedotbelow.medi.cv02 abrevedotbelow.medi.cv03 abrevegrave abrevegrave.fina abrevegrave.fina.cv01 abrevegrave.fina.cv02 abrevegrave.fina.cv03 abrevegrave.init abrevegrave.isol abrevegrave.medi.cv01 abrevegrave.medi.cv02 abrevegrave.medi.cv03 abrevehookabove abrevehookabove.fina abrevehookabove.fina.cv01 abrevehookabove.fina.cv02 abrevehookabove.fina.cv03 abrevehookabove.init abrevehookabove.isol abrevehookabove.medi.cv01 abrevehookabove.medi.cv02 abrevehookabove.medi.cv03 abrevetilde abrevetilde.fina abrevetilde.fina.cv01 abrevetilde.fina.cv02 abrevetilde.fina.cv03 abrevetilde.init abrevetilde.isol abrevetilde.medi.cv01 abrevetilde.medi.cv02 abrevetilde.medi.cv03 acircumflex acircumflex.fina acircumflex.fina.cv01 acircumflex.fina.cv02 acircumflex.fina.cv03 acircumflex.init acircumflex.isol acircumflex.medi.cv01 acircumflex.medi.cv02 acircumflex.medi.cv03 acircumflexacute acircumflexacute.fina acircumflexacute.fina.cv01 acircumflexacute.fina.cv02 acircumflexacute.fina.cv03 acircumflexacute.init acircumflexacute.isol acircumflexacute.medi.cv01 acircumflexacute.medi.cv02 acircumflexacute.medi.cv03 acircumflexdotbelow acircumflexdotbelow.fina acircumflexdotbelow.fina.cv01 acircumflexdotbelow.fina.cv02 acircumflexdotbelow.fina.cv03 acircumflexdotbelow.init acircumflexdotbelow.isol acircumflexdotbelow.medi.cv01 acircumflexdotbelow.medi.cv02 acircumflexdotbelow.medi.cv03 acircumflexgrave acircumflexgrave.fina acircumflexgrave.fina.cv01 acircumflexgrave.fina.cv02 acircumflexgrave.fina.cv03 acircumflexgrave.init acircumflexgrave.isol acircumflexgrave.medi.cv01 acircumflexgrave.medi.cv02 acircumflexgrave.medi.cv03 acircumflexhookabove acircumflexhookabove.fina acircumflexhookabove.fina.cv01 acircumflexhookabove.fina.cv02 acircumflexhookabove.fina.cv03 acircumflexhookabove.init acircumflexhookabove.isol acircumflexhookabove.medi.cv01 acircumflexhookabove.medi.cv02 acircumflexhookabove.medi.cv03 acircumflextilde acircumflextilde.fina acircumflextilde.fina.cv01 acircumflextilde.fina.cv02 acircumflextilde.fina.cv03 acircumflextilde.init acircumflextilde.isol acircumflextilde.medi.cv01 acircumflextilde.medi.cv02 acircumflextilde.medi.cv03 adieresis adieresis.fina adieresis.fina.cv01 adieresis.fina.cv02 adieresis.fina.cv03 adieresis.init adieresis.isol adieresis.medi.cv01 adieresis.medi.cv02 adieresis.medi.cv03 adotbelow adotbelow.fina adotbelow.fina.cv01 adotbelow.fina.cv02 adotbelow.fina.cv03 adotbelow.init adotbelow.isol adotbelow.medi.cv01 adotbelow.medi.cv02 adotbelow.medi.cv03 agrave agrave.fina agrave.fina.cv01 agrave.fina.cv02 agrave.fina.cv03 agrave.init agrave.isol agrave.medi.cv01 agrave.medi.cv02 agrave.medi.cv03 ahookabove ahookabove.fina ahookabove.fina.cv01 ahookabove.fina.cv02 ahookabove.fina.cv03 ahookabove.init ahookabove.isol ahookabove.medi.cv01 ahookabove.medi.cv02 ahookabove.medi.cv03 aring aring.fina aring.fina.cv01 aring.fina.cv02 aring.fina.cv03 aring.init aring.isol aring.medi.cv01 aring.medi.cv02 aring.medi.cv03 atilde atilde.fina atilde.fina.cv01 atilde.fina.cv02 atilde.fina.cv03 atilde.init atilde.isol atilde.medi.cv01 atilde.medi.cv02 atilde.medi.cv03 ae ae.fina ae.fina.cv01 ae.fina.cv02 ae.fina.cv03 ae.init ae.isol ae.medi.cv01 ae.medi.cv02 ae.medi.cv03 b b.fina b.fina.cv01 b.fina.cv02 b.fina.cv03 b.init b.init.cv04 b.isol b.isol.cv04 b.medi.cv01 b.medi.cv02 b.medi.cv03 c c.fina c.fina.cv01 c.fina.cv02 c.fina.cv03 c.init c.isol c.medi.cv01 c.medi.cv02 c.medi.cv03 ccedilla ccedilla.fina ccedilla.fina.cv01 ccedilla.fina.cv02 ccedilla.fina.cv03 ccedilla.init ccedilla.isol ccedilla.medi.cv01 ccedilla.medi.cv02 ccedilla.medi.cv03 d d.fina d.fina.cv01 d.fina.cv02 d.fina.cv03 d.init d.isol d.medi.cv01 d.medi.cv02 d.medi.cv03 dcroat dcroat.fina dcroat.fina.cv01 dcroat.fina.cv02 dcroat.fina.cv03 dcroat.init dcroat.isol dcroat.medi.cv01 dcroat.medi.cv02 dcroat.medi.cv03 e e.fina e.fina.cv01 e.fina.cv02 e.fina.cv03 e.init e.init.cv04 e.isol e.isol.cv04 e.link.cv04 e.medi.cv01 e.medi.cv02 e.medi.cv03 eacute eacute.fina eacute.fina.cv01 eacute.fina.cv02 eacute.fina.cv03 eacute.init eacute.isol eacute.medi.cv01 eacute.medi.cv02 eacute.medi.cv03 ebreve ebreve.fina ebreve.fina.cv01 ebreve.fina.cv02 ebreve.fina.cv03 ebreve.init ebreve.isol ebreve.medi.cv01 ebreve.medi.cv02 ebreve.medi.cv03 ecircumflex ecircumflex.fina ecircumflex.fina.cv01 ecircumflex.fina.cv02 ecircumflex.fina.cv03 ecircumflex.init ecircumflex.isol ecircumflex.medi.cv01 ecircumflex.medi.cv02 ecircumflex.medi.cv03 ecircumflexacute ecircumflexacute.fina ecircumflexacute.fina.cv01 ecircumflexacute.fina.cv02 ecircumflexacute.fina.cv03 ecircumflexacute.init ecircumflexacute.isol ecircumflexacute.medi.cv01 ecircumflexacute.medi.cv02 ecircumflexacute.medi.cv03 ecircumflexdotbelow ecircumflexdotbelow.fina ecircumflexdotbelow.fina.cv01 ecircumflexdotbelow.fina.cv02 ecircumflexdotbelow.fina.cv03 ecircumflexdotbelow.init ecircumflexdotbelow.isol ecircumflexdotbelow.medi.cv01 ecircumflexdotbelow.medi.cv02 ecircumflexdotbelow.medi.cv03 ecircumflexgrave ecircumflexgrave.fina ecircumflexgrave.fina.cv01 ecircumflexgrave.fina.cv02 ecircumflexgrave.fina.cv03 ecircumflexgrave.init ecircumflexgrave.isol ecircumflexgrave.medi.cv01 ecircumflexgrave.medi.cv02 ecircumflexgrave.medi.cv03 ecircumflexhookabove ecircumflexhookabove.fina ecircumflexhookabove.fina.cv01 ecircumflexhookabove.fina.cv02 ecircumflexhookabove.fina.cv03 ecircumflexhookabove.init ecircumflexhookabove.isol ecircumflexhookabove.medi.cv01 ecircumflexhookabove.medi.cv02 ecircumflexhookabove.medi.cv03 ecircumflextilde ecircumflextilde.fina ecircumflextilde.fina.cv01 ecircumflextilde.fina.cv02 ecircumflextilde.fina.cv03 ecircumflextilde.init ecircumflextilde.isol ecircumflextilde.medi.cv01 ecircumflextilde.medi.cv02 ecircumflextilde.medi.cv03 edieresis edieresis.fina edieresis.fina.cv01 edieresis.fina.cv02 edieresis.fina.cv03 edieresis.init edieresis.isol edieresis.medi.cv01 edieresis.medi.cv02 edieresis.medi.cv03 edotbelow edotbelow.fina edotbelow.fina.cv01 edotbelow.fina.cv02 edotbelow.fina.cv03 edotbelow.init edotbelow.isol edotbelow.medi.cv01 edotbelow.medi.cv02 edotbelow.medi.cv03 egrave egrave.fina egrave.fina.cv01 egrave.fina.cv02 egrave.fina.cv03 egrave.init egrave.isol egrave.medi.cv01 egrave.medi.cv02 egrave.medi.cv03 ehookabove ehookabove.fina ehookabove.fina.cv01 ehookabove.fina.cv02 ehookabove.fina.cv03 ehookabove.init ehookabove.isol ehookabove.medi.cv01 ehookabove.medi.cv02 ehookabove.medi.cv03 etilde etilde.fina etilde.fina.cv01 etilde.fina.cv02 etilde.fina.cv03 etilde.init etilde.isol etilde.medi.cv01 etilde.medi.cv02 etilde.medi.cv03 f f.fina f.fina.cv01 f.fina.cv02 f.fina.cv03 f.init f.init.cv04 f.isol f.isol.cv04 f.medi.cv01 f.medi.cv02 f.medi.cv03 g g.fina g.fina.cv01 g.fina.cv02 g.fina.cv03 g.init g.isol g.medi.cv01 g.medi.cv02 g.medi.cv03 gbreve gbreve.fina gbreve.fina.cv01 gbreve.fina.cv02 gbreve.fina.cv03 gbreve.init gbreve.isol gbreve.medi.cv01 gbreve.medi.cv02 gbreve.medi.cv03 h h.fina h.fina.cv01 h.fina.cv02 h.fina.cv03 h.init h.init.cv04 h.isol h.isol.cv04 h.medi.cv01 h.medi.cv02 h.medi.cv03 i i.fina i.fina.cv01 i.fina.cv02 i.fina.cv03 i.init i.init.cv04 i.isol i.isol.cv04 i.medi.cv01 i.medi.cv02 i.medi.cv03 idotless idotless.fina idotless.fina.cv01 idotless.fina.cv02 idotless.fina.cv03 idotless.init idotless.init.cv04 idotless.isol idotless.isol.cv04 idotless.medi.cv01 idotless.medi.cv02 idotless.medi.cv03 iacute iacute.fina iacute.fina.cv01 iacute.fina.cv02 iacute.fina.cv03 iacute.init iacute.isol iacute.medi.cv01 iacute.medi.cv02 iacute.medi.cv03 icircumflex icircumflex.fina icircumflex.fina.cv01 icircumflex.fina.cv02 icircumflex.fina.cv03 icircumflex.init icircumflex.isol icircumflex.medi.cv01 icircumflex.medi.cv02 icircumflex.medi.cv03 idieresis idieresis.fina idieresis.fina.cv01 idieresis.fina.cv02 idieresis.fina.cv03 idieresis.init idieresis.isol idieresis.medi.cv01 idieresis.medi.cv02 idieresis.medi.cv03 idotaccent idotaccent.fina idotaccent.fina.cv01 idotaccent.fina.cv02 idotaccent.fina.cv03 idotaccent.init idotaccent.isol idotaccent.medi.cv01 idotaccent.medi.cv02 idotaccent.medi.cv03 idotbelow idotbelow.fina idotbelow.fina.cv01 idotbelow.fina.cv02 idotbelow.fina.cv03 idotbelow.init idotbelow.isol idotbelow.medi.cv01 idotbelow.medi.cv02 idotbelow.medi.cv03 igrave igrave.fina igrave.fina.cv01 igrave.fina.cv02 igrave.fina.cv03 igrave.init igrave.isol igrave.medi.cv01 igrave.medi.cv02 igrave.medi.cv03 ihookabove ihookabove.fina ihookabove.fina.cv01 ihookabove.fina.cv02 ihookabove.fina.cv03 ihookabove.init ihookabove.isol ihookabove.medi.cv01 ihookabove.medi.cv02 ihookabove.medi.cv03 itilde itilde.fina itilde.fina.cv01 itilde.fina.cv02 itilde.fina.cv03 itilde.init itilde.isol itilde.medi.cv01 itilde.medi.cv02 itilde.medi.cv03 j j.fina j.fina.cv01 j.fina.cv02 j.fina.cv03 j.init j.init.cv04 j.isol j.isol.cv04 j.medi.cv01 j.medi.cv02 j.medi.cv03 jdotless jdotless.fina jdotless.fina.cv01 jdotless.fina.cv02 jdotless.fina.cv03 jdotless.init jdotless.init.cv04 jdotless.isol jdotless.isol.cv04 jdotless.medi.cv01 jdotless.medi.cv02 jdotless.medi.cv03 k k.fina k.fina.cv01 k.fina.cv02 k.fina.cv03 k.init k.init.cv04 k.isol k.isol.cv04 k.medi.cv01 k.medi.cv02 k.medi.cv03 l l.cv06 l.fina l.fina.cv01 l.fina.cv01.cv06 l.fina.cv02 l.fina.cv02.cv06 l.fina.cv03 l.fina.cv03.cv06 l.fina.cv06 l.init l.init.cv04 l.init.cv06 l.isol l.isol.cv04 l.isol.cv06 l.medi.cv01 l.medi.cv01.cv06 l.medi.cv02 l.medi.cv02.cv06 l.medi.cv03 l.medi.cv03.cv06 ldot ldot.fina ldot.fina.cv01 ldot.fina.cv02 ldot.fina.cv03 ldot.init ldot.init.cv04 ldot.isol ldot.isol.cv04 ldot.medi.cv01 ldot.medi.cv02 ldot.medi.cv03 m m.fina m.fina.cv01 m.fina.cv02 m.fina.cv03 m.init m.isol m.medi.cv01 m.medi.cv02 m.medi.cv03 n n.fina n.fina.cv01 n.fina.cv02 n.fina.cv03 n.init n.isol n.medi.cv01 n.medi.cv02 n.medi.cv03 ntilde ntilde.fina ntilde.fina.cv01 ntilde.fina.cv02 ntilde.fina.cv03 ntilde.init ntilde.isol ntilde.medi.cv01 ntilde.medi.cv02 ntilde.medi.cv03 o o.fina o.fina.cv01 o.fina.cv02 o.fina.cv03 o.init o.isol o.medi.cv01 o.medi.cv02 o.medi.cv03 oacute oacute.fina oacute.fina.cv01 oacute.fina.cv02 oacute.fina.cv03 oacute.init oacute.isol oacute.medi.cv01 oacute.medi.cv02 oacute.medi.cv03 ocircumflex ocircumflex.fina ocircumflex.fina.cv01 ocircumflex.fina.cv02 ocircumflex.fina.cv03 ocircumflex.init ocircumflex.isol ocircumflex.medi.cv01 ocircumflex.medi.cv02 ocircumflex.medi.cv03 ocircumflexacute ocircumflexacute.fina ocircumflexacute.fina.cv01 ocircumflexacute.fina.cv02 ocircumflexacute.fina.cv03 ocircumflexacute.init ocircumflexacute.isol ocircumflexacute.medi.cv01 ocircumflexacute.medi.cv02 ocircumflexacute.medi.cv03 ocircumflexdotbelow ocircumflexdotbelow.fina ocircumflexdotbelow.fina.cv01 ocircumflexdotbelow.fina.cv02 ocircumflexdotbelow.fina.cv03 ocircumflexdotbelow.init ocircumflexdotbelow.isol ocircumflexdotbelow.medi.cv01 ocircumflexdotbelow.medi.cv02 ocircumflexdotbelow.medi.cv03 ocircumflexgrave ocircumflexgrave.fina ocircumflexgrave.fina.cv01 ocircumflexgrave.fina.cv02 ocircumflexgrave.fina.cv03 ocircumflexgrave.init ocircumflexgrave.isol ocircumflexgrave.medi.cv01 ocircumflexgrave.medi.cv02 ocircumflexgrave.medi.cv03 ocircumflexhookabove ocircumflexhookabove.fina ocircumflexhookabove.fina.cv01 ocircumflexhookabove.fina.cv02 ocircumflexhookabove.fina.cv03 ocircumflexhookabove.init ocircumflexhookabove.isol ocircumflexhookabove.medi.cv01 ocircumflexhookabove.medi.cv02 ocircumflexhookabove.medi.cv03 ocircumflextilde ocircumflextilde.fina ocircumflextilde.fina.cv01 ocircumflextilde.fina.cv02 ocircumflextilde.fina.cv03 ocircumflextilde.init ocircumflextilde.isol ocircumflextilde.medi.cv01 ocircumflextilde.medi.cv02 ocircumflextilde.medi.cv03 odieresis odieresis.fina odieresis.fina.cv01 odieresis.fina.cv02 odieresis.fina.cv03 odieresis.init odieresis.isol odieresis.medi.cv01 odieresis.medi.cv02 odieresis.medi.cv03 odotbelow odotbelow.fina odotbelow.fina.cv01 odotbelow.fina.cv02 odotbelow.fina.cv03 odotbelow.init odotbelow.isol odotbelow.medi.cv01 odotbelow.medi.cv02 odotbelow.medi.cv03 ograve ograve.fina ograve.fina.cv01 ograve.fina.cv02 ograve.fina.cv03 ograve.init ograve.isol ograve.medi.cv01 ograve.medi.cv02 ograve.medi.cv03 ohookabove ohookabove.fina ohookabove.fina.cv01 ohookabove.fina.cv02 ohookabove.fina.cv03 ohookabove.init ohookabove.isol ohookabove.medi.cv01 ohookabove.medi.cv02 ohookabove.medi.cv03 ohorn ohorn.fina ohorn.fina.cv01 ohorn.fina.cv02 ohorn.fina.cv03 ohorn.init ohorn.isol ohorn.medi.cv01 ohorn.medi.cv02 ohorn.medi.cv03 ohornacute ohornacute.fina ohornacute.fina.cv01 ohornacute.fina.cv02 ohornacute.fina.cv03 ohornacute.init ohornacute.isol ohornacute.medi.cv01 ohornacute.medi.cv02 ohornacute.medi.cv03 ohorndotbelow ohorndotbelow.fina ohorndotbelow.fina.cv01 ohorndotbelow.fina.cv02 ohorndotbelow.fina.cv03 ohorndotbelow.init ohorndotbelow.isol ohorndotbelow.medi.cv01 ohorndotbelow.medi.cv02 ohorndotbelow.medi.cv03 ohorngrave ohorngrave.fina ohorngrave.fina.cv01 ohorngrave.fina.cv02 ohorngrave.fina.cv03 ohorngrave.init ohorngrave.isol ohorngrave.medi.cv01 ohorngrave.medi.cv02 ohorngrave.medi.cv03 ohornhookabove ohornhookabove.fina ohornhookabove.fina.cv01 ohornhookabove.fina.cv02 ohornhookabove.fina.cv03 ohornhookabove.init ohornhookabove.isol ohornhookabove.medi.cv01 ohornhookabove.medi.cv02 ohornhookabove.medi.cv03 ohorntilde ohorntilde.fina ohorntilde.fina.cv01 ohorntilde.fina.cv02 ohorntilde.fina.cv03 ohorntilde.init ohorntilde.isol ohorntilde.medi.cv01 ohorntilde.medi.cv02 ohorntilde.medi.cv03 oslash oslash.fina oslash.fina.cv01 oslash.fina.cv02 oslash.fina.cv03 oslash.init oslash.isol oslash.medi.cv01 oslash.medi.cv02 oslash.medi.cv03 otilde otilde.fina otilde.fina.cv01 otilde.fina.cv02 otilde.fina.cv03 otilde.init otilde.isol otilde.medi.cv01 otilde.medi.cv02 otilde.medi.cv03 oe oe.fina oe.fina.cv01 oe.fina.cv02 oe.fina.cv03 oe.init oe.isol oe.medi.cv01 oe.medi.cv02 oe.medi.cv03 p p.fina p.fina.cv01 p.fina.cv02 p.fina.cv03 p.init p.init.cv04 p.isol p.isol.cv04 p.medi.cv01 p.medi.cv02 p.medi.cv03 q q.fina q.fina.cv01 q.fina.cv02 q.fina.cv03 q.init q.isol q.medi.cv01 q.medi.cv02 q.medi.cv03 r r.fina r.fina.cv01 r.fina.cv02 r.fina.cv03 r.init r.init.cv04 r.isol r.isol.cv04 r.medi.cv01 r.medi.cv02 r.medi.cv03 s s.fina s.fina.cv01 s.fina.cv02 s.fina.cv03 s.init s.init.cv04 s.isol s.isol.cv04 s.medi.cv01 s.medi.cv02 s.medi.cv03 scedilla scedilla.fina scedilla.fina.cv01 scedilla.fina.cv02 scedilla.fina.cv03 scedilla.init scedilla.isol scedilla.medi.cv01 scedilla.medi.cv02 scedilla.medi.cv03 germandbls germandbls.fina germandbls.fina.cv01 germandbls.fina.cv02 germandbls.fina.cv03 germandbls.init germandbls.init.cv04 germandbls.isol germandbls.isol.cv04 germandbls.medi.cv01 germandbls.medi.cv02 germandbls.medi.cv03 t t.fina t.fina.cv01 t.fina.cv02 t.fina.cv03 t.init t.init.cv04 t.isol t.isol.cv04 t.medi.cv01 t.medi.cv02 t.medi.cv03 u u.fina u.fina.cv01 u.fina.cv02 u.fina.cv03 u.init u.init.cv04 u.isol u.isol.cv04 u.medi.cv01 u.medi.cv02 u.medi.cv03 uacute uacute.fina uacute.fina.cv01 uacute.fina.cv02 uacute.fina.cv03 uacute.init uacute.isol uacute.medi.cv01 uacute.medi.cv02 uacute.medi.cv03 ucircumflex ucircumflex.fina ucircumflex.fina.cv01 ucircumflex.fina.cv02 ucircumflex.fina.cv03 ucircumflex.init ucircumflex.isol ucircumflex.medi.cv01 ucircumflex.medi.cv02 ucircumflex.medi.cv03 udieresis udieresis.fina udieresis.fina.cv01 udieresis.fina.cv02 udieresis.fina.cv03 udieresis.init udieresis.isol udieresis.medi.cv01 udieresis.medi.cv02 udieresis.medi.cv03 udotbelow udotbelow.fina udotbelow.fina.cv01 udotbelow.fina.cv02 udotbelow.fina.cv03 udotbelow.init udotbelow.isol udotbelow.medi.cv01 udotbelow.medi.cv02 udotbelow.medi.cv03 ugrave ugrave.fina ugrave.fina.cv01 ugrave.fina.cv02 ugrave.fina.cv03 ugrave.init ugrave.isol ugrave.medi.cv01 ugrave.medi.cv02 ugrave.medi.cv03 uhookabove uhookabove.fina uhookabove.fina.cv01 uhookabove.fina.cv02 uhookabove.fina.cv03 uhookabove.init uhookabove.isol uhookabove.medi.cv01 uhookabove.medi.cv02 uhookabove.medi.cv03 uhorn uhorn.fina uhorn.fina.cv01 uhorn.fina.cv02 uhorn.fina.cv03 uhorn.init uhorn.init.cv04 uhorn.isol uhorn.isol.cv04 uhorn.medi.cv01 uhorn.medi.cv02 uhorn.medi.cv03 uhornacute uhornacute.fina uhornacute.fina.cv01 uhornacute.fina.cv02 uhornacute.fina.cv03 uhornacute.init uhornacute.isol uhornacute.medi.cv01 uhornacute.medi.cv02 uhornacute.medi.cv03 uhorndotbelow uhorndotbelow.fina uhorndotbelow.fina.cv01 uhorndotbelow.fina.cv02 uhorndotbelow.fina.cv03 uhorndotbelow.init uhorndotbelow.isol uhorndotbelow.medi.cv01 uhorndotbelow.medi.cv02 uhorndotbelow.medi.cv03 uhorngrave uhorngrave.fina uhorngrave.fina.cv01 uhorngrave.fina.cv02 uhorngrave.fina.cv03 uhorngrave.init uhorngrave.isol uhorngrave.medi.cv01 uhorngrave.medi.cv02 uhorngrave.medi.cv03 uhornhookabove uhornhookabove.fina uhornhookabove.fina.cv01 uhornhookabove.fina.cv02 uhornhookabove.fina.cv03 uhornhookabove.init uhornhookabove.isol uhornhookabove.medi.cv01 uhornhookabove.medi.cv02 uhornhookabove.medi.cv03 uhorntilde uhorntilde.fina uhorntilde.fina.cv01 uhorntilde.fina.cv02 uhorntilde.fina.cv03 uhorntilde.init uhorntilde.isol uhorntilde.medi.cv01 uhorntilde.medi.cv02 uhorntilde.medi.cv03 utilde utilde.fina utilde.fina.cv01 utilde.fina.cv02 utilde.fina.cv03 utilde.init utilde.isol utilde.medi.cv01 utilde.medi.cv02 utilde.medi.cv03 v v.fina v.fina.cv01 v.fina.cv02 v.fina.cv03 v.init v.isol v.medi.cv01 v.medi.cv02 v.medi.cv03 w w.fina w.fina.cv01 w.fina.cv02 w.fina.cv03 w.init w.isol w.medi.cv01 w.medi.cv02 w.medi.cv03 x x.fina x.fina.cv01 x.fina.cv02 x.fina.cv03 x.init x.init.cv04 x.isol x.isol.cv04 x.medi.cv01 x.medi.cv02 x.medi.cv03 y y.fina y.fina.cv01 y.fina.cv02 y.fina.cv03 y.init y.init.cv04 y.isol y.isol.cv04 y.medi.cv01 y.medi.cv02 y.medi.cv03 yacute yacute.fina yacute.fina.cv01 yacute.fina.cv02 yacute.fina.cv03 yacute.init yacute.isol yacute.medi.cv01 yacute.medi.cv02 yacute.medi.cv03 ydotbelow ydotbelow.fina ydotbelow.fina.cv01 ydotbelow.fina.cv02 ydotbelow.fina.cv03 ydotbelow.init ydotbelow.isol ydotbelow.medi.cv01 ydotbelow.medi.cv02 ydotbelow.medi.cv03 ygrave ygrave.fina ygrave.fina.cv01 ygrave.fina.cv02 ygrave.fina.cv03 ygrave.init ygrave.isol ygrave.medi.cv01 ygrave.medi.cv02 ygrave.medi.cv03 yhookabove yhookabove.fina yhookabove.fina.cv01 yhookabove.fina.cv02 yhookabove.fina.cv03 yhookabove.init yhookabove.isol yhookabove.medi.cv01 yhookabove.medi.cv02 yhookabove.medi.cv03 ytilde ytilde.fina ytilde.fina.cv01 ytilde.fina.cv02 ytilde.fina.cv03 ytilde.init ytilde.isol ytilde.medi.cv01 ytilde.medi.cv02 ytilde.medi.cv03 z z.fina z.fina.cv01 z.fina.cv02 z.fina.cv03 z.init z.init.cv04 z.isol z.isol.cv04 z.medi.cv01 z.medi.cv02 z.medi.cv03 t_t.liga t_t.liga.fina t_t.liga.fina.cv01 t_t.liga.fina.cv02 t_t.liga.fina.cv03 t_t.liga.init t_t.liga.isol t_t.liga.medi.cv01 t_t.liga.medi.cv02 t_t.liga.medi.cv03";
+code = "a a.fina a.fina.cv01 a.fina.cv02 a.fina.cv03 a.init a.isol a.medi.cv01 a.medi.cv02 a.medi.cv03 aacute aacute.fina aacute.fina.cv01 aacute.fina.cv02 aacute.fina.cv03 aacute.init aacute.isol aacute.medi.cv01 aacute.medi.cv02 aacute.medi.cv03 abreve abreve.fina abreve.fina.cv01 abreve.fina.cv02 abreve.fina.cv03 abreve.init abreve.isol abreve.medi.cv01 abreve.medi.cv02 abreve.medi.cv03 abreveacute abreveacute.fina abreveacute.fina.cv01 abreveacute.fina.cv02 abreveacute.fina.cv03 abreveacute.init abreveacute.isol abreveacute.medi.cv01 abreveacute.medi.cv02 abreveacute.medi.cv03 abrevedotbelow abrevedotbelow.fina abrevedotbelow.fina.cv01 abrevedotbelow.fina.cv02 abrevedotbelow.fina.cv03 abrevedotbelow.init abrevedotbelow.isol abrevedotbelow.medi.cv01 abrevedotbelow.medi.cv02 abrevedotbelow.medi.cv03 abrevegrave abrevegrave.fina abrevegrave.fina.cv01 abrevegrave.fina.cv02 abrevegrave.fina.cv03 abrevegrave.init abrevegrave.isol abrevegrave.medi.cv01 abrevegrave.medi.cv02 abrevegrave.medi.cv03 abrevehookabove abrevehookabove.fina abrevehookabove.fina.cv01 abrevehookabove.fina.cv02 abrevehookabove.fina.cv03 abrevehookabove.init abrevehookabove.isol abrevehookabove.medi.cv01 abrevehookabove.medi.cv02 abrevehookabove.medi.cv03 abrevetilde abrevetilde.fina abrevetilde.fina.cv01 abrevetilde.fina.cv02 abrevetilde.fina.cv03 abrevetilde.init abrevetilde.isol abrevetilde.medi.cv01 abrevetilde.medi.cv02 abrevetilde.medi.cv03 acircumflex acircumflex.fina acircumflex.fina.cv01 acircumflex.fina.cv02 acircumflex.fina.cv03 acircumflex.init acircumflex.isol acircumflex.medi.cv01 acircumflex.medi.cv02 acircumflex.medi.cv03 acircumflexacute acircumflexacute.fina acircumflexacute.fina.cv01 acircumflexacute.fina.cv02 acircumflexacute.fina.cv03 acircumflexacute.init acircumflexacute.isol acircumflexacute.medi.cv01 acircumflexacute.medi.cv02 acircumflexacute.medi.cv03 acircumflexdotbelow acircumflexdotbelow.fina acircumflexdotbelow.fina.cv01 acircumflexdotbelow.fina.cv02 acircumflexdotbelow.fina.cv03 acircumflexdotbelow.init acircumflexdotbelow.isol acircumflexdotbelow.medi.cv01 acircumflexdotbelow.medi.cv02 acircumflexdotbelow.medi.cv03 acircumflexgrave acircumflexgrave.fina acircumflexgrave.fina.cv01 acircumflexgrave.fina.cv02 acircumflexgrave.fina.cv03 acircumflexgrave.init acircumflexgrave.isol acircumflexgrave.medi.cv01 acircumflexgrave.medi.cv02 acircumflexgrave.medi.cv03 acircumflexhookabove acircumflexhookabove.fina acircumflexhookabove.fina.cv01 acircumflexhookabove.fina.cv02 acircumflexhookabove.fina.cv03 acircumflexhookabove.init acircumflexhookabove.isol acircumflexhookabove.medi.cv01 acircumflexhookabove.medi.cv02 acircumflexhookabove.medi.cv03 acircumflextilde acircumflextilde.fina acircumflextilde.fina.cv01 acircumflextilde.fina.cv02 acircumflextilde.fina.cv03 acircumflextilde.init acircumflextilde.isol acircumflextilde.medi.cv01 acircumflextilde.medi.cv02 acircumflextilde.medi.cv03 adieresis adieresis.fina adieresis.fina.cv01 adieresis.fina.cv02 adieresis.fina.cv03 adieresis.init adieresis.isol adieresis.medi.cv01 adieresis.medi.cv02 adieresis.medi.cv03 adotbelow adotbelow.fina adotbelow.fina.cv01 adotbelow.fina.cv02 adotbelow.fina.cv03 adotbelow.init adotbelow.isol adotbelow.medi.cv01 adotbelow.medi.cv02 adotbelow.medi.cv03 agrave agrave.fina agrave.fina.cv01 agrave.fina.cv02 agrave.fina.cv03 agrave.init agrave.isol agrave.medi.cv01 agrave.medi.cv02 agrave.medi.cv03 ahookabove ahookabove.fina ahookabove.fina.cv01 ahookabove.fina.cv02 ahookabove.fina.cv03 ahookabove.init ahookabove.isol ahookabove.medi.cv01 ahookabove.medi.cv02 ahookabove.medi.cv03 aring aring.fina aring.fina.cv01 aring.fina.cv02 aring.fina.cv03 aring.init aring.isol aring.medi.cv01 aring.medi.cv02 aring.medi.cv03 atilde atilde.fina atilde.fina.cv01 atilde.fina.cv02 atilde.fina.cv03 atilde.init atilde.isol atilde.medi.cv01 atilde.medi.cv02 atilde.medi.cv03 ae ae.fina ae.fina.cv01 ae.fina.cv02 ae.fina.cv03 ae.init ae.isol ae.medi.cv01 ae.medi.cv02 ae.medi.cv03 b b.fina b.fina.cv01 b.fina.cv02 b.fina.cv03 b.init b.init.cv04 b.isol b.isol.cv04 b.medi.cv01 b.medi.cv02 b.medi.cv03 c c.fina c.fina.cv01 c.fina.cv02 c.fina.cv03 c.init c.isol c.medi.cv01 c.medi.cv02 c.medi.cv03 ccedilla ccedilla.fina ccedilla.fina.cv01 ccedilla.fina.cv02 ccedilla.fina.cv03 ccedilla.init ccedilla.isol ccedilla.medi.cv01 ccedilla.medi.cv02 ccedilla.medi.cv03 d d.fina d.fina.cv01 d.fina.cv02 d.fina.cv03 d.init d.isol d.medi.cv01 d.medi.cv02 d.medi.cv03 dcroat dcroat.fina dcroat.fina.cv01 dcroat.fina.cv02 dcroat.fina.cv03 dcroat.init dcroat.isol dcroat.medi.cv01 dcroat.medi.cv02 dcroat.medi.cv03 e e.fina e.fina.cv01 e.fina.cv02 e.fina.cv03 e.init e.init.cv04 e.isol e.isol.cv04 e.link.cv04 e.medi.cv01 e.medi.cv02 e.medi.cv03 eacute eacute.fina eacute.fina.cv01 eacute.fina.cv02 eacute.fina.cv03 eacute.init eacute.isol eacute.medi.cv01 eacute.medi.cv02 eacute.medi.cv03 ebreve ebreve.fina ebreve.fina.cv01 ebreve.fina.cv02 ebreve.fina.cv03 ebreve.init ebreve.isol ebreve.medi.cv01 ebreve.medi.cv02 ebreve.medi.cv03 ecircumflex ecircumflex.fina ecircumflex.fina.cv01 ecircumflex.fina.cv02 ecircumflex.fina.cv03 ecircumflex.init ecircumflex.isol ecircumflex.medi.cv01 ecircumflex.medi.cv02 ecircumflex.medi.cv03 ecircumflexacute ecircumflexacute.fina ecircumflexacute.fina.cv01 ecircumflexacute.fina.cv02 ecircumflexacute.fina.cv03 ecircumflexacute.init ecircumflexacute.isol ecircumflexacute.medi.cv01 ecircumflexacute.medi.cv02 ecircumflexacute.medi.cv03 ecircumflexdotbelow ecircumflexdotbelow.fina ecircumflexdotbelow.fina.cv01 ecircumflexdotbelow.fina.cv02 ecircumflexdotbelow.fina.cv03 ecircumflexdotbelow.init ecircumflexdotbelow.isol ecircumflexdotbelow.medi.cv01 ecircumflexdotbelow.medi.cv02 ecircumflexdotbelow.medi.cv03 ecircumflexgrave ecircumflexgrave.fina ecircumflexgrave.fina.cv01 ecircumflexgrave.fina.cv02 ecircumflexgrave.fina.cv03 ecircumflexgrave.init ecircumflexgrave.isol ecircumflexgrave.medi.cv01 ecircumflexgrave.medi.cv02 ecircumflexgrave.medi.cv03 ecircumflexhookabove ecircumflexhookabove.fina ecircumflexhookabove.fina.cv01 ecircumflexhookabove.fina.cv02 ecircumflexhookabove.fina.cv03 ecircumflexhookabove.init ecircumflexhookabove.isol ecircumflexhookabove.medi.cv01 ecircumflexhookabove.medi.cv02 ecircumflexhookabove.medi.cv03 ecircumflextilde ecircumflextilde.fina ecircumflextilde.fina.cv01 ecircumflextilde.fina.cv02 ecircumflextilde.fina.cv03 ecircumflextilde.init ecircumflextilde.isol ecircumflextilde.medi.cv01 ecircumflextilde.medi.cv02 ecircumflextilde.medi.cv03 edieresis edieresis.fina edieresis.fina.cv01 edieresis.fina.cv02 edieresis.fina.cv03 edieresis.init edieresis.isol edieresis.medi.cv01 edieresis.medi.cv02 edieresis.medi.cv03 edotbelow edotbelow.fina edotbelow.fina.cv01 edotbelow.fina.cv02 edotbelow.fina.cv03 edotbelow.init edotbelow.isol edotbelow.medi.cv01 edotbelow.medi.cv02 edotbelow.medi.cv03 egrave egrave.fina egrave.fina.cv01 egrave.fina.cv02 egrave.fina.cv03 egrave.init egrave.isol egrave.medi.cv01 egrave.medi.cv02 egrave.medi.cv03 ehookabove ehookabove.fina ehookabove.fina.cv01 ehookabove.fina.cv02 ehookabove.fina.cv03 ehookabove.init ehookabove.isol ehookabove.medi.cv01 ehookabove.medi.cv02 ehookabove.medi.cv03 etilde etilde.fina etilde.fina.cv01 etilde.fina.cv02 etilde.fina.cv03 etilde.init etilde.isol etilde.medi.cv01 etilde.medi.cv02 etilde.medi.cv03 f f.fina f.fina.cv01 f.fina.cv02 f.fina.cv03 f.init f.init.cv04 f.isol f.isol.cv04 f.medi.cv01 f.medi.cv02 f.medi.cv03 g g.fina g.fina.cv01 g.fina.cv02 g.fina.cv03 g.init g.isol g.medi.cv01 g.medi.cv02 g.medi.cv03 gbreve gbreve.fina gbreve.fina.cv01 gbreve.fina.cv02 gbreve.fina.cv03 gbreve.init gbreve.isol gbreve.medi.cv01 gbreve.medi.cv02 gbreve.medi.cv03 h h.fina h.fina.cv01 h.fina.cv02 h.fina.cv03 h.init h.init.cv04 h.isol h.isol.cv04 h.medi.cv01 h.medi.cv02 h.medi.cv03 i i.fina i.fina.cv01 i.fina.cv02 i.fina.cv03 i.init i.init.cv04 i.isol i.isol.cv04 i.medi.cv01 i.medi.cv02 i.medi.cv03 idotless idotless.fina idotless.fina.cv01 idotless.fina.cv02 idotless.fina.cv03 idotless.init idotless.init.cv04 idotless.isol idotless.isol.cv04 idotless.medi.cv01 idotless.medi.cv02 idotless.medi.cv03 iacute iacute.fina iacute.fina.cv01 iacute.fina.cv02 iacute.fina.cv03 iacute.init iacute.isol iacute.medi.cv01 iacute.medi.cv02 iacute.medi.cv03 icircumflex icircumflex.fina icircumflex.fina.cv01 icircumflex.fina.cv02 icircumflex.fina.cv03 icircumflex.init icircumflex.isol icircumflex.medi.cv01 icircumflex.medi.cv02 icircumflex.medi.cv03 idieresis idieresis.fina idieresis.fina.cv01 idieresis.fina.cv02 idieresis.fina.cv03 idieresis.init idieresis.isol idieresis.medi.cv01 idieresis.medi.cv02 idieresis.medi.cv03 idotbelow idotbelow.fina idotbelow.fina.cv01 idotbelow.fina.cv02 idotbelow.fina.cv03 idotbelow.init idotbelow.isol idotbelow.medi.cv01 idotbelow.medi.cv02 idotbelow.medi.cv03 igrave igrave.fina igrave.fina.cv01 igrave.fina.cv02 igrave.fina.cv03 igrave.init igrave.isol igrave.medi.cv01 igrave.medi.cv02 igrave.medi.cv03 ihookabove ihookabove.fina ihookabove.fina.cv01 ihookabove.fina.cv02 ihookabove.fina.cv03 ihookabove.init ihookabove.isol ihookabove.medi.cv01 ihookabove.medi.cv02 ihookabove.medi.cv03 itilde itilde.fina itilde.fina.cv01 itilde.fina.cv02 itilde.fina.cv03 itilde.init itilde.isol itilde.medi.cv01 itilde.medi.cv02 itilde.medi.cv03 j j.fina j.fina.cv01 j.fina.cv02 j.fina.cv03 j.init j.init.cv04 j.isol j.isol.cv04 j.medi.cv01 j.medi.cv02 j.medi.cv03 jdotless jdotless.fina jdotless.fina.cv01 jdotless.fina.cv02 jdotless.fina.cv03 jdotless.init jdotless.init.cv04 jdotless.isol jdotless.isol.cv04 jdotless.medi.cv01 jdotless.medi.cv02 jdotless.medi.cv03 k k.fina k.fina.cv01 k.fina.cv02 k.fina.cv03 k.init k.init.cv04 k.isol k.isol.cv04 k.medi.cv01 k.medi.cv02 k.medi.cv03 l l.cv06 l.fina l.fina.cv01 l.fina.cv01.cv06 l.fina.cv02 l.fina.cv02.cv06 l.fina.cv03 l.fina.cv03.cv06 l.fina.cv06 l.init l.init.cv04 l.init.cv06 l.isol l.isol.cv04 l.isol.cv06 l.medi.cv01 l.medi.cv01.cv06 l.medi.cv02 l.medi.cv02.cv06 l.medi.cv03 l.medi.cv03.cv06 ldot ldot.fina ldot.fina.cv01 ldot.fina.cv02 ldot.fina.cv03 ldot.init ldot.init.cv04 ldot.isol ldot.isol.cv04 ldot.medi.cv01 ldot.medi.cv02 ldot.medi.cv03 m m.fina m.fina.cv01 m.fina.cv02 m.fina.cv03 m.init m.isol m.medi.cv01 m.medi.cv02 m.medi.cv03 n n.fina n.fina.cv01 n.fina.cv02 n.fina.cv03 n.init n.isol n.medi.cv01 n.medi.cv02 n.medi.cv03 ntilde ntilde.fina ntilde.fina.cv01 ntilde.fina.cv02 ntilde.fina.cv03 ntilde.init ntilde.isol ntilde.medi.cv01 ntilde.medi.cv02 ntilde.medi.cv03 o o.fina o.fina.cv01 o.fina.cv02 o.fina.cv03 o.init o.isol o.medi.cv01 o.medi.cv02 o.medi.cv03 oacute oacute.fina oacute.fina.cv01 oacute.fina.cv02 oacute.fina.cv03 oacute.init oacute.isol oacute.medi.cv01 oacute.medi.cv02 oacute.medi.cv03 ocircumflex ocircumflex.fina ocircumflex.fina.cv01 ocircumflex.fina.cv02 ocircumflex.fina.cv03 ocircumflex.init ocircumflex.isol ocircumflex.medi.cv01 ocircumflex.medi.cv02 ocircumflex.medi.cv03 ocircumflexacute ocircumflexacute.fina ocircumflexacute.fina.cv01 ocircumflexacute.fina.cv02 ocircumflexacute.fina.cv03 ocircumflexacute.init ocircumflexacute.isol ocircumflexacute.medi.cv01 ocircumflexacute.medi.cv02 ocircumflexacute.medi.cv03 ocircumflexdotbelow ocircumflexdotbelow.fina ocircumflexdotbelow.fina.cv01 ocircumflexdotbelow.fina.cv02 ocircumflexdotbelow.fina.cv03 ocircumflexdotbelow.init ocircumflexdotbelow.isol ocircumflexdotbelow.medi.cv01 ocircumflexdotbelow.medi.cv02 ocircumflexdotbelow.medi.cv03 ocircumflexgrave ocircumflexgrave.fina ocircumflexgrave.fina.cv01 ocircumflexgrave.fina.cv02 ocircumflexgrave.fina.cv03 ocircumflexgrave.init ocircumflexgrave.isol ocircumflexgrave.medi.cv01 ocircumflexgrave.medi.cv02 ocircumflexgrave.medi.cv03 ocircumflexhookabove ocircumflexhookabove.fina ocircumflexhookabove.fina.cv01 ocircumflexhookabove.fina.cv02 ocircumflexhookabove.fina.cv03 ocircumflexhookabove.init ocircumflexhookabove.isol ocircumflexhookabove.medi.cv01 ocircumflexhookabove.medi.cv02 ocircumflexhookabove.medi.cv03 ocircumflextilde ocircumflextilde.fina ocircumflextilde.fina.cv01 ocircumflextilde.fina.cv02 ocircumflextilde.fina.cv03 ocircumflextilde.init ocircumflextilde.isol ocircumflextilde.medi.cv01 ocircumflextilde.medi.cv02 ocircumflextilde.medi.cv03 odieresis odieresis.fina odieresis.fina.cv01 odieresis.fina.cv02 odieresis.fina.cv03 odieresis.init odieresis.isol odieresis.medi.cv01 odieresis.medi.cv02 odieresis.medi.cv03 odotbelow odotbelow.fina odotbelow.fina.cv01 odotbelow.fina.cv02 odotbelow.fina.cv03 odotbelow.init odotbelow.isol odotbelow.medi.cv01 odotbelow.medi.cv02 odotbelow.medi.cv03 ograve ograve.fina ograve.fina.cv01 ograve.fina.cv02 ograve.fina.cv03 ograve.init ograve.isol ograve.medi.cv01 ograve.medi.cv02 ograve.medi.cv03 ohookabove ohookabove.fina ohookabove.fina.cv01 ohookabove.fina.cv02 ohookabove.fina.cv03 ohookabove.init ohookabove.isol ohookabove.medi.cv01 ohookabove.medi.cv02 ohookabove.medi.cv03 ohorn ohorn.fina ohorn.fina.cv01 ohorn.fina.cv02 ohorn.fina.cv03 ohorn.init ohorn.isol ohorn.medi.cv01 ohorn.medi.cv02 ohorn.medi.cv03 ohornacute ohornacute.fina ohornacute.fina.cv01 ohornacute.fina.cv02 ohornacute.fina.cv03 ohornacute.init ohornacute.isol ohornacute.medi.cv01 ohornacute.medi.cv02 ohornacute.medi.cv03 ohorndotbelow ohorndotbelow.fina ohorndotbelow.fina.cv01 ohorndotbelow.fina.cv02 ohorndotbelow.fina.cv03 ohorndotbelow.init ohorndotbelow.isol ohorndotbelow.medi.cv01 ohorndotbelow.medi.cv02 ohorndotbelow.medi.cv03 ohorngrave ohorngrave.fina ohorngrave.fina.cv01 ohorngrave.fina.cv02 ohorngrave.fina.cv03 ohorngrave.init ohorngrave.isol ohorngrave.medi.cv01 ohorngrave.medi.cv02 ohorngrave.medi.cv03 ohornhookabove ohornhookabove.fina ohornhookabove.fina.cv01 ohornhookabove.fina.cv02 ohornhookabove.fina.cv03 ohornhookabove.init ohornhookabove.isol ohornhookabove.medi.cv01 ohornhookabove.medi.cv02 ohornhookabove.medi.cv03 ohorntilde ohorntilde.fina ohorntilde.fina.cv01 ohorntilde.fina.cv02 ohorntilde.fina.cv03 ohorntilde.init ohorntilde.isol ohorntilde.medi.cv01 ohorntilde.medi.cv02 ohorntilde.medi.cv03 oslash oslash.fina oslash.fina.cv01 oslash.fina.cv02 oslash.fina.cv03 oslash.init oslash.isol oslash.medi.cv01 oslash.medi.cv02 oslash.medi.cv03 otilde otilde.fina otilde.fina.cv01 otilde.fina.cv02 otilde.fina.cv03 otilde.init otilde.isol otilde.medi.cv01 otilde.medi.cv02 otilde.medi.cv03 oe oe.fina oe.fina.cv01 oe.fina.cv02 oe.fina.cv03 oe.init oe.isol oe.medi.cv01 oe.medi.cv02 oe.medi.cv03 p p.fina p.fina.cv01 p.fina.cv02 p.fina.cv03 p.init p.init.cv04 p.isol p.isol.cv04 p.medi.cv01 p.medi.cv02 p.medi.cv03 q q.fina q.fina.cv01 q.fina.cv02 q.fina.cv03 q.init q.isol q.medi.cv01 q.medi.cv02 q.medi.cv03 r r.fina r.fina.cv01 r.fina.cv02 r.fina.cv03 r.init r.init.cv04 r.isol r.isol.cv04 r.medi.cv01 r.medi.cv02 r.medi.cv03 s s.fina s.fina.cv01 s.fina.cv02 s.fina.cv03 s.init s.init.cv04 s.isol s.isol.cv04 s.medi.cv01 s.medi.cv02 s.medi.cv03 scedilla scedilla.fina scedilla.fina.cv01 scedilla.fina.cv02 scedilla.fina.cv03 scedilla.init scedilla.isol scedilla.medi.cv01 scedilla.medi.cv02 scedilla.medi.cv03 germandbls germandbls.fina germandbls.fina.cv01 germandbls.fina.cv02 germandbls.fina.cv03 germandbls.init germandbls.init.cv04 germandbls.isol germandbls.isol.cv04 germandbls.medi.cv01 germandbls.medi.cv02 germandbls.medi.cv03 t t.fina t.fina.cv01 t.fina.cv02 t.fina.cv03 t.init t.init.cv04 t.isol t.isol.cv04 t.medi.cv01 t.medi.cv02 t.medi.cv03 u u.fina u.fina.cv01 u.fina.cv02 u.fina.cv03 u.init u.init.cv04 u.isol u.isol.cv04 u.medi.cv01 u.medi.cv02 u.medi.cv03 uacute uacute.fina uacute.fina.cv01 uacute.fina.cv02 uacute.fina.cv03 uacute.init uacute.isol uacute.medi.cv01 uacute.medi.cv02 uacute.medi.cv03 ucircumflex ucircumflex.fina ucircumflex.fina.cv01 ucircumflex.fina.cv02 ucircumflex.fina.cv03 ucircumflex.init ucircumflex.isol ucircumflex.medi.cv01 ucircumflex.medi.cv02 ucircumflex.medi.cv03 udieresis udieresis.fina udieresis.fina.cv01 udieresis.fina.cv02 udieresis.fina.cv03 udieresis.init udieresis.isol udieresis.medi.cv01 udieresis.medi.cv02 udieresis.medi.cv03 udotbelow udotbelow.fina udotbelow.fina.cv01 udotbelow.fina.cv02 udotbelow.fina.cv03 udotbelow.init udotbelow.isol udotbelow.medi.cv01 udotbelow.medi.cv02 udotbelow.medi.cv03 ugrave ugrave.fina ugrave.fina.cv01 ugrave.fina.cv02 ugrave.fina.cv03 ugrave.init ugrave.isol ugrave.medi.cv01 ugrave.medi.cv02 ugrave.medi.cv03 uhookabove uhookabove.fina uhookabove.fina.cv01 uhookabove.fina.cv02 uhookabove.fina.cv03 uhookabove.init uhookabove.isol uhookabove.medi.cv01 uhookabove.medi.cv02 uhookabove.medi.cv03 uhorn uhorn.fina uhorn.fina.cv01 uhorn.fina.cv02 uhorn.fina.cv03 uhorn.init uhorn.init.cv04 uhorn.isol uhorn.isol.cv04 uhorn.medi.cv01 uhorn.medi.cv02 uhorn.medi.cv03 uhornacute uhornacute.fina uhornacute.fina.cv01 uhornacute.fina.cv02 uhornacute.fina.cv03 uhornacute.init uhornacute.isol uhornacute.medi.cv01 uhornacute.medi.cv02 uhornacute.medi.cv03 uhorndotbelow uhorndotbelow.fina uhorndotbelow.fina.cv01 uhorndotbelow.fina.cv02 uhorndotbelow.fina.cv03 uhorndotbelow.init uhorndotbelow.isol uhorndotbelow.medi.cv01 uhorndotbelow.medi.cv02 uhorndotbelow.medi.cv03 uhorngrave uhorngrave.fina uhorngrave.fina.cv01 uhorngrave.fina.cv02 uhorngrave.fina.cv03 uhorngrave.init uhorngrave.isol uhorngrave.medi.cv01 uhorngrave.medi.cv02 uhorngrave.medi.cv03 uhornhookabove uhornhookabove.fina uhornhookabove.fina.cv01 uhornhookabove.fina.cv02 uhornhookabove.fina.cv03 uhornhookabove.init uhornhookabove.isol uhornhookabove.medi.cv01 uhornhookabove.medi.cv02 uhornhookabove.medi.cv03 uhorntilde uhorntilde.fina uhorntilde.fina.cv01 uhorntilde.fina.cv02 uhorntilde.fina.cv03 uhorntilde.init uhorntilde.isol uhorntilde.medi.cv01 uhorntilde.medi.cv02 uhorntilde.medi.cv03 utilde utilde.fina utilde.fina.cv01 utilde.fina.cv02 utilde.fina.cv03 utilde.init utilde.isol utilde.medi.cv01 utilde.medi.cv02 utilde.medi.cv03 v v.fina v.fina.cv01 v.fina.cv02 v.fina.cv03 v.init v.isol v.medi.cv01 v.medi.cv02 v.medi.cv03 w w.fina w.fina.cv01 w.fina.cv02 w.fina.cv03 w.init w.isol w.medi.cv01 w.medi.cv02 w.medi.cv03 x x.fina x.fina.cv01 x.fina.cv02 x.fina.cv03 x.init x.init.cv04 x.isol x.isol.cv04 x.medi.cv01 x.medi.cv02 x.medi.cv03 y y.fina y.fina.cv01 y.fina.cv02 y.fina.cv03 y.init y.init.cv04 y.isol y.isol.cv04 y.medi.cv01 y.medi.cv02 y.medi.cv03 yacute yacute.fina yacute.fina.cv01 yacute.fina.cv02 yacute.fina.cv03 yacute.init yacute.isol yacute.medi.cv01 yacute.medi.cv02 yacute.medi.cv03 ydotbelow ydotbelow.fina ydotbelow.fina.cv01 ydotbelow.fina.cv02 ydotbelow.fina.cv03 ydotbelow.init ydotbelow.isol ydotbelow.medi.cv01 ydotbelow.medi.cv02 ydotbelow.medi.cv03 ygrave ygrave.fina ygrave.fina.cv01 ygrave.fina.cv02 ygrave.fina.cv03 ygrave.init ygrave.isol ygrave.medi.cv01 ygrave.medi.cv02 ygrave.medi.cv03 yhookabove yhookabove.fina yhookabove.fina.cv01 yhookabove.fina.cv02 yhookabove.fina.cv03 yhookabove.init yhookabove.isol yhookabove.medi.cv01 yhookabove.medi.cv02 yhookabove.medi.cv03 ytilde ytilde.fina ytilde.fina.cv01 ytilde.fina.cv02 ytilde.fina.cv03 ytilde.init ytilde.isol ytilde.medi.cv01 ytilde.medi.cv02 ytilde.medi.cv03 z z.fina z.fina.cv01 z.fina.cv02 z.fina.cv03 z.init z.init.cv04 z.isol z.isol.cv04 z.medi.cv01 z.medi.cv02 z.medi.cv03 idotaccent idotaccent.fina idotaccent.fina.cv01 idotaccent.fina.cv02 idotaccent.fina.cv03 idotaccent.init idotaccent.isol idotaccent.medi.cv01 idotaccent.medi.cv02 idotaccent.medi.cv03 t_t.liga t_t.liga.fina t_t.liga.fina.cv01 t_t.liga.fina.cv02 t_t.liga.fina.cv03 t_t.liga.init t_t.liga.isol t_t.liga.medi.cv01 t_t.liga.medi.cv02 t_t.liga.medi.cv03";
 name = Lowercase;
 }
 );
@@ -230,7 +234,6 @@ sub idotless by idotless.isol;
 sub iacute by iacute.isol;
 sub icircumflex by icircumflex.isol;
 sub idieresis by idieresis.isol;
-sub idotaccent by idotaccent.isol;
 sub idotbelow by idotbelow.isol;
 sub igrave by igrave.isol;
 sub ihookabove by ihookabove.isol;
@@ -295,6 +298,7 @@ sub ygrave by ygrave.isol;
 sub yhookabove by yhookabove.isol;
 sub ytilde by ytilde.isol;
 sub z by z.isol;
+sub idotaccent by idotaccent.isol;
 sub t_t.liga by t_t.liga.isol;
 ";
 tag = isol;
@@ -350,7 +354,6 @@ sub idotless by idotless.init;
 sub iacute by iacute.init;
 sub icircumflex by icircumflex.init;
 sub idieresis by idieresis.init;
-sub idotaccent by idotaccent.init;
 sub idotbelow by idotbelow.init;
 sub igrave by igrave.init;
 sub ihookabove by ihookabove.init;
@@ -415,6 +418,7 @@ sub ygrave by ygrave.init;
 sub yhookabove by yhookabove.init;
 sub ytilde by ytilde.init;
 sub z by z.init;
+sub idotaccent by idotaccent.init;
 sub t_t.liga by t_t.liga.init;
 ";
 disabled = 1;
@@ -471,7 +475,6 @@ sub idotless by idotless.fina;
 sub iacute by iacute.fina;
 sub icircumflex by icircumflex.fina;
 sub idieresis by idieresis.fina;
-sub idotaccent by idotaccent.fina;
 sub idotbelow by idotbelow.fina;
 sub igrave by igrave.fina;
 sub ihookabove by ihookabove.fina;
@@ -536,6 +539,7 @@ sub ygrave by ygrave.fina;
 sub yhookabove by yhookabove.fina;
 sub ytilde by ytilde.fina;
 sub z by z.fina;
+sub idotaccent by idotaccent.fina;
 sub t_t.liga by t_t.liga.fina;
 ";
 disabled = 1;
@@ -549,8 +553,10 @@ sub t t by t_t.liga;
 tag = liga;
 },
 {
-code = "# All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove aring atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde oslash otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+code = "@high=[$[category like \"Letter\" && case==lower && name endswith \".init\"] $[category like \"Letter\" && case==lower && name endswith \".isol\"]];
+
+# All base lowercases letters (has unicode + idotaccent + jdotless)
+@Medial=[$[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -727,7 +733,6 @@ sub idotless.fina by idotless.fina.cv01;
 sub iacute.fina by iacute.fina.cv01;
 sub icircumflex.fina by icircumflex.fina.cv01;
 sub idieresis.fina by idieresis.fina.cv01;
-sub idotaccent.fina by idotaccent.fina.cv01;
 sub idotbelow.fina by idotbelow.fina.cv01;
 sub igrave.fina by igrave.fina.cv01;
 sub ihookabove.fina by ihookabove.fina.cv01;
@@ -792,6 +797,7 @@ sub ygrave.fina by ygrave.fina.cv01;
 sub yhookabove.fina by yhookabove.fina.cv01;
 sub ytilde.fina by ytilde.fina.cv01;
 sub z.fina by z.fina.cv01;
+sub idotaccent.fina by idotaccent.fina.cv01;
 sub t_t.liga.fina by t_t.liga.fina.cv01;
 ";
 disabled = 1;
@@ -848,7 +854,6 @@ sub idotless.fina by idotless.fina.cv02;
 sub iacute.fina by iacute.fina.cv02;
 sub icircumflex.fina by icircumflex.fina.cv02;
 sub idieresis.fina by idieresis.fina.cv02;
-sub idotaccent.fina by idotaccent.fina.cv02;
 sub idotbelow.fina by idotbelow.fina.cv02;
 sub igrave.fina by igrave.fina.cv02;
 sub ihookabove.fina by ihookabove.fina.cv02;
@@ -913,6 +918,7 @@ sub ygrave.fina by ygrave.fina.cv02;
 sub yhookabove.fina by yhookabove.fina.cv02;
 sub ytilde.fina by ytilde.fina.cv02;
 sub z.fina by z.fina.cv02;
+sub idotaccent.fina by idotaccent.fina.cv02;
 sub t_t.liga.fina by t_t.liga.fina.cv02;
 ";
 disabled = 1;
@@ -969,7 +975,6 @@ sub idotless.fina by idotless.fina.cv03;
 sub iacute.fina by iacute.fina.cv03;
 sub icircumflex.fina by icircumflex.fina.cv03;
 sub idieresis.fina by idieresis.fina.cv03;
-sub idotaccent.fina by idotaccent.fina.cv03;
 sub idotbelow.fina by idotbelow.fina.cv03;
 sub igrave.fina by igrave.fina.cv03;
 sub ihookabove.fina by ihookabove.fina.cv03;
@@ -1034,6 +1039,7 @@ sub ygrave.fina by ygrave.fina.cv03;
 sub yhookabove.fina by yhookabove.fina.cv03;
 sub ytilde.fina by ytilde.fina.cv03;
 sub z.fina by z.fina.cv03;
+sub idotaccent.fina by idotaccent.fina.cv03;
 sub t_t.liga.fina by t_t.liga.fina.cv03;
 ";
 disabled = 1;
@@ -11086,11 +11092,13 @@ width = 893;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = a;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -11368,11 +11376,13 @@ metricLeft = o.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = aacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -11590,11 +11600,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = abreve;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -11812,11 +11824,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = abreveacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -12034,11 +12048,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = abrevedotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -12296,11 +12312,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = abrevegrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -12518,11 +12536,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = abrevehookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -12740,11 +12760,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = abrevetilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -12962,11 +12984,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = acircumflex;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -13184,11 +13208,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = acircumflexacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -13406,11 +13432,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = acircumflexdotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -13668,11 +13696,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = acircumflexgrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -13890,11 +13920,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = acircumflexhookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -14112,11 +14144,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = acircumflextilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -14334,11 +14368,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = adieresis;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -14556,11 +14592,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = adotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -14778,11 +14816,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = agrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -15000,11 +15040,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ahookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -15222,11 +15264,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = aring;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -15464,11 +15508,13 @@ metricLeft = o.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = atilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -15686,11 +15732,13 @@ width = 516;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ae;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -15938,11 +15986,13 @@ metricLeft = o.medi.cv03;
 metricRight = e.medi.cv02;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = b;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -16722,11 +16772,13 @@ metricLeft = l.medi.cv03;
 metricRight = b;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = c;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -16980,11 +17032,13 @@ width = 363;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ccedilla;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -17202,11 +17256,13 @@ width = 363;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = d;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -17735,11 +17791,13 @@ metricLeft = o.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = dcroat;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -18268,11 +18326,13 @@ metricLeft = o.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = e;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -18897,11 +18957,13 @@ width = 375;
 metricRight = e;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = eacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -19119,11 +19181,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ebreve;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -19341,11 +19405,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ecircumflex;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -19564,11 +19630,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ecircumflexacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -19786,11 +19854,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ecircumflexdotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -20048,11 +20118,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ecircumflexgrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -20270,11 +20342,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ecircumflexhookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -20492,11 +20566,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ecircumflextilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -20714,11 +20790,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = edieresis;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -20936,11 +21014,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = edotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -21159,11 +21239,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = egrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -21382,11 +21464,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ehookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -21604,11 +21688,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = etilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -21826,11 +21912,13 @@ width = 375;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = f;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -23074,11 +23162,13 @@ width = 364;
 metricRight = f;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = g;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -23323,11 +23413,13 @@ metricLeft = o.medi.cv03;
 metricRight = g;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = gbreve;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -23564,11 +23656,13 @@ metricLeft = o.medi.cv03;
 metricRight = g;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = h;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -24195,11 +24289,13 @@ metricLeft = l.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = i;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -24478,11 +24574,13 @@ width = 248;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = idotless;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:56:53 +0000";
 layers = (
 {
 anchors = (
@@ -24524,7 +24622,7 @@ color = 10;
 glyphname = idotless.fina;
 kernLeft = no_kerning;
 kernRight = u;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:57:09 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -24549,7 +24647,7 @@ color = 10;
 glyphname = idotless.fina.cv01;
 kernLeft = no_kerning;
 kernRight = u;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:57:05 +0000";
 layers = (
 {
 layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -24872,11 +24970,13 @@ width = 248;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = iacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -25094,11 +25194,13 @@ width = 248;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = icircumflex;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -25316,11 +25418,13 @@ width = 248;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = idieresis;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -25538,232 +25642,13 @@ width = 248;
 );
 },
 {
-color = 10;
-glyphname = idotaccent;
-kernLeft = no_kerning;
-kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-color = 7;
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (27,0);
-ref = dotaccentcomb;
-}
-);
-width = 304;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.fina;
-kernLeft = no_kerning;
-kernRight = i;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.fina;
-},
-{
-pos = (27,0);
-ref = dotaccentcomb;
-}
-);
-width = 382;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.fina.cv01;
-kernLeft = no_kerning;
-kernRight = idieresis;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.fina.cv01;
-},
-{
-pos = (33,0);
-ref = dotaccentcomb;
-}
-);
-width = 388;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.fina.cv02;
-kernLeft = no_kerning;
-kernRight = idieresis;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.fina.cv02;
-},
-{
-pos = (-29,0);
-ref = dotaccentcomb;
-}
-);
-width = 311;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.fina.cv03;
-kernLeft = no_kerning;
-kernRight = idieresis;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.fina.cv03;
-},
-{
-pos = (-21,0);
-ref = dotaccentcomb;
-}
-);
-width = 326;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.init;
-kernLeft = i;
-kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.init;
-},
-{
-pos = (32,0);
-ref = dotaccentcomb;
-}
-);
-width = 298;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.isol;
-kernLeft = i;
-kernRight = i;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.isol;
-},
-{
-pos = (32,0);
-ref = dotaccentcomb;
-}
-);
-width = 376;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.medi.cv01;
-kernLeft = no_kerning;
-kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.medi.cv01;
-},
-{
-pos = (33,0);
-ref = dotaccentcomb;
-}
-);
-width = 310;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.medi.cv02;
-kernLeft = no_kerning;
-kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.medi.cv02;
-},
-{
-pos = (-29,0);
-ref = dotaccentcomb;
-}
-);
-width = 233;
-}
-);
-},
-{
-color = 10;
-glyphname = idotaccent.medi.cv03;
-kernLeft = no_kerning;
-kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
-layers = (
-{
-layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
-shapes = (
-{
-ref = idotless.medi.cv03;
-},
-{
-pos = (-21,0);
-ref = dotaccentcomb;
-}
-);
-width = 248;
-}
-);
-},
-{
+case = lower;
+category = Letter;
 color = 10;
 glyphname = idotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -25981,11 +25866,13 @@ width = 248;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = igrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -26203,11 +26090,13 @@ width = 248;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ihookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -26425,11 +26314,13 @@ width = 248;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = itilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -26647,11 +26538,13 @@ width = 248;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = j;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -26915,11 +26808,13 @@ width = 404;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = jdotless;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -27255,11 +27150,13 @@ width = 404;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = k;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -27963,11 +27860,13 @@ metricLeft = l.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = l;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 anchors = (
@@ -30408,11 +30307,13 @@ width = 324;
 metricRight = l.cv06;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ldot;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -30699,11 +30600,13 @@ width = 347;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = m;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -30984,11 +30887,13 @@ metricLeft = n.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = n;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -31262,11 +31167,13 @@ width = 734;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ntilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -31484,11 +31391,13 @@ width = 734;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = o;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -31761,11 +31670,13 @@ width = 523;
 metricRight = o;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = oacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -31983,11 +31894,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ocircumflex;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -32205,11 +32118,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ocircumflexacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -32427,11 +32342,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ocircumflexdotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -32689,11 +32606,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ocircumflexgrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -32911,11 +32830,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ocircumflexhookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -33133,11 +33054,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ocircumflextilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -33355,11 +33278,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = odieresis;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -33577,11 +33502,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = odotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -33799,11 +33726,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ograve;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -34021,11 +33950,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ohookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -34243,11 +34174,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ohorn;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -34465,11 +34398,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ohornacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -34687,11 +34622,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ohorndotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -34909,11 +34846,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ohorngrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -35131,11 +35070,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ohornhookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -35353,11 +35294,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ohorntilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -35575,11 +35518,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = oslash;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -35828,11 +35773,13 @@ width = 523;
 metricRight = o;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = otilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -36050,11 +35997,13 @@ width = 523;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = oe;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -36307,11 +36256,13 @@ metricLeft = o.medi.cv03;
 metricRight = e.medi.cv02;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = p;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -36987,11 +36938,13 @@ width = 629;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = q;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
@@ -37426,11 +37379,13 @@ metricLeft = o.medi.cv03;
 metricRight = q;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = r;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -37769,11 +37724,13 @@ metricLeft = z.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = s;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -38122,11 +38079,13 @@ width = 491;
 metricRight = s;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = scedilla;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -38356,11 +38315,13 @@ width = 491;
 metricRight = s;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = germandbls;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -39495,11 +39456,13 @@ metricLeft = p.medi.cv03;
 metricRight = germandbls;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = t;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -39895,11 +39858,13 @@ width = 321;
 metricRight = t;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = u;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -40208,11 +40173,13 @@ metricLeft = i.medi.cv03;
 metricRight = n;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = uacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -40430,11 +40397,13 @@ width = 609;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ucircumflex;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -40652,11 +40621,13 @@ width = 609;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = udieresis;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -40874,11 +40845,13 @@ width = 609;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = udotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -41096,11 +41069,13 @@ width = 609;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ugrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -41318,11 +41293,13 @@ width = 609;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = uhookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -41540,11 +41517,13 @@ width = 609;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = uhorn;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:25 +0000";
 layers = (
 {
 color = 7;
@@ -41900,11 +41879,13 @@ metricLeft = i.medi.cv03;
 metricRight = uhorn;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = uhornacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -42141,11 +42122,13 @@ metricLeft = i.medi.cv03;
 metricRight = uhorn;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = uhorndotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -42382,11 +42365,13 @@ metricLeft = i.medi.cv03;
 metricRight = uhorn;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = uhorngrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -42623,11 +42608,13 @@ metricLeft = i.medi.cv03;
 metricRight = uhorn;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = uhornhookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -42864,11 +42851,13 @@ metricLeft = i.medi.cv03;
 metricRight = uhorn;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = uhorntilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -43105,11 +43094,13 @@ metricLeft = i.medi.cv03;
 metricRight = uhorn;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = utilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -43327,11 +43318,13 @@ width = 609;
 );
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = v;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -43582,11 +43575,13 @@ metricLeft = n.medi.cv03;
 metricRight = v;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = w;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -43838,11 +43833,13 @@ metricLeft = n.medi.cv03;
 metricRight = w;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = x;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -44238,11 +44235,13 @@ width = 684;
 metricRight = x;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = y;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -44566,11 +44565,13 @@ metricLeft = n.medi.cv03;
 metricRight = g;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = yacute;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -44807,11 +44808,13 @@ metricLeft = n.medi.cv03;
 metricRight = g;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ydotbelow;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -45048,11 +45051,13 @@ metricLeft = n.medi.cv03;
 metricRight = g;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ygrave;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -45289,11 +45294,13 @@ metricLeft = n.medi.cv03;
 metricRight = g;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = yhookabove;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -45530,11 +45537,13 @@ metricLeft = n.medi.cv03;
 metricRight = g;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = ytilde;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -45771,11 +45780,13 @@ metricLeft = n.medi.cv03;
 metricRight = g;
 },
 {
+case = lower;
+category = Letter;
 color = 10;
 glyphname = z;
 kernLeft = no_kerning;
 kernRight = no_kerning;
-lastChange = "2025-05-22 15:03:20 +0000";
+lastChange = "2025-05-22 15:35:26 +0000";
 layers = (
 {
 color = 7;
@@ -46076,6 +46087,246 @@ width = 625;
 }
 );
 metricRight = z;
+},
+{
+color = 10;
+glyphname = idotaccent;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+lastChange = "2025-05-22 16:10:01 +0000";
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (27,0);
+ref = dotaccentcomb;
+}
+);
+width = 304;
+}
+);
+sortName = zz.0;
+},
+{
+color = 10;
+glyphname = idotaccent.fina;
+kernLeft = no_kerning;
+kernRight = i;
+lastChange = "2025-05-22 16:10:07 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.fina;
+},
+{
+pos = (27,0);
+ref = dotaccentcomb;
+}
+);
+width = 382;
+}
+);
+sortName = zz.1;
+sortNameKeep = idotaccent.fina;
+},
+{
+color = 10;
+glyphname = idotaccent.fina.cv01;
+kernLeft = no_kerning;
+kernRight = idieresis;
+lastChange = "2025-05-22 16:10:30 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.fina.cv01;
+},
+{
+pos = (33,0);
+ref = dotaccentcomb;
+}
+);
+width = 388;
+}
+);
+sortName = zz.2;
+sortNameKeep = idotaccent.fina.cv01;
+},
+{
+color = 10;
+glyphname = idotaccent.fina.cv02;
+kernLeft = no_kerning;
+kernRight = idieresis;
+lastChange = "2025-05-22 16:10:33 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.fina.cv02;
+},
+{
+pos = (-29,0);
+ref = dotaccentcomb;
+}
+);
+width = 311;
+}
+);
+sortName = zz.3;
+sortNameKeep = idotaccent.fina.cv02;
+},
+{
+color = 10;
+glyphname = idotaccent.fina.cv03;
+kernLeft = no_kerning;
+kernRight = idieresis;
+lastChange = "2025-05-22 16:10:35 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.fina.cv03;
+},
+{
+pos = (-21,0);
+ref = dotaccentcomb;
+}
+);
+width = 326;
+}
+);
+sortName = zz.4;
+sortNameKeep = idotaccent.fina.cv03;
+},
+{
+color = 10;
+glyphname = idotaccent.init;
+kernLeft = i;
+kernRight = no_kerning;
+lastChange = "2025-05-22 16:10:36 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.init;
+},
+{
+pos = (32,0);
+ref = dotaccentcomb;
+}
+);
+width = 298;
+}
+);
+sortName = zz.5;
+sortNameKeep = idotaccent.init;
+},
+{
+color = 10;
+glyphname = idotaccent.isol;
+kernLeft = i;
+kernRight = i;
+lastChange = "2025-05-22 16:10:38 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.isol;
+},
+{
+pos = (32,0);
+ref = dotaccentcomb;
+}
+);
+width = 376;
+}
+);
+sortName = zz.6;
+sortNameKeep = idotaccent.isol;
+},
+{
+color = 10;
+glyphname = idotaccent.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+lastChange = "2025-05-22 16:10:41 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.medi.cv01;
+},
+{
+pos = (33,0);
+ref = dotaccentcomb;
+}
+);
+width = 310;
+}
+);
+sortName = zz.7;
+sortNameKeep = idotaccent.medi.cv01;
+},
+{
+color = 10;
+glyphname = idotaccent.medi.cv02;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+lastChange = "2025-05-22 16:10:43 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.medi.cv02;
+},
+{
+pos = (-29,0);
+ref = dotaccentcomb;
+}
+);
+width = 233;
+}
+);
+sortName = zz.8;
+sortNameKeep = idotaccent.medi.cv02;
+},
+{
+color = 10;
+glyphname = idotaccent.medi.cv03;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+lastChange = "2025-05-22 16:10:49 +0000";
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.medi.cv03;
+},
+{
+pos = (-21,0);
+ref = dotaccentcomb;
+}
+);
+width = 248;
+}
+);
+sortName = zz.9;
+sortNameKeep = idotaccent.medi.cv03;
 },
 {
 color = 10;
@@ -63218,7 +63469,7 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @CapsBase=[L Ldot Z]; 
 
 # All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove aring atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde oslash otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+@Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -63368,7 +63619,7 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @CapsBase=[L Ldot Z]; 
 
 # All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove aring atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde oslash otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+@Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -63426,7 +63677,7 @@ lookup MEDIAL {
 } MEDIAL;
 
 # all lowercase letters ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol ];
+@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
 
 @e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
 
@@ -63511,7 +63762,7 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @CapsBase=[L Ldot Z]; 
 
 # All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove aring atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde oslash otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+@Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -63569,7 +63820,7 @@ lookup MEDIAL {
 } MEDIAL;
 
 # all lowercase letter ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol ];
+@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
 
 @e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
 
@@ -63640,7 +63891,7 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @CapsBase=[L Ldot Z]; 
 
 # All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove aring atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde oslash otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+@Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -63698,7 +63949,7 @@ lookup MEDIAL {
 } MEDIAL;
 
 # all lowercase letter ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
+@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
 
 @e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
 
@@ -63720,6 +63971,7 @@ lookup before_e {
 ";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };
@@ -63775,7 +64027,7 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @CapsBase=[L Ldot Z]; 
 
 # All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove aring atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde oslash otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+@Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -63833,7 +64085,7 @@ lookup MEDIAL {
 } MEDIAL;
 
 # all lowercase letters ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol ];
+@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
 
 @e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
 
@@ -63868,6 +64120,7 @@ lookup arrows {
 ";
 }
 );
+exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };
@@ -63926,7 +64179,7 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @CapsBase=[L Ldot Z]; 
 
 # All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove aring atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde oslash otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+@Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -63984,7 +64237,7 @@ lookup MEDIAL {
 } MEDIAL;
 
 # all lowercase letters ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
+@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
 
 @e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
 
@@ -64035,6 +64288,7 @@ name = hheaDescender;
 value = -514;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };
@@ -64085,7 +64339,7 @@ value = "calt;@CapsOrn=[A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave A
 @CapsBase=[L Ldot Z]; 
 
 # All base lowercases letters (has unicode + idotaccent), would like to use a token but that one is not supported by GliphsLib
-@Medial=[@CapsMedial a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adieresis adotbelow agrave ahookabove aring atilde ae b c ccedilla d dcroat e eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edieresis edotbelow egrave ehookabove etilde f g gbreve h i idotless iacute icircumflex idieresis idotaccent idotbelow igrave ihookabove itilde j jdotless k l ldot m n ntilde o oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odieresis odotbelow ograve ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde oslash otilde oe p q r s scedilla germandbls t u uacute ucircumflex udieresis udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde utilde v w x y yacute ydotbelow ygrave yhookabove ytilde z t_t.liga]; 
+@Medial=[@CapsMedial $[category like \"Letter\" && case==lower && unicode != nil] idotaccent t_t.liga]; 
 
 @Isolated=[$[name endswith \".isol\"]];
 
@@ -64142,8 +64396,8 @@ lookup MEDIAL {
 	sub @Bottom @Medial' by @BottomMedial;
 } MEDIAL;
 
-# all lowercase letter ending with .init or .isol that is not the letter e
-@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol ];
+# all lowercase letters ending with .init or .isol that is not part of the group @e
+@high=[a.init aacute.init abreve.init abreveacute.init abrevedotbelow.init abrevegrave.init abrevehookabove.init abrevetilde.init acircumflex.init acircumflexacute.init acircumflexdotbelow.init acircumflexgrave.init acircumflexhookabove.init acircumflextilde.init adieresis.init adotbelow.init agrave.init ahookabove.init aring.init atilde.init ae.init b.init c.init ccedilla.init d.init dcroat.init f.init g.init gbreve.init h.init i.init idotless.init iacute.init icircumflex.init idieresis.init idotaccent.init idotbelow.init igrave.init ihookabove.init itilde.init j.init jdotless.init k.init l.init ldot.init m.init n.init ntilde.init o.init oacute.init ocircumflex.init ocircumflexacute.init ocircumflexdotbelow.init ocircumflexgrave.init ocircumflexhookabove.init ocircumflextilde.init odieresis.init odotbelow.init ograve.init ohookabove.init ohorn.init ohornacute.init ohorndotbelow.init ohorngrave.init ohornhookabove.init ohorntilde.init oslash.init otilde.init oe.init p.init q.init r.init s.init scedilla.init germandbls.init t.init u.init uacute.init ucircumflex.init udieresis.init udotbelow.init ugrave.init uhookabove.init uhorn.init uhornacute.init uhorndotbelow.init uhorngrave.init uhornhookabove.init uhorntilde.init utilde.init v.init w.init x.init y.init yacute.init ydotbelow.init ygrave.init yhookabove.init ytilde.init z.init t_t.liga.init a.isol aacute.isol abreve.isol abreveacute.isol abrevedotbelow.isol abrevegrave.isol abrevehookabove.isol abrevetilde.isol acircumflex.isol acircumflexacute.isol acircumflexdotbelow.isol acircumflexgrave.isol acircumflexhookabove.isol acircumflextilde.isol adieresis.isol adotbelow.isol agrave.isol ahookabove.isol aring.isol atilde.isol ae.isol b.isol c.isol ccedilla.isol d.isol dcroat.isol f.isol g.isol gbreve.isol h.isol i.isol idotless.isol iacute.isol icircumflex.isol idieresis.isol idotaccent.isol idotbelow.isol igrave.isol ihookabove.isol itilde.isol j.isol jdotless.isol k.isol l.isol ldot.isol m.isol n.isol ntilde.isol o.isol oacute.isol ocircumflex.isol ocircumflexacute.isol ocircumflexdotbelow.isol ocircumflexgrave.isol ocircumflexhookabove.isol ocircumflextilde.isol odieresis.isol odotbelow.isol ograve.isol ohookabove.isol ohorn.isol ohornacute.isol ohorndotbelow.isol ohorngrave.isol ohornhookabove.isol ohorntilde.isol oslash.isol otilde.isol oe.isol p.isol q.isol r.isol s.isol scedilla.isol t.isol u.isol uacute.isol ucircumflex.isol udieresis.isol udotbelow.isol ugrave.isol uhookabove.isol uhorn.isol uhornacute.isol uhorndotbelow.isol uhorngrave.isol uhornhookabove.isol uhorntilde.isol utilde.isol v.isol w.isol x.isol y.isol yacute.isol ydotbelow.isol ygrave.isol yhookabove.isol ytilde.isol z.isol t_t.liga.isol];
 
 @e=[e.init eacute.init ebreve.init ecircumflex.init ecircumflexacute.init ecircumflexdotbelow.init ecircumflexgrave.init ecircumflexhookabove.init ecircumflextilde.init edieresis.init edotbelow.init egrave.init ehookabove.init etilde.init e.isol eacute.isol ebreve.isol ecircumflex.isol ecircumflexacute.isol ecircumflexdotbelow.isol ecircumflexgrave.isol ecircumflexhookabove.isol ecircumflextilde.isol edieresis.isol edotbelow.isol egrave.isol ehookabove.isol etilde.isol];
 
@@ -64181,6 +64435,7 @@ name = hheaDescender;
 value = -514;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };

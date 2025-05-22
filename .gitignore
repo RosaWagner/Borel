@@ -5,7 +5,7 @@ node_modules
 package-lock.json
 package.json
 master_ufo
-instance_ufo
+instance_ufos
 *.idlk
 *.indd
 *(Autosaved)*
