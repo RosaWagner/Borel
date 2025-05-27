@@ -1,6 +1,9 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
+DisplayStrings = (
+A
+);
 axes = (
 {
 name = "d p q Height";
@@ -1276,7 +1279,7 @@ color = 6;
 glyphname = A;
 kernLeft = A;
 kernRight = A;
-lastChange = "2025-05-22 15:03:19 +0000";
+lastChange = "2025-05-27 14:25:24 +0000";
 layers = (
 {
 anchors = (
@@ -1296,8 +1299,8 @@ closed = 1;
 nodes = (
 (379,641,l),
 (334,645,l),
-(595,-14,l),
-(631,-9,o),
+(397,-14,l),
+(433,-9,o),
 (661,2,o),
 (679,21,c),
 (397,722,l),
