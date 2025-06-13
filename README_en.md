@@ -46,15 +46,15 @@ This is an example of a typical French cursive handwriting, drawn by a teacher.
 
 This style exhibits several features:
 
-* **The ascenders are reaching three times the size of the x-height**, which is significantly taller compared to what we see in a more common typographic environment (books, screen, signage etc.), and especially regarding what we know about readability.
-
-* **The capital letters often follow the cursive style**, although it is not recommended anymore since they can be challenging for beginning writers—they are hard to trace and some letter shapes are easily confusable for readers.
-
 * **The script has an upright angle**, which is actually thoughtful for the left handed people. If the upright angle is hard to reproduce for some children, they can rotate their sheet to be more comfortable.
 
 * **It follows a rounded aesthetic**, which contributes to a soft, child-like, style.
 
-* **Some letters (like `b`, `f`, `r`, `s`, `x`, `z`, and `Z`) have unique shapes** that are different from what you might see in other countries. 
+* **The ascenders are reaching three times the size of the x-height**, which is significantly taller compared to what we see in a more common typographic environment (books, screen, signage etc.), and especially regarding what we know about readability.
+
+* **Some letters (like `b`, `f`, `r`, `s`, `x`, `z`, and `Z`) have unique shapes** that are different from what you might see in other countries then France. 
+
+* **The capital letters often follow the cursive style**, although it is not recommended anymore since they can be challenging for beginning writers—they are hard to trace and some letter shapes are easily confusable for readers.
 
 * **The “Séyès” lines—a system of guidelines—dictate the proportions of the letters**, with the lowercase letters using one line, ascenders using three lines, and so on.
 

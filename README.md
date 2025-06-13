@@ -53,15 +53,15 @@ Voici un exemple typique d’écriture cursive française, tracée par un enseig
 
 Ce style présente plusieurs caractéristiques:
 
-- **Les ascendantes sont trois fois plus grandes que la hauteur d’x**, ce qui est nettement plus élevé que ce que l’on observe dans des environnements typographiques plus communs (livres, écrans, signalétique, etc.), et surtout au regard de ce que l’on sait en matière de lisibilité.
-
-- **Les lettres capitales adoptent souvent le style cursif**, bien que cela ne soit plus recommandé. En effet, elles peuvent poser des difficultés aux jeunes scripteurs puisqu’elles sont difficiles à tracer et certaines formes de lettres peuvent prêter à confusion.
-
 - **L’angle des lettres est droit**, ce qui est particulièrement bénéfique pour les élèves gauchers. Si certains enfants éprouvent des difficultés à maintenir cet angle, ils peuvent incliner leur feuille pour plus de confort.
 
 - **Le style suit une esthétique arrondie**, ce qui donne un aspect doux et enfantin.
 
-- **Certaines lettres (comme le `b`, `f`, `r`, `s`, `x`, `z` et `Z`) présentent des formes “localisée”**, différentes de celles que l’on rencontre dans d’autres pays.
+- **Les ascendantes sont trois fois plus grandes que la hauteur d’x**, ce qui est nettement plus élevé que ce que l’on observe dans des environnements typographiques plus communs (livres, écrans, signalétique, etc.), et surtout au regard de ce que l’on sait en matière de lisibilité.
+
+- **Certaines lettres (comme le `b`, `f`, `r`, `s`, `x`, `z` et `Z`) présentent des formes “localisée”**, c'est à dire spécifiques à la France, et donc souvent différentes de celles que l’on rencontre dans d’autres pays.
+
+- **Les lettres capitales adoptent souvent le style cursif**, bien que cela ne soit plus recommandé. En effet, elles peuvent poser des difficultés aux jeunes scripteurs puisqu’elles sont difficiles à tracer et certaines formes de lettres peuvent prêter à confusion.
 
 - **Les lignes “Séyès” déterminent les proportions des lettres**, les minuscules occupant une ligne, les ascendantes s’étendant sur trois, etc.
 
