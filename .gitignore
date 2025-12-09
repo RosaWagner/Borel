@@ -10,6 +10,7 @@ instance_ufos
 *.indd
 *(Autosaved)*
 *.ninja*
+*.python*
 
 # OS generated files #
 ######################
