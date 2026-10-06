@@ -1,5 +1,3 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C5TZAYG)
-
 ### Find the english version of this documentation here: [Borel, a cursive font for elementary school.](./README_en.md).
 
 ## Tutoriels
