@@ -1858,7 +1858,6 @@ name = "Update Features";
 value = 1;
 }
 );
-exports = 0;
 instanceInterpolations = {
 "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
 };
@@ -2667,16 +2666,6 @@ value = "Borel Display Rnd";
 );
 }
 );
-},
-{
-axesValues = (
-853,
-986
-);
-instanceInterpolations = {
-"6DBDBFCA-DF26-4695-B281-FA25C6EAD80F" = 1;
-};
-name = Source;
 }
 );
 kerningLTR = {

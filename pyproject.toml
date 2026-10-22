@@ -1,0 +1,8 @@
+[project]
+name = "borel"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "afdko>=5.0.1",
+    "gftools>=0.10.4",
+]
