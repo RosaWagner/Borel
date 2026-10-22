@@ -1,5 +1,3 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C5TZAYG)
-
 ## Tutorials
 - [Download the fonts](./documentation/README_en.md#download-the-fonts)
 - [Install the fonts](./documentation/README_en.md#install-the-fonts)
