@@ -1,0 +1,22 @@
+{
+glyphname = e.init;
+kernLeft = e;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (2,0);
+ref = _part.e;
+},
+{
+pos = (28,0);
+ref = _part.e.in.ini;
+}
+);
+width = 442;
+}
+);
+}

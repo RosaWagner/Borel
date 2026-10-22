@@ -1,0 +1,21 @@
+{
+glyphname = Egrave.long;
+kernLeft = E.alt;
+kernRight = C.long;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = E.long;
+},
+{
+pos = (24,0);
+ref = gravecomb.case;
+}
+);
+width = 617;
+}
+);
+}

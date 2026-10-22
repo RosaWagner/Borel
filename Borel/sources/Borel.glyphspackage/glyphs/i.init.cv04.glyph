@@ -1,0 +1,22 @@
+{
+glyphname = i.init.cv04;
+kernLeft = h.alt;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.init.cv04;
+},
+{
+pos = (23,0);
+ref = dotaccentcomb;
+}
+);
+width = 289;
+}
+);
+metricRight = i;
+}

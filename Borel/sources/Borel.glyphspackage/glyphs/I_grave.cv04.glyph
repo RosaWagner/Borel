@@ -1,0 +1,21 @@
+{
+glyphname = Igrave.cv04;
+kernLeft = I.alt;
+kernRight = I.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = I.cv04;
+},
+{
+pos = (-3,0);
+ref = gravecomb.case;
+}
+);
+width = 522;
+}
+);
+}

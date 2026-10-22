@@ -1,0 +1,28 @@
+{
+glyphname = t_t.liga.fina;
+kernLeft = no_kerning;
+kernRight = t;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = _part.t.in;
+},
+{
+alignment = -1;
+pos = (328,0);
+ref = _part.t.fin;
+},
+{
+pos = (28,0);
+ref = _part.t_t;
+}
+);
+width = 856;
+}
+);
+metricLeft = n;
+metricRight = t.fina;
+}

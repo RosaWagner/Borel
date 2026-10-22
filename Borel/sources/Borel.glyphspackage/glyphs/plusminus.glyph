@@ -1,0 +1,42 @@
+{
+color = 7;
+glyphname = plusminus;
+layers = (
+{
+guides = (
+{
+pos = (3,134);
+},
+{
+pos = (3,611);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,275,o),
+(370,275,o),
+(392,284,c),
+(392,611,l),
+(370,620,o),
+(329,620,o),
+(307,611,c),
+(307,284,l)
+);
+},
+{
+pos = (0,85);
+ref = minus;
+},
+{
+pos = (0,-198);
+ref = minus;
+}
+);
+width = 700;
+}
+);
+unicode = 177;
+}

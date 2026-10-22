@@ -1,0 +1,20 @@
+{
+glyphname = edieresis.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = e.medi.cv01;
+},
+{
+pos = (-47,0);
+ref = dieresiscomb;
+}
+);
+width = 426;
+}
+);
+}

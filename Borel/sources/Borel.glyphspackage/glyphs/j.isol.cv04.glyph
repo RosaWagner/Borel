@@ -1,0 +1,21 @@
+{
+glyphname = j.isol.cv04;
+kernLeft = j;
+kernRight = j;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = jdotless.isol.cv04;
+},
+{
+pos = (110,0);
+ref = dotaccentcomb;
+}
+);
+width = 462;
+}
+);
+}

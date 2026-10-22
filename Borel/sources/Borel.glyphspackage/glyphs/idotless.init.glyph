@@ -1,0 +1,39 @@
+{
+glyphname = idotless.init;
+kernLeft = u;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (191,0);
+},
+{
+name = top;
+pos = (191,472);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (5,0);
+ref = _part.i;
+},
+{
+alignment = -1;
+pos = (29,0);
+ref = _part.n.out;
+},
+{
+alignment = -1;
+pos = (4,0);
+ref = _part.i.ini;
+}
+);
+width = 298;
+}
+);
+metricRight = n;
+}

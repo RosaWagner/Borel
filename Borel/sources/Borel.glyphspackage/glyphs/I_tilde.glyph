@@ -1,0 +1,21 @@
+{
+glyphname = Itilde;
+kernLeft = I;
+kernRight = I;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-85,0);
+ref = tildecomb.case;
+}
+);
+width = 504;
+}
+);
+unicode = 296;
+}

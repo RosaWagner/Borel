@@ -1,0 +1,40 @@
+{
+glyphname = idotless.init.cv04;
+kernLeft = h.alt;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (182,0);
+},
+{
+name = top;
+pos = (182,472);
+}
+);
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (-4,0);
+ref = _part.i;
+},
+{
+alignment = -1;
+pos = (20,0);
+ref = _part.n.out;
+},
+{
+alignment = -1;
+ref = _part.i.ini.alt;
+}
+);
+width = 289;
+}
+);
+metricLeft = u.init.cv04;
+metricRight = n;
+}

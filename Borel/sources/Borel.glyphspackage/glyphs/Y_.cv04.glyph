@@ -1,0 +1,64 @@
+{
+color = 7;
+glyphname = Y.cv04;
+kernLeft = U.alt;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = "#fina";
+pos = (730,16);
+},
+{
+name = bottom;
+pos = (883,0);
+}
+);
+color = 5;
+guides = (
+{
+pos = (323,729);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(726,-514,o),
+(780,-432,o),
+(780,-274,cs),
+(780,193,l),
+(687,193,l),
+(687,-274,ls),
+(687,-374,o),
+(662,-425,o),
+(603,-425,cs),
+(556,-425,o),
+(528,-391,o),
+(528,-334,cs),
+(528,-255,o),
+(588,-173,o),
+(705,-95,c),
+(706,15,l),
+(522,-96,o),
+(433,-212,o),
+(433,-337,cs),
+(433,-443,o),
+(498,-514,o),
+(607,-514,cs)
+);
+},
+{
+alignment = -1;
+pos = (13,0);
+ref = _part.U;
+}
+);
+width = 910;
+}
+);
+metricLeft = U.isol.cv04;
+metricRight = G.cv04;
+}

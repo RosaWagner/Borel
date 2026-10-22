@@ -1,0 +1,22 @@
+{
+glyphname = ldot.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = l.medi.cv01;
+},
+{
+alignment = 1;
+pos = (460,2);
+ref = periodcentered.loclCAT;
+}
+);
+width = 443;
+}
+);
+metricLeft = n.medi.cv01;
+}

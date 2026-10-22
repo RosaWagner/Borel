@@ -1,0 +1,32 @@
+{
+color = 6;
+glyphname = slashlongcomb;
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (217,261);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(11,-20,o),
+(35,-34,o),
+(65,-42,c),
+(437,520,l),
+(423,542,o),
+(400,559,o),
+(366,562,c),
+(-6,5,l)
+);
+}
+);
+width = 432;
+}
+);
+unicode = 824;
+}

@@ -1,0 +1,62 @@
+{
+case = lower;
+category = Letter;
+glyphname = l;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = right;
+pos = (460,307);
+}
+);
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+name = Regular;
+shapes = (
+{
+alignment = -1;
+ref = _part.l.in;
+},
+{
+pos = (1,0);
+ref = _part.l.out;
+}
+);
+width = 441;
+},
+{
+anchors = (
+{
+name = right;
+pos = (460,307);
+}
+);
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+853,
+920
+);
+};
+color = 7;
+layerId = "0880EFDC-D435-4FFB-9715-2D1F74129278";
+name = "28. Nov 24 at 16:55";
+shapes = (
+{
+alignment = -1;
+ref = _part.l.in;
+},
+{
+pos = (1,0);
+ref = _part.l.out;
+}
+);
+width = 441;
+}
+);
+metricLeft = n;
+unicode = 108;
+}

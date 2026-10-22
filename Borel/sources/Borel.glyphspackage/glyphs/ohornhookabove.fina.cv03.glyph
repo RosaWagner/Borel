@@ -1,0 +1,20 @@
+{
+glyphname = ohornhookabove.fina.cv03;
+kernLeft = no_kerning;
+kernRight = o;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = ohorn.fina.cv03;
+},
+{
+pos = (-35,0);
+ref = hookabovecomb;
+}
+);
+width = 510;
+}
+);
+}

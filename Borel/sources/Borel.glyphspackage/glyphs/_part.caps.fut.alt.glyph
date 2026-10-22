@@ -1,0 +1,22 @@
+{
+color = 6;
+export = 0;
+glyphname = _part.caps.fut.alt;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(193,0,l),
+(193,712,l),
+(100,712,l),
+(100,0,l)
+);
+}
+);
+width = 602;
+}
+);
+}

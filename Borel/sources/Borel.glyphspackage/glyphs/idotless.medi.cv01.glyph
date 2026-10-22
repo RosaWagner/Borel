@@ -1,0 +1,40 @@
+{
+glyphname = idotless.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (192,0);
+},
+{
+name = top;
+pos = (192,472);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (6,0);
+ref = _part.i;
+},
+{
+alignment = -1;
+pos = (46,0);
+ref = _part.i.out;
+},
+{
+alignment = -1;
+pos = (-58,0);
+ref = _part.i.in.cv01;
+}
+);
+width = 310;
+}
+);
+metricLeft = n.medi.cv01;
+metricRight = n;
+}

@@ -1,0 +1,23 @@
+{
+glyphname = ae.isol;
+kernLeft = o;
+kernRight = e;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = ae.init;
+},
+{
+pos = (527,0);
+ref = _part.e.cv02.fin;
+}
+);
+width = 779;
+}
+);
+metricLeft = a.init;
+metricRight = e.fina.cv02;
+}

@@ -1,0 +1,40 @@
+{
+color = 7;
+glyphname = t.medi.cv02;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+pos = (2,0);
+ref = _part.t.in.cv02;
+},
+{
+closed = 1;
+nodes = (
+(296,-14,o),
+(310,3,o),
+(310,28,cs),
+(310,56,o),
+(299,72,o),
+(281,72,cs),
+(216,72,o),
+(189,135,o),
+(189,258,cs),
+(189,263,l),
+(162,271,o),
+(131,274,o),
+(97,263,c),
+(97,247,ls),
+(97,84,o),
+(149,-14,o),
+(274,-14,cs)
+);
+}
+);
+width = 282;
+}
+);
+}

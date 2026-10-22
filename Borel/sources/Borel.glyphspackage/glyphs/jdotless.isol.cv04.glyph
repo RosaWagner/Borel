@@ -1,0 +1,22 @@
+{
+glyphname = jdotless.isol.cv04;
+kernLeft = j;
+kernRight = g;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = jdotless.init.cv04;
+},
+{
+pos = (150,-19);
+ref = _part.z.fin;
+}
+);
+width = 462;
+}
+);
+}

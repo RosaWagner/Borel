@@ -1,0 +1,16 @@
+{
+glyphname = tilde;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+pos = (-10,0);
+ref = tildecomb;
+}
+);
+width = 658;
+}
+);
+unicode = 732;
+}

@@ -1,0 +1,34 @@
+{
+color = 6;
+export = 0;
+glyphname = _part.z.fin;
+layers = (
+{
+anchors = (
+{
+name = "_#fina";
+pos = (112,39);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(180,-18,o),
+(253,29,o),
+(286,52,c),
+(282,85,o),
+(268,111,o),
+(241,127,c),
+(204,107,o),
+(131,56,o),
+(112,39,c),
+(149,-39,l)
+);
+}
+);
+width = 398;
+}
+);
+}

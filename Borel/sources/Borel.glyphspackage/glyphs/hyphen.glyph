@@ -1,0 +1,28 @@
+{
+color = 6;
+glyphname = hyphen;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(378,240,l),
+(389,266,o),
+(389,309,o),
+(378,333,c),
+(94,333,l),
+(83,309,o),
+(83,266,o),
+(94,240,c)
+);
+}
+);
+width = 474;
+}
+);
+unicode = 45;
+}

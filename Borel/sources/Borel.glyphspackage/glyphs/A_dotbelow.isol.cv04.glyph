@@ -1,0 +1,21 @@
+{
+glyphname = Adotbelow.isol.cv04;
+kernLeft = A.alt;
+kernRight = A.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = A.isol.cv04;
+},
+{
+pos = (268,0);
+ref = dotbelowcomb;
+}
+);
+width = 843;
+}
+);
+}

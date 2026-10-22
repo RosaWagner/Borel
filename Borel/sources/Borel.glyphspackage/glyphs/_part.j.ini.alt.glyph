@@ -1,0 +1,32 @@
+{
+color = 7;
+export = 0;
+glyphname = _part.j.ini.alt;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (289,472);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,-9,l),
+(329,383,l),
+(238,399,l),
+(238,-9,l)
+);
+},
+{
+pos = (22,0);
+ref = _part.p.ini.alt;
+}
+);
+width = 457;
+}
+);
+}

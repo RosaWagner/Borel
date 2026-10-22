@@ -1,0 +1,20 @@
+{
+glyphname = aacute.init;
+kernLeft = o;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = a.init;
+},
+{
+pos = (68,0);
+ref = acutecomb;
+}
+);
+width = 543;
+}
+);
+}

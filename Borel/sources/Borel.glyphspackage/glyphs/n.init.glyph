@@ -1,0 +1,29 @@
+{
+glyphname = n.init;
+kernLeft = n;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (464,0);
+ref = _part.n.out;
+},
+{
+alignment = -1;
+pos = (-1,0);
+ref = _part.n;
+},
+{
+alignment = -1;
+pos = (-75,0);
+ref = _part.n.ini;
+}
+);
+width = 733;
+}
+);
+metricRight = n;
+}

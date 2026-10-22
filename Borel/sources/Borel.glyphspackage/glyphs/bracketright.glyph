@@ -1,0 +1,19 @@
+{
+glyphname = bracketright;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+pos = (442,0);
+ref = bracketleft;
+scale = (-1,1);
+}
+);
+width = 442;
+}
+);
+metricLeft = "=|bracketleft";
+metricRight = "=|bracketleft";
+unicode = 93;
+}

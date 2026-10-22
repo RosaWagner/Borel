@@ -1,0 +1,19 @@
+{
+glyphname = brevecomb_gravecomb.case;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = 1;
+ref = brevecomb.case;
+},
+{
+pos = (-40,480);
+ref = gravecomb.loclVIT;
+}
+);
+width = 557;
+}
+);
+}

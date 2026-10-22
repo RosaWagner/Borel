@@ -1,0 +1,30 @@
+{
+glyphname = ringcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (151,722);
+},
+{
+name = top;
+pos = (151,952);
+}
+);
+guides = (
+{
+pos = (271,885);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+pos = (0,202);
+ref = ringcomb;
+}
+);
+width = 300;
+}
+);
+}

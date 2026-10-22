@@ -1,0 +1,20 @@
+{
+glyphname = ldot.cv06;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = l.cv06;
+},
+{
+alignment = -1;
+pos = (429,-58);
+ref = periodcentered.loclCAT;
+}
+);
+width = 400;
+}
+);
+}

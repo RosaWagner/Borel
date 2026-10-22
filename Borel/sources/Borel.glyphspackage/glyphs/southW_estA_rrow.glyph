@@ -1,0 +1,18 @@
+{
+glyphname = southWestArrow;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+angle = -135;
+pos = (335,858);
+ref = rightArrow;
+}
+);
+width = 700;
+}
+);
+metricWidth = "=700";
+unicode = 8601;
+}

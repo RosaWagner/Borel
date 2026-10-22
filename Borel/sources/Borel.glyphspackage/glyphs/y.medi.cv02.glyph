@@ -1,0 +1,47 @@
+{
+color = 7;
+glyphname = y.medi.cv02;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (638,0);
+},
+{
+name = top;
+pos = (300,472);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(521,0,l),
+(521,284,l),
+(432,284,l),
+(432,0,l)
+);
+},
+{
+pos = (-12,0);
+ref = _part.boucle.bas;
+},
+{
+pos = (-38,0);
+ref = _part.i.in.cv02;
+},
+{
+pos = (-60,0);
+ref = _part.u;
+}
+);
+width = 649;
+}
+);
+metricLeft = i.medi.cv02;
+metricRight = g;
+}

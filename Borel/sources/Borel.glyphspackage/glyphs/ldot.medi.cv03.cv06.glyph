@@ -1,0 +1,20 @@
+{
+glyphname = ldot.medi.cv03.cv06;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = l.medi.cv03.cv06;
+},
+{
+alignment = -1;
+pos = (343,-38);
+ref = periodcentered.loclCAT;
+}
+);
+width = 324;
+}
+);
+}

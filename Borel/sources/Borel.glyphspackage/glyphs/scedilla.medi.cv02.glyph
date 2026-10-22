@@ -1,0 +1,21 @@
+{
+glyphname = scedilla.medi.cv02;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = s.medi.cv02;
+},
+{
+pos = (-78,0);
+ref = cedillacomb;
+}
+);
+width = 368;
+}
+);
+metricRight = s;
+}

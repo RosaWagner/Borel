@@ -1,0 +1,38 @@
+{
+color = 7;
+glyphname = notequal;
+layers = (
+{
+guides = (
+{
+pos = (130,0);
+},
+{
+pos = (64,534);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = equal;
+},
+{
+closed = 1;
+nodes = (
+(206,66,o),
+(230,53,o),
+(267,53,c),
+(514,659,l),
+(500,678,o),
+(461,694,o),
+(435,692,c),
+(187,88,l)
+);
+}
+);
+width = 700;
+}
+);
+metricWidth = "=700";
+unicode = 8800;
+}

@@ -1,0 +1,20 @@
+{
+glyphname = ntilde.isol;
+kernLeft = n;
+kernRight = n;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = n.isol;
+},
+{
+pos = (48,0);
+ref = tildecomb;
+}
+);
+width = 811;
+}
+);
+}

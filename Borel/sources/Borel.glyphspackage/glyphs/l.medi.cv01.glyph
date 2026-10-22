@@ -1,0 +1,57 @@
+{
+glyphname = l.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = right;
+pos = (460,307);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = _part.l.in.cv01;
+},
+{
+pos = (3,0);
+ref = _part.l.out;
+}
+);
+width = 443;
+},
+{
+anchors = (
+{
+name = right;
+pos = (460,307);
+}
+);
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+953,
+920
+);
+};
+layerId = "9A166AB7-6058-42BC-A40A-D94D69A6F960";
+name = "18. Sep 25 at 12:35";
+shapes = (
+{
+alignment = -1;
+ref = _part.l.in.cv01;
+},
+{
+pos = (3,0);
+ref = _part.l.out;
+}
+);
+width = 443;
+}
+);
+metricLeft = n.medi.cv01;
+metricRight = l;
+}

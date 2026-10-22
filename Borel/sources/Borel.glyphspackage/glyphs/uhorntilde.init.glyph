@@ -1,0 +1,22 @@
+{
+glyphname = uhorntilde.init;
+kernLeft = u;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = uhorn.init;
+},
+{
+pos = (28,0);
+ref = tildecomb;
+}
+);
+width = 659;
+}
+);
+metricLeft = i.init;
+metricRight = uhorn;
+}

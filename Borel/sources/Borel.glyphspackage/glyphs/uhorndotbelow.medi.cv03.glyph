@@ -1,0 +1,22 @@
+{
+glyphname = uhorndotbelow.medi.cv03;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = uhorn.medi.cv03;
+},
+{
+pos = (158,0);
+ref = dotbelowcomb;
+}
+);
+width = 609;
+}
+);
+metricLeft = i.medi.cv03;
+metricRight = uhorn;
+}

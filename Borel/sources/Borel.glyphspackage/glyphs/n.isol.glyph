@@ -1,0 +1,23 @@
+{
+glyphname = n.isol;
+kernLeft = n;
+kernRight = n;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = n.init;
+},
+{
+pos = (523,0);
+ref = _part.i.fin;
+}
+);
+width = 811;
+}
+);
+metricLeft = n.init;
+metricRight = n.fina;
+}

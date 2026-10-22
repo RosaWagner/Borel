@@ -1,0 +1,22 @@
+{
+glyphname = s.medi.cv02;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = s.fina.cv02;
+},
+{
+pos = (-252,0);
+ref = _part.s.out;
+}
+);
+width = 368;
+}
+);
+metricRight = s;
+}

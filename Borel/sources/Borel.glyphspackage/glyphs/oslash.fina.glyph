@@ -1,0 +1,22 @@
+{
+glyphname = oslash.fina;
+kernLeft = no_kerning;
+kernRight = o;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o.fina;
+},
+{
+pos = (132,-25);
+ref = slashlongcomb;
+}
+);
+width = 618;
+}
+);
+metricLeft = n;
+metricRight = o.isol;
+}

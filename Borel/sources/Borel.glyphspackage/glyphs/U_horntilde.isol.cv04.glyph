@@ -1,0 +1,21 @@
+{
+glyphname = Uhorntilde.isol.cv04;
+kernLeft = U.alt;
+kernRight = U.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = Uhorn.isol.cv04;
+},
+{
+pos = (148,0);
+ref = tildecomb.case;
+}
+);
+width = 1001;
+}
+);
+}

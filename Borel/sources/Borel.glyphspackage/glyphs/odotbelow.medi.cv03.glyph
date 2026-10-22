@@ -1,0 +1,20 @@
+{
+glyphname = odotbelow.medi.cv03;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o.medi.cv03;
+},
+{
+pos = (83,0);
+ref = dotbelowcomb;
+}
+);
+width = 523;
+}
+);
+}

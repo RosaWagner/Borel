@@ -1,0 +1,24 @@
+{
+case = lower;
+category = Letter;
+glyphname = j;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (114,0);
+ref = dotaccentcomb;
+}
+);
+width = 444;
+}
+);
+unicode = 106;
+}

@@ -1,0 +1,26 @@
+{
+color = 6;
+glyphname = emdash;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(711,250,l),
+(716,273,o),
+(717,309,o),
+(711,330,c),
+(0,330,l),
+(-7,302,o),
+(-6,279,o),
+(0,250,c)
+);
+}
+);
+width = 711;
+}
+);
+unicode = 8212;
+}

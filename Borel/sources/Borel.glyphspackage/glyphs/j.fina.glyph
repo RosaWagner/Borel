@@ -1,0 +1,20 @@
+{
+glyphname = j.fina;
+kernLeft = no_kerning;
+kernRight = j;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = jdotless.fina;
+},
+{
+pos = (114,0);
+ref = dotaccentcomb;
+}
+);
+width = 444;
+}
+);
+}

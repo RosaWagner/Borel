@@ -1,0 +1,26 @@
+{
+glyphname = ldot.isol.cv04;
+kernLeft = h.alt;
+kernRight = l;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (21,0);
+ref = l.isol.cv06;
+},
+{
+alignment = -1;
+pos = (439,2);
+ref = periodcentered.loclCAT;
+}
+);
+width = 533;
+}
+);
+metricLeft = l.init.cv04;
+metricRight = l.fina;
+}

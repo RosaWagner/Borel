@@ -1,0 +1,24 @@
+{
+case = lower;
+category = Letter;
+glyphname = igrave;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-63,0);
+ref = gravecomb;
+}
+);
+width = 304;
+}
+);
+unicode = 236;
+}

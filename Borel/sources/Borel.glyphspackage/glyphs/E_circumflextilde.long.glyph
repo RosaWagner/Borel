@@ -1,0 +1,21 @@
+{
+glyphname = Ecircumflextilde.long;
+kernLeft = E.alt;
+kernRight = C.long;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = E.long;
+},
+{
+pos = (45,0);
+ref = circumflexcomb_tildecomb.case;
+}
+);
+width = 617;
+}
+);
+}

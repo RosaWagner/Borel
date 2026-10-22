@@ -1,0 +1,20 @@
+{
+glyphname = ograve.init;
+kernLeft = o;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o.init;
+},
+{
+pos = (22,0);
+ref = gravecomb;
+}
+);
+width = 553;
+}
+);
+}

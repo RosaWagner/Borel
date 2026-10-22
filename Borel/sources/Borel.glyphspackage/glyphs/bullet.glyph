@@ -1,0 +1,32 @@
+{
+color = 6;
+glyphname = bullet;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(220,261,o),
+(266,304,o),
+(266,357,cs),
+(266,410,o),
+(220,455,o),
+(168,455,cs),
+(115,455,o),
+(72,410,o),
+(72,357,cs),
+(72,304,o),
+(115,261,o),
+(168,261,cs)
+);
+}
+);
+width = 348;
+}
+);
+metricLeft = period;
+metricRight = period;
+unicode = 8226;
+}

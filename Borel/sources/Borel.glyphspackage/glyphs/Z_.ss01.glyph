@@ -1,0 +1,41 @@
+{
+color = 7;
+glyphname = Z.ss01;
+kernLeft = Z;
+kernRight = Z;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,326,l),
+(350,407,l),
+(126,407,l),
+(114,378,o),
+(116,351,o),
+(126,326,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(538,319,l),
+(551,347,o),
+(552,374,o),
+(538,400,c),
+(350,400,l),
+(300,319,l)
+);
+},
+{
+ref = Z;
+}
+);
+width = 633;
+}
+);
+metricLeft = Z;
+metricRight = Z;
+}

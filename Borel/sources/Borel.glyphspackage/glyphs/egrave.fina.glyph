@@ -1,0 +1,20 @@
+{
+glyphname = egrave.fina;
+kernLeft = no_kerning;
+kernRight = e;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = e.fina;
+},
+{
+pos = (9,0);
+ref = gravecomb;
+}
+);
+width = 485;
+}
+);
+}

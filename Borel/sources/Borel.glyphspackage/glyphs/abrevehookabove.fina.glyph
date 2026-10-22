@@ -1,0 +1,20 @@
+{
+glyphname = abrevehookabove.fina;
+kernLeft = no_kerning;
+kernRight = a;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = a.fina;
+},
+{
+pos = (92,0);
+ref = brevecomb_hookabovecomb;
+}
+);
+width = 716;
+}
+);
+}

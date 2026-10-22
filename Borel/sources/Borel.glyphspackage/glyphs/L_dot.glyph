@@ -1,0 +1,20 @@
+{
+glyphname = Ldot;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = L;
+},
+{
+alignment = 1;
+pos = (594,0);
+ref = periodcentered.loclCAT.case;
+}
+);
+width = 594;
+}
+);
+unicode = 319;
+}

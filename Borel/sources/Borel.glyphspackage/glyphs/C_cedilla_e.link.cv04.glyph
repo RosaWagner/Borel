@@ -1,0 +1,25 @@
+{
+glyphname = Ccedilla_e.link.cv04;
+kernLeft = O;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = C.cv04;
+},
+{
+pos = (155,0);
+ref = cedillacomb;
+},
+{
+pos = (584,0);
+ref = e.link.cv04;
+}
+);
+width = 625;
+}
+);
+}

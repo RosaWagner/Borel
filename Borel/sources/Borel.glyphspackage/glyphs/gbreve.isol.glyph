@@ -1,0 +1,22 @@
+{
+glyphname = gbreve.isol;
+kernLeft = o;
+kernRight = g;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = g.isol;
+},
+{
+pos = (8,0);
+ref = brevecomb;
+}
+);
+width = 611;
+}
+);
+metricLeft = o.init;
+metricRight = z.fina;
+}

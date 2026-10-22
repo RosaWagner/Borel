@@ -1,0 +1,30 @@
+{
+color = 6;
+glyphname = guilsinglleft;
+kernLeft = guillemet;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(231,26,o),
+(256,45,o),
+(266,74,c),
+(104,275,l),
+(106,194,l),
+(261,395,l),
+(243,422,o),
+(220,442,o),
+(190,451,c),
+(23,234,l),
+(197,17,l)
+);
+}
+);
+width = 311;
+}
+);
+unicode = 8249;
+}

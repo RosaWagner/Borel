@@ -1,0 +1,20 @@
+{
+glyphname = odieresis.fina.cv03;
+kernLeft = no_kerning;
+kernRight = o;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o.fina.cv03;
+},
+{
+pos = (-43,0);
+ref = dieresiscomb;
+}
+);
+width = 510;
+}
+);
+}

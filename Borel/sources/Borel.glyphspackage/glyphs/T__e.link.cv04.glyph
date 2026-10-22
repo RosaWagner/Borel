@@ -1,0 +1,21 @@
+{
+glyphname = T_e.link.cv04;
+kernLeft = T.alt;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = T.cv04;
+},
+{
+pos = (685,0);
+ref = e.link.cv04;
+}
+);
+width = 726;
+}
+);
+}

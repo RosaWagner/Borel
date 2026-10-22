@@ -1,0 +1,180 @@
+{
+color = 7;
+glyphname = l.fina.cv02.cv06;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = right;
+pos = (367,307);
+},
+{
+name = top;
+pos = (223,972);
+}
+);
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(351,-14,o),
+(388,-2,o),
+(419,24,c),
+(416,51,o),
+(402,77,o),
+(383,92,c),
+(365,80,o),
+(341,72,o),
+(320,72,cs),
+(266,72,o),
+(221,103,o),
+(191,170,cs),
+(143,276,o),
+(132,436,o),
+(132,615,c),
+(102,618,o),
+(71,612,o),
+(41,600,c),
+(41,434,o),
+(50,248,o),
+(116,118,cs),
+(158,34,o),
+(228,-14,o),
+(313,-14,cs)
+);
+},
+{
+alignment = -1;
+pos = (15,0);
+ref = _part.l.in.cv02.alt;
+}
+);
+width = 445;
+},
+{
+anchors = (
+{
+name = right;
+pos = (367,307);
+},
+{
+name = top;
+pos = (223,906);
+}
+);
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+853,
+920
+);
+};
+color = 5;
+layerId = "4E6C0621-0797-48DF-A94A-ABB359B013F8";
+name = "12. Nov 24 at 21:45";
+shapes = (
+{
+closed = 1;
+nodes = (
+(351,-14,o),
+(388,-2,o),
+(419,24,c),
+(416,51,o),
+(402,77,o),
+(383,92,c),
+(365,80,o),
+(341,72,o),
+(320,72,cs),
+(266,72,o),
+(221,103,o),
+(191,170,cs),
+(149,263,o),
+(132,394,o),
+(132,545,c),
+(102,548,o),
+(71,542,o),
+(41,530,c),
+(41,388,o),
+(57,233,o),
+(116,118,cs),
+(158,34,o),
+(228,-14,o),
+(313,-14,cs)
+);
+},
+{
+alignment = -1;
+pos = (15,0);
+ref = _part.l.in.cv02.alt;
+}
+);
+width = 445;
+},
+{
+anchors = (
+{
+name = right;
+pos = (367,307);
+},
+{
+name = top;
+pos = (223,972);
+}
+);
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+986,
+986
+);
+};
+color = 5;
+layerId = "12876D19-0B68-4470-BF32-89F5F9329C96";
+name = "11. Dec 24 at 20:33";
+shapes = (
+{
+closed = 1;
+nodes = (
+(351,-14,o),
+(388,-2,o),
+(419,24,c),
+(416,51,o),
+(402,77,o),
+(383,92,c),
+(365,80,o),
+(341,72,o),
+(320,72,cs),
+(266,72,o),
+(221,103,o),
+(191,170,cs),
+(143,276,o),
+(132,436,o),
+(132,615,c),
+(102,618,o),
+(71,612,o),
+(41,600,c),
+(41,434,o),
+(50,248,o),
+(116,118,cs),
+(158,34,o),
+(228,-14,o),
+(313,-14,cs)
+);
+},
+{
+alignment = -1;
+pos = (15,0);
+ref = _part.l.in.cv02.alt;
+}
+);
+width = 445;
+}
+);
+metricLeft = l.medi.cv02.cv06;
+metricRight = l.fina;
+}

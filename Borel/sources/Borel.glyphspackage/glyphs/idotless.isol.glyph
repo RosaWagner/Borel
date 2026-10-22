@@ -1,0 +1,23 @@
+{
+glyphname = idotless.isol;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = idotless.init;
+},
+{
+pos = (88,0);
+ref = _part.i.fin;
+}
+);
+width = 376;
+}
+);
+metricLeft = idotless.init;
+metricRight = n.fina;
+}

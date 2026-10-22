@@ -1,0 +1,33 @@
+{
+color = 7;
+glyphname = Q;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(620,-119,o),
+(646,-97,o),
+(658,-72,c),
+(400,307,l),
+(369,300,o),
+(346,282,o),
+(327,257,c),
+(585,-124,l)
+);
+},
+{
+ref = O;
+}
+);
+width = 756;
+}
+);
+metricLeft = O;
+metricRight = O;
+unicode = 81;
+}

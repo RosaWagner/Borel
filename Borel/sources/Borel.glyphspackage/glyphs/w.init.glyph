@@ -1,0 +1,25 @@
+{
+glyphname = w.init;
+kernLeft = n;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (-75,0);
+ref = _part.n.ini;
+},
+{
+alignment = -1;
+pos = (-59,0);
+ref = _part.w;
+}
+);
+width = 956;
+}
+);
+metricLeft = n.init;
+metricRight = w;
+}

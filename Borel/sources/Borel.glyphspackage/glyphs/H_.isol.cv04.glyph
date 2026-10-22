@@ -1,0 +1,38 @@
+{
+color = 7;
+glyphname = H.isol.cv04;
+kernLeft = H.alt;
+kernRight = H.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(667,157,l),
+(667,265,l),
+(574,265,l),
+(574,150,l)
+);
+},
+{
+pos = (476,-7);
+ref = _part.caps.termin;
+},
+{
+alignment = -1;
+pos = (3,0);
+ref = _part.caps.entry;
+},
+{
+alignment = -1;
+pos = (30,0);
+ref = _part.H;
+}
+);
+width = 918;
+}
+);
+}

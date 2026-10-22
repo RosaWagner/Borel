@@ -1,0 +1,34 @@
+{
+glyphname = uhorn.medi.cv02;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (-38,0);
+ref = _part.i.in.cv02;
+},
+{
+alignment = -1;
+pos = (-60,0);
+ref = _part.u;
+},
+{
+alignment = -1;
+pos = (330,0);
+ref = _part.i.out;
+},
+{
+pos = (428,0);
+ref = horncomb;
+}
+);
+width = 594;
+}
+);
+metricLeft = i.medi.cv02;
+metricRight = uhorn;
+}

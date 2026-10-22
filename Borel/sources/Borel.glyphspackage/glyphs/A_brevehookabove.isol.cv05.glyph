@@ -1,0 +1,25 @@
+{
+glyphname = Abrevehookabove.isol.cv05;
+kernLeft = O;
+kernRight = U.alt;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = A.isol.cv05;
+},
+{
+pos = (90,0);
+ref = brevecomb.case;
+},
+{
+pos = (93,480);
+ref = hookabovecomb;
+}
+);
+width = 881;
+}
+);
+}

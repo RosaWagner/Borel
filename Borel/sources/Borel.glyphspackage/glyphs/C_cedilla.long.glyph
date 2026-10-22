@@ -1,0 +1,32 @@
+{
+glyphname = Ccedilla.long;
+kernLeft = O;
+kernRight = C.long;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (378,0);
+},
+{
+name = top;
+pos = (372,722);
+}
+);
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = C.long;
+},
+{
+pos = (143,0);
+ref = cedillacomb;
+}
+);
+width = 674;
+}
+);
+metricLeft = O;
+}

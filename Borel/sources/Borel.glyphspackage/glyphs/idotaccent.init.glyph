@@ -1,0 +1,22 @@
+{
+glyphname = idotaccent.init;
+kernLeft = i;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.init;
+},
+{
+pos = (32,0);
+ref = dotaccentcomb;
+}
+);
+width = 298;
+}
+);
+sortName = zz.5;
+sortNameKeep = idotaccent.init;
+}

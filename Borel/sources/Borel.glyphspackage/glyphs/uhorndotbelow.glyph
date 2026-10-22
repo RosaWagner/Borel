@@ -1,0 +1,25 @@
+{
+case = lower;
+category = Letter;
+glyphname = uhorndotbelow;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (204,0);
+ref = dotbelowcomb;
+}
+);
+width = 655;
+}
+);
+metricLeft = n;
+unicode = 7921;
+}

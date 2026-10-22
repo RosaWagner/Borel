@@ -1,0 +1,29 @@
+{
+color = 6;
+glyphname = e.link.cv04;
+kernLeft = part.e;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(81,272,l),
+(53,272,o),
+(31,259,o),
+(7,222,cs),
+(-17,186,l),
+(-12,159,o),
+(14,134,o),
+(55,138,c),
+(83,180,l)
+);
+}
+);
+width = 41;
+}
+);
+}

@@ -1,0 +1,20 @@
+{
+glyphname = circumflexcomb_acutecomb.case;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb.case;
+},
+{
+anchor = topright;
+pos = (163,438);
+ref = acutecomb.loclVIT;
+}
+);
+width = 503;
+}
+);
+}

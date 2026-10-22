@@ -1,0 +1,21 @@
+{
+glyphname = ldot.isol;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = l;
+},
+{
+alignment = 1;
+pos = (460,2);
+ref = periodcentered.loclCAT;
+}
+);
+width = 441;
+}
+);
+}

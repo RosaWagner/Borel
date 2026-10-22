@@ -1,0 +1,20 @@
+{
+glyphname = itilde.fina.cv03;
+kernLeft = no_kerning;
+kernRight = i;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.fina.cv03;
+},
+{
+pos = (-201,0);
+ref = tildecomb;
+}
+);
+width = 326;
+}
+);
+}

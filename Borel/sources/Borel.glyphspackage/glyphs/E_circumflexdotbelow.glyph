@@ -1,0 +1,25 @@
+{
+glyphname = Ecircumflexdotbelow;
+kernLeft = H;
+kernRight = E;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (160,0);
+ref = dotbelowcomb;
+},
+{
+pos = (66,0);
+ref = circumflexcomb.case;
+}
+);
+width = 598;
+}
+);
+unicode = 7878;
+}

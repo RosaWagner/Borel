@@ -1,0 +1,29 @@
+{
+case = lower;
+category = Letter;
+glyphname = c;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (50,0);
+ref = _part.o.in;
+},
+{
+alignment = -1;
+pos = (17,0);
+ref = _part.c;
+}
+);
+width = 478;
+}
+);
+metricLeft = n;
+metricRight = c;
+unicode = 99;
+}

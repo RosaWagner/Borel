@@ -1,0 +1,20 @@
+{
+glyphname = udotbelow.init;
+kernLeft = u;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = u.init;
+},
+{
+pos = (208,0);
+ref = dotbelowcomb;
+}
+);
+width = 659;
+}
+);
+}

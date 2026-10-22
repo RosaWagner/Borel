@@ -1,0 +1,17 @@
+{
+glyphname = backslash;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+pos = (419,0);
+ref = slash;
+scale = (-1,1);
+}
+);
+width = 419;
+}
+);
+unicode = 92;
+}

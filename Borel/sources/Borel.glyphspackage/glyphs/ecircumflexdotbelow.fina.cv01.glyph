@@ -1,0 +1,24 @@
+{
+glyphname = ecircumflexdotbelow.fina.cv01;
+kernLeft = no_kerning;
+kernRight = e;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = e.fina.cv01;
+},
+{
+pos = (74,0);
+ref = dotbelowcomb;
+},
+{
+pos = (-37,0);
+ref = circumflexcomb;
+}
+);
+width = 469;
+}
+);
+}

@@ -1,0 +1,29 @@
+{
+color = 6;
+export = 0;
+glyphname = _part.i.ini.alt;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(43,164,o),
+(69,149,o),
+(102,144,c),
+(134,181,o),
+(177,245,o),
+(183,306,c),
+(136,453,l),
+(136,402,ls),
+(136,324,o),
+(60,232,o),
+(35,203,c)
+);
+}
+);
+width = 650;
+}
+);
+}

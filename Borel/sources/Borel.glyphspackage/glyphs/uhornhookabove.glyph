@@ -1,0 +1,25 @@
+{
+case = lower;
+category = Letter;
+glyphname = uhornhookabove;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (87,0);
+ref = hookabovecomb;
+}
+);
+width = 655;
+}
+);
+metricLeft = n;
+unicode = 7917;
+}

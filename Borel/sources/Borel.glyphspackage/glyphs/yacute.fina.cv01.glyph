@@ -1,0 +1,22 @@
+{
+glyphname = yacute.fina.cv01;
+kernLeft = no_kerning;
+kernRight = g;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = y.fina.cv01;
+},
+{
+pos = (156,0);
+ref = acutecomb;
+}
+);
+width = 715;
+}
+);
+metricLeft = y.medi.cv01;
+metricRight = z.fina;
+}

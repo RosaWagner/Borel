@@ -1,0 +1,38 @@
+{
+color = 7;
+glyphname = AE.long.cv04;
+kernLeft = A.alt;
+kernRight = C.long;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(872,-14,o),
+(988,125,o),
+(1079,264,c),
+(1064,296,o),
+(1037,310,o),
+(1006,314,c),
+(924,195,o),
+(834,76,o),
+(722,76,c),
+(702,44,o),
+(705,14,o),
+(717,-14,c)
+);
+},
+{
+locked = 1;
+ref = _part.AEcurs;
+}
+);
+width = 991;
+}
+);
+metricLeft = A.cv04;
+metricRight = C.long;
+}

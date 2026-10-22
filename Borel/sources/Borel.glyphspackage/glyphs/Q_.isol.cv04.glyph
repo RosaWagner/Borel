@@ -1,0 +1,24 @@
+{
+glyphname = Q.isol.cv04;
+kernLeft = O;
+kernRight = Q.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (10,0);
+ref = Q.cv04;
+},
+{
+pos = (679,0);
+ref = _part.caps.fin;
+}
+);
+width = 869;
+}
+);
+metricLeft = O.cv04;
+}

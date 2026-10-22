@@ -1,0 +1,19 @@
+{
+glyphname = ae.init;
+kernLeft = o;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = _part.ae;
+}
+);
+width = 749;
+}
+);
+metricLeft = o.init;
+metricRight = e.medi.cv02;
+}

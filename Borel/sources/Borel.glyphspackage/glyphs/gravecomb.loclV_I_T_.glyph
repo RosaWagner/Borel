@@ -1,0 +1,36 @@
+{
+color = 6;
+export = 0;
+glyphname = gravecomb.loclVIT;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (319,472);
+},
+{
+name = _topright;
+pos = (249,561);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(239,694,o),
+(210,673,o),
+(198,646,c),
+(314,503,l),
+(343,512,o),
+(370,534,o),
+(380,561,c),
+(268,699,l)
+);
+}
+);
+width = 550;
+}
+);
+}

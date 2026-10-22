@@ -1,0 +1,33 @@
+{
+color = 7;
+export = 0;
+glyphname = _part.g;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(455,46,o),
+(481,52,c),
+(481,294,l),
+(392,294,l),
+(392,52,l),
+(418,46,o)
+);
+},
+{
+pos = (-52,0);
+ref = _part.boucle.bas;
+},
+{
+pos = (-27,0);
+ref = _part.a;
+}
+);
+width = 611;
+}
+);
+metricLeft = o.init;
+}

@@ -1,0 +1,22 @@
+{
+glyphname = ygrave.init;
+kernLeft = u;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = y.init;
+},
+{
+pos = (117,0);
+ref = gravecomb;
+}
+);
+width = 714;
+}
+);
+metricLeft = i.init;
+metricRight = g;
+}

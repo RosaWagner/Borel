@@ -1,0 +1,26 @@
+{
+glyphname = percent;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = degree;
+},
+{
+alignment = -1;
+pos = (372,0);
+ref = slash;
+},
+{
+alignment = -1;
+pos = (663,-370);
+ref = degree;
+}
+);
+width = 1177;
+}
+);
+unicode = 37;
+}

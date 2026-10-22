@@ -1,0 +1,35 @@
+{
+color = 6;
+export = 0;
+glyphname = _part.eszett.out;
+layers = (
+{
+anchors = (
+{
+name = "_#fina";
+pos = (114,71);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(183,-14,o),
+(197,2,o),
+(197,28,cs),
+(197,53,o),
+(185,71,o),
+(168,71,cs),
+(114,71,l),
+(36,-3,l),
+(71,-10,o),
+(115,-14,o),
+(161,-14,cs)
+);
+}
+);
+width = 269;
+}
+);
+}

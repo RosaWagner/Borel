@@ -1,0 +1,40 @@
+{
+glyphname = oslash.init;
+kernLeft = o;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (271,0);
+},
+{
+name = center;
+pos = (271,236);
+},
+{
+name = horn;
+pos = (327,440);
+},
+{
+name = top;
+pos = (271,472);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o.init;
+},
+{
+pos = (54,-25);
+ref = slashlongcomb;
+}
+);
+width = 553;
+}
+);
+metricLeft = o.isol;
+metricRight = o;
+}

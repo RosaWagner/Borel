@@ -1,0 +1,27 @@
+{
+export = 0;
+glyphname = _part.u.medi;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (1,0);
+ref = _part.u;
+},
+{
+alignment = -1;
+pos = (1,0);
+ref = _part.i;
+},
+{
+alignment = -1;
+pos = (391,0);
+ref = _part.i.out;
+}
+);
+width = 645;
+}
+);
+}

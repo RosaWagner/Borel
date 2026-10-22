@@ -1,0 +1,29 @@
+{
+glyphname = t.init;
+kernLeft = t;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (-27,0);
+ref = _part.t;
+},
+{
+alignment = -1;
+pos = (-43,0);
+ref = _part.t.out;
+},
+{
+alignment = -1;
+pos = (22,0);
+ref = _part.i.ini;
+}
+);
+width = 373;
+}
+);
+metricRight = t;
+}

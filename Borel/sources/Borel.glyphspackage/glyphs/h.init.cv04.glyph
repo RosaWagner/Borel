@@ -1,0 +1,29 @@
+{
+glyphname = h.init.cv04;
+kernLeft = h.alt;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (-53,0);
+ref = _part.h;
+},
+{
+alignment = -1;
+pos = (-52,0);
+ref = _part.h.out;
+},
+{
+pos = (-54,0);
+ref = _part.h.ini.alt;
+}
+);
+width = 594;
+}
+);
+metricRight = h.init;
+}

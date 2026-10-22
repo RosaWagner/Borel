@@ -1,0 +1,60 @@
+{
+glyphname = l.init;
+kernLeft = l;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = right;
+pos = (478,307);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (12,0);
+ref = _part.l.out;
+},
+{
+alignment = -1;
+pos = (11,0);
+ref = _part.l.ini;
+}
+);
+width = 452;
+},
+{
+anchors = (
+{
+name = right;
+pos = (478,307);
+}
+);
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+853,
+920
+);
+};
+layerId = "1B5D43AD-7F08-4A18-AF49-0D2BEFB5CF97";
+name = "28. Nov 24 at 17:26";
+shapes = (
+{
+alignment = -1;
+pos = (12,0);
+ref = _part.l.out;
+},
+{
+alignment = -1;
+pos = (11,0);
+ref = _part.l.ini;
+}
+);
+width = 452;
+}
+);
+metricRight = l;
+}

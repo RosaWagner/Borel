@@ -1,0 +1,45 @@
+{
+color = 6;
+glyphname = acutecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (211,472);
+},
+{
+name = top;
+pos = (210,770);
+}
+);
+guides = (
+{
+pos = (283,684);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,621,o),
+(296,695,o),
+(325,740,c),
+(313,766,o),
+(289,787,o),
+(258,795,c),
+(228,752,o),
+(159,687,o),
+(97,644,c),
+(104,616,o),
+(123,589,o),
+(148,573,c)
+);
+}
+);
+width = 393;
+}
+);
+unicode = 769;
+}

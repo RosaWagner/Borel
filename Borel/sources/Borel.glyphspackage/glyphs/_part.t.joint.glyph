@@ -1,0 +1,22 @@
+{
+color = 6;
+export = 0;
+glyphname = _part.t.joint;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-43,486,l),
+(67,486,l),
+(67,566,l),
+(-43,566,l)
+);
+}
+);
+width = 0;
+}
+);
+}

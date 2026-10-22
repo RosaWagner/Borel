@@ -1,0 +1,21 @@
+{
+glyphname = periodcentered.loclCAT;
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (0,305);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+pos = (-141,249);
+ref = period;
+}
+);
+width = 0;
+}
+);
+}

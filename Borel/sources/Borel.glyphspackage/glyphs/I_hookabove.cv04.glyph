@@ -1,0 +1,21 @@
+{
+glyphname = Ihookabove.cv04;
+kernLeft = I.alt;
+kernRight = I.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = I.cv04;
+},
+{
+pos = (-12,0);
+ref = hookabovecomb.case;
+}
+);
+width = 522;
+}
+);
+}

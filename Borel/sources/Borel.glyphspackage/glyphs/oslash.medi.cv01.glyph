@@ -1,0 +1,21 @@
+{
+glyphname = oslash.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o.medi.cv01;
+},
+{
+pos = (109,-25);
+ref = slashlongcomb;
+}
+);
+width = 608;
+}
+);
+metricRight = o;
+}

@@ -1,0 +1,24 @@
+{
+glyphname = abrevedotbelow.isol;
+kernLeft = odieresis;
+kernRight = n;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = a.isol;
+},
+{
+pos = (119,0);
+ref = dotbelowcomb;
+},
+{
+pos = (8,0);
+ref = brevecomb;
+}
+);
+width = 621;
+}
+);
+}

@@ -1,0 +1,19 @@
+{
+glyphname = less;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+pos = (700,0);
+ref = greater;
+scale = (-1,1);
+}
+);
+width = 700;
+}
+);
+metricLeft = "=|greater";
+metricWidth = "=700";
+unicode = 60;
+}

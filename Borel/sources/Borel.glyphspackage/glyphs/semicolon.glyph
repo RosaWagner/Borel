@@ -1,0 +1,21 @@
+{
+glyphname = semicolon;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = comma;
+},
+{
+pos = (-6,286);
+ref = period;
+}
+);
+width = 288;
+}
+);
+metricLeft = comma;
+metricRight = colon;
+unicode = 59;
+}

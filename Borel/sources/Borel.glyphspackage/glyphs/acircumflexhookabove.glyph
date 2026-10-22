@@ -1,0 +1,24 @@
+{
+case = lower;
+category = Letter;
+glyphname = acircumflexhookabove;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (89,0);
+ref = circumflexcomb_hookabovecomb;
+}
+);
+width = 638;
+}
+);
+unicode = 7849;
+}

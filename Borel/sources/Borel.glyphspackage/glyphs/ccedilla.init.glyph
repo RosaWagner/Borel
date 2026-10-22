@@ -1,0 +1,20 @@
+{
+glyphname = ccedilla.init;
+kernLeft = o;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = c.init;
+},
+{
+pos = (47,0);
+ref = cedillacomb;
+}
+);
+width = 400;
+}
+);
+}

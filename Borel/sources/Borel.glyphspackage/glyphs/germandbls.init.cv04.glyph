@@ -1,0 +1,70 @@
+{
+glyphname = germandbls.init.cv04;
+kernLeft = p.alt;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = germandbls.isol.cv04;
+},
+{
+pos = (505,0);
+ref = _part.eszett.out;
+}
+);
+width = 772;
+},
+{
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+853,
+920
+);
+};
+color = 5;
+layerId = "D5BED1B1-244A-4518-BC96-71F77F80A3CF";
+name = "13. Nov 24 at 17:32";
+shapes = (
+{
+alignment = -1;
+ref = germandbls.isol.cv04;
+},
+{
+pos = (505,0);
+ref = _part.eszett.out;
+}
+);
+width = 772;
+},
+{
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+986,
+986
+);
+};
+color = 5;
+layerId = "8F9ADC2E-E701-42A4-B654-6C2D1B20F89F";
+name = "11. Dec 24 at 19:24";
+shapes = (
+{
+alignment = -1;
+ref = germandbls.isol.cv04;
+},
+{
+pos = (505,0);
+ref = _part.eszett.out;
+}
+);
+width = 772;
+}
+);
+metricLeft = p.init.cv04;
+metricRight = germandbls;
+}

@@ -1,0 +1,56 @@
+{
+glyphname = p.medi.cv03;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (360,0);
+ref = _part.n.out;
+},
+{
+alignment = -1;
+pos = (-62,0);
+ref = _part.p;
+},
+{
+alignment = -1;
+ref = _part.p.in.cv03;
+}
+);
+width = 629;
+},
+{
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+986,
+986
+);
+};
+layerId = "5D00631D-4303-4B29-B45B-4CAEB8362136";
+name = "11. Dec 24 at 20:17";
+shapes = (
+{
+alignment = -1;
+pos = (360,0);
+ref = _part.n.out;
+},
+{
+alignment = -1;
+pos = (-62,0);
+ref = _part.p;
+},
+{
+alignment = -1;
+ref = _part.p.in.cv03;
+}
+);
+width = 629;
+}
+);
+metricRight = n;
+}

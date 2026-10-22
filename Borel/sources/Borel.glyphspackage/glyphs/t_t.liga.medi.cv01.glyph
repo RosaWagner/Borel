@@ -1,0 +1,29 @@
+{
+glyphname = t_t.liga.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (-68,0);
+ref = _part.t.in.cv01;
+},
+{
+alignment = -1;
+pos = (335,0);
+ref = _part.t.out;
+},
+{
+pos = (7,0);
+ref = _part.t_t;
+}
+);
+width = 751;
+}
+);
+metricLeft = n.medi.cv01;
+metricRight = t;
+}

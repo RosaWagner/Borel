@@ -1,0 +1,29 @@
+{
+glyphname = U.cv04;
+kernLeft = U.alt;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+guides = (
+{
+pos = (323,729);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (13,0);
+ref = _part.U;
+},
+{
+pos = (597,0);
+ref = _part.caps.connect;
+}
+);
+width = 851;
+}
+);
+metricLeft = U.isol.cv04;
+}

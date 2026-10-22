@@ -1,0 +1,32 @@
+{
+color = 7;
+glyphname = Dcroat;
+kernLeft = H;
+kernRight = O;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(356,320,l),
+(367,345,o),
+(367,385,o),
+(356,408,c),
+(17,408,l),
+(6,385,o),
+(6,345,o),
+(17,320,c)
+);
+},
+{
+ref = D;
+}
+);
+width = 717;
+}
+);
+metricRight = O;
+unicode = 272;
+}

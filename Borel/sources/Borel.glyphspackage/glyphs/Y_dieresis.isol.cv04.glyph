@@ -1,0 +1,20 @@
+{
+glyphname = Ydieresis.isol.cv04;
+kernLeft = U.alt;
+kernRight = J.alt;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = Y.isol.cv04;
+},
+{
+pos = (241,0);
+ref = dieresiscomb.case;
+}
+);
+width = 928;
+}
+);
+}

@@ -1,0 +1,22 @@
+{
+glyphname = ytilde.medi.cv03;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = y.medi.cv03;
+},
+{
+pos = (-18,0);
+ref = tildecomb;
+}
+);
+width = 669;
+}
+);
+metricLeft = n.medi.cv03;
+metricRight = g;
+}

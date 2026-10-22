@@ -1,0 +1,24 @@
+{
+glyphname = guillemetleft;
+kernLeft = guillemet;
+kernRight = guillemet;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = guilsinglleft;
+},
+{
+alignment = -1;
+pos = (202,0);
+ref = guilsinglleft;
+}
+);
+width = 513;
+}
+);
+metricLeft = guilsinglleft;
+metricRight = guilsinglleft;
+unicode = 171;
+}

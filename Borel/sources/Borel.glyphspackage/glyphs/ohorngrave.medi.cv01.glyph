@@ -1,0 +1,20 @@
+{
+glyphname = ohorngrave.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = ohorn.medi.cv01;
+},
+{
+pos = (77,0);
+ref = gravecomb;
+}
+);
+width = 608;
+}
+);
+}

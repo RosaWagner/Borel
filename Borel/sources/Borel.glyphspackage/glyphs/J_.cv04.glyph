@@ -1,0 +1,55 @@
+{
+color = 7;
+glyphname = J.cv04;
+kernLeft = J.alt;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = "#fina";
+pos = (374,14);
+}
+);
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+name = Regular;
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,533,l),
+(329,-274,ls),
+(329,-377,o),
+(302,-425,o),
+(245,-425,cs),
+(198,-425,o),
+(170,-391,o),
+(170,-335,cs),
+(170,-253,o),
+(229,-172,o),
+(347,-91,c),
+(348,15,l),
+(165,-94,o),
+(75,-211,o),
+(75,-338,cs),
+(75,-447,o),
+(140,-514,o),
+(246,-514,cs),
+(363,-514,o),
+(422,-433,o),
+(422,-274,cs),
+(422,533,l)
+);
+},
+{
+pos = (16,0);
+ref = _part.caps.I;
+}
+);
+width = 552;
+}
+);
+metricLeft = J.isol.cv04;
+metricRight = G.cv04;
+}

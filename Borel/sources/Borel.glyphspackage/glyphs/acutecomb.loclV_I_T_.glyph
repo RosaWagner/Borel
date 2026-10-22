@@ -1,0 +1,36 @@
+{
+color = 6;
+export = 0;
+glyphname = acutecomb.loclVIT;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (250,472);
+},
+{
+name = _topright;
+pos = (198,563);
+}
+);
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(198,563,l),
+(208,536,o),
+(235,514,o),
+(264,505,c),
+(380,648,l),
+(368,675,o),
+(339,696,o),
+(310,701,c)
+);
+}
+);
+width = 547;
+}
+);
+}

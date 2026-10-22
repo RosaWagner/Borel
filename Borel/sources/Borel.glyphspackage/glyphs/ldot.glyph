@@ -1,0 +1,27 @@
+{
+case = lower;
+category = Letter;
+glyphname = ldot;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+name = Regular;
+shapes = (
+{
+ref = l;
+},
+{
+alignment = 1;
+pos = (460,2);
+ref = periodcentered.loclCAT;
+}
+);
+width = 441;
+}
+);
+metricLeft = n;
+unicode = 320;
+}

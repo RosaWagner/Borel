@@ -1,0 +1,20 @@
+{
+glyphname = ugrave.isol;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = u.isol;
+},
+{
+pos = (118,0);
+ref = gravecomb;
+}
+);
+width = 737;
+}
+);
+}

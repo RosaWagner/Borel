@@ -1,0 +1,20 @@
+{
+glyphname = ehookabove.init;
+kernLeft = edieresis;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = e.init;
+},
+{
+pos = (-18,0);
+ref = hookabovecomb;
+}
+);
+width = 442;
+}
+);
+}

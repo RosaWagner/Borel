@@ -1,0 +1,68 @@
+{
+glyphname = l.fina.cv01.cv06;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+anchors = (
+{
+name = right;
+pos = (460,307);
+},
+{
+name = top;
+pos = (271,972);
+}
+);
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+name = Regular;
+shapes = (
+{
+alignment = -1;
+ref = _part.l.fin.alt;
+},
+{
+alignment = -1;
+ref = _part.l.in.cv01.alt;
+}
+);
+width = 486;
+},
+{
+anchors = (
+{
+name = right;
+pos = (460,307);
+},
+{
+name = top;
+pos = (271,906);
+}
+);
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+853,
+920
+);
+};
+color = 5;
+layerId = "82E49C00-C1A9-42A8-AEBE-86ED1685D7B5";
+name = "12. Nov 24 at 21:44";
+shapes = (
+{
+alignment = -1;
+ref = _part.l.fin.alt;
+},
+{
+alignment = -1;
+ref = _part.l.in.cv01.alt;
+}
+);
+width = 486;
+}
+);
+metricLeft = n.medi.cv01;
+metricRight = l.fina;
+}

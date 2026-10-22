@@ -1,0 +1,24 @@
+{
+glyphname = abrevedotbelow.medi.cv03;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = a.medi.cv03;
+},
+{
+pos = (92,0);
+ref = dotbelowcomb;
+},
+{
+pos = (-19,0);
+ref = brevecomb;
+}
+);
+width = 516;
+}
+);
+}

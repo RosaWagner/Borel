@@ -1,0 +1,21 @@
+{
+glyphname = M.isol.cv04;
+kernLeft = A.alt;
+kernRight = A.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (29,0);
+ref = _part.M;
+}
+);
+width = 1156;
+}
+);
+metricLeft = A.isol.cv04;
+metricRight = A.isol.cv04;
+}

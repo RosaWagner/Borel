@@ -1,0 +1,26 @@
+{
+glyphname = z.init.cv04;
+kernLeft = r.alt;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (83,0);
+ref = _part.z;
+},
+{
+alignment = -1;
+pos = (-63,0);
+ref = _part.r.ini.alt;
+}
+);
+width = 617;
+}
+);
+metricLeft = r.init.cv04;
+metricRight = z;
+}

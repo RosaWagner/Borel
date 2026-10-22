@@ -1,0 +1,20 @@
+{
+glyphname = uhookabove.isol;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = u.isol;
+},
+{
+pos = (91,0);
+ref = hookabovecomb;
+}
+);
+width = 737;
+}
+);
+}

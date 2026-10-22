@@ -1,0 +1,21 @@
+{
+glyphname = Ugrave.isol.cv04;
+kernLeft = U.alt;
+kernRight = U.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = U.isol.cv04;
+},
+{
+pos = (222,0);
+ref = gravecomb.case;
+}
+);
+width = 1001;
+}
+);
+}

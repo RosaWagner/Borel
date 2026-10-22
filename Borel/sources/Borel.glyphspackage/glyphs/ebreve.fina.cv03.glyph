@@ -1,0 +1,20 @@
+{
+glyphname = ebreve.fina.cv03;
+kernLeft = no_kerning;
+kernRight = e;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = e.fina.cv03;
+},
+{
+pos = (-79,0);
+ref = brevecomb;
+}
+);
+width = 420;
+}
+);
+}

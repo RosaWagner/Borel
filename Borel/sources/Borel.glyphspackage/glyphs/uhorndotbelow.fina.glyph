@@ -1,0 +1,22 @@
+{
+glyphname = uhorndotbelow.fina;
+kernLeft = no_kerning;
+kernRight = u;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = uhorn.fina;
+},
+{
+pos = (204,0);
+ref = dotbelowcomb;
+}
+);
+width = 733;
+}
+);
+metricLeft = i;
+metricRight = n.fina;
+}

@@ -1,0 +1,51 @@
+{
+color = 7;
+glyphname = Uhorn.isol.cv04;
+kernLeft = U.alt;
+kernRight = U.alt;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (485,0);
+},
+{
+name = top;
+pos = (485,722);
+}
+);
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(832,656,o),
+(877,716,o),
+(877,806,cs),
+(877,819,o),
+(876,833,o),
+(874,847,c),
+(849,858,o),
+(818,856,o),
+(789,841,c),
+(791,826,o),
+(792,819,o),
+(792,804,cs),
+(792,766,o),
+(783,722,o),
+(737,722,c),
+(752,640,l)
+);
+},
+{
+ref = U.isol.cv04;
+}
+);
+width = 1001;
+}
+);
+metricLeft = U.isol.cv04;
+metricRight = U.isol.cv04;
+}

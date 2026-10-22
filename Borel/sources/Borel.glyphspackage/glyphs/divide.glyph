@@ -1,0 +1,24 @@
+{
+glyphname = divide;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = minus;
+},
+{
+pos = (210,134);
+ref = period;
+},
+{
+pos = (210,502);
+ref = period;
+}
+);
+width = 700;
+}
+);
+metricWidth = "=700";
+unicode = 247;
+}

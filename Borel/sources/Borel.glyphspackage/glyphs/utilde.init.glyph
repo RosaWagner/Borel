@@ -1,0 +1,20 @@
+{
+glyphname = utilde.init;
+kernLeft = u;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = u.init;
+},
+{
+pos = (28,0);
+ref = tildecomb;
+}
+);
+width = 659;
+}
+);
+}

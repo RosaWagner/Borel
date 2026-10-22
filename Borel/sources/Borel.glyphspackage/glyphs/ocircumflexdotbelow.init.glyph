@@ -1,0 +1,24 @@
+{
+glyphname = ocircumflexdotbelow.init;
+kernLeft = odieresis;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o.init;
+},
+{
+pos = (113,0);
+ref = dotbelowcomb;
+},
+{
+pos = (-3,0);
+ref = circumflexcomb;
+}
+);
+width = 553;
+}
+);
+}

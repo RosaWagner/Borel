@@ -1,0 +1,21 @@
+{
+glyphname = approxequal;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+pos = (0,-120);
+ref = asciitilde;
+},
+{
+pos = (0,120);
+ref = asciitilde;
+}
+);
+width = 700;
+}
+);
+metricWidth = "=700";
+unicode = 8776;
+}

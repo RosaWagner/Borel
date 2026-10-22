@@ -1,0 +1,20 @@
+{
+glyphname = ntilde.fina.cv03;
+kernLeft = no_kerning;
+kernRight = n;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = n.fina.cv03;
+},
+{
+pos = (49,0);
+ref = tildecomb;
+}
+);
+width = 812;
+}
+);
+}

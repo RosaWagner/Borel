@@ -1,0 +1,20 @@
+{
+glyphname = circumflexcomb_hookabovecomb.case;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb.case;
+},
+{
+anchor = topright;
+pos = (156,435);
+ref = hookabovecomb.loclVIT;
+}
+);
+width = 503;
+}
+);
+}

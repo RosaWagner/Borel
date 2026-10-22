@@ -1,0 +1,19 @@
+{
+glyphname = ldot.fina.cv03.cv06;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = l.fina.cv03.cv06;
+},
+{
+pos = (384,2);
+ref = periodcentered.loclCAT;
+}
+);
+width = 410;
+}
+);
+}

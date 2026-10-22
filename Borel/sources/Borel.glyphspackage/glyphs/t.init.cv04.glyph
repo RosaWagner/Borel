@@ -1,0 +1,30 @@
+{
+glyphname = t.init.cv04;
+kernLeft = t.alt;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (-43,0);
+ref = _part.t.alt;
+},
+{
+alignment = -1;
+pos = (-59,0);
+ref = _part.t.out;
+},
+{
+alignment = -1;
+pos = (11,0);
+ref = _part.i.ini.alt;
+}
+);
+width = 357;
+}
+);
+metricRight = t;
+}

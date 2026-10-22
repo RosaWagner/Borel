@@ -1,0 +1,30 @@
+{
+glyphname = a.medi.cv01;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (29,0);
+ref = _part.a;
+},
+{
+alignment = -1;
+pos = (330,0);
+ref = _part.n.out;
+},
+{
+alignment = -1;
+pos = (-59,0);
+ref = _part.o.in.cv01;
+}
+);
+width = 599;
+}
+);
+metricLeft = o.medi.cv01;
+metricRight = n;
+}

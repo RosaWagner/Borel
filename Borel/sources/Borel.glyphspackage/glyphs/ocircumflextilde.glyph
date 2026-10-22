@@ -1,0 +1,24 @@
+{
+case = lower;
+category = Letter;
+glyphname = ocircumflextilde;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o;
+},
+{
+pos = (74,0);
+ref = circumflexcomb_tildecomb;
+}
+);
+width = 631;
+}
+);
+unicode = 7895;
+}

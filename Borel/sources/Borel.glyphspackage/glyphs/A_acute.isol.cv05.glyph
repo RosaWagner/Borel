@@ -1,0 +1,21 @@
+{
+glyphname = Aacute.isol.cv05;
+kernLeft = O;
+kernRight = U.alt;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = A.isol.cv05;
+},
+{
+pos = (140,0);
+ref = acutecomb.case;
+}
+);
+width = 881;
+}
+);
+}

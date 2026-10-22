@@ -1,0 +1,52 @@
+{
+glyphname = k.fina;
+kernLeft = no_kerning;
+kernRight = k;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = _part.k.fin;
+},
+{
+alignment = -1;
+ref = _part.h.in;
+},
+{
+alignment = -1;
+pos = (-2,0);
+ref = _part.k;
+}
+);
+width = 688;
+},
+{
+associatedMasterId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+attr = {
+coordinates = (
+853,
+920
+);
+};
+layerId = "CC918CD3-6351-403F-8656-1B0274624CDA";
+name = "13. Nov 24 at 16:40";
+shapes = (
+{
+ref = _part.k.fin;
+},
+{
+alignment = -1;
+ref = _part.h.in;
+},
+{
+alignment = -1;
+pos = (-2,0);
+ref = _part.k;
+}
+);
+width = 688;
+}
+);
+metricLeft = n;
+}

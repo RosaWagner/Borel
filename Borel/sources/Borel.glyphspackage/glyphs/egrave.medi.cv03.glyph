@@ -1,0 +1,20 @@
+{
+glyphname = egrave.medi.cv03;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = e.medi.cv03;
+},
+{
+pos = (-57,0);
+ref = gravecomb;
+}
+);
+width = 375;
+}
+);
+}

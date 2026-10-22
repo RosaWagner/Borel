@@ -1,0 +1,28 @@
+{
+case = lower;
+category = Letter;
+glyphname = acircumflexdotbelow;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (203,0);
+ref = dotbelowcomb;
+},
+{
+pos = (89,0);
+ref = circumflexcomb;
+}
+);
+width = 638;
+}
+);
+unicode = 7853;
+}

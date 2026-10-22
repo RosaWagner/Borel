@@ -1,0 +1,23 @@
+{
+glyphname = m.fina.cv03;
+kernLeft = no_kerning;
+kernRight = n;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+ref = m.medi.cv03;
+},
+{
+pos = (772,0);
+ref = _part.i.fin;
+}
+);
+width = 1060;
+}
+);
+metricLeft = n.medi.cv03;
+metricRight = n.fina;
+}

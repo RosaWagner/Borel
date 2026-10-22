@@ -1,0 +1,20 @@
+{
+glyphname = ograve.fina.cv03;
+kernLeft = no_kerning;
+kernRight = o;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = o.fina.cv03;
+},
+{
+pos = (-8,0);
+ref = gravecomb;
+}
+);
+width = 510;
+}
+);
+}

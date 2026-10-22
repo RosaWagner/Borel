@@ -1,0 +1,23 @@
+{
+glyphname = y.isol.cv04;
+kernLeft = u.alt;
+kernRight = g;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = y.init.cv04;
+},
+{
+pos = (418,-19);
+ref = _part.z.fin;
+}
+);
+width = 705;
+}
+);
+metricLeft = n.init;
+metricRight = y.fina;
+}

@@ -1,0 +1,23 @@
+{
+glyphname = yen;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (-22,-56);
+ref = minus;
+},
+{
+pos = (-22,-208);
+ref = minus;
+}
+);
+width = 657;
+}
+);
+unicode = 165;
+}

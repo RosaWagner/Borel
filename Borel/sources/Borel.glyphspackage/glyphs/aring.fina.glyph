@@ -1,0 +1,22 @@
+{
+glyphname = aring.fina;
+kernLeft = no_kerning;
+kernRight = u;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = a.fina;
+},
+{
+pos = (212,0);
+ref = ringcomb;
+}
+);
+width = 716;
+}
+);
+metricLeft = o;
+metricRight = n.fina;
+}

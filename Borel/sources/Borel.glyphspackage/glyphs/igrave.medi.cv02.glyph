@@ -1,0 +1,20 @@
+{
+glyphname = igrave.medi.cv02;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = idotless.medi.cv02;
+},
+{
+pos = (-119,0);
+ref = gravecomb;
+}
+);
+width = 233;
+}
+);
+}

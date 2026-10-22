@@ -1,0 +1,24 @@
+{
+glyphname = J.isol.cv04;
+kernLeft = J.alt;
+kernRight = J.alt;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+name = Regular;
+shapes = (
+{
+alignment = -1;
+ref = J.cv04;
+},
+{
+pos = (262,-27);
+ref = _part.caps.boucle.fin;
+}
+);
+width = 572;
+}
+);
+metricRight = "=G.isol.cv04+10";
+}

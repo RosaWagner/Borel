@@ -1,0 +1,20 @@
+{
+glyphname = circumflexcomb_gravecomb;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+},
+{
+anchor = topright;
+pos = (143,254);
+ref = gravecomb.loclVIT;
+}
+);
+width = 547;
+}
+);
+}

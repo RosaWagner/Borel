@@ -1,0 +1,22 @@
+{
+glyphname = uhornhookabove.fina.cv01;
+kernLeft = no_kerning;
+kernRight = u;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = uhorn.fina.cv01;
+},
+{
+pos = (92,0);
+ref = hookabovecomb;
+}
+);
+width = 738;
+}
+);
+metricLeft = i.medi.cv01;
+metricRight = n.fina;
+}

@@ -1,0 +1,29 @@
+{
+color = 6;
+glyphname = periodcentered.loclCAT.case.cv04;
+layers = (
+{
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-65,283,o),
+(-33,314,o),
+(-33,352,cs),
+(-33,389,o),
+(-65,420,o),
+(-102,420,cs),
+(-139,420,o),
+(-170,389,o),
+(-170,352,cs),
+(-170,314,o),
+(-139,283,o),
+(-102,283,cs)
+);
+}
+);
+width = 0;
+}
+);
+}

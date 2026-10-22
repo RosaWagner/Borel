@@ -1,0 +1,28 @@
+{
+glyphname = uhorn.init.cv04;
+kernLeft = u.alt;
+kernRight = no_kerning;
+layers = (
+{
+color = 5;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+alignment = -1;
+pos = (-5,0);
+ref = _part.u.medi;
+},
+{
+ref = _part.i.ini.alt;
+},
+{
+pos = (484,0);
+ref = horncomb;
+}
+);
+width = 650;
+}
+);
+metricLeft = h.init.cv04;
+metricRight = uhorn;
+}

@@ -1,0 +1,25 @@
+{
+case = lower;
+category = Letter;
+glyphname = scedilla;
+kernLeft = no_kerning;
+kernRight = no_kerning;
+layers = (
+{
+color = 7;
+layerId = "6DBDBFCA-DF26-4695-B281-FA25C6EAD80F";
+shapes = (
+{
+ref = s;
+},
+{
+pos = (161,0);
+ref = cedillacomb;
+}
+);
+width = 607;
+}
+);
+metricLeft = n;
+unicode = 351;
+}
